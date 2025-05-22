@@ -2,11 +2,14 @@ import React from 'react';
 import "./app.css";
 import Home from './pages/Home/Home';
 import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   return (
     <div className='app'>
         <div className="appContainer">
+
+          <Navbar />
 
           <Routes>
             <Route path="/" element={<Home />} />
