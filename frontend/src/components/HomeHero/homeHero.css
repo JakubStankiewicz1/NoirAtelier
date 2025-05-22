@@ -1,0 +1,76 @@
+.homeHero {
+    width: 100%;
+    height: 1000vh;
+    background-color: #2E2F2A;
+    z-index: -1;
+}
+
+.homeHeroContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.homeHeroContainerTop {
+    width: 100%;
+    height: 100%;
+}
+
+.homeHeroContainerTopContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.homeHeroContainerTopContainerOne {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    position: relative;
+}
+
+.homeHeroContainerTopContainerOneDiv {
+    width: 50%;
+    height: 70vh;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 35px;
+    border: 2px dashed #AC6620;
+    background-clip: padding-box;
+}
+
+.homeHeroContainerTopContainerOneDiv::after {
+    display: none;
+}
+
+.homeHeroContainerTopContainerTwo {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    width: 50%;
+    height: 70vh;
+    overflow: visible;
+    z-index: 1;
+}
+
+.homeHeroContainerTopContainerTwoContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.homeHeroContainerTopContainerTwoContainerImage {
+    position: absolute;
+    top: -100px;
+    right: -800px;
+    height: 100%;
+    transform: scale(2.1);
+    object-fit: cover;
+    border-radius: 50px;
+    /* Apply filters directly to the image */
+    filter: brightness(0.7) contrast(1.1); /* Adjusts brightness to 70% and slightly increases contrast */
+}
+
+/* Remove the overlay pseudo-element */
+.homeHeroContainerTopContainerTwoContainer::after {
+    display: none;
+}
