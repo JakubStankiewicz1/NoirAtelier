@@ -27,12 +27,17 @@
     align-items: center;
 }
 
+.navbarContainerLeftContainer {
+    cursor: pointer;
+}
+
 .navbarContainerLeftContainerText {
     color: #FFE5D4;
     font-size: 36px;
     font-weight: 800;
     line-height: 40px;
     letter-spacing: -1px;
+    /* cursor: pointer; */
 }
 
 .navbarContainerRight {

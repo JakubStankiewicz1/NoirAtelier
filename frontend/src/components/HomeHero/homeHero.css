@@ -1,8 +1,9 @@
 .homeHero {
     width: 100%;
-    height: 1000vh;
+    height: 200vh;
     background-color: #2E2F2A;
     z-index: -1;
+    position: relative;
 }
 
 .homeHeroContainer {
@@ -18,14 +19,15 @@
 .homeHeroContainerTopContainer {
     width: 100%;
     height: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .homeHeroContainerTopContainerOne {
     display: flex;
     justify-content: center;
     padding-top: 150px;
-    position: relative;
+    /* position: relative; */
+    padding-left: 130px
 }
 
 .homeHeroContainerTopContainerOneDiv {
@@ -33,7 +35,7 @@
     height: 70vh;
     position: relative;
     box-sizing: border-box;
-    border-radius: 35px;
+    border-radius: 80px;
     border: 2px dashed #AC6620;
     background-clip: padding-box;
 }
@@ -43,7 +45,7 @@
 }
 
 .homeHeroContainerTopContainerTwo {
-    position: absolute;
+    /* position: absolute; */
     top: 150px;
     right: 0;
     width: 50%;
@@ -53,12 +55,12 @@
 }
 
 .homeHeroContainerTopContainerTwoContainer {
-    position: relative;
+    /* position: relative; */
     height: 100%;
     width: 100%;
 }
 
-.homeHeroContainerTopContainerTwoContainerImage {
+/* .homeHeroContainerTopContainerTwoContainerImage {
     position: absolute;
     top: -100px;
     right: -800px;
@@ -66,11 +68,268 @@
     transform: scale(2.1);
     object-fit: cover;
     border-radius: 50px;
-    /* Apply filters directly to the image */
-    filter: brightness(0.7) contrast(1.1); /* Adjusts brightness to 70% and slightly increases contrast */
-}
+    filter: brightness(0.7) contrast(1.1);
+} */
 
 /* Remove the overlay pseudo-element */
 .homeHeroContainerTopContainerTwoContainer::after {
     display: none;
+}
+
+
+.homeHeroContainerTopContainerTwoContainerDiv {
+    width: 850px;
+    height: 880px;
+    background-color: darkred;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeHeroContainerTopContainerTwoContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 100px;
+    display: block;
+    /* Przyciemnienie obrazu - zmniejszenie jasności do 50% */
+    filter: brightness(0.5) contrast(1.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* transition for smooth fade */
+    transition: opacity 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.homeHeroContainerTopText {
+    z-index: 1000;
+    position: absolute;
+    top: 23vh;
+    left: 42vw;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+.homeHeroContainerTopTextContainerOneContainer {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+}
+
+.homeHeroContainerTopTextContainerOneContainerTextOne,
+.homeHeroContainerTopTextContainerOneContainerTextTwo,
+.homeHeroContainerTopTextContainerTwoContainerText,
+.homeHeroContainerTopTextContainerThreeContainerOneText,
+.homeHeroContainerTopTextContainerThreeContainerTwoText,
+.homeHeroContainerTopTextContainerFourContainerText {
+    color: #FFE5D4;
+}
+
+.homeHeroContainerTopTextContainerOneContainerTextOne,
+.homeHeroContainerTopTextContainerOneContainerTextTwo {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.homeHeroContainerTopTextContainerOneContainerTextTwo {
+    margin-left: 13px;
+    margin-top: -2px;
+}
+
+.homeHeroContainerTopTextContainerTwo {
+    /* background-color: red; */
+    transform: translateX(-34%);
+}
+
+.homeHeroContainerTopTextContainerTwoContainerText,
+.homeHeroContainerTopTextContainerThreeContainerOneText {
+    font-size: 200px;
+    font-weight: 300;
+    line-height: 160px;
+    text-transform: uppercase;
+}
+
+.homeHeroContainerTopTextContainerThree {
+    display: flex;
+    flex-direction: row;
+}
+
+.homeHeroContainerTopTextContainerThreeContainer {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-65%);
+}
+
+.homeHeroContainerTopTextContainerThreeContainerTwoText {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.homeHeroContainerTopTextContainerFour {
+    transform: translateX(-8%);
+}
+
+.homeHeroContainerTopTextContainerFourContainerText {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+/* Third Part - elementy numeryczne pod zdjęciem */
+.homeHeroContainerTopThird {
+    position: absolute;
+    bottom: -120px; /* Pozycja pod zdjęciem */
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.homeHeroContainerTopThirdContainer {
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Lewa część z elementami numerycznymi */
+.homeHeroContainerTopThirdContainerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.homeHeroContainerTopThirdContainerLeftContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeHeroContainerTopTextContainerFive {
+    /* position: absolute; */
+    /* margin-top: 50px; */
+    /* margin-right: 800px; */
+    /* background-color: red; */
+    margin-left: -500px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 80px; */
+    margin-top: 80px;
+}
+
+
+.homeHeroContainerTopThirdContainerLeftContainerElement {
+    /* background-color: red; */
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.homeHeroContainerTopThirdContainerLeftContainerElement:hover .homeHeroContainerTopThirdContainerLeftContainerElementContainerBottomDiv {
+    background-color: #FFFFFF;
+    height: 2px;
+}
+
+.homeHeroContainerTopThirdContainerLeftContainerElementContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeHeroContainerTopThirdContainerLeftContainerElementContainerBottom {
+    width: 100%;
+}
+
+.homeHeroContainerTopThirdContainerLeftContainerElementContainerBottomDiv {
+    width: 100%;
+    height: 1px;
+    background-color: #AC6620;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText,
+.homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText,
+.homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease-in-out;
 }
