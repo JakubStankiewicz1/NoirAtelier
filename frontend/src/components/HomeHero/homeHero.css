@@ -1,5 +1,7 @@
 .homeHero {
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
     /* height: 200vh; */
     background-color: #2E2F2A;
     z-index: -1;
@@ -7,7 +9,9 @@
 }
 
 .homeHeroContainer {
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
     height: 100%;
 }
 
@@ -32,7 +36,7 @@
 
 .homeHeroContainerTopContainerOneDiv {
     width: 50%;
-    height: 70vh;
+    height: 50vh;
     position: relative;
     box-sizing: border-box;
     border-radius: 80px;
@@ -80,7 +84,7 @@
 .homeHeroContainerTopContainerTwoContainerDiv {
     width: 850px;
     height: 880px;
-    background-color: darkred;
+    /* background-color: darkred; */
     position: absolute;
     top: 0;
     right: 0;
@@ -89,6 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100vw;
 }
 
 .homeHeroContainerTopContainerTwoContainerImage {
