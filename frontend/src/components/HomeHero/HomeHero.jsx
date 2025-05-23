@@ -96,148 +96,22 @@ const HomeHero = () => {
                         </div>
 
 
-
-
-
-
-
-
-                        {/* Div Five */}
                         <div className="homeHeroContainerTopTextContainerFive">
-                            {/* Element */}
-                                <div className="homeHeroContainerTopThirdContainerLeftContainerElement">
-                                    <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainer">
-                                        {/* Top Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTop">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainer">
-                                                <p className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText">
-                                                    01
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        {/* Bottom Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottom">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottomDiv" />
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                {/* Element */}
-                                <div className="homeHeroContainerTopThirdContainerLeftContainerElement">
-                                    <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainer">
-                                        {/* Top Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTop">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainer">
-                                                <p className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText">
-                                                    02
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        {/* Bottom Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottom">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottomDiv" />
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                {/* Element */}
-                                <div className="homeHeroContainerTopThirdContainerLeftContainerElement">
-                                    <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainer">
-                                        {/* Top Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTop">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainer">
-                                                <p className="homeHeroContainerTopThirdContainerLeftContainerElementContainerTopContainerText">
-                                                    03
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        {/* Bottom Part */}
-                                        <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottom">
-                                            <div className="homeHeroContainerTopThirdContainerLeftContainerElementContainerBottomDiv" />
-                                        </div>
-                                    </div>
-                                </div>
+                            
                         </div>
 
 
-
-
-                        {/* Div Six */}
-                        {/* <div className="homeHeroContainerTopTextContainerSix"></div> */}
                     </div>
                 </div>
 
 
-                {/* Third Part */}
-                <div className="homeHeroContainerTopThird">
-                    <div className="homeHeroContainerTopThirdContainer">
-                        {/* Left Part */}
-                        <div className="homeHeroContainerTopThirdContainerLeft">
-                            <div className="homeHeroContainerTopThirdContainerLeftContainer">
+                
+               
 
-
-
-
-
-                                
-
-
-
-
-
-
-
-
-                            </div>
-                        </div>
-
-                        {/* Middle Part */}
-                        <div className="homeHeroContainerTopThirdContainerMiddle"></div>
-
-                        {/* Right Part */}
-                        <div className="homeHeroContainerTopThirdContainerRight">
-                            <div className="homeHeroContainerTopThirdContainerRightContainer">
-                                <div className="homeHeroContainerTopThirdContainerRightContainerButton">
-                                    <div className="homeHeroContainerTopThirdContainerRightContainerButtonContainer">
-                                        <p className="homeHeroContainerTopThirdContainerRightContainerButtonContainerText">
-                                            See More
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+         
 
 
             </div>
-
-            {/* Middle Part */}
-            {/* <div className="homeHeroContainerMiddle">
-                <div className="homeHeroContainerMiddleContainer">
-                    <div className="homeHeroContainerMiddleContainerOne">
-                        <div className="homeHeroContainerMiddleContainerOneContainer">
-                            <p className="homeHeroContainerMiddleContainerOneContainerText">
-                                Welcome
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="homeHeroContainerMiddleContainerTwo"></div>
-                </div>
-            </div> */}
-
-
-
         </div>
     </div>
   )
