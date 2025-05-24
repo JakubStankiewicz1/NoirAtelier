@@ -1,0 +1,109 @@
+.homeHeroInfo {
+    width: 100%;
+    /* height: 1000px; */
+    margin-top: -341px
+}
+
+.homeHeroInfoContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 100%;
+}
+
+
+.homeHeroInfoContainerLeftContainer {
+    display: flex;
+    flex-direction: row;
+    /* gap: 50px; */
+}
+
+.homeHeroInfoContainerLeftContainerElement {
+    width: 100px;
+    cursor: pointer;
+}
+
+.homeHeroInfoContainerLeftContainerElement:hover .homeHeroInfoContainerLeftContainerElementContainerTopText {
+    color: #FFFFFF !important;
+}
+
+.homeHeroInfoContainerLeftContainerElement:hover .homeHeroInfoContainerLeftContainerElementContainerBottomDiv {
+    background-color: #FFFFFF !important;
+}
+
+.homeHeroInfoContainerLeftContainerElementContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+
+
+.homeHeroInfoContainerLeftContainerElementContainerTopText,
+.homeHeroInfoContainerLeftContainerElementContainerTopText,
+.homeHeroInfoContainerLeftContainerElementContainerTopText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeHeroInfoContainerLeftContainerElementContainerBottom {
+    width: 100%;
+}
+
+.homeHeroInfoContainerLeftContainerElementContainerBottomDiv {
+    width: 100%;
+    height: 1px;
+    background-color: #AC6620;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.homeHeroInfoContainerMiddleContainerSvg {
+    width: 270px;
+    height: auto;
+}
+
+
+
+.homeHeroInfoContainerRightContainerButton {
+    background-color: #FFE5D4;
+    border-radius: 23px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.homeHeroInfoContainerRightContainerButton:hover {
+    outline: 2px solid #AC6620;
+}
+
+.homeHeroInfoContainerRightContainerButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homeHeroInfoContainerRightContainerButtonContainerText {
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #BF6620;
+    line-height: 27px;
+}
