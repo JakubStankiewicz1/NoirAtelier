@@ -1,0 +1,177 @@
+.propertiesCollection {
+  width: 100%;
+  height: 100%;
+  background-color: #efe5de;
+
+  padding-top: 200px;
+  /* padding-bottom: 200px; */
+}
+
+.propertiesCollectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.propertiesCollectionContainerElementOne {
+  width: 80%;
+  height: 560px;
+  /* background-color: red; */
+  /* background-color: #F5EDE7; */
+}
+
+.propertiesCollectionContainerElementOneContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f5ede7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.propertiesCollectionContainerElementOneContainerLeft {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+}
+
+.propertiesCollectionContainerElementOneContainerRight {
+  display: flex;
+  flex: 1.6;
+}
+
+.propertiesCollectionContainerElementTwoContainerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  display: flex;
+  flex: 1.6;
+}
+
+.propertiesCollectionContainerElementOneContainerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.propertiesCollectionContainerElementOneContainerRightContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.propertiesCollectionContainerElementTwoContainerRightContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.propertiesCollectionContainerElementOneContainerRightContainerImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.propertiesCollectionContainerElementTwoContainerRightContainerImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerOneContainerText {
+  color: #31361d;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerTwoContainerText {
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0.3px;
+}
+
+.propertiesCollectionContainerElemenets {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 55px;
+  margin-top: -300px;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButton {
+  border: 2px solid #31361d;
+  width: 210px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainerText {
+  color: #31361d;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButton:hover {
+  border: 2px solid #c9823b;
+}
+
+.propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButton:hover
+  .propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainerText {
+  color: #c9823b;
+}

@@ -5,9 +5,12 @@ import HomeHeroImageThree from "./HomeHeroImageThree.jpg";
 
 import HomeHeroInfoSvg from "./HomeHeroInfoSvg.svg";
 
+import PropertiesCollectionOne from "./PropertiesCollectionImageOne.jpg";
+
 export default {
     HomeHeroImageOne,
     HomeHeroImageTwo,
     HomeHeroImageThree,
-    HomeHeroInfoSvg
+    HomeHeroInfoSvg,
+    PropertiesCollectionOne
 }

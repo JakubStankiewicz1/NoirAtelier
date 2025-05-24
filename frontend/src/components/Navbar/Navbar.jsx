@@ -1,33 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import "./navbar.css";
-
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
+  const checkScroll = () => {
+    setIsScrolled(window.scrollY > 5);
+  };
 
-    window.addEventListener('scroll', handleScroll);
-    
-    // Initial check
-    handleScroll();
-    
-    // Cleanup
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  window.addEventListener('scroll', checkScroll, { passive: true });
+  checkScroll(); // Żeby działało też od razu
 
+  return () => window.removeEventListener('scroll', checkScroll);
+}, []);
+
+
+
+  // Ustaw klasę na podstawie scrolla
+  const navbarClass = isScrolled ? 'navbar scrolled' : 'navbar';
+  
   return (
-    <div className={`navbar ${scrolled ? 'navbar-scrolled' : 'navbar-top'}`}>
+    <div className={navbarClass}>
         <div className="navbarContainer">
             {/* Left Part */}
             <div className="navbarContainerLeft">
