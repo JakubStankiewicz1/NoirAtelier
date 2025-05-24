@@ -9,11 +9,16 @@ import PropertiesCollectionOne from "./PropertiesCollectionImageOne.jpg";
 
 import PropertiesCollectionLatestNewsOne from "./PropertiesCollectionLatestNewsOne.jpeg";
 
+
+
+import FaqSeeMoreImage from "./FaqSeeMoreImage.webp";
+
 export default {
     HomeHeroImageOne,
     HomeHeroImageTwo,
     HomeHeroImageThree,
     HomeHeroInfoSvg,
     PropertiesCollectionOne,
-    PropertiesCollectionLatestNewsOne
+    PropertiesCollectionLatestNewsOne,
+    FaqSeeMoreImage
 }

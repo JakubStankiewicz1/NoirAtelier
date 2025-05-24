@@ -1,0 +1,131 @@
+.faqSeeMore {
+    width: 100%;
+    height: 100%;
+
+    background-color: #F5EDE7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.faqSeeMoreContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.faqSeeMoreContainerLeftContainerTopContainerText {
+    color: #31361D;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.faqSeeMoreContainerLeftContainerTopContainerTextSpan {
+    text-decoration: underline;
+    text-decoration-color: #AC6620;
+}
+
+
+
+.faqSeeMoreContainerLeftContainerMiddleContainerText {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #31361D;
+}
+
+.faqSeeMoreContainerLeftContainerBottomContainerButton {
+    width: 240px;
+    height: 55px;
+    background-color: #AC6620;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.faqSeeMoreContainerLeftContainerBottomContainerButton:hover {
+    background-color: #C9823B;
+}
+
+.faqSeeMoreContainerLeftContainerBottomContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqSeeMoreContainerLeftContainerBottomContainerButtonContainerText {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFE5D4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.faqSeeMoreContainerLeft {
+    display: flex;
+    flex: 1;
+}
+
+.faqSeeMoreContainerLeftContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.faqSeeMoreContainerRight {
+    display: flex;
+    flex: 1;
+}
+
+.faqSeeMoreContainerRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqSeeMoreContainerRightContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqSeeMoreContainerRightContainerImage {
+    /* max-width: 00px; */
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
