@@ -13,6 +13,16 @@ import PropertiesCollectionLatestNewsOne from "./PropertiesCollectionLatestNewsO
 
 import FaqSeeMoreImage from "./FaqSeeMoreImage.webp";
 
+
+
+import FaqPaymentsOne from "./FaqPaymentsOne.svg";
+import FaqPaymentsTwo from "./FaqPaymentsTwo.svg";
+import FaqPaymentsThree from "./FaqPaymentsThree.svg";
+import FaqPaymentsFour from "./FaqPaymentsFour.svg";
+import FaqPaymentsFive from "./FaqPaymentsFive.svg";
+
+
+
 export default {
     HomeHeroImageOne,
     HomeHeroImageTwo,
@@ -20,5 +30,10 @@ export default {
     HomeHeroInfoSvg,
     PropertiesCollectionOne,
     PropertiesCollectionLatestNewsOne,
-    FaqSeeMoreImage
+    FaqSeeMoreImage,
+    FaqPaymentsOne,
+    FaqPaymentsTwo,
+    FaqPaymentsThree,
+    FaqPaymentsFour,
+    FaqPaymentsFive
 }
