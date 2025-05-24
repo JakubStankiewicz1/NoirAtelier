@@ -3,6 +3,7 @@ import "./home.css";
 import HomeHero from '../../components/HomeHero/HomeHero';
 import HomeHeroInfo from '../../components/HomeHeroInfo/HomeHeroInfo';
 import HomeWelcome from '../../components/HomeWelcome/HomeWelcome';
+import HomeDatesInfo from '../../components/HomeDatesInfo/HomeDatesInfo';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
             <HomeHero />
             <HomeHeroInfo />
             <HomeWelcome />
+            <HomeDatesInfo />
         </div>
     </div>
   )
