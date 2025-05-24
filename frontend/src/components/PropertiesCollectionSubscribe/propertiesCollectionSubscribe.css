@@ -1,0 +1,145 @@
+.propertiesCollectionSubscribe {
+    width: 100%;
+    height: 100%;
+    background-color: #EFE5DE;
+
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.propertiesCollectionSubscribeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* background-color: red; */
+}
+
+
+
+
+
+.propertiesCollectionSubscribeContainerFirstContainerText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.propertiesCollectionSubscribeContainerSecond {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.propertiesCollectionSubscribeContainerSecondContainerText {
+    color: #31361D;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+
+.propertiesCollectionSubscribeContainerThird {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainer {
+    /* width: 50%; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    /* background-color: lightcyan; */
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerOne {
+    width: 100%;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerOneContainer {
+    width: 100%;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerTwo {
+    width: 100%;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 100px;
+    border: none;
+
+    border: 1px solid #AC6620;
+    color: #AC6620;
+    background-color: transparent;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+    color: #AC6620;
+    opacity: 1; 
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerTwoContainer {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #AC6620;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+    color: #FFE5D4;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.propertiesCollectionSubscribeContainerFourth {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.propertiesCollectionSubscribeContainerFourthContainerText {
+    color: #908D7E;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
