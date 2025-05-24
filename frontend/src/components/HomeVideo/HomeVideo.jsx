@@ -25,6 +25,9 @@ const HomeVideo = () => {
                       <span>
                         Wyjątkowe miejsca na Twoje wydarzenie &nbsp;•&nbsp; Luksusowe apartamenty &nbsp;•&nbsp; Noir Atelier &nbsp;•&nbsp;
                       </span>
+                      <span>
+                        Wyjątkowe miejsca na Twoje wydarzenie &nbsp;•&nbsp; Luksusowe apartamenty &nbsp;•&nbsp; Noir Atelier &nbsp;•&nbsp;
+                      </span>
                     </div>
                     {/* Play button */}
                     <button
