@@ -4,6 +4,7 @@ import HomeHero from '../../components/HomeHero/HomeHero';
 import HomeHeroInfo from '../../components/HomeHeroInfo/HomeHeroInfo';
 import HomeWelcome from '../../components/HomeWelcome/HomeWelcome';
 import HomeDatesInfo from '../../components/HomeDatesInfo/HomeDatesInfo';
+import HomeVideo from '../../components/HomeVideo/HomeVideo';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
             <HomeHeroInfo />
             <HomeWelcome />
             <HomeDatesInfo />
+            <HomeVideo />
         </div>
     </div>
   )
