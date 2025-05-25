@@ -2,6 +2,7 @@ import React from 'react';
 import "./faqPayments.css";
 import assets from '../../assets/assets';
 import { FaRegCircleCheck } from "react-icons/fa6";
+import { CiCircleCheck } from "react-icons/ci";
 
 const FaqPayments = () => {
   return (
@@ -14,7 +15,7 @@ const FaqPayments = () => {
                     {/* Top Part */}
                     <div className="faqPaymentsContainerLeftContainerTop">
                         <div className="faqPaymentsContainerLeftContainerTopContainer">
-                            <p className="faqPaymentsContainerLeftContainerTopContainerText">
+                            <p className="faqPaymentsContainerLeftContainerTopContainerText cormorant-garamond-regular">
                                 Payments
                             </p>
                         </div>
@@ -51,7 +52,7 @@ const FaqPayments = () => {
                     {/* Top Part */}
                     <div className="faqPaymentsContainerRightContainerTop">
                         <div className="faqPaymentsContainerRightContainerTopContainer">
-                            <p className="faqPaymentsContainerRightContainerTopContainerText">
+                            <p className="faqPaymentsContainerRightContainerTopContainerText cormorant-garamond-regular">
                                 Ore Via monistri
                             </p>
                         </div>
@@ -79,7 +80,7 @@ const FaqPayments = () => {
 
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
-                                    <FaRegCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
+                                    <CiCircleCheck  className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
@@ -108,7 +109,7 @@ const FaqPayments = () => {
 
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
-                                    <FaRegCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
+                                    <CiCircleCheck  className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
