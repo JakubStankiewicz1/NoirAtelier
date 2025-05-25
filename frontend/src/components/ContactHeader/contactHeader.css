@@ -1,0 +1,55 @@
+.contactHeader {
+    width: 100%;
+    height: 100%;
+
+    background-color: #2E2F2A;
+
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.contactHeaderContainer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+
+.contactHeaderContainerTopContainerText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.contactHeaderContainerBottomContainer {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHeaderContainerBottomContainerText {
+    color: #FFE5D4;
+    text-align: center;
+
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.contactHeaderContainerBottomContainerTextSpan {
+    text-decoration: underline;
+    text-decoration-color: #AC6620;
+}
