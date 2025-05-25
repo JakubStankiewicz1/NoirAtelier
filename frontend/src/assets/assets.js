@@ -21,6 +21,7 @@ import FaqPaymentsThree from "./FaqPaymentsThree.svg";
 import FaqPaymentsFour from "./FaqPaymentsFour.svg";
 import FaqPaymentsFive from "./FaqPaymentsFive.svg";
 
+import FaqBenefitsImageOne from "./FaqBenefitsImageOne.webp";
 
 
 export default {
@@ -35,5 +36,6 @@ export default {
     FaqPaymentsTwo,
     FaqPaymentsThree,
     FaqPaymentsFour,
-    FaqPaymentsFive
+    FaqPaymentsFive,
+    FaqBenefitsImageOne
 }
