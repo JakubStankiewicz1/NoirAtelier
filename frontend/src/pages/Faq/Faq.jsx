@@ -5,6 +5,7 @@ import FaqSeeMore from '../../components/FaqSeeMore/FaqSeeMore';
 import FaqPayments from '../../components/FaqPayments/FaqPayments';
 import FaqQuestions from '../../components/FaqQuestions/FaqQuestions';
 import FaqBenefits from '../../components/FaqBenefits/FaqBenefits';
+import Fotter from '../../components/Fotter/Fotter';
 
 const Faq = () => {
   return (
@@ -14,6 +15,7 @@ const Faq = () => {
         <FaqPayments />
         <FaqQuestions />
         <FaqBenefits />
+        <Fotter />
     </div>
   )
 }
