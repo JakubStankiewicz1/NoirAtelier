@@ -3,6 +3,7 @@ import "./faq.css";
 import FaqHeader from '../../components/FaqHeader/FaqHeader';
 import FaqSeeMore from '../../components/FaqSeeMore/FaqSeeMore';
 import FaqPayments from '../../components/FaqPayments/FaqPayments';
+import FaqQuestions from '../../components/FaqQuestions/FaqQuestions';
 
 const Faq = () => {
   return (
@@ -10,6 +11,7 @@ const Faq = () => {
         <FaqHeader />
         <FaqSeeMore />
         <FaqPayments />
+        <FaqQuestions />
     </div>
   )
 }

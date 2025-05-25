@@ -72,15 +72,10 @@ const FaqPayments = () => {
                     <div className="faqPaymentsContainerRightContainerBottom">
                         <div className="faqPaymentsContainerRightContainerBottomContainer">
 
-
-
-
-
-
-
+                            {/* First Feature */}
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
-                                    <CiCircleCheck  className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
+                                    <CiCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
@@ -98,30 +93,22 @@ const FaqPayments = () => {
                                 </div>
                             </div>
 
-
-
-
-
-
-
-
-
-
+                            {/* Second Feature */}
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
-                                    <CiCircleCheck  className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
+                                    <CiCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText">
-                                            Quanto Erroe
+                                            Mauris Vestibulum
                                         </p>
                                     </div>
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneThree">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText">
-                                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
                                         </p>
                                     </div>
                                 </div>

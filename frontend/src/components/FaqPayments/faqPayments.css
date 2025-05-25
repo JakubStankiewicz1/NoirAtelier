@@ -94,18 +94,17 @@
 
 
 .faqPaymentsContainerRightContainerBottomContainer {
-    width: 80%;
+    width: 100%;
     margin-right: auto;
-    /* background-color: red; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* gap: 0px */
+    flex-direction: column;
+    gap: 40px;
 }
 
 .faqPaymentsContainerRightContainerBottomContainerOne {
     display: flex;
     flex-direction: column;
+    max-width: 280px;
 }
 
 .faqPaymentsContainerRightContainerBottomContainerOneTwo {
