@@ -20,6 +20,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    gap: 50px;
 }
 
 .blogCollectionContainerBlog {
@@ -33,6 +34,8 @@
     justify-content: center;
     /* align-items: center; */
     gap: 30px;
+
+    cursor: pointer;
 }
 
 .blogCollectionContainerBlogContainerLeft {
@@ -49,10 +52,10 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.blogCollectionContainerBlogContainerLeft:hover {
+/* .blogCollectionContainerBlogContainerLeft:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-}
+} */
 
 .blogCollectionContainerBlogContainerLeftContainer {
     width: 100%;
@@ -79,9 +82,9 @@
     border-radius: 30px;
 }
 
-.blogCollectionContainerBlogContainerLeft:hover .blogCollectionContainerBlogContainerLeftContainerImage {
+/* .blogCollectionContainerBlogContainerLeft:hover .blogCollectionContainerBlogContainerLeftContainerImage {
     transform: scale(1.05);
-}
+} */
 
 .blogCollectionContainerBlogContainerLeftOverlay {
     position: absolute;
