@@ -1,0 +1,257 @@
+.aboutHero {
+    width: 100%;
+    height: 100%;
+
+    background-color: darkslategrey;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.aboutHeroContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+
+.aboutHeroContainerTop {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutHeroContainerTopContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerTopContainerOneContainerIcon {
+    width: 250px;
+    height: auto;
+}
+
+.aboutHeroContainerTopContainerTwo {
+    margin-top: 50px;
+}
+
+.aboutHeroContainerTopContainerTwoContainerText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutHeroContainerTopContainerThree {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutHeroContainerTopContainerThreeContainerText {
+    color: #FFE5D4;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+.aboutHeroContainerTopContainerFour {
+    margin-top: 50px;
+}
+
+.aboutHeroContainerTopContainerFourContainerButton {
+    width: 200px;
+    height: 60px;
+    background-color: #AC6620;
+    border-radius: 100px;
+}
+
+.aboutHeroContainerTopContainerFourContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerTopContainerFourContainerButtonContainerText {
+    color: #FFE5D4;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.aboutHeroContainerBottom {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutHeroContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
+}
+
+.aboutHeroContainerBottomContainerTop,
+.aboutHeroContainerBottomContainerBottom {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutHeroContainerBottomContainerTopContainer,
+.aboutHeroContainerBottomContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+.aboutHeroContainerBottomContainerTopContainerOne {
+    width: 680px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerTopContainerOne {
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerTopContainerOneContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerBottomContainerTopContainerOneContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+.aboutHeroContainerBottomContainerTopContainerTwo {
+    width: 450px;
+    height: 450px;
+}
+
+.aboutHeroContainerBottomContainerTopContainerTwo {
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerTopContainerTwoContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerBottomContainerTopContainerTwoContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerOne {
+    width: 450px;
+    height: 450px;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerOne {
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerOneContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerOneContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+.aboutHeroContainerBottomContainerBottomContainerTwo {
+    width: 680px;
+    height: 450px;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerTwo {
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80'); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerTwoContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeroContainerBottomContainerBottomContainerTwoContainerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
