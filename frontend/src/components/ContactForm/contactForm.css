@@ -1,0 +1,419 @@
+.contactForm {
+    width: 100%;
+    height: 100%;
+    
+    background-color: #2E2F2A;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contactFormContainer {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contactFormContainerTop {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.contactFormContainerTopContainer {
+    /* border: 1px solid white; */
+
+    background-color: #42433D;
+    width: 700px;
+    height: 330px;
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 50px;
+    padding-left: 40px;
+    border-radius: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+.contactFormContainerTopContainerLeftContainerImage {
+    width: 250px;
+    height: auto;
+}
+
+
+.contactFormContainerTopContainerRightContainerOneContainerText {
+    color: #FFE5D4;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.contactFormContainerTopContainerRightContainerTwo {
+    margin-top: 20px;
+}
+
+.contactFormContainerTopContainerRightContainerTwoContainerText {
+    color: #FFE5D4;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+
+.contactFormContainerTopContainerRightContainerThreeContainerText {
+    color: #C0823B;
+    text-decoration: underline;
+    text-decoration-color: #AC6620;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+.contactFormContainerTopRight {
+    width: 35%;
+    height: 100%;
+}
+
+.contactFormContainerTopRightContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.contactFormContainerTopRightContainerLeftContainerImage {
+    width: 150px;
+    height: auto;
+}
+
+
+.contactFormContainerTopRightContainerRightContainerOneContainerText {
+    color: #FFE5D4;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.contactFormContainerTopRightContainerRightContainerTwo {
+    margin-top: 20px;
+}
+
+.contactFormContainerTopRightContainerRightContainerTwoTextOne {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contactFormContainerTopRightContainerRightContainerTwoTextTwo {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contactFormContainerTopRightContainerRightContainerTwoTextThree {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.contactFormContainerTopRightContainerRightContainerThree {
+    margin-top: 20px;
+}
+
+.contactFormContainerTopRightContainerRightContainerThreeContainer {
+    cursor: pointer;
+}
+
+.contactFormContainerTopRightContainerRightContainerThreeContainerText {
+    color: #C9823B;
+    text-decoration: underline;
+    text-decoration-color: #AC6620;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+
+.contactFormContainerBottom {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.contactFormContainerBottomContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactFormContainerBottomContainerRight {
+    width: 450px;
+    height: 520px;
+    margin-right: 50px;
+}
+
+.contactFormContainerBottomContainerRight {
+    background-color: #42433D;
+    border-radius: 80px;
+    /* padding: 40px; */
+}
+
+.contactFormContainerBottomContainerRightContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormContainerBottomContainerRightContainerImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.contactFormContainerBottomContainerLeftContainerTopContainerText {
+    color: #FFE5D4;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddle {
+    margin-top: 40px;
+    /* background-color: red; */
+    /* width: 100% */
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.contactFormContainerBottomContainerLeftContainerBottom {
+    margin-top: 40px;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOne {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwo {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerOne {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerOneContainerInput {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerTwo {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerTwoContainerInput {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainer,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    width: 550px;
+    height: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThree {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerTwo {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerTwoContainerInput {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerOne {
+    width: 100%;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerOneContainerInput,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerTwoContainerInput,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerOneContainerInput,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerTwoContainerInput {
+    width:100%;
+    border: none;
+    border: 1px solid #AC6620;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 10px;
+    border-radius: 16px;
+    color: #AC6620;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThreeContainerTextArea {
+    width:100%;
+    border: none;
+    border: 1px solid #AC6620;
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    padding-left: 10px;
+    border-radius: 16px;
+    color: #AC6620;
+    padding-top: 10px
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerOneContainerInput::placeholder,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerTwoContainerInput::placeholder,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerOneContainerInput::placeholder,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerTwoContainerInput::placeholder,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThreeContainerTextArea::placeholder {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerOneContainerInput:focus,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerOneContainerTwoContainerInput:focus,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerOneContainerInput:focus,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerTwoContainerTwoContainerInput:focus,
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThreeContainerTextArea:focus {
+    outline: none;
+    border: 1px solid #C0823B;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThreeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormContainerBottomContainerLeftContainerMiddleContainerThreeContainerTextArea {
+    width: 100%;
+    height: 100%;
+    /* background-color: #42433D; */
+    /* border-radius: 20px;
+    padding: 20px;
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 36px; */
+    /* resize: none; */
+}
+
+
+.contactFormContainerBottomContainerLeftContainerBottom {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactFormContainerBottomContainerLeftContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactFormContainerBottomContainerLeftContainerBottomContainerButton {
+    width: 270px;
+    height: 60px;
+    background-color: #AC6620;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactFormContainerBottomContainerLeftContainerBottomContainerButton:hover {
+    background-color: #C0823B;
+}
+
+.contactFormContainerBottomContainerLeftContainerBottomContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 16px; */
+    /* cursor: pointer; */
+}
+
+.contactFormContainerBottomContainerLeftContainerBottomContainerButtonContainerText {
+    color: #FFE5D4;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}

@@ -27,6 +27,17 @@ import FaqBenefitsImageOne from "./FaqBenefitsImageOne.webp";
 
 import AboutOurTeamImageOne from "./AboutOurTeamImageOne.webp";
 
+import ContactFormImageOne from "./ContactFormImageOne.webp";
+
+import ContactFormImageTwo from "./ContactFormImageTwo.svg";
+
+
+
+import ContactFormImage from "./ContactFormImage.webp";
+
+
+
+
 export default {
     HomeHeroImageOne,
     HomeHeroImageTwo,
@@ -41,5 +52,8 @@ export default {
     FaqPaymentsFour,
     FaqPaymentsFive,
     FaqBenefitsImageOne,
-    AboutOurTeamImageOne
+    AboutOurTeamImageOne,
+    ContactFormImageOne,
+    ContactFormImageTwo,
+    ContactFormImage
 }
