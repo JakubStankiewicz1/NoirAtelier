@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html, body {
@@ -26,10 +27,7 @@ a {
   text-decoration: none;
 }
 
-::selection {
-  /* background-color: black;
-  color: #EFE7D2; */
-}
+/* Selection styles removed to prevent empty ruleset */
 
 .cormorant-garamond-regular {
   font-family: "Cormorant Garamond", serif;

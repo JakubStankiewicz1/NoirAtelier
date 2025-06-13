@@ -4,10 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
   const checkScroll = () => {
-    setIsScrolled(window.scrollY > 5);
+    setIsScrolled(window.scrollY > 50);
   };
 
   window.addEventListener('scroll', checkScroll, { passive: true });

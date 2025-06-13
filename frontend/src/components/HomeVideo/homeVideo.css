@@ -84,7 +84,6 @@
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1px #C9823B;
-    text-stroke: 2px #C9823B; /* For supported browsers */
     letter-spacing: 2px;
     white-space: nowrap;
 }
