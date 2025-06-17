@@ -26,12 +26,10 @@ const PropertiesCollection = () => {
                                             Atalia Villa
                                         </p>
                                     </div>
-                                </div>
-
-                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
+                                </div>                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
                                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainer">
                                         <p className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainerText">
-                                            Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet.
+                                            Luxurious modern villa featuring 5 bedrooms, 4 bathrooms, spacious living areas, and a stunning infinity pool. Located in a prestigious neighborhood with panoramic city views and premium finishes throughout.
                                         </p>
                                     </div>
                                 </div>
@@ -105,12 +103,10 @@ const PropertiesCollection = () => {
                                             Quora Polea
                                         </p>
                                     </div>
-                                </div>
-
-                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
+                                </div>                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
                                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainer">
                                         <p className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainerText">
-                                            Magna sollicitudin nisi primis lectus velit faucibus tellus habitasse aliquam dapibus convallis ultricies fusce class leo posuere ornare nec velit conubia.
+                                            Contemporary apartment complex offering 2-3 bedroom units with modern amenities. Features include fitness center, rooftop terrace, secure parking, and 24/7 concierge service in the heart of downtown.
                                         </p>
                                     </div>
                                 </div>
@@ -181,12 +177,10 @@ const PropertiesCollection = () => {
                                             Minimum Pe
                                         </p>
                                     </div>
-                                </div>
-
-                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
+                                </div>                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
                                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainer">
                                         <p className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainerText">
-                                            Aliquam libero egestas iaculis magna donec bibendum non curabitur ac purus etiam quis eget gravida placerat interdum fames himenaeos ultrices.
+                                            Elegant minimalist townhouse with 3 bedrooms, 2.5 bathrooms, and private garden. Perfect for young families, featuring energy-efficient design, smart home technology, and close proximity to schools and parks.
                                         </p>
                                     </div>
                                 </div>
@@ -256,12 +250,10 @@ const PropertiesCollection = () => {
                                             Spacilimus
                                         </p>
                                     </div>
-                                </div>
-
-                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
+                                </div>                                <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwo">
                                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainer">
                                         <p className="propertiesCollectionContainerElementOneContainerLeftContainerTwoContainerText">
-                                            Ultrices aliquam ligula fames proin aenean elit nostra hendrerit quisque tempus diam fusce non leo tortor aliquam cursus duis est lacinia accumsan consectetur.
+                                            Spacious penthouse apartment with floor-to-ceiling windows and breathtaking ocean views. Features 4 bedrooms, 3 bathrooms, private elevator access, and premium marble finishes throughout this luxury residence.
                                         </p>
                                     </div>
                                 </div>

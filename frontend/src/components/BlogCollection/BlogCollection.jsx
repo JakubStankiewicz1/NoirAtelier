@@ -9,12 +9,7 @@ const BlogCollection = () => {
     <div className='blogCollection'>
         <div className="blogCollectionContainer">
 
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 1 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -50,16 +45,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        December 15, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        How to Choose the Perfect Investment Property?
                                     </p>
                                 </div>
                             </div>
@@ -68,7 +61,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Choosing the right investment property requires careful analysis of location, growth potential, and building condition. We present key factors that will help you make a smart investment decision.
                                     </p>
                                 </p>
                             </div>
@@ -77,14 +70,7 @@ const BlogCollection = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 2 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -120,16 +106,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        November 28, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        Residential Architecture Trends 2024
                                     </p>
                                 </div>
                             </div>
@@ -138,7 +122,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Discover the latest trends in apartment and home design. From minimalist interiors to eco-friendly solutions - see what will be trending in the upcoming year in real estate.
                                     </p>
                                 </p>
                             </div>
@@ -147,18 +131,7 @@ const BlogCollection = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 3 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -194,16 +167,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        October 10, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        Mortgage Guide for First-Time Buyers
                                     </p>
                                 </div>
                             </div>
@@ -212,7 +183,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Everything you need to know about mortgages - from initial requirements to the application process. Practical tips and essential information for first-time home buyers.
                                     </p>
                                 </p>
                             </div>
@@ -221,15 +192,7 @@ const BlogCollection = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 4 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -265,16 +228,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        September 22, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        Best Neighborhoods to Live in the City
                                     </p>
                                 </div>
                             </div>
@@ -283,7 +244,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Review of the best neighborhoods to live in, considering transportation, infrastructure, safety, and development opportunities. Find out which areas offer the best quality of life.
                                     </p>
                                 </p>
                             </div>
@@ -292,18 +253,7 @@ const BlogCollection = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 5 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -339,16 +289,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        August 15, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        Smart Home - Future Technologies in Your Home
                                     </p>
                                 </div>
                             </div>
@@ -357,7 +305,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Smart home systems are revolutionizing the way we live. Discover the latest technologies that increase comfort, security, and energy efficiency in your apartment.
                                     </p>
                                 </p>
                             </div>
@@ -366,21 +314,7 @@ const BlogCollection = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            {/* Blog Element */}
+            {/* Blog Element 6 */}
             <div className="blogCollectionContainerBlog">
                 <div className="blogCollectionContainerBlogContainer">
                     {/* Left Part */}
@@ -416,16 +350,14 @@ const BlogCollection = () => {
                                     <LuClock className='blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo' />
 
                                     <p className="blogCollectionContainerBlogContainerRightContainerTopContainerTextThree">
-                                        October 5, 2022
+                                        July 3, 2024
                                     </p>
                                 </div>
-                            </div>
-
-                            {/* Middle Part */}
+                            </div>                            {/* Middle Part */}
                             <div className="blogCollectionContainerBlogContainerRightContainerMiddle">
                                 <div className="blogCollectionContainerBlogContainerRightContainerMiddleContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerMiddleContainerText cormorant-garamond-regular">
-                                        Ligula amet taciti nullam pellentesque
+                                        Home Buying Process Step by Step
                                     </p>
                                 </div>
                             </div>
@@ -434,7 +366,7 @@ const BlogCollection = () => {
                             <div className="blogCollectionContainerBlogContainerRightContainerBottom">
                                 <p className="blogCollectionContainerBlogContainerRightContainerBottomContainer">
                                     <p className="blogCollectionContainerBlogContainerRightContainerBottomContainerText">
-                                        Suscipit condimentum facilisis tincidunt mollis fermentum si ante consequat faucibus pulvinar. Posuere nisl elementum consequat natoque nascetur sed. Est molestie leo aliquet accumsan magnis.
+                                        Complete guide to the property buying process - from searching for offers, through negotiations, to finalizing the transaction. Learn all the stages and avoid common mistakes.
                                     </p>
                                 </p>
                             </div>
@@ -442,18 +374,6 @@ const BlogCollection = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
     </div>

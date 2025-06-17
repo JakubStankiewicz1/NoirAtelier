@@ -29,7 +29,7 @@ const ContactForm = () => {
                             <div className="contactFormContainerTopContainerRightContainerTwo">
                                 <div className="contactFormContainerTopContainerRightContainerTwoContainer">
                                     <p className="contactFormContainerTopContainerRightContainerTwoContainerText">
-                                        +61 (0) 3 8376 6284
+                                        +48 123 456 789
                                     </p>
                                 </div>
                             </div>
@@ -58,22 +58,22 @@ const ContactForm = () => {
                                 <div className="contactFormContainerTopRightContainerRightContainerOne">
                                     <div className="contactFormContainerTopRightContainerRightContainerOneContainer">
                                         <p className="contactFormContainerTopRightContainerRightContainerOneContainerText">
-                                            Envato
+                                            Address
                                         </p>
                                     </div>
                                 </div>
 
                                 <div className="contactFormContainerTopRightContainerRightContainerTwo">
                                     <p className="contactFormContainerTopRightContainerRightContainerTwoTextOne">
-                                        Level 13, 2 Elizabeth
+                                        Alabama
                                     </p>
 
                                     <p className="contactFormContainerTopRightContainerRightContainerTwoTextTwo">
-                                        Victoria 3000
+                                        Birmingham
                                     </p>
 
                                     <p className="contactFormContainerTopRightContainerRightContainerTwoTextThree">
-                                        Australia
+                                        3935 Strother Street
                                     </p>
                                 </div>
 

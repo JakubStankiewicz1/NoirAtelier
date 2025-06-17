@@ -89,10 +89,16 @@
     color: #C0823B;
     text-decoration: underline;
     text-decoration-color: #AC6620;
-
     font-size: 16px;
     font-weight: 300;
     line-height: 36px;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.contactFormContainerTopContainerRightContainerThreeContainerText:hover {
+    color: #D69B4A;
 }
 
 
@@ -151,10 +157,6 @@
     margin-top: 20px;
 }
 
-.contactFormContainerTopRightContainerRightContainerThreeContainer {
-    cursor: pointer;
-}
-
 .contactFormContainerTopRightContainerRightContainerThreeContainerText {
     color: #C9823B;
     text-decoration: underline;
@@ -162,6 +164,13 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 36px;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.contactFormContainerTopRightContainerRightContainerThreeContainerText:hover {
+    color: #D69B4A;
 }
 
 
@@ -305,7 +314,7 @@
     height: 40px;
     background-color: transparent;
     padding-left: 10px;
-    border-radius: 16px;
+    border-radius: 10px;
     color: #AC6620;
 }
 
@@ -318,7 +327,7 @@
     max-width: 100%;
     background-color: transparent;
     padding-left: 10px;
-    border-radius: 16px;
+    border-radius: 10px;
     color: #AC6620;
     padding-top: 10px
 }

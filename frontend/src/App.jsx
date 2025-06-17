@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./app.css";
 import Home from './pages/Home/Home';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Properties from './pages/Properties/Properties';
 import Faq from './pages/Faq/Faq';
@@ -10,6 +10,13 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 
 const App = () => {
+  const location = useLocation();
+
+  // Przewijanie na górę przy każdej zmianie strony
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   return (
     <div className='app'>
         <div className="appContainer">

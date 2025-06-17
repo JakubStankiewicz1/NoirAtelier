@@ -4,16 +4,25 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  
   useEffect(() => {
-  const checkScroll = () => {
-    setIsScrolled(window.scrollY > 50);
+    const checkScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    checkScroll(); // Żeby działało też od razu
+
+    return () => window.removeEventListener('scroll', checkScroll);
+  }, []);
+
+  // Funkcja przewijania na górę
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
-
-  window.addEventListener('scroll', checkScroll, { passive: true });
-  checkScroll(); // Żeby działało też od razu
-
-  return () => window.removeEventListener('scroll', checkScroll);
-}, []);
 
 
 
@@ -23,23 +32,20 @@ const Navbar = () => {
   return (
     <div className={navbarClass}>
         <div className="navbarContainer">
-            {/* Left Part */}
-            <div className="navbarContainerLeft">
-                <div className="navbarContainerLeftContainer">
+            {/* Left Part */}            <div className="navbarContainerLeft">
+                <NavLink to='/' className="navbarContainerLeftContainer" onClick={scrollToTop}>
                     <p className="navbarContainerLeftContainerText cormorant-garamond-regular">
                         Noit Atelier
                     </p>
-                </div>
+                </NavLink>
             </div>
 
             {/* Right Part */}
             <div className="navbarContainerRight">
                 <div className="navbarContainerRightContainer">
 
-                    <div className="navbarContainerRightContainerOne">
-
-                        <div className="navbarContainerRightContainerOneElementOne">
-                            <NavLink to="/" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementOneContainer active" : "navbarContainerRightContainerOneElementOneContainer"}>
+                    <div className="navbarContainerRightContainerOne">                        <div className="navbarContainerRightContainerOneElementOne">
+                            <NavLink to="/" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementOneContainer active" : "navbarContainerRightContainerOneElementOneContainer"} onClick={scrollToTop}>
                                 <p className="navbarContainerRightContainerOneElementOneContainerText">
                                     Home
                                 </p>
@@ -48,7 +54,7 @@ const Navbar = () => {
                         </div>
                         
                         <div className="navbarContainerRightContainerOneElementTwo">
-                            <NavLink to="/properties" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementTwoContainer active" : "navbarContainerRightContainerOneElementTwoContainer"}>
+                            <NavLink to="/properties" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementTwoContainer active" : "navbarContainerRightContainerOneElementTwoContainer"} onClick={scrollToTop}>
                                 <p className="navbarContainerRightContainerOneElementTwoContainerText">
                                     Properties
                                 </p>
@@ -57,7 +63,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="navbarContainerRightContainerOneElementThree">
-                            <NavLink to="/blog" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementThreeContainer active" : "navbarContainerRightContainerOneElementThreeContainer"}>
+                            <NavLink to="/blog" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementThreeContainer active" : "navbarContainerRightContainerOneElementThreeContainer"} onClick={scrollToTop}>
                                 <p className="navbarContainerRightContainerOneElementThreeContainerText">
                                     Blog
                                 </p>
@@ -66,7 +72,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="navbarContainerRightContainerOneElementFour">
-                            <NavLink to="/about" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementFourContainer active" : "navbarContainerRightContainerOneElementFourContainer"}>
+                            <NavLink to="/about" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementFourContainer active" : "navbarContainerRightContainerOneElementFourContainer"} onClick={scrollToTop}>
                                 <p className="navbarContainerRightContainerOneElementFourContainerText">
                                     About
                                 </p>
@@ -75,7 +81,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="navbarContainerRightContainerOneElementFive">
-                            <NavLink to="/faq" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementFiveContainer active" : "navbarContainerRightContainerOneElementFiveContainer"}>
+                            <NavLink to="/faq" className={({isActive}) => isActive ? "navbarContainerRightContainerOneElementFiveContainer active" : "navbarContainerRightContainerOneElementFiveContainer"} onClick={scrollToTop}>
                                 <p className="navbarContainerRightContainerOneElementFiveContainerText">
                                     FAQ
                                 </p>
@@ -83,18 +89,15 @@ const Navbar = () => {
                             <div className="navbarContainerRightContainerOneElementFiveUnderline"/>
                         </div>
 
-                    </div>
-
-
-                    <div className="navbarContainerRightContainerTwo">
+                    </div>                    <div className="navbarContainerRightContainerTwo">
                         <div className="navbarContainerRightContainerTwoContainer">
-                            <div className="navbarContainerRightContainerTwoContainerButton">
+                            <NavLink to="/contact" className="navbarContainerRightContainerTwoContainerButton" onClick={scrollToTop}>
                                 <div className="navbarContainerRightContainerTwoContainerButtonContainer">
                                     <p className="navbarContainerRightContainerTwoContainerButtonContainerText">
                                         Contact
                                     </p>
                                 </div>
-                            </div>
+                            </NavLink>
                         </div>
                     </div>
 

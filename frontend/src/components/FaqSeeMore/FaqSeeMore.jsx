@@ -18,13 +18,11 @@ const FaqSeeMore = () => {
                                 We are here <span className='faqSeeMoreContainerLeftContainerTopContainerTextSpan'>to help you</span> with your problems
                             </p>
                         </div>
-                    </div>
-
-                    {/* Middle Part */}
+                    </div>                    {/* Middle Part */}
                     <div className="faqSeeMoreContainerLeftContainerMiddle">
                         <div className="faqSeeMoreContainerLeftContainerMiddleContainer">
                             <p className="faqSeeMoreContainerLeftContainerMiddleContainerText">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                                Our dedicated support team is available 24/7 to assist you with any questions or concerns regarding your luxury property experience. Whether you need help with booking a viewing, understanding our services, or navigating through our exclusive collections, we're committed to providing exceptional customer service that matches the sophistication of NoirAtelier.
                             </p>
                         </div>
                     </div>

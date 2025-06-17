@@ -22,12 +22,10 @@ const AboutHero = () => {
                                 About us
                             </p>
                         </div>
-                    </div>
-
-                    <div className="aboutHeroContainerTopContainerThree">
+                    </div>                    <div className="aboutHeroContainerTopContainerThree">
                         <div className="aboutHeroContainerTopContainerThreeContainer">
                             <p className="aboutHeroContainerTopContainerThreeContainerText cormorant-garamond-regular">
-                                Odio imperdiet arcu pellentesque vulputate platea ultrices tempor sagittis enim conubia metus commodo himenaeos amet mi netus primis est netus cursus varius sodales aliquet fermentum venenatis curabitur faucibus aenean elementum conubia massa mollis.
+                                At Noir Atelier, we believe that finding the perfect home should be an extraordinary experience. Founded with a passion for luxury real estate, we specialize in connecting discerning clients with exceptional properties that reflect their unique lifestyle and aspirations.
 
                             </p>
                         </div>

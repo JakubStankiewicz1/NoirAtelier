@@ -51,7 +51,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOne">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainerText cormorant-garamond-regular">
-                                                Mark Fostendell
+                                                Sarah Mitchell
                                             </p>
                                         </div>
                                     </div>
@@ -59,7 +59,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwo">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainerText">
-                                                Eget porta enim consequat cubilia efficitur posuere proin consectetur at. Eget nulla fames dictum sagittis eleifend nibh. Adipiscing ligula volutpat vestibulum quisque vel. Dictumst nec si dignissim arcu imperdiet nascetur morbi ad phasellus. Sem finibus sociosqu pellentesque nam curae libero iaculis interdum. Facilisi potenti hendrerit in sagittis tempus mattis molestie.
+                                                Senior Real Estate Agent with over 8 years of experience in luxury properties. Sarah specializes in high-end residential sales and has an exceptional track record of matching clients with their dream homes. Her attention to detail and personalized approach make her invaluable to our team.
                                             </p>
                                         </div>
                                     </div>
@@ -90,7 +90,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOne">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainerText cormorant-garamond-regular">
-                                                Mark Fostendell
+                                                Michael Rodriguez
                                             </p>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwo">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainerText">
-                                                Eget porta enim consequat cubilia efficitur posuere proin consectetur at. Eget nulla fames dictum sagittis eleifend nibh. Adipiscing ligula volutpat vestibulum quisque vel. Dictumst nec si dignissim arcu imperdiet nascetur morbi ad phasellus. Sem finibus sociosqu pellentesque nam curae libero iaculis interdum. Facilisi potenti hendrerit in sagittis tempus mattis molestie.
+                                                Property Investment Specialist and Market Analyst with 12 years in commercial real estate. Michael excels at identifying emerging market trends and investment opportunities. His strategic insights have helped numerous clients build successful property portfolios and maximize their returns.
                                             </p>
                                         </div>
                                     </div>
@@ -129,7 +129,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOne">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerOneContainerText cormorant-garamond-regular">
-                                                Mark Fostendell
+                                                Emily Chen
                                             </p>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ const AboutOurTeam = () => {
                                     <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwo">
                                         <div className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainer">
                                             <p className="aboutOurTeamContainerBottomContainerElementContainerRightContainerTwoContainerText">
-                                                Eget porta enim consequat cubilia efficitur posuere proin consectetur at. Eget nulla fames dictum sagittis eleifend nibh. Adipiscing ligula volutpat vestibulum quisque vel. Dictumst nec si dignissim arcu imperdiet nascetur morbi ad phasellus. Sem finibus sociosqu pellentesque nam curae libero iaculis interdum. Facilisi potenti hendrerit in sagittis tempus mattis molestie.
+                                                Client Relations Manager and First-Time Buyer Specialist with 6 years of experience. Emily is passionate about guiding new homeowners through the buying process, making it smooth and stress-free. Her multilingual abilities and cultural sensitivity make her perfect for our diverse clientele.
                                             </p>
                                         </div>
                                     </div>

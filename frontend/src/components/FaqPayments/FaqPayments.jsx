@@ -19,13 +19,11 @@ const FaqPayments = () => {
                                 Payments
                             </p>
                         </div>
-                    </div>
-
-                    {/* Middle Part */}
+                    </div>                    {/* Middle Part */}
                     <div className="faqPaymentsContainerLeftContainerMiddle">
                         <div className="faqPaymentsContainerLeftContainerMiddleContainer">
                             <p className="faqPaymentsContainerLeftContainerMiddleContainerText">
-                                Senectus sem convallis nibh velit nisi turpis conubia dui mi nostra hac turpis porta iaculis phasellus pharetra inceptos ultrices consequat eleifend fringilla ultricies adipiscing habitant leo ac.
+                                Experience seamless and secure payment processing with Noir Atelier. We accept all major payment methods and provide flexible financing options to make your luxury property investment as smooth as possible. Our encrypted payment system ensures your financial information remains completely protected.
                             </p>
                         </div>
                     </div>
@@ -47,23 +45,18 @@ const FaqPayments = () => {
 
             {/* Right Part */}
             <div className="faqPaymentsContainerRight">
-                <div className="faqPaymentsContainerRightContainer">
-
-                    {/* Top Part */}
+                <div className="faqPaymentsContainerRightContainer">                    {/* Top Part */}
                     <div className="faqPaymentsContainerRightContainerTop">
                         <div className="faqPaymentsContainerRightContainerTopContainer">
                             <p className="faqPaymentsContainerRightContainerTopContainerText cormorant-garamond-regular">
-                                Ore Via monistri
+                                Secure Transactions
                             </p>
                         </div>
-                    </div>
-
-
-                    {/* Middle Part */}
+                    </div>                    {/* Middle Part */}
                     <div className="faqPaymentsContainerRightContainerMiddle">
                         <div className="faqPaymentsContainerRightContainerMiddleContainer">
                             <p className="faqPaymentsContainerRightContainerMiddleContainerText">
-                                Augue aliquet felis donec sit varius platea vestibulum aenean commodo sapien hac commodo id vitae nulla.
+                                Your trust is our priority. We utilize industry-leading security protocols and encryption technology to safeguard every transaction, ensuring complete peace of mind for all your luxury property investments.
                             </p>
                         </div>
                     </div>
@@ -76,18 +69,17 @@ const FaqPayments = () => {
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
                                     <CiCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
-                                </div>
-                                <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
+                                </div>                                <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText">
-                                            Quanto Erroe
+                                            Instant Processing
                                         </p>
                                     </div>
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneThree">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText">
-                                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+                                            Experience lightning-fast payment processing with real-time confirmation for all your luxury property transactions.
                                         </p>
                                     </div>
                                 </div>
@@ -97,18 +89,17 @@ const FaqPayments = () => {
                             <div className="faqPaymentsContainerRightContainerBottomContainerOne">
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneOne">
                                     <CiCircleCheck className='faqPaymentsContainerRightContainerBottomContainerOneOneIcon' />
-                                </div>
-                                <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
+                                </div>                                <div className="faqPaymentsContainerRightContainerBottomContainerOneTwo">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText">
-                                            Mauris Vestibulum
+                                            Flexible Options
                                         </p>
                                     </div>
                                 </div>
                                 <div className="faqPaymentsContainerRightContainerBottomContainerOneThree">
                                     <div className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainer">
                                         <p className="faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText">
-                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                                            Choose from multiple payment plans and financing solutions tailored to meet your individual investment needs and preferences.
                                         </p>
                                     </div>
                                 </div>

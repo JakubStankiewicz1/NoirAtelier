@@ -28,7 +28,7 @@ const FaqBenefits = () => {
                     <div className="faqBenefitsContainerLeftContainerThree">
                         <div className="faqBenefitsContainerLeftContainerThreeContainer">
                             <p className="faqBenefitsContainerLeftContainerThreeContainerText">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                                Our extensive portfolio offers premium properties in the most sought-after locations. From luxury villas to exclusive apartments, we provide personalized service, expert market knowledge, and seamless transactions. With years of experience in real estate, we understand your needs and deliver exceptional results that exceed expectations.
                             </p>
                         </div>
                     </div>
@@ -103,13 +103,13 @@ const FaqBenefits = () => {
                             <p className="propertiesCollectionLatestNewsContainerFifthContainerText">
                                 houses villas apartments rental & more houses&nbsp;&nbsp;
                             </p>
-                            <p className="propertiesCollectionLatestNewsContainerFifthContainerText">
+                            {/* <p className="propertiesCollectionLatestNewsContainerFifthContainerText">
                                 houses villas apartments rental & more houses&nbsp;&nbsp;
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
     </div>
   )
 }

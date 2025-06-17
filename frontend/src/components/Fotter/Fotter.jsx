@@ -8,6 +8,7 @@ const Fotter = () => {
   return (
     <div className='fotter'>
         <div className="fotterContainer">
+            <div className="fotterContainerDiv">
 
 
             {/* Top Part */}
@@ -77,7 +78,7 @@ const Fotter = () => {
                                             <div className="fotterContainerMiddleContainerRightContainerBottomContainerElement">
                                                 <div className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainer">
                                                     <p className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText">
-                                                        Envato
+                                                        Address
                                                     </p>
                                                 </div>
                                             </div>
@@ -87,7 +88,7 @@ const Fotter = () => {
                                             <div className="fotterContainerMiddleContainerRightContainerBottomContainerElement">
                                                 <div className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainer">
                                                     <p className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText">
-                                                        Level 13, 2 Elizabeth
+                                                        Alabama
                                                     </p>
                                                 </div>
                                             </div>
@@ -97,7 +98,7 @@ const Fotter = () => {
                                             <div className="fotterContainerMiddleContainerRightContainerBottomContainerElement">
                                                 <div className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainer">
                                                     <p className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText">
-                                                        Victoria 3000
+                                                        Birmingham
                                                     </p>
                                                 </div>
                                             </div>
@@ -107,7 +108,7 @@ const Fotter = () => {
                                             <div className="fotterContainerMiddleContainerRightContainerBottomContainerElement">
                                                 <div className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainer">
                                                     <p className="fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText">
-                                                        Australia
+                                                        3935 Strother Street
                                                     </p>
                                                 </div>
                                             </div>
@@ -317,7 +318,7 @@ const Fotter = () => {
                     {/* Left Part */}
                     <div className="fotterContainerBottomContainerLeft">
                         <p className="fotterContainerBottomContainerLeftText">
-                            © 2022 Betheme by <span className='fotterContainerBottomContainerLeftTextLink'>Muffin group</span> | All Rights Reserved | Make by <span className='fotterContainerBottomContainerLeftTextLink'>Jakub Stankiewicz</span>
+                            © 2025 | All Rights Reserved | Made by <span className='fotterContainerBottomContainerLeftTextLink'>Jakub Stankiewicz</span>
                         </p>
                     </div>
 
@@ -334,7 +335,7 @@ const Fotter = () => {
 
 
 
-
+            </div>
         </div>
     </div>
   )

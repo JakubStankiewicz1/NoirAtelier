@@ -45,13 +45,11 @@ const PropertiesCollectionSubscribe = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {/* Fourth Part */}
+            </div>            {/* Fourth Part */}
             <div className="propertiesCollectionSubscribeContainerFourth">
                 <div className="propertiesCollectionSubscribeContainerFourthContainer">
                     <p className="propertiesCollectionSubscribeContainerFourthContainerText">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
+                        Join thousands of satisfied subscribers and be the first to know about exclusive property listings, market insights, and special investment opportunities.
                     </p>
                 </div>
             </div>
