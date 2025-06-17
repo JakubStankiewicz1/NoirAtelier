@@ -112,6 +112,13 @@ W katalogu `frontend/`:
 
 ## 🆘 Rozwiązywanie problemów
 
+### Problem z terser na Render
+Jeśli widzisz błąd: `terser not found`, to znaczy że Vite nie może znaleźć terser do minifikacji:
+```bash
+# Rozwiązanie: terser jest już dodany do devDependencies
+# Upewnij się, że package.json zawiera terser w devDependencies
+```
+
 ### Problem z portami
 - Lokalnie: aplikacja działa na porcie 1111
 - Docker: aplikacja działa na porcie 3000

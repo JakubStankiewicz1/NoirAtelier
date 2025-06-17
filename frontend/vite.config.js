@@ -11,12 +11,11 @@ export default defineConfig({
   preview: {
     port: 3000,
     host: true
-  },
-  build: {
+  },  build: {
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
