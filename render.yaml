@@ -3,12 +3,10 @@ services:
     name: noiratelier-frontend
     env: docker
     dockerfilePath: ./Dockerfile
+    dockerContext: ./
     plan: free
-    buildCommand: ""
-    startCommand: ""
     healthCheckPath: /
     envVars:
       - key: NODE_ENV
         value: production
     autoDeploy: true
-    branch: main

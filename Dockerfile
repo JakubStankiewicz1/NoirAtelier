@@ -5,13 +5,13 @@ FROM node:20-alpine AS builder
 # Ustawiamy katalog roboczy
 WORKDIR /app
 
-# Kopiujemy package.json i package-lock.json
+# Kopiujemy package.json i package-lock.json z katalogu frontend
 COPY frontend/package*.json ./
 
 # Instalujemy wszystkie zależności (włącznie z devDependencies)
 RUN npm ci
 
-# Kopiujemy kod źródłowy
+# Kopiujemy cały kod źródłowy z katalogu frontend
 COPY frontend/ .
 
 # Budujemy aplikację
