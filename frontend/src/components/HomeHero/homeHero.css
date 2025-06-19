@@ -106,9 +106,8 @@
     filter: brightness(0.5) contrast(1.2);
     position: absolute;
     top: 0;
-    left: 0;
-    /* transition for smooth fade */
-    transition: opacity 0.5s;
+    left: 0;    /* transition for instant change */
+    transition: opacity 0.1s ease-in-out;
 }
 
 
@@ -197,4 +196,109 @@
     font-weight: 300;
     line-height: 60px;
     text-transform: uppercase;
+}
+
+/* Slider Navigation Styles - Left Side Horizontal */
+.homeHeroSliderNavigation {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    z-index: 1000;
+}
+
+.homeHeroSliderNavigationContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.homeHeroSliderNavigationItem {
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    background-color: transparent;
+    position: relative;
+    overflow: visible;
+    padding: 5px 0;
+}
+
+.homeHeroSliderNavigationItem:hover {
+    transform: translateY(-2px);
+}
+
+.homeHeroSliderNavigationItem.active {
+    transform: translateY(-2px);
+}
+
+.homeHeroSliderNavigationItem.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #AC6620;
+}
+
+.homeHeroSliderNavigationNumber {
+    color: #FFE5D4;
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 1;
+    position: relative;
+    transition: color 0.1s ease;
+    opacity: 0.6;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.homeHeroSliderNavigationItem.active .homeHeroSliderNavigationNumber {
+    color: #AC6620;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.homeHeroSliderNavigationItem:hover .homeHeroSliderNavigationNumber {
+    color: #AC6620;
+    opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .homeHeroSliderNavigation {
+        top: 150px;
+        left: 30px;
+    }
+    
+    .homeHeroSliderNavigationContainer {
+        gap: 20px;
+    }
+    
+    .homeHeroSliderNavigationNumber {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeHeroSliderNavigation {
+        top: 120px;
+        left: 20px;
+    }
+    
+    .homeHeroSliderNavigationContainer {
+        gap: 15px;
+    }
+    
+    .homeHeroSliderNavigationNumber {
+        font-size: 14px;
+    }
 }

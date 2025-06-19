@@ -54,13 +54,13 @@ const AboutHero = () => {
                         <div className="aboutHeroContainerBottomContainerTopContainer">
                             <div className="aboutHeroContainerBottomContainerTopContainerOne">
                                 <div className="aboutHeroContainerBottomContainerTopContainerOneContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutHeroContainerBottomContainerTopContainerOneContainerImage' />
+                                    <img src="https://www.nichiha.com/uploads/blog/the-top-exterior-design-trends-for-florida-homes-in-2022/Nichiha-Residential-VintageWood-WoodSeries-Modern-Horizontal-SingleFamily.jpg?t=1653004006" alt="" className='aboutHeroContainerBottomContainerTopContainerOneContainerImage' />
                                 </div>
                             </div>
 
                             <div className="aboutHeroContainerBottomContainerTopContainerTwo">
                                 <div className="aboutHeroContainerBottomContainerTopContainerTwoContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutHeroContainerBottomContainerTopContainerTwoContainerImage' />
+                                    <img src="https://www.luxxu.net/blog/wp-content/uploads/2017/02/20-Incredible-Modern-Houses-Around-the-United-States-new-york.jpg" alt="" className='aboutHeroContainerBottomContainerTopContainerTwoContainerImage' />
                                 </div>
                             </div>
                         </div>
@@ -71,13 +71,13 @@ const AboutHero = () => {
                         <div className="aboutHeroContainerBottomContainerBottomContainer">
                             <div className="aboutHeroContainerBottomContainerBottomContainerOne">
                                 <div className="aboutHeroContainerBottomContainerBottomContainerOneContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutHeroContainerBottomContainerBottomContainerOneContainerImage' />
+                                    <img src="https://static.dezeen.com/uploads/2017/08/rodin-residence-molly-bell_dezeen_2364_col_9-852x568.jpg" alt="" className='aboutHeroContainerBottomContainerBottomContainerOneContainerImage' />
                                 </div>
                             </div>
 
                             <div className="aboutHeroContainerBottomContainerBottomContainerTwo">
                                 <div className="aboutHeroContainerBottomContainerBottomContainerTwoContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutHeroContainerBottomContainerBottomContainerTwoContainerImage' />
+                                    <img src="https://inhabit.corcoran.com/wp-content/uploads/2022/07/DSC05516.ARW_-1024x684.jpg" alt="" className='aboutHeroContainerBottomContainerBottomContainerTwoContainerImage' />
                                 </div>
                             </div>
                         </div>

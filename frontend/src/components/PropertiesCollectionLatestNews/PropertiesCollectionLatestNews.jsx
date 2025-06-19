@@ -4,6 +4,7 @@ import { PiSquaresFourFill } from "react-icons/pi";
 import assets from "../../assets/assets";
 import { FiClock } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const PropertiesCollectionLatestNews = () => {
   return (
@@ -33,7 +34,7 @@ const PropertiesCollectionLatestNews = () => {
                 <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTop">
                   <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainer">
                     <img
-                      src={assets.PropertiesCollectionLatestNewsOne}
+                      src="https://www.kiavi.com/hubfs/north_carolina.jpg"
                       alt=""
                       className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainerImage"
                     />
@@ -86,7 +87,7 @@ const PropertiesCollectionLatestNews = () => {
                 <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTop">
                   <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainer">
                     <img
-                      src={assets.PropertiesCollectionLatestNewsOne}
+                      src="https://media.architecturaldigest.com/photos/569992ccc6772b76145675a2/16:9/w_2580,c_limit/retreat-the-modern-house-in-nature-01.jpg"
                       alt=""
                       className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainerImage"
                     />
@@ -139,7 +140,7 @@ const PropertiesCollectionLatestNews = () => {
                 <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTop">
                   <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainer">
                     <img
-                      src={assets.PropertiesCollectionLatestNewsOne}
+                      src="https://waynealarm.com/wp-content/uploads/2021/09/5495536031-smarthome-1000x536-1.jpeg"
                       alt=""
                       className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainerImage"
                     />
@@ -189,7 +190,7 @@ const PropertiesCollectionLatestNews = () => {
         {/* Fourth Part */}
         <div className="propertiesCollectionLatestNewsContainerFourth">
           <div className="propertiesCollectionLatestNewsContainerFourthContainer">
-            <div className="propertiesCollectionLatestNewsContainerFourthContainerButton">
+            <NavLink to="/blog" className="propertiesCollectionLatestNewsContainerFourthContainerButton">
               {/* Left Part */}
               <div className="propertiesCollectionLatestNewsContainerFourthContainerLeft">
                 <PiSquaresFourFill className="propertiesCollectionLatestNewsContainerFourthContainerLeftImage" />
@@ -199,7 +200,7 @@ const PropertiesCollectionLatestNews = () => {
               <div className="propertiesCollectionLatestNewsContainerFourthContainerRight">
                 <p className="propertiesCollectionLatestNewsContainerFourthContainerRightText">See More</p>
               </div>
-            </div>
+            </NavLink>
           </div>
         </div>
         {/* Fifth Part */}

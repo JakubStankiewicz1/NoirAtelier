@@ -17,7 +17,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://thecolumbusteam.com/wp-content/uploads/2019/09/How-to-Buy-First-Investment-Property.jpg"
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />
@@ -78,7 +78,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://modernhouse-projekty.pl/wp-content/uploads/2023/06/01_Gotowy_projekt_domu_w_stylu_nowoczesnej_stodoly_New_House_759_Modern_house-scaled.webp" 
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />
@@ -139,7 +139,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://as2.ftcdn.net/v2/jpg/02/09/12/47/1000_F_209124760_sEIPfgAurKyrJMIUmdg2cLyiDdxZ8dBr.jpg"
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />
@@ -200,7 +200,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://www.realsimple.com/thmb/ZeAwd9pPwiL5j_7ZBM93rZ9ppJk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/most-expensive-neighborhoods-GettyImages-185237253-39abdc332f094e90890c68f1d57c38da.jpg"
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />
@@ -261,7 +261,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://wpm-home.com/wp-content/uploads/2024/09/modern-living-room-interior-with-large-tv-screen-displaying-home-automation-system-1-scaled.jpg" 
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />
@@ -322,7 +322,7 @@ const BlogCollection = () => {
                         <div className="blogCollectionContainerBlogContainerLeftContainer">
                             <div className="blogCollectionContainerBlogContainerLeftImageWrapper">
                                 <img 
-                                    src={assets.FaqBenefitsImageOne} 
+                                    src="https://sorelleokoli.com/files/2021/05/pexels-kindel-media-7579201-scaled.jpg" 
                                     alt="Blog post featured image" 
                                     className='blogCollectionContainerBlogContainerLeftContainerImage' 
                                 />

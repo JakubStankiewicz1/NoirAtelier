@@ -1,0 +1,110 @@
+.offertVisualization {
+    width: 100%;
+    height: 100%;
+
+    background-color: #2E2F2A;
+
+    /* padding-top: 500px; */
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.offertVisualizationContainer {
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100%
+}
+
+
+.offertVisualizationContainerBottom {
+    width: 100%;
+    height: 100%;
+}
+
+.offertVisualizationContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offertVisualizationContainerBottomContainerTop {
+    width: 75%;
+    height: 550px;
+    /* background-color: red; */
+}
+
+.offertVisualizationContainerBottomContainerTopImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 20px; */
+}
+
+.offertVisualizationContainerBottomContainerBottom {
+    margin-top: 12px;
+}
+
+.offertVisualizationContainerBottomContainerBottom {
+    width: 100%;
+    height: 200px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.offertVisualizationContainerBottomContainerBottomItem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3A3B36;
+    /* border-radius: 20px; */
+
+    /* padding: 20px; */
+    border: 2px solid transparent;
+}
+
+.offertVisualizationContainerBottomContainerBottomItem.active {
+    border: 2px solid #AC6620;
+}
+
+.offertVisualizationContainerBottomContainerBottomItemImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    /* border-radius: 20px; */
+}
+
+.offertVisualizationContainerTopContainerText {
+    color: #FFE5D4;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.offertVisualizationContainerDivider {
+        /* width: 91%; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.offertVisualizationContainerDividerLine {
+    width: 100%;
+    height: 100%;
+    background-color: #CFB7A1;
+}

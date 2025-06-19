@@ -5,6 +5,8 @@ import HomeHeroInfo from '../../components/HomeHeroInfo/HomeHeroInfo';
 import HomeWelcome from '../../components/HomeWelcome/HomeWelcome';
 import HomeDatesInfo from '../../components/HomeDatesInfo/HomeDatesInfo';
 import HomeVideo from '../../components/HomeVideo/HomeVideo';
+import HomeOurServices from '../../components/HomeOurServices/HomeOurServices';
+import Fotter from '../../components/Fotter/Fotter';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
             <HomeWelcome />
             <HomeDatesInfo />
             <HomeVideo />
+            <HomeOurServices />
+            <Fotter />
         </div>
     </div>
   )

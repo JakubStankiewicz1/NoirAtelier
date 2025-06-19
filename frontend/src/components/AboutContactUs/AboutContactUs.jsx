@@ -118,13 +118,13 @@ const AboutContactUs = () => {
                         <div className="aboutContactUsContainerBottomContainerOneContainer">
                             <div className="aboutContactUsContainerBottomContainerOneContainerOne">
                                 <div className="aboutContactUsContainerBottomContainerOneContainerOneContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutContactUsContainerBottomContainerOneContainerOneContainerImage' />
+                                    <img src="https://wallpapercat.com/w/full/a/3/9/1162299-3840x2160-desktop-4k-mansion-background.jpg" alt="" className='aboutContactUsContainerBottomContainerOneContainerOneContainerImage' />
                                 </div>
                             </div>
 
                             <div className="aboutContactUsContainerBottomContainerOneContainerTwo">
                                 <div className="aboutContactUsContainerBottomContainerOneContainerTwoContainer">
-                                    <img src={assets.HomeHeroImageThree} alt="" className='aboutContactUsContainerBottomContainerOneContainerTwoContainerImage' />
+                                    <img src="https://plus.unsplash.com/premium_photo-1661954372617-15780178eb2e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHV4dXJ5JTIwaG91c2V8ZW58MHx8MHx8fDA%3D" alt="" className='aboutContactUsContainerBottomContainerOneContainerTwoContainerImage' />
                                 </div>
                             </div>
                         </div>

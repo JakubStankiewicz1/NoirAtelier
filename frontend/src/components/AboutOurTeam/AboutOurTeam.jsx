@@ -80,7 +80,7 @@ const AboutOurTeam = () => {
                             {/* Left Part */}
                             <div className="aboutOurTeamContainerBottomContainerElementContainerLeft">
                                 <div className="aboutOurTeamContainerBottomContainerElementContainerLeftContainer">
-                                    <img src={assets.AboutOurTeamImageOne} alt="" className='aboutOurTeamContainerBottomContainerElementContainerLeftContainerImage' />
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1lbnxlbnwwfHwwfHx8MA%3D%3D" alt="" className='aboutOurTeamContainerBottomContainerElementContainerLeftContainerImage' />
                                 </div>
                             </div>
 
@@ -119,7 +119,7 @@ const AboutOurTeam = () => {
                             {/* Left Part */}
                             <div className="aboutOurTeamContainerBottomContainerElementContainerLeft">
                                 <div className="aboutOurTeamContainerBottomContainerElementContainerLeftContainer">
-                                    <img src={assets.AboutOurTeamImageOne} alt="" className='aboutOurTeamContainerBottomContainerElementContainerLeftContainerImage' />
+                                    <img src="https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='aboutOurTeamContainerBottomContainerElementContainerLeftContainerImage' />
                                 </div>
                             </div>
 

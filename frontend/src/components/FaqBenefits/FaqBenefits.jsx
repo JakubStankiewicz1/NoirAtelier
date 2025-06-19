@@ -60,12 +60,12 @@ const FaqBenefits = () => {
                         <div className="faqBenefitsContainerRightContainerTopContainer">
                             <div className="faqBenefitsContainerRightContainerTopContainerOne">
                                 <div className="faqBenefitsContainerRightContainerTopContainerOneContainer">
-                                    <img src={assets.FaqBenefitsImageOne} alt="" className='faqBenefitsContainerRightContainerTopContainerOneContainerImage' />
+                                    <img src="https://c4.wallpaperflare.com/wallpaper/591/884/850/house-modern-mansions-architecture-wallpaper-preview.jpg" alt="" className='faqBenefitsContainerRightContainerTopContainerOneContainerImage' />
                                 </div>
                             </div>
                             <div className="faqBenefitsContainerRightContainerTopContainerTwo">
                                 <div className="faqBenefitsContainerRightContainerTopContainerTwoContainer">
-                                    <img src={assets.FaqBenefitsImageOne} alt="" className='faqBenefitsContainerRightContainerTopContainerTwoContainerImage' />
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0RCPb13oSGfnL_-Y5_ijhCbgI807hitA9LnYboCrBu4yxr3QKNHAqel2GiZH0lh0ej3uF976xpDhCZjM5dG-mazE36ZlVCE8EL9WXiLrZAiKjEf80WaLLz0P3R8gDRh2AR2PXHd1XThfTS6MNOkDLucN6ttIP43RJXW9fhNH7LdWo2EPhgWAes8Qy/s16000/beautiful-modern-house.jpg" alt="" className='faqBenefitsContainerRightContainerTopContainerTwoContainerImage' />
                                 </div>
                             </div>
                         </div>
@@ -76,13 +76,13 @@ const FaqBenefits = () => {
                         <div className="faqBenefitsContainerRightContainerRightContainer">
                             <div className="faqBenefitsContainerRightContainerRightContainerOne">
                                 <div className="faqBenefitsContainerRightContainerRightContainerOneContainer">
-                                    <img src={assets.FaqBenefitsImageOne} alt="" className='faqBenefitsContainerRightContainerRightContainerOneContainerImage' />
+                                    <img src="https://modernsteeldoors.com/wp-content/uploads/stock-photo-modern-house-1-scaled.jpg" alt="" className='faqBenefitsContainerRightContainerRightContainerOneContainerImage' />
                                 </div>
                             </div>
 
                             <div className="faqBenefitsContainerRightContainerRightContainerTwo">
                                 <div className="faqBenefitsContainerRightContainerRightContainerTwoContainer">
-                                    <img src={assets.FaqBenefitsImageOne} alt="" className='faqBenefitsContainerRightContainerRightContainerTwoContainerImage' />
+                                    <img src="https://construction2style.com/wp-content/uploads/2023/07/1C5A0894-scaled.jpg" alt="" className='faqBenefitsContainerRightContainerRightContainerTwoContainerImage' />
                                 </div>
                             </div>
                         </div>

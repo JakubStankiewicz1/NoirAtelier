@@ -10,13 +10,33 @@ const images = [
 
 const HomeHero = () => {
   const [current, setCurrent] = useState(0);
+  const [intervalId, setIntervalId] = useState(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent(prev => (prev + 1) % images.length);
     }, 5000);
+    setIntervalId(interval);
     return () => clearInterval(interval);
   }, []);
+
+  const handleSlideChange = (index) => {
+    // Natychmiastowa zmiana bez opóźnienia
+    setCurrent(index);
+    
+    // Zatrzymaj automatyczne przełączanie na chwilę
+    if (intervalId) {
+      clearInterval(intervalId);
+    }
+    
+    // Wznów automatyczne przełączanie po 10 sekundach
+    setTimeout(() => {
+      const newInterval = setInterval(() => {
+        setCurrent(prev => (prev + 1) % images.length);
+      }, 5000);
+      setIntervalId(newInterval);
+    }, 10000);
+  };
 
   return (
     <div className='homeHero'>
@@ -102,13 +122,24 @@ const HomeHero = () => {
 
 
                     </div>
+                </div>                
+
+                {/* Slider Navigation - Left Side */}
+                <div className="homeHeroSliderNavigation">
+                    <div className="homeHeroSliderNavigationContainer">
+                        {images.map((_, index) => (
+                            <div 
+                                key={index}
+                                className={`homeHeroSliderNavigationItem ${current === index ? 'active' : ''}`}
+                                onClick={() => handleSlideChange(index)}
+                            >
+                                <span className="homeHeroSliderNavigationNumber cormorant-garamond-regular">
+                                    {String(index + 1).padStart(2, '0')}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
                 </div>
-
-
-                
-               
-
-         
 
 
             </div>

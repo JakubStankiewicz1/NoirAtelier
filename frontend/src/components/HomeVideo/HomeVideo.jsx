@@ -34,9 +34,9 @@ const HomeVideo = () => {
                             <p className="homeVideoMarqueeText">
                                 Explore our exclusive properties &nbsp;&nbsp;
                             </p>
-                            <p className="homeVideoMarqueeText">
+                            {/* <p className="homeVideoMarqueeText">
                                 Explore our exclusive properties &nbsp;&nbsp;
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>

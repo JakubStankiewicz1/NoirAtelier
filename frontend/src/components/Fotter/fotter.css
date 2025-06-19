@@ -1,468 +1,427 @@
 .fotter {
-    width: 100%;
-    height: 100%;
-    background-color: #2E2F2A;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #2e2f2a;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
 }
 
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes pulse {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:nth-child(1) {
-    animation: fadeInUp 0.6s ease-out 0.8s both;
+  animation: fadeInUp 0.6s ease-out 0.8s both;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:nth-child(2) {
-    animation: fadeInUp 0.6s ease-out 0.9s both;
+  animation: fadeInUp 0.6s ease-out 0.9s both;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:nth-child(3) {
-    animation: fadeInUp 0.6s ease-out 1.0s both;
+  animation: fadeInUp 0.6s ease-out 1s both;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:nth-child(4) {
-    animation: fadeInUp 0.6s ease-out 1.1s both;
+  animation: fadeInUp 0.6s ease-out 1.1s both;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:nth-child(5) {
-    animation: fadeInUp 0.6s ease-out 1.2s both;
+  animation: fadeInUp 0.6s ease-out 1.2s both;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement {
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElement:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
+.fotterContainerTopContainerRight {
+    padding-right: 2px;
+}
 
 .fotterContainerTopContainerRightContainerThree {
-    animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .fotterContainerTopContainerLeftContainerText:hover {
-    color: #AC6620;
-    transform: translateY(-2px);
-    text-shadow: 0 0 10px rgba(172, 102, 32, 0.5);
+  color: #ac6620;
+  transform: translateY(-2px);
+  text-shadow: 0 0 10px rgba(172, 102, 32, 0.5);
 }
 
 .fotterContainer {
-    width: 100%;
-    height: 100%;
-    background-color: #2E2F2A;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    animation: fadeInUp 0.8s ease-out;
+  width: 100%;
+  height: 100%;
+  background-color: #2e2f2a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes pulse {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
-
 .fotterContainer {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
 }
 
 .fotterContainerTop {
-    width: 100%;
-    animation: slideInLeft 0.8s ease-out 0.2s both;
-    overflow: hidden;
+  width: 100%;
+  animation: slideInLeft 0.8s ease-out 0.2s both;
+  overflow: hidden;
 }
 
 .fotterContainerTopContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fotterContainerTopContainerLeftContainerText {
-    color: #FFE5D4;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 24px;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  color: #ffe5d4;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .fotterContainerTopContainerLeftContainerText:hover {
-    color: #AC6620;
-    transform: translateY(-2px);
+  color: #ac6620;
+  transform: translateY(-2px);
 }
 
 .fotterContainerTopContainerRightContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .fotterContainerTopContainerRightContainerOne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fotterContainerTopContainerRightContainerOneText {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
 }
 
 .fotterContainerTopContainerRightContainerTwo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fotterContainerTopContainerRightContainerTwoIcon {
-    color: #FFE5D4;
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    animation: pulse 2s infinite;
+  color: #ffe5d4;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* animation: pulse 2s infinite; */
 }
 
 .fotterContainerTopContainerRightContainerTwoIcon:hover {
-    color: #AC6620;
-    transform: scale(1.2) rotate(5deg);
+  color: #ac6620;
+  transform: scale(1.2);
 }
 
 .fotterContainerTopContainerRightContainerThreeIcon {
-    color: #FFE5D4;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    animation: pulse 2s infinite 0.5s;
+  color: #ffe5d4;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* animation: pulse 2s infinite 0.5s; */
 }
 
 .fotterContainerTopContainerRightContainerThreeIcon:hover {
-    color: #AC6620;
-    transform: scale(1.2) rotate(-5deg);
+  color: #ac6620;
+  transform: scale(1.2);
 }
 
-
-
-
-
-
-
 .fotterContainerMiddle {
-    margin-top: 80px;
-    width: 100%;
-    animation: fadeInUp 1s ease-out 0.4s both;
-    overflow: hidden;
+  margin-top: 80px;
+  width: 100%;
+  animation: fadeInUp 1s ease-out 0.4s both;
+  overflow: hidden;
 }
 
 .fotterContainerMiddleContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 50px;
-    overflow: hidden;
-    /* background-color: darkslategrey; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+  overflow: hidden;
+  /* background-color: darkslategrey; */
 
-    /* margin-keft: 0 10px; */
+  /* margin-keft: 0 10px; */
 }
 
-
 .fotterContainerMiddleContainerLeft {
-    width: 100%;
-    animation: slideInLeft 1s ease-out 0.5s both;
+  width: 100%;
+  animation: slideInLeft 1s ease-out 0.5s both;
 
-    /* background-color: lightslategray; */
-    margin-left: 10px;
+  /* background-color: lightslategray; */
+  margin-left: 10px;
 }
 
 .fotterContainerMiddleContainerLeftContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
 }
 
 .fotterContainerMiddleContainerRight {
-    width: 200px;
-    animation: slideInRight 1s ease-out 0.7s both;
+  width: 200px;
+  animation: slideInRight 1s ease-out 0.7s both;
 }
 
 .fotterContainerMiddleContainerLeftContainerOneContainerTopContainerText,
 .fotterContainerMiddleContainerLeftContainerTwoContainerTopContainerText,
 .fotterContainerMiddleContainerLeftContainerThreeContainerTopContainerText,
 .fotterContainerMiddleContainerRightContainerTopContainerText {
-    color: #FFE5D4;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+  color: #ffe5d4;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
 }
 
 .fotterContainerMiddleContainerLeftContainerOneContainerTopContainerText::after,
 .fotterContainerMiddleContainerLeftContainerTwoContainerTopContainerText::after,
 .fotterContainerMiddleContainerLeftContainerThreeContainerTopContainerText::after,
 .fotterContainerMiddleContainerRightContainerTopContainerText::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #AC6620;
-    transition: width 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ac6620;
+  transition: width 0.3s ease-in-out;
 }
 
 .fotterContainerMiddleContainerLeftContainerOneContainerTopContainerText:hover::after,
 .fotterContainerMiddleContainerLeftContainerTwoContainerTopContainerText:hover::after,
 .fotterContainerMiddleContainerLeftContainerThreeContainerTopContainerText:hover::after,
 .fotterContainerMiddleContainerRightContainerTopContainerText:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElementContainer {
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    padding: 5px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 5px 0;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElementContainer:hover {
-    transform: translateX(-5px);
+  transform: translateX(-5px);
 }
 
-.fotterContainerMiddleContainerRightContainerBottomContainerElementContainer:hover .fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText {
-    color: #A06620;
+.fotterContainerMiddleContainerRightContainerBottomContainerElementContainer:hover
+  .fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText {
+  color: #a06620;
 }
 
 .fotterContainerMiddleContainerRightContainerBottomContainerElementContainerText {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
-    transition: all 0.3s ease-in-out;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  transition: all 0.3s ease-in-out;
 }
-
 
 .fotterContainerMiddleContainerLeftContainerOneContainerBottom,
 .fotterContainerMiddleContainerLeftContainerTwoContainerBottom,
 .fotterContainerMiddleContainerLeftContainerThreeContainerBottom,
 .fotterContainerMiddleContainerRightContainerBottom {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 
 .fotterContainerMiddleContainerRightContainerBottomContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
 }
-
-
-
 
 .fotterContainerMiddleContainerLeftContainerThreeContainerBottomContainer,
 .fotterContainerMiddleContainerLeftContainerTwoContainerBottomContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
 }
-
 
 .fotterContainerMiddleContainerLeftContainerOneContainerBottomContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fotterContainerBottom {
-    margin-top: 100px;
-    width: 100%;
-    animation: slideInRight 0.8s ease-out 0.6s both;
-    overflow: hidden;
+  margin-top: 100px;
+  width: 100%;
+  animation: slideInRight 0.8s ease-out 0.6s both;
+  overflow: hidden;
 }
 
 .fotterContainerBottomContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fotterContainerBottomContainerLeftText {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
-    transition: all 0.3s ease-in-out;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  transition: all 0.3s ease-in-out;
 }
 
 .fotterContainerBottomContainerLeftTextLink {
-    color: #AC6620;
-    cursor: pointer;
+  color: #ac6620;
+  cursor: pointer;
 }
 
 .fotterContainerBottomContainerLeftTextLink:hover {
-    text-decoration: underline;
-    text-decoration-color: #AC6620;
+  text-decoration: underline;
+  text-decoration-color: #ac6620;
 }
 
 .fotterContainerBottomContainerRightIcon {
-    color: #FFE5D4;
-    transition: all 0.3s ease-in-out;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    animation: pulse 3s infinite;
+  color: #ffe5d4;
+  transition: all 0.3s ease-in-out;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  /* animation: pulse 3s infinite; */
+  transition: all 0.3s ease-in-out;
 }
 
 .fotterContainerBottomContainerRightIcon:hover {
-    color: #AC6620;
-    transform: translateY(-3px) scale(1.1);
-    animation: none;
+  color: #ac6620;
+  transform: translateY(-5px);
+  /* animation: none; */
 }
