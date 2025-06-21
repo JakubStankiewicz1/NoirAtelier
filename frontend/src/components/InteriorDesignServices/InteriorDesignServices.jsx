@@ -7,9 +7,10 @@ const InteriorDesignServices = () => {
       id: 1,
       icon: "🎨",
       title: "Projektowanie Wnętrz",
-      description: "Kompleksowe projekty wnętrz dopasowane do Twojego stylu życia",
+      description:
+        "Kompleksowe projekty wnętrz dopasowane do Twojego stylu życia",
       features: ["Wizualizacje 3D", "Dobór kolorów", "Projekt oświetlenia"],
-      color: "gradient1"
+      color: "gradient1",
     },
     {
       id: 2,
@@ -17,7 +18,7 @@ const InteriorDesignServices = () => {
       title: "Aranżacja Przestrzeni",
       description: "Optymalne wykorzystanie każdego metra kwadratowego",
       features: ["Planowanie układu", "Ergonomia", "Funkcjonalność"],
-      color: "gradient2"
+      color: "gradient2",
     },
     {
       id: 3,
@@ -25,7 +26,7 @@ const InteriorDesignServices = () => {
       title: "Dobór Mebli",
       description: "Starannie wyselekcjonowane meble i akcesoria",
       features: ["Meble na wymiar", "Tkaniny premium", "Akcesoria dekoracyjne"],
-      color: "gradient3"
+      color: "gradient3",
     },
     {
       id: 4,
@@ -33,8 +34,8 @@ const InteriorDesignServices = () => {
       title: "Projekt Oświetlenia",
       description: "Nowoczesne rozwiązania oświetleniowe",
       features: ["Oświetlenie LED", "Smart home", "Klimat wnętrza"],
-      color: "gradient4"
-    }
+      color: "gradient4",
+    },
   ];
 
   return (
@@ -45,13 +46,17 @@ const InteriorDesignServices = () => {
             Nasze Specjalizacje
           </h2>
           <p className="interiorDesignServicesHeaderDescription">
-            Oferujemy kompleksowe usługi projektowania wnętrz na najwyższym poziomie
+            Oferujemy kompleksowe usługi projektowania wnętrz na najwyższym
+            poziomie
           </p>
         </div>
 
         <div className="interiorDesignServicesGrid">
           {services.map((service, index) => (
-            <div key={service.id} className={`interiorDesignServicesCard ${service.color}`}>
+            <div
+              key={service.id}
+              className={`interiorDesignServicesCard ${service.color}`}
+            >
               <div className="interiorDesignServicesCardIcon">
                 {service.icon}
               </div>

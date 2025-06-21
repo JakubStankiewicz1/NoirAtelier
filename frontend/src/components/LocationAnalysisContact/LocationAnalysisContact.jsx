@@ -1,43 +1,48 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./locationAnalysisContact.css";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaCheckCircle } from 'react-icons/fa';
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 const LocationAnalysisContact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    locationType: '',
-    budget: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    locationType: "",
+    budget: "",
+    message: "",
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Tutaj można dodać logikę wysyłania formularza
-    console.log('Form submitted:', formData);
+
+    console.log("Form submitted:", formData);
     setIsSubmitted(true);
-    
-    // Reset formularza po 3 sekundach
+
     setTimeout(() => {
       setIsSubmitted(false);
       setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        locationType: '',
-        budget: '',
-        message: ''
+        name: "",
+        email: "",
+        phone: "",
+        locationType: "",
+        budget: "",
+        message: "",
       });
     }, 3000);
   };
@@ -47,26 +52,26 @@ const LocationAnalysisContact = () => {
       icon: <FaPhone />,
       title: "Telefon",
       value: "+48 123 456 789",
-      description: "Zadzwoń, aby umówić konsultację"
+      description: "Zadzwoń, aby umówić konsultację",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
       value: "analiza@noiratelier.pl",
-      description: "Napisz do nas o swoich potrzebach"
+      description: "Napisz do nas o swoich potrzebach",
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Lokalizacja",
       value: "Warszawa, Kraków, Gdańsk",
-      description: "Działamy w największych miastach Polski"
+      description: "Działamy w największych miastach Polski",
     },
     {
       icon: <FaClock />,
       title: "Godziny pracy",
       value: "Pon-Pt: 9:00-18:00",
-      description: "Weekendy: na umówione spotkania"
-    }
+      description: "Weekendy: na umówione spotkania",
+    },
   ];
 
   const packages = [
@@ -78,9 +83,9 @@ const LocationAnalysisContact = () => {
         "Ocena infrastruktury",
         "Podstawowe prognozy cenowe",
         "Raport PDF (15 stron)",
-        "Konsultacja telefoniczna"
+        "Konsultacja telefoniczna",
       ],
-      recommended: false
+      recommended: false,
     },
     {
       name: "Profesjonalna",
@@ -92,9 +97,9 @@ const LocationAnalysisContact = () => {
         "Mapa heat map",
         "Raport PDF (25 stron)",
         "Spotkanie osobiste",
-        "30 dni wsparcia"
+        "30 dni wsparcia",
       ],
-      recommended: true
+      recommended: true,
     },
     {
       name: "Premium",
@@ -107,24 +112,27 @@ const LocationAnalysisContact = () => {
         "Raport PDF (40+ stron)",
         "Prezentacja dla inwestorów",
         "90 dni wsparcia",
-        "Aktualizacje kwartalnych"
+        "Aktualizacje kwartalnych",
       ],
-      recommended: false
-    }
+      recommended: false,
+    },
   ];
 
   return (
-    <div className='locationAnalysisContact'>
+    <div className="locationAnalysisContact">
       <div className="locationAnalysisContactContainer">
         {/* Header */}
         <div className="locationAnalysisContactHeader">
           <div className="locationAnalysisContactHeaderContainer">
-            <p className="locationAnalysisContactHeaderSubtitle">Skontaktuj się z Nami</p>
+            <p className="locationAnalysisContactHeaderSubtitle">
+              Skontaktuj się z Nami
+            </p>
             <h2 className="locationAnalysisContactHeaderTitle cormorant-garamond-regular">
               Zamów Profesjonalną Analizę Lokalizacji
             </h2>
             <p className="locationAnalysisContactHeaderDescription">
-              Wybierz odpowiedni pakiet analizy i rozpocznij swoją inwestycyjną podróż z pewnością, że podejmujesz najlepsze decyzje.
+              Wybierz odpowiedni pakiet analizy i rozpocznij swoją inwestycyjną
+              podróż z pewnością, że podejmujesz najlepsze decyzje.
             </p>
           </div>
         </div>
@@ -135,19 +143,19 @@ const LocationAnalysisContact = () => {
             <h3 className="locationAnalysisContactPackagesTitle cormorant-garamond-regular">
               Wybierz Pakiet Analizy
             </h3>
-            
+
             <div className="locationAnalysisContactPackagesGrid">
               {packages.map((pkg, index) => (
-                <div 
-                  key={index} 
-                  className={`locationAnalysisContactPackagesCard ${pkg.recommended ? 'recommended' : ''}`}
+                <div
+                  key={index}
+                  className={`locationAnalysisContactPackagesCard ${pkg.recommended ? "recommended" : ""}`}
                 >
                   {pkg.recommended && (
                     <div className="locationAnalysisContactPackagesCardBadge">
                       Polecane
                     </div>
                   )}
-                  
+
                   <div className="locationAnalysisContactPackagesCardHeader">
                     <h4 className="locationAnalysisContactPackagesCardName cormorant-garamond-regular">
                       {pkg.name}
@@ -161,10 +169,13 @@ const LocationAnalysisContact = () => {
                       </span>
                     </div>
                   </div>
-                  
+
                   <div className="locationAnalysisContactPackagesCardFeatures">
                     {pkg.features.map((feature, featureIndex) => (
-                      <div key={featureIndex} className="locationAnalysisContactPackagesCardFeature">
+                      <div
+                        key={featureIndex}
+                        className="locationAnalysisContactPackagesCardFeature"
+                      >
                         <FaCheckCircle className="locationAnalysisContactPackagesCardFeatureIcon" />
                         <span className="locationAnalysisContactPackagesCardFeatureText">
                           {feature}
@@ -172,7 +183,7 @@ const LocationAnalysisContact = () => {
                       </div>
                     ))}
                   </div>
-                  
+
                   <div className="locationAnalysisContactPackagesCardButton">
                     <button className="locationAnalysisContactPackagesCardButtonElement">
                       Zamów Teraz
@@ -193,14 +204,20 @@ const LocationAnalysisContact = () => {
                 Formularz Kontaktowy
               </h3>
               <p className="locationAnalysisContactFormDescription">
-                Wypełnij formularz, a skontaktujemy się z Tobą w ciągu 24 godzin.
+                Wypełnij formularz, a skontaktujemy się z Tobą w ciągu 24
+                godzin.
               </p>
 
               {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="locationAnalysisContactFormElement">
+                <form
+                  onSubmit={handleSubmit}
+                  className="locationAnalysisContactFormElement"
+                >
                   <div className="locationAnalysisContactFormRow">
                     <div className="locationAnalysisContactFormGroup">
-                      <label className="locationAnalysisContactFormLabel">Imię i nazwisko *</label>
+                      <label className="locationAnalysisContactFormLabel">
+                        Imię i nazwisko *
+                      </label>
                       <input
                         type="text"
                         name="name"
@@ -211,7 +228,9 @@ const LocationAnalysisContact = () => {
                       />
                     </div>
                     <div className="locationAnalysisContactFormGroup">
-                      <label className="locationAnalysisContactFormLabel">Email *</label>
+                      <label className="locationAnalysisContactFormLabel">
+                        Email *
+                      </label>
                       <input
                         type="email"
                         name="email"
@@ -225,7 +244,9 @@ const LocationAnalysisContact = () => {
 
                   <div className="locationAnalysisContactFormRow">
                     <div className="locationAnalysisContactFormGroup">
-                      <label className="locationAnalysisContactFormLabel">Telefon</label>
+                      <label className="locationAnalysisContactFormLabel">
+                        Telefon
+                      </label>
                       <input
                         type="tel"
                         name="phone"
@@ -235,7 +256,9 @@ const LocationAnalysisContact = () => {
                       />
                     </div>
                     <div className="locationAnalysisContactFormGroup">
-                      <label className="locationAnalysisContactFormLabel">Typ nieruchomości</label>
+                      <label className="locationAnalysisContactFormLabel">
+                        Typ nieruchomości
+                      </label>
                       <select
                         name="locationType"
                         value={formData.locationType}
@@ -245,15 +268,21 @@ const LocationAnalysisContact = () => {
                         <option value="">Wybierz typ</option>
                         <option value="mieszkanie">Mieszkanie</option>
                         <option value="dom">Dom</option>
-                        <option value="lokal-komercyjny">Lokal komercyjny</option>
-                        <option value="teren-inwestycyjny">Teren inwestycyjny</option>
+                        <option value="lokal-komercyjny">
+                          Lokal komercyjny
+                        </option>
+                        <option value="teren-inwestycyjny">
+                          Teren inwestycyjny
+                        </option>
                         <option value="inne">Inne</option>
                       </select>
                     </div>
                   </div>
 
                   <div className="locationAnalysisContactFormGroup">
-                    <label className="locationAnalysisContactFormLabel">Budżet inwestycyjny</label>
+                    <label className="locationAnalysisContactFormLabel">
+                      Budżet inwestycyjny
+                    </label>
                     <select
                       name="budget"
                       value={formData.budget}
@@ -270,7 +299,9 @@ const LocationAnalysisContact = () => {
                   </div>
 
                   <div className="locationAnalysisContactFormGroup">
-                    <label className="locationAnalysisContactFormLabel">Wiadomość</label>
+                    <label className="locationAnalysisContactFormLabel">
+                      Wiadomość
+                    </label>
                     <textarea
                       name="message"
                       value={formData.message}
@@ -281,7 +312,10 @@ const LocationAnalysisContact = () => {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className="locationAnalysisContactFormSubmit">
+                  <button
+                    type="submit"
+                    className="locationAnalysisContactFormSubmit"
+                  >
                     <span>Wyślij Zgłoszenie</span>
                   </button>
                 </form>
@@ -294,7 +328,8 @@ const LocationAnalysisContact = () => {
                     Dziękujemy za zgłoszenie!
                   </h4>
                   <p className="locationAnalysisContactFormSuccessMessage">
-                    Otrzymaliśmy Twoje zgłoszenie i skontaktujemy się z Tobą w ciągu 24 godzin.
+                    Otrzymaliśmy Twoje zgłoszenie i skontaktujemy się z Tobą w
+                    ciągu 24 godzin.
                   </p>
                 </div>
               )}
@@ -307,7 +342,7 @@ const LocationAnalysisContact = () => {
               <h3 className="locationAnalysisContactInfoTitle cormorant-garamond-regular">
                 Informacje Kontaktowe
               </h3>
-              
+
               <div className="locationAnalysisContactInfoItems">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="locationAnalysisContactInfoItem">
@@ -351,7 +386,7 @@ const LocationAnalysisContact = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LocationAnalysisContact
+export default LocationAnalysisContact;

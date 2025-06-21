@@ -12,14 +12,14 @@
   overflow-x: hidden;
 }
 
-/* Zapobieganie poziomemu scrollbarowi dla wszystkich elementów */
 * {
   box-sizing: border-box;
   max-width: 100%;
 }
 
-/* Dodatkowe zabezpieczenie dla elementów, które mogą wyjść poza ekran */
-img, video, iframe {
+img,
+video,
+iframe {
   max-width: 100%;
   height: auto;
 }

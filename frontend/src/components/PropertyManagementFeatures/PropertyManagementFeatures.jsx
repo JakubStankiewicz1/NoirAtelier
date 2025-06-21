@@ -1,13 +1,20 @@
 import React from "react";
 import "./propertyManagementFeatures.css";
-import { FaArrowRight, FaShieldAlt, FaClock, FaChartBar, FaDollarSign } from "react-icons/fa";
+import {
+  FaArrowRight,
+  FaShieldAlt,
+  FaClock,
+  FaChartBar,
+  FaDollarSign,
+} from "react-icons/fa";
 
 const PropertyManagementFeatures = () => {
   const features = [
     {
       id: 1,
       title: "Technology and Innovation",
-      description: "We use the latest technologies for property management, including mobile apps, monitoring systems, and process automation.",
+      description:
+        "We use the latest technologies for property management, including mobile apps, monitoring systems, and process automation.",
       image:
         "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       stats: [
@@ -18,7 +25,8 @@ const PropertyManagementFeatures = () => {
     {
       id: 2,
       title: "Experienced Team",
-      description: "Our team consists of qualified specialists with years of experience in real estate and property management.",
+      description:
+        "Our team consists of qualified specialists with years of experience in real estate and property management.",
       image:
         "https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       stats: [
@@ -36,7 +44,8 @@ const PropertyManagementFeatures = () => {
     {
       icon: <FaShieldAlt />,
       title: "Investment Protection",
-      description: "Regular inspections and maintenance maintain property value",
+      description:
+        "Regular inspections and maintenance maintain property value",
     },
     {
       icon: <FaClock />,
@@ -55,29 +64,48 @@ const PropertyManagementFeatures = () => {
       <div className="propertyManagementFeaturesContainer">
         {/* Header */}{" "}
         <div className="propertyManagementFeaturesHeader">
-          <p className="propertyManagementFeaturesHeaderSubtitle cormorant-garamond-regular">Why Us?</p>
-          <h2 className="propertyManagementFeaturesHeaderTitle cormorant-garamond-regular">What Sets Us Apart</h2>
+          <p className="propertyManagementFeaturesHeaderSubtitle cormorant-garamond-regular">
+            Why Us?
+          </p>
+          <h2 className="propertyManagementFeaturesHeaderTitle cormorant-garamond-regular">
+            What Sets Us Apart
+          </h2>
         </div>
         {/* Main Features */}
         <div className="propertyManagementFeaturesMain">
           {features.map((feature, index) => (
-            <div key={feature.id} className={`propertyManagementFeaturesMainItem ${index % 2 === 1 ? "reverse" : ""}`}>
+            <div
+              key={feature.id}
+              className={`propertyManagementFeaturesMainItem ${index % 2 === 1 ? "reverse" : ""}`}
+            >
               <div className="propertyManagementFeaturesMainItemImage">
                 <img src={feature.image} alt={feature.title} />
                 <div className="propertyManagementFeaturesMainItemImageOverlay">
                   <div className="propertyManagementFeaturesMainItemImageStats">
                     {feature.stats.map((stat, statIndex) => (
-                      <div key={statIndex} className="propertyManagementFeaturesMainItemImageStat">
-                        <span className="propertyManagementFeaturesMainItemImageStatNumber cormorant-garamond-regular">{stat.number}</span>
-                        <span className="propertyManagementFeaturesMainItemImageStatLabel">{stat.label}</span>
+                      <div
+                        key={statIndex}
+                        className="propertyManagementFeaturesMainItemImageStat"
+                      >
+                        <span className="propertyManagementFeaturesMainItemImageStatNumber cormorant-garamond-regular">
+                          {stat.number}
+                        </span>
+                        <span className="propertyManagementFeaturesMainItemImageStatLabel">
+                          {stat.label}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="propertyManagementFeaturesMainItemContent">
-                <h3 className="propertyManagementFeaturesMainItemTitle cormorant-garamond-regular">{feature.title}</h3>
-                <p className="propertyManagementFeaturesMainItemDescription">{feature.description}</p>{" "}                <div className="propertyManagementFeaturesMainItemButton">
+                <h3 className="propertyManagementFeaturesMainItemTitle cormorant-garamond-regular">
+                  {feature.title}
+                </h3>
+                <p className="propertyManagementFeaturesMainItemDescription">
+                  {feature.description}
+                </p>{" "}
+                <div className="propertyManagementFeaturesMainItemButton">
                   <span>Learn more</span>
                   <div className="propertyManagementFeaturesMainItemButtonArrow">
                     <FaArrowRight />
@@ -87,25 +115,6 @@ const PropertyManagementFeatures = () => {
             </div>
           ))}
         </div>
-
-
-        {/* Benefits Grid */}
-        {/* <div className="propertyManagementFeaturesBenefits">
-          {" "}
-          <h3 className="propertyManagementFeaturesBenefitsTitle cormorant-garamond-regular">Benefits of Our Services</h3>
-          <div className="propertyManagementFeaturesBenefitsGrid">
-            {benefits.map((benefit, index) => (
-              <div key={index} className="propertyManagementFeaturesBenefitsItem">
-                <div className="propertyManagementFeaturesBenefitsItemIcon">{benefit.icon}</div>
-                <h4 className="propertyManagementFeaturesBenefitsItemTitle cormorant-garamond-regular">{benefit.title}</h4>
-                <p className="propertyManagementFeaturesBenefitsItemDescription">{benefit.description}</p>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
-
-
       </div>
     </div>
   );

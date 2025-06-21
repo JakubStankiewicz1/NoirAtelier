@@ -1,30 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import "./luxuryRentalsContact.css";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaWhatsapp, FaTelegram } from 'react-icons/fa';
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+  FaWhatsapp,
+  FaTelegram,
+} from "react-icons/fa";
 
 const LuxuryRentalsContact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    propertyType: '',
-    rentalPeriod: '',
-    budget: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    propertyType: "",
+    rentalPeriod: "",
+    budget: "",
+    message: "",
   });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission here
+    console.log("Form submitted:", formData);
   };
 
   const contactInfo = [
@@ -32,48 +38,49 @@ const LuxuryRentalsContact = () => {
       icon: <FaPhone />,
       title: "Telefon",
       info: "+48 123 456 789",
-      description: "Zadzwoń w godzinach pracy"
+      description: "Zadzwoń w godzinach pracy",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
       info: "luxury@noiratelier.com",
-      description: "Napisz do nas w każdej chwili"
+      description: "Napisz do nas w każdej chwili",
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Adres",
       info: "ul. Luksusowa 123, Warszawa",
-      description: "Odwiedź nasze biuro"
+      description: "Odwiedź nasze biuro",
     },
     {
       icon: <FaClock />,
       title: "Godziny Pracy",
       info: "Pon-Pt: 9:00-18:00",
-      description: "Sb: 10:00-15:00"
-    }
+      description: "Sb: 10:00-15:00",
+    },
   ];
 
   return (
-    <div className='luxuryRentalsContact'>
+    <div className="luxuryRentalsContact">
       <div className="luxuryRentalsContactContainer">
-        
         {/* Header */}
         <div className="luxuryRentalsContactHeader">
           <div className="luxuryRentalsContactHeaderContainer">
-            <p className="luxuryRentalsContactHeaderSubtitle">Skontaktuj się z Nami</p>
+            <p className="luxuryRentalsContactHeaderSubtitle">
+              Skontaktuj się z Nami
+            </p>
             <h2 className="luxuryRentalsContactHeaderTitle cormorant-garamond-regular">
               Znajdź Swoją Wymarzoną Nieruchomość
             </h2>
             <p className="luxuryRentalsContactHeaderDescription">
-              Porozmawiaj z naszymi ekspertami i znajdź idealną luksusową nieruchomość do wynajmu
+              Porozmawiaj z naszymi ekspertami i znajdź idealną luksusową
+              nieruchomość do wynajmu
             </p>
           </div>
         </div>
 
         {/* Content */}
         <div className="luxuryRentalsContactContent">
-          
           {/* Left Side - Contact Info */}
           <div className="luxuryRentalsContactLeft">
             <div className="luxuryRentalsContactInfo">
@@ -81,9 +88,10 @@ const LuxuryRentalsContact = () => {
                 Informacje Kontaktowe
               </h3>
               <p className="luxuryRentalsContactInfoDescription">
-                Jesteśmy dostępni, aby odpowiedzieć na wszystkie Twoje pytania dotyczące luksusowych wynajmów.
+                Jesteśmy dostępni, aby odpowiedzieć na wszystkie Twoje pytania
+                dotyczące luksusowych wynajmów.
               </p>
-              
+
               <div className="luxuryRentalsContactInfoCards">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="luxuryRentalsContactInfoCard">
@@ -131,10 +139,14 @@ const LuxuryRentalsContact = () => {
                 Wyślij Zapytanie
               </h3>
               <p className="luxuryRentalsContactFormDescription">
-                Wypełnij formularz, a nasz ekspert skontaktuje się z Tobą w ciągu 24 godzin.
+                Wypełnij formularz, a nasz ekspert skontaktuje się z Tobą w
+                ciągu 24 godzin.
               </p>
 
-              <form onSubmit={handleSubmit} className="luxuryRentalsContactFormContainer">
+              <form
+                onSubmit={handleSubmit}
+                className="luxuryRentalsContactFormContainer"
+              >
                 <div className="luxuryRentalsContactFormRow">
                   <div className="luxuryRentalsContactFormGroup">
                     <label>Imię i Nazwisko *</label>
@@ -196,9 +208,15 @@ const LuxuryRentalsContact = () => {
                       onChange={handleInputChange}
                     >
                       <option value="">Wybierz okres</option>
-                      <option value="short">Krótkoterminowy (1-6 miesięcy)</option>
-                      <option value="medium">Średnioterminowy (6-12 miesięcy)</option>
-                      <option value="long">Długoterminowy (powyżej roku)</option>
+                      <option value="short">
+                        Krótkoterminowy (1-6 miesięcy)
+                      </option>
+                      <option value="medium">
+                        Średnioterminowy (6-12 miesięcy)
+                      </option>
+                      <option value="long">
+                        Długoterminowy (powyżej roku)
+                      </option>
                     </select>
                   </div>
                   <div className="luxuryRentalsContactFormGroup">
@@ -228,19 +246,20 @@ const LuxuryRentalsContact = () => {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="luxuryRentalsContactFormButton">
+                <button
+                  type="submit"
+                  className="luxuryRentalsContactFormButton"
+                >
                   <span>Wyślij Zapytanie</span>
                   <div className="luxuryRentalsContactFormButtonArrow">→</div>
                 </button>
               </form>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LuxuryRentalsContact
+export default LuxuryRentalsContact;

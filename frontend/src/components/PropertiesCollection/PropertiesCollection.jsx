@@ -10,15 +10,21 @@ const PropertiesCollection = () => {
 
   const handleOfferClick = (offerId) => {
     navigate(`/offert/${offerId}`);
-  };  return (
+  };
+  return (
     <div className="propertiesCollection">
       <div className="propertiesCollectionContainer">
         <div className="propertiesCollectionContainerElemenets">
           {offers.map((offer, index) => (
-            <div key={offer.id} className="propertiesCollectionContainerElementOne">
+            <div
+              key={offer.id}
+              className="propertiesCollectionContainerElementOne"
+            >
               <div className="propertiesCollectionContainerElementOneContainer">
                 {/* Left Part */}
-                <div className={`propertiesCollectionContainerElementOneContainerLeft ${index % 2 === 1 ? 'order-2' : ''}`}>
+                <div
+                  className={`propertiesCollectionContainerElementOneContainerLeft ${index % 2 === 1 ? "order-2" : ""}`}
+                >
                   <div className="propertiesCollectionContainerElementOneContainerLeftContainer">
                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerOne">
                       <div className="propertiesCollectionContainerElementOneContainerLeftContainerOneContainer">
@@ -36,13 +42,15 @@ const PropertiesCollection = () => {
                     </div>
                     <div className="propertiesCollectionContainerElementOneContainerLeftContainerThree">
                       <div className="propertiesCollectionContainerElementOneContainerLeftContainerThreeContainer">
-                        <div 
+                        <div
                           className="propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButton"
                           onClick={() => handleOfferClick(offer.id)}
-                          style={{ cursor: 'pointer' }}
+                          style={{ cursor: "pointer" }}
                         >
                           <div className="propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainer">
-                            <p className="propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainerText">See More</p>
+                            <p className="propertiesCollectionContainerElementOneContainerLeftContainerThreeContainerButtonContainerText">
+                              See More
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -51,14 +59,18 @@ const PropertiesCollection = () => {
                 </div>
 
                 {/* Right Part */}
-                <div className={`propertiesCollectionContainerElementOneContainerRight ${index % 2 === 1 ? 'propertiesCollectionContainerElementTwoContainerRight order-1' : ''}`}>
-                  <div className={`propertiesCollectionContainerElementOneContainerRightContainer ${index % 2 === 1 ? 'propertiesCollectionContainerElementTwoContainerRightContainer' : ''}`}>
-                    <img 
-                      src={offer.mainImage} 
-                      alt={offer.name} 
-                      className={`propertiesCollectionContainerElementOneContainerRightContainerImage ${index % 2 === 1 ? 'propertiesCollectionContainerElementTwoContainerRightContainerImage' : ''}`}
+                <div
+                  className={`propertiesCollectionContainerElementOneContainerRight ${index % 2 === 1 ? "propertiesCollectionContainerElementTwoContainerRight order-1" : ""}`}
+                >
+                  <div
+                    className={`propertiesCollectionContainerElementOneContainerRightContainer ${index % 2 === 1 ? "propertiesCollectionContainerElementTwoContainerRightContainer" : ""}`}
+                  >
+                    <img
+                      src={offer.mainImage}
+                      alt={offer.name}
+                      className={`propertiesCollectionContainerElementOneContainerRightContainerImage ${index % 2 === 1 ? "propertiesCollectionContainerElementTwoContainerRightContainerImage" : ""}`}
                       onClick={() => handleOfferClick(offer.id)}
-                      style={{ cursor: 'pointer' }}
+                      style={{ cursor: "pointer" }}
                     />
                   </div>
                 </div>

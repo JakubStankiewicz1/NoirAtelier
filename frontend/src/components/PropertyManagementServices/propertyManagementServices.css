@@ -1,7 +1,7 @@
 .propertyManagementServices {
   width: 100%;
   position: relative;
-  background-color: #F5EDE7;
+  background-color: #f5ede7;
   padding-top: 120px;
   padding-bottom: 80px;
   z-index: 1;
@@ -13,7 +13,6 @@
   margin-right: auto;
 }
 
-/* Header Section */
 .propertyManagementServicesHeader {
   text-align: center;
   margin-bottom: 80px;
@@ -25,7 +24,7 @@
 }
 
 .propertyManagementServicesHeaderSubtitle {
-  color: #AC6620;
+  color: #ac6620;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -34,7 +33,7 @@
 }
 
 .propertyManagementServicesHeaderTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 56px;
   font-weight: 700;
   line-height: 66px;
@@ -42,13 +41,12 @@
 }
 
 .propertyManagementServicesHeaderDescription {
-  color: #31361D;
+  color: #31361d;
   font-size: 18px;
   line-height: 28px;
   opacity: 0.8;
 }
 
-/* Services Grid */
 .propertyManagementServicesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -68,24 +66,15 @@
 }
 
 .propertyManagementServicesCard::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #AC6620, #C9823B);
+  background: linear-gradient(90deg, #ac6620, #c9823b);
   transition: left 0.3s ease;
 }
-
-/* .propertyManagementServicesCard:hover::before {
-  left: 0;
-}
-
-.propertyManagementServicesCard:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(49, 54, 29, 0.15);
-} */
 
 .propertyManagementServicesCardHeader {
   display: flex;
@@ -97,7 +86,7 @@
 .propertyManagementServicesCardIcon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -108,12 +97,8 @@
   transition: all 0.3s ease;
 }
 
-/* .propertyManagementServicesCard:hover .propertyManagementServicesCardIcon {
-  transform: rotate(10deg) scale(1.1);
-} */
-
 .propertyManagementServicesCardTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 28px;
   font-weight: 600;
   line-height: 34px;
@@ -125,7 +110,7 @@
 }
 
 .propertyManagementServicesCardDescription {
-  color: #31361D;
+  color: #31361d;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 25px;
@@ -143,7 +128,7 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 12px;
-  color: #31361D;
+  color: #31361d;
   font-size: 15px;
   line-height: 22px;
 }
@@ -151,7 +136,7 @@
 .propertyManagementServicesCardFeatureIcon {
   width: 20px;
   height: 20px;
-  background: #AC6620;
+  background: #ac6620;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -168,7 +153,7 @@
   justify-content: space-between;
   padding: 15px 0;
   border-top: 1px solid rgba(172, 102, 32, 0.2);
-  color: #AC6620;
+  color: #ac6620;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -176,13 +161,13 @@
 }
 
 .propertyManagementServicesCardButton:hover {
-  color: #C9823B;
+  color: #c9823b;
 }
 
 .propertyManagementServicesCardButtonArrow {
   width: 30px;
   height: 30px;
-  background: #AC6620;
+  background: #ac6620;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -192,14 +177,13 @@
   transition: all 0.3s ease;
 }
 
-.propertyManagementServicesCardButton:hover .propertyManagementServicesCardButtonArrow {
-  background: #C9823B;
-  /* transform: translateX(5px); */
+.propertyManagementServicesCardButton:hover
+  .propertyManagementServicesCardButtonArrow {
+  background: #c9823b;
 }
 
-/* Call to Action */
 .propertyManagementServicesCTA {
-  background: linear-gradient(135deg, #31361D, #4a5228);
+  background: linear-gradient(135deg, #31361d, #4a5228);
   border-radius: 25px;
   padding: 60px 40px;
   text-align: center;
@@ -208,19 +192,30 @@
 }
 
 .propertyManagementServicesCTA::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -50%;
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(172, 102, 32, 0.1) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(172, 102, 32, 0.1) 0%,
+    transparent 70%
+  );
   animation: pulse 4s ease-in-out infinite;
 }
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 0.5; }
-  50% { transform: scale(1.1); opacity: 0.8; }
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
 }
 
 .propertyManagementServicesCTAContainer {
@@ -231,7 +226,7 @@
 }
 
 .propertyManagementServicesCTATitle {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 42px;
   font-weight: 700;
   line-height: 52px;
@@ -239,7 +234,7 @@
 }
 
 .propertyManagementServicesCTADescription {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 18px;
   line-height: 28px;
   opacity: 0.9;
@@ -247,7 +242,7 @@
 }
 
 .propertyManagementServicesCTAButton {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
   border: none;
   padding: 18px 40px;
@@ -261,18 +256,17 @@
 }
 
 .propertyManagementServicesCTAButton:hover {
-  background: linear-gradient(135deg, #C9823B, #AC6620);
+  background: linear-gradient(135deg, #c9823b, #ac6620);
   transform: translateY(-3px);
   box-shadow: 0 15px 30px rgba(172, 102, 32, 0.4);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .propertyManagementServicesGrid {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
   }
-  
+
   .propertyManagementServicesHeaderTitle {
     font-size: 48px;
     line-height: 58px;
@@ -284,25 +278,25 @@
     padding-top: 80px;
     padding-bottom: 60px;
   }
-  
+
   .propertyManagementServicesContainer {
     width: 95%;
   }
-  
+
   .propertyManagementServicesGrid {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-  
+
   .propertyManagementServicesCard {
     padding: 30px 25px;
   }
-  
+
   .propertyManagementServicesHeaderTitle {
     font-size: 36px;
     line-height: 46px;
   }
-  
+
   .propertyManagementServicesCTATitle {
     font-size: 32px;
     line-height: 42px;
@@ -315,12 +309,12 @@
     text-align: center;
     gap: 15px;
   }
-  
+
   .propertyManagementServicesCardTitle {
     font-size: 24px;
     line-height: 30px;
   }
-  
+
   .propertyManagementServicesCTA {
     padding: 40px 25px;
   }

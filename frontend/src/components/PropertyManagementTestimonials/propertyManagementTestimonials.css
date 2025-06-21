@@ -1,6 +1,6 @@
 .propertyManagementTestimonials {
   width: 100%;
-  background-color: #31361D;
+  background-color: #31361d;
   padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
@@ -8,14 +8,23 @@
 }
 
 .propertyManagementTestimonials::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(172, 102, 32, 0.1) 0%, transparent 50%),
-              radial-gradient(circle at 80% 70%, rgba(201, 130, 59, 0.1) 0%, transparent 50%);
+  background:
+    radial-gradient(
+      circle at 30% 20%,
+      rgba(172, 102, 32, 0.1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(201, 130, 59, 0.1) 0%,
+      transparent 50%
+    );
   z-index: 1;
 }
 
@@ -27,14 +36,13 @@
   z-index: 2;
 }
 
-/* Header */
 .propertyManagementTestimonialsHeader {
   text-align: center;
   margin-bottom: 80px;
 }
 
 .propertyManagementTestimonialsHeaderSubtitle {
-  color: #AC6620;
+  color: #ac6620;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -43,7 +51,7 @@
 }
 
 .propertyManagementTestimonialsHeaderTitle {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 56px;
   font-weight: 700;
   line-height: 66px;
@@ -51,7 +59,7 @@
 }
 
 .propertyManagementTestimonialsHeaderDescription {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 18px;
   line-height: 28px;
   opacity: 0.8;
@@ -59,7 +67,6 @@
   margin: 0 auto;
 }
 
-/* Testimonials Slider */
 .propertyManagementTestimonialsSlider {
   margin-bottom: 100px;
 }
@@ -101,7 +108,7 @@
 }
 
 .propertyManagementTestimonialsSliderItemText {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 24px;
   line-height: 36px;
   font-style: italic;
@@ -115,7 +122,7 @@
 }
 
 .propertyManagementTestimonialsSliderItemStar {
-  color: #C9823B;
+  color: #c9823b;
   font-size: 24px;
 }
 
@@ -131,7 +138,7 @@
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #AC6620;
+  border: 3px solid #ac6620;
 }
 
 .propertyManagementTestimonialsSliderItemAuthorInfo {
@@ -139,7 +146,7 @@
 }
 
 .propertyManagementTestimonialsSliderItemAuthorName {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -147,19 +154,18 @@
 }
 
 .propertyManagementTestimonialsSliderItemAuthorRole {
-  color: #AC6620;
+  color: #ac6620;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 5px;
 }
 
 .propertyManagementTestimonialsSliderItemAuthorLocation {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 14px;
   opacity: 0.8;
 }
 
-/* Navigation */
 .propertyManagementTestimonialsSliderNavigation {
   display: flex;
   align-items: center;
@@ -172,9 +178,9 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #AC6620;
+  border: 2px solid #ac6620;
   background: transparent;
-  color: #AC6620;
+  color: #ac6620;
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -184,9 +190,8 @@
 }
 
 .propertyManagementTestimonialsSliderNavigationButton:hover {
-  background: #AC6620;
+  background: #ac6620;
   color: white;
-  /* transform: scale(1.1); */
 }
 
 .propertyManagementTestimonialsSliderNavigationDots {
@@ -205,11 +210,10 @@
 }
 
 .propertyManagementTestimonialsSliderNavigationDot.active {
-  background: #AC6620;
+  background: #ac6620;
   transform: scale(1.3);
 }
 
-/* Stats */
 .propertyManagementTestimonialsStats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -229,11 +233,10 @@
 
 .propertyManagementTestimonialsStatsItem:hover {
   background: rgba(255, 229, 212, 0.1);
-  /* transform: translateY(-5px); */
 }
 
 .propertyManagementTestimonialsStatsItemNumber {
-  color: #C9823B;
+  color: #c9823b;
   font-size: 48px;
   font-weight: 700;
   line-height: 48px;
@@ -241,13 +244,12 @@
 }
 
 .propertyManagementTestimonialsStatsItemLabel {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 16px;
   font-weight: 500;
   opacity: 0.9;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .propertyManagementTestimonialsSliderItem {
     flex-direction: column;
@@ -256,12 +258,12 @@
     height: auto;
     padding: 40px;
   }
-  
+
   .propertyManagementTestimonialsSliderContainer {
     height: auto;
     min-height: 500px;
   }
-  
+
   .propertyManagementTestimonialsHeaderTitle {
     font-size: 48px;
     line-height: 58px;
@@ -273,26 +275,26 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .propertyManagementTestimonialsContainer {
     width: 95%;
   }
-  
+
   .propertyManagementTestimonialsSliderItem {
     padding: 30px 25px;
     gap: 30px;
   }
-  
+
   .propertyManagementTestimonialsSliderItemText {
     font-size: 18px;
     line-height: 28px;
   }
-  
+
   .propertyManagementTestimonialsStats {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
   }
-  
+
   .propertyManagementTestimonialsHeaderTitle {
     font-size: 36px;
     line-height: 46px;
@@ -303,22 +305,22 @@
   .propertyManagementTestimonialsSliderItem {
     padding: 25px 20px;
   }
-  
+
   .propertyManagementTestimonialsSliderItemAuthor {
     flex-direction: column;
     gap: 15px;
     text-align: center;
   }
-  
+
   .propertyManagementTestimonialsSliderItemAuthorImage {
     width: 80px;
     height: 80px;
   }
-  
+
   .propertyManagementTestimonialsStats {
     grid-template-columns: 1fr;
   }
-  
+
   .propertyManagementTestimonialsSliderNavigation {
     gap: 20px;
   }

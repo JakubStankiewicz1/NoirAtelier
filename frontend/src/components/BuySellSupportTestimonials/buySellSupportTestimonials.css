@@ -1,6 +1,6 @@
 .buySellSupportTestimonials {
   width: 100%;
-  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F3 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f8f6f3 100%);
   padding: 100px 0;
   position: relative;
 }
@@ -11,7 +11,6 @@
   padding: 0 2rem;
 }
 
-/* Header */
 .buySellSupportTestimonialsHeader {
   text-align: center;
   margin-bottom: 80px;
@@ -22,21 +21,21 @@
 
 .buySellSupportTestimonialsHeaderSubtitle {
   font-size: 1.1rem;
-  color: #AC6620;
+  color: #ac6620;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 
 .buySellSupportTestimonialsHeaderTitle {
   font-size: clamp(2.5rem, 4vw, 3.5rem);
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 1.5rem;
   line-height: 1.2;
   font-weight: 400;
 }
 
 .buySellSupportTestimonialsHeaderTitle .highlight {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -49,7 +48,6 @@
   margin-bottom: 0;
 }
 
-/* Testimonials Slider */
 .buySellSupportTestimonialsSlider {
   position: relative;
   margin-bottom: 80px;
@@ -93,13 +91,13 @@
 }
 
 .buySellSupportTestimonialsCard::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(90deg, #ac6620 0%, #c9823b 100%);
 }
 
 .buySellSupportTestimonialsCardQuote {
@@ -111,7 +109,7 @@
 
 .buySellSupportTestimonialsCardQuoteIcon {
   font-size: 4rem;
-  color: #AC6620;
+  color: #ac6620;
 }
 
 .buySellSupportTestimonialsCardContent {
@@ -134,13 +132,13 @@
 }
 
 .buySellSupportTestimonialsCardRating .star.filled {
-  color: #FFD700;
+  color: #ffd700;
 }
 
 .buySellSupportTestimonialsCardText {
   font-size: 1.3rem;
   line-height: 1.8;
-  color: #31361D;
+  color: #31361d;
   font-style: italic;
   margin: 0;
   flex: 1;
@@ -158,7 +156,7 @@
   height: 80px;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #AC6620;
+  border: 3px solid #ac6620;
 }
 
 .buySellSupportTestimonialsCardClientImage img {
@@ -173,14 +171,14 @@
 
 .buySellSupportTestimonialsCardClientName {
   font-size: 1.4rem;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 0.25rem;
   font-weight: 600;
 }
 
 .buySellSupportTestimonialsCardClientRole {
   font-size: 1rem;
-  color: #AC6620;
+  color: #ac6620;
   margin-bottom: 0.25rem;
   font-weight: 500;
 }
@@ -199,7 +197,7 @@
 }
 
 .buySellSupportTestimonialsCardTransactionType {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -213,7 +211,6 @@
   margin-top: 0.25rem;
 }
 
-/* Navigation */
 .buySellSupportTestimonialsNavigation {
   display: flex;
   align-items: center;
@@ -223,7 +220,7 @@
 }
 
 .buySellSupportTestimonialsNavButton {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   color: white;
   border: none;
   width: 50px;
@@ -259,13 +256,12 @@
 }
 
 .buySellSupportTestimonialsDot.active {
-  background: #AC6620;
+  background: #ac6620;
   transform: scale(1.3);
 }
 
-/* Stats */
 .buySellSupportTestimonialsStats {
-  background: linear-gradient(135deg, #31361D 0%, #2A2F1A 100%);
+  background: linear-gradient(135deg, #31361d 0%, #2a2f1a 100%);
   border-radius: 30px;
   padding: 3rem;
   position: relative;
@@ -273,13 +269,14 @@
 }
 
 .buySellSupportTestimonialsStats::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/></g></svg>') repeat;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/></g></svg>')
+    repeat;
   opacity: 0.3;
 }
 
@@ -299,7 +296,7 @@
 .buySellSupportTestimonialsStatNumber {
   font-size: 3rem;
   font-weight: 600;
-  color: #C9823B;
+  color: #c9823b;
   margin-bottom: 0.5rem;
 }
 
@@ -309,16 +306,15 @@
   line-height: 1.4;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .buySellSupportTestimonialsStatsContainer {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .buySellSupportTestimonialsSliderContainer {
     height: 550px;
   }
-  
+
   .buySellSupportTestimonialsCard {
     padding: 2.5rem;
   }
@@ -328,42 +324,42 @@
   .buySellSupportTestimonials {
     padding: 50px 0;
   }
-  
+
   .buySellSupportTestimonialsContainer {
     padding: 0 1rem;
   }
-  
+
   .buySellSupportTestimonialsHeader {
     margin-bottom: 60px;
   }
-  
+
   .buySellSupportTestimonialsSlider {
     margin-bottom: 60px;
   }
-  
+
   .buySellSupportTestimonialsSliderContainer {
     height: 600px;
   }
-  
+
   .buySellSupportTestimonialsCard {
     padding: 2rem;
   }
-  
+
   .buySellSupportTestimonialsCardClient {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
   }
-  
+
   .buySellSupportTestimonialsCardTransaction {
     text-align: center;
   }
-  
+
   .buySellSupportTestimonialsStatsContainer {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .buySellSupportTestimonialsStats {
     padding: 2rem;
   }
@@ -373,24 +369,24 @@
   .buySellSupportTestimonialsSliderContainer {
     height: 650px;
   }
-  
+
   .buySellSupportTestimonialsCard {
     padding: 1.5rem;
   }
-  
+
   .buySellSupportTestimonialsCardText {
     font-size: 1.1rem;
   }
-  
+
   .buySellSupportTestimonialsCardClientImage {
     width: 60px;
     height: 60px;
   }
-  
+
   .buySellSupportTestimonialsNavigation {
     gap: 1rem;
   }
-  
+
   .buySellSupportTestimonialsNavButton {
     width: 40px;
     height: 40px;

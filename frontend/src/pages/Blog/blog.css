@@ -1,33 +1,31 @@
-/* Blog Page Responsive Styles */
 .blog {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Mobile First Approach */
 @media (max-width: 480px) {
-    .blog {
-        overflow-x: hidden;
-    }
+  .blog {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 768px) {
-    .blog {
-        overflow-x: hidden;
-    }
+  .blog {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 1024px) {
-    .blog {
-        overflow-x: hidden;
-    }
+  .blog {
+    overflow-x: hidden;
+  }
 }
 
 /* Large screens */
 @media (min-width: 1200px) {
-    .blog {
-        max-width: 100%;
-    }
+  .blog {
+    max-width: 100%;
+  }
 }

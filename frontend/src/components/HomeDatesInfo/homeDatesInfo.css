@@ -1,382 +1,334 @@
 .homeDatesInfo {
-    width: 100%;
-    height: 100%;
-    background-color: #2E2F2A;
-    padding-top: 100px;
-    padding-bottom: -20px;
+  width: 100%;
+  height: 100%;
+  background-color: #2e2f2a;
+  padding-top: 100px;
+  padding-bottom: -20px;
 }
 
 .homeDatesInfoContainer {
-    width: 84%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-
 .homeDatesInfoContainerElementContainer {
-    border: 2px dashed #AC6620;
-    width: 180px;
-    height: 220px;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  border: 2px dashed #ac6620;
+  width: 180px;
+  height: 220px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .homeDatesInfoContainerElementContainerDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .homeDatesInfoContainerElementContainerDivTopContainerText {
-    color: #FFE5D4;
-    font-size: 80px;
-    font-weight: 300;
-    line-height: 80px;
+  color: #ffe5d4;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
 }
 
 .homeDatesInfoContainerElementContainerDivBottomContainerText {
-    color: #C38646;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
+  color: #c38646;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
 }
 
-/* ===================== RESPONSIVE STYLES FOR HOMEDATESINFO ===================== */
-
-/* Large Desktop (1200px+) */
 @media (min-width: 1200px) {
-    .homeDatesInfo {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 84%;
-        gap: 30px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        width: 180px;
-        height: 220px;
-        border-radius: 40px;
-        border-width: 2px;
-        transition: all 0.3s ease;
-    }
-    
-    .homeDatesInfoContainerElementContainer:hover {
-        transform: translateY(-5px);
-        border-color: #FFE5D4;
-        box-shadow: 0 10px 30px rgba(172, 102, 32, 0.2);
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 80px;
-        line-height: 80px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 16px;
-        line-height: 36px;
-    }
+  .homeDatesInfo {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 84%;
+    gap: 30px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    width: 180px;
+    height: 220px;
+    border-radius: 40px;
+    border-width: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 16px;
+    line-height: 36px;
+  }
 }
 
-/* Medium Desktop (992px - 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    .homeDatesInfo {
-        padding-top: 90px;
-        padding-bottom: 40px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 90%;
-        gap: 25px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        width: 160px;
-        height: 200px;
-        border-radius: 35px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 70px;
-        line-height: 70px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 15px;
-        line-height: 32px;
-    }
+  .homeDatesInfo {
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 90%;
+    gap: 25px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    width: 160px;
+    height: 200px;
+    border-radius: 35px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 15px;
+    line-height: 32px;
+  }
 }
 
-/* Tablet (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
-    .homeDatesInfo {
-        padding-top: 80px;
-        padding-bottom: 30px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 95%;
-        gap: 20px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        width: 140px;
-        height: 170px;
-        border-radius: 30px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDiv {
-        gap: 15px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 56px;
-        line-height: 56px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 14px;
-        line-height: 28px;
-        text-align: center;
-    }
+  .homeDatesInfo {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 95%;
+    gap: 20px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    width: 140px;
+    height: 170px;
+    border-radius: 30px;
+  }
+
+  .homeDatesInfoContainerElementContainerDiv {
+    gap: 15px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+  }
 }
 
-/* Large Mobile (481px - 767px) */
 @media (min-width: 481px) and (max-width: 767px) {
-    .homeDatesInfo {
-        padding-top: 60px;
-        padding-bottom: 20px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 95%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    .homeDatesInfoContainerElement {
-        width: calc(50% - 10px);
-        max-width: 200px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        width: 100%;
-        height: 150px;
-        border-radius: 25px;
-        margin: 0 auto;
-    }
-    
-    .homeDatesInfoContainerElementContainerDiv {
-        gap: 12px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 48px;
-        line-height: 48px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 13px;
-        line-height: 24px;
-        text-align: center;
-    }
+  .homeDatesInfo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .homeDatesInfoContainerElement {
+    width: calc(50% - 10px);
+    max-width: 200px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+    margin: 0 auto;
+  }
+
+  .homeDatesInfoContainerElementContainerDiv {
+    gap: 12px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
 }
 
-/* Small Mobile (320px - 480px) */
 @media (max-width: 480px) {
-    .homeDatesInfo {
-        padding-top: 50px;
-        padding-bottom: 15px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 95%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .homeDatesInfoContainerElement {
-        width: calc(50% - 7.5px);
-        max-width: 180px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        width: 100%;
-        height: 130px;
-        border-radius: 20px;
-        border-width: 1.5px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDiv {
-        gap: 10px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 40px;
-        line-height: 40px;
-        font-weight: 400;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 12px;
-        line-height: 20px;
-        text-align: center;
-        padding: 0 5px;
-    }
+  .homeDatesInfo {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .homeDatesInfoContainerElement {
+    width: calc(50% - 7.5px);
+    max-width: 180px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    width: 100%;
+    height: 130px;
+    border-radius: 20px;
+    border-width: 1.5px;
+  }
+
+  .homeDatesInfoContainerElementContainerDiv {
+    gap: 10px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 5px;
+  }
 }
 
-/* Very Small Mobile (below 320px) */
 @media (max-width: 319px) {
-    .homeDatesInfo {
-        padding-top: 40px;
-        padding-bottom: 10px;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 98%;
-        gap: 10px;
-    }
-    
-    .homeDatesInfoContainerElement {
-        width: calc(50% - 5px);
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        height: 110px;
-        border-radius: 15px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDiv {
-        gap: 8px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 11px;
-        line-height: 18px;
-    }
+  .homeDatesInfo {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .homeDatesInfoContainer {
+    width: 98%;
+    gap: 10px;
+  }
+
+  .homeDatesInfoContainerElement {
+    width: calc(50% - 5px);
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    height: 110px;
+    border-radius: 15px;
+  }
+
+  .homeDatesInfoContainerElementContainerDiv {
+    gap: 8px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 11px;
+    line-height: 18px;
+  }
 }
 
-/* Landscape orientation adjustments for mobile */
 @media (max-width: 767px) and (orientation: landscape) {
-    .homeDatesInfo {
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
-    
-    .homeDatesInfoContainer {
-        flex-direction: row;
-        gap: 15px;
-    }
-    
-    .homeDatesInfoContainerElement {
-        width: calc(25% - 11.25px);
-        max-width: none;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        height: 100px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        font-size: 28px;
-        line-height: 28px;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        font-size: 10px;
-        line-height: 16px;
-    }
+  .homeDatesInfo {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .homeDatesInfoContainer {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .homeDatesInfoContainerElement {
+    width: calc(25% - 11.25px);
+    max-width: none;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    height: 100px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    font-size: 10px;
+    line-height: 16px;
+  }
 }
 
-/* Hover effects for desktop */
-@media (hover: hover) and (pointer: fine) {
-    .homeDatesInfoContainerElementContainer:hover {
-        transform: translateY(-3px);
-        border-color: #FFE5D4;
-        box-shadow: 0 8px 25px rgba(172, 102, 32, 0.15);
-    }
-    
-    .homeDatesInfoContainerElementContainer:hover .homeDatesInfoContainerElementContainerDivTopContainerText {
-        color: #FFFFFF;
-        transform: scale(1.05);
-    }
-    
-    .homeDatesInfoContainerElementContainer:hover .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        color: #FFE5D4;
-    }
-}
-
-/* Accessibility improvements */
-@media (prefers-reduced-motion: reduce) {
-    .homeDatesInfoContainerElementContainer {
-        transition: none;
-    }
-    
-    .homeDatesInfoContainerElementContainer:hover {
-        transform: none;
-    }
-}
-
-/* High contrast mode */
 @media (prefers-contrast: high) {
-    .homeDatesInfoContainerElementContainer {
-        border-width: 3px;
-        border-color: #FFFFFF;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText {
-        color: #FFFFFF;
-        font-weight: 700;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        color: #FFFFFF;
-        font-weight: 500;
-    }
+  .homeDatesInfoContainerElementContainer {
+    border-width: 3px;
+    border-color: #ffffff;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText {
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    color: #ffffff;
+    font-weight: 500;
+  }
 }
 
-/* Print styles */
 @media print {
-    .homeDatesInfo {
-        padding: 20px 0;
-        background-color: transparent;
-    }
-    
-    .homeDatesInfoContainer {
-        width: 100%;
-        flex-direction: row;
-        gap: 20px;
-    }
-    
-    .homeDatesInfoContainerElementContainer {
-        border: 2px solid #000;
-        background-color: #FFF;
-    }
-    
-    .homeDatesInfoContainerElementContainerDivTopContainerText,
-    .homeDatesInfoContainerElementContainerDivBottomContainerText {
-        color: #000;
-    }
+  .homeDatesInfo {
+    padding: 20px 0;
+    background-color: transparent;
+  }
+
+  .homeDatesInfoContainer {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .homeDatesInfoContainerElementContainer {
+    border: 2px solid #000;
+    background-color: #fff;
+  }
+
+  .homeDatesInfoContainerElementContainerDivTopContainerText,
+  .homeDatesInfoContainerElementContainerDivBottomContainerText {
+    color: #000;
+  }
 }

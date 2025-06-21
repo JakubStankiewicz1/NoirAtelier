@@ -1,38 +1,48 @@
 import React, { useState } from "react";
 import "./buySellSupportContact.css";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaUser, FaHome, FaHandshake, FaPaperPlane, FaCheckCircle } from "react-icons/fa";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+  FaUser,
+  FaHome,
+  FaHandshake,
+  FaPaperPlane,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 const BuySellSupportContact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    serviceType: '',
-    propertyType: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    serviceType: "",
+    propertyType: "",
+    message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission
+
     setIsSubmitted(true);
     setTimeout(() => setIsSubmitted(false), 3000);
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      serviceType: '',
-      propertyType: '',
-      message: ''
+      name: "",
+      email: "",
+      phone: "",
+      serviceType: "",
+      propertyType: "",
+      message: "",
     });
   };
 
@@ -41,26 +51,26 @@ const BuySellSupportContact = () => {
       icon: <FaPhone />,
       title: "Telefon",
       info: "+48 123 456 789",
-      subtitle: "Zadzwoń do nas"
+      subtitle: "Zadzwoń do nas",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
       info: "kontakt@noiratelier.pl",
-      subtitle: "Napisz do nas"
+      subtitle: "Napisz do nas",
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Adres",
       info: "ul. Krakowska 25, 00-001 Warszawa",
-      subtitle: "Odwiedź nas"
+      subtitle: "Odwiedź nas",
     },
     {
       icon: <FaClock />,
       title: "Godziny pracy",
       info: "Pon-Pt: 9:00-18:00",
-      subtitle: "Jesteśmy dostępni"
-    }
+      subtitle: "Jesteśmy dostępni",
+    },
   ];
 
   return (
@@ -68,13 +78,17 @@ const BuySellSupportContact = () => {
       <div className="buySellSupportContactContainer">
         {/* Header */}
         <div className="buySellSupportContactHeader">
-          <p className="buySellSupportContactHeaderSubtitle cormorant-garamond-regular">Skontaktuj się z Nami</p>
+          <p className="buySellSupportContactHeaderSubtitle cormorant-garamond-regular">
+            Skontaktuj się z Nami
+          </p>
           <h2 className="buySellSupportContactHeaderTitle cormorant-garamond-regular">
-            Rozpocznij Swoją <span className="highlight">Przygodę z Nieruchomościami</span>
+            Rozpocznij Swoją{" "}
+            <span className="highlight">Przygodę z Nieruchomościami</span>
           </h2>
           <p className="buySellSupportContactHeaderDescription">
-            Gotowy na kupno lub sprzedaż nieruchomości? Nasz zespół ekspertów jest tu, aby Ci pomóc. 
-            Skontaktuj się z nami już dziś i otrzymaj bezpłatną konsultację.
+            Gotowy na kupno lub sprzedaż nieruchomości? Nasz zespół ekspertów
+            jest tu, aby Ci pomóc. Skontaktuj się z nami już dziś i otrzymaj
+            bezpłatną konsultację.
           </p>
         </div>
 
@@ -87,11 +101,15 @@ const BuySellSupportContact = () => {
                 Bezpłatna Konsultacja
               </h3>
               <p className="buySellSupportContactFormDescription">
-                Wypełnij formularz, a nasz ekspert skontaktuje się z Tobą w ciągu 24 godzin
+                Wypełnij formularz, a nasz ekspert skontaktuje się z Tobą w
+                ciągu 24 godzin
               </p>
             </div>
 
-            <form className="buySellSupportContactFormContainer" onSubmit={handleSubmit}>
+            <form
+              className="buySellSupportContactFormContainer"
+              onSubmit={handleSubmit}
+            >
               <div className="buySellSupportContactFormRow">
                 <div className="buySellSupportContactFormGroup">
                   <label className="buySellSupportContactFormLabel">
@@ -195,8 +213,8 @@ const BuySellSupportContact = () => {
                 />
               </div>
 
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="buySellSupportContactFormButton"
                 disabled={isSubmitted}
               >
@@ -233,9 +251,15 @@ const BuySellSupportContact = () => {
                     {item.icon}
                   </div>
                   <div className="buySellSupportContactInfoItemContent">
-                    <h4 className="buySellSupportContactInfoItemTitle">{item.title}</h4>
-                    <p className="buySellSupportContactInfoItemInfo">{item.info}</p>
-                    <p className="buySellSupportContactInfoItemSubtitle">{item.subtitle}</p>
+                    <h4 className="buySellSupportContactInfoItemTitle">
+                      {item.title}
+                    </h4>
+                    <p className="buySellSupportContactInfoItemInfo">
+                      {item.info}
+                    </p>
+                    <p className="buySellSupportContactInfoItemSubtitle">
+                      {item.subtitle}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -249,7 +273,10 @@ const BuySellSupportContact = () => {
                 <p className="buySellSupportContactInfoCTADescription">
                   Zadzwoń na naszą gorącą linię dostępną 24/7
                 </p>
-                <a href="tel:+48123456789" className="buySellSupportContactInfoCTAButton">
+                <a
+                  href="tel:+48123456789"
+                  className="buySellSupportContactInfoCTAButton"
+                >
                   <FaPhone />
                   <span>+48 123 456 789</span>
                 </a>

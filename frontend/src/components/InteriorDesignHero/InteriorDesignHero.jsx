@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./interiorDesignHero.css";
-import { FaHome, FaStar, FaHeart, FaTrophy, FaPalette, FaLightbulb, FaImage, FaLeaf, FaPlay, FaBullseye, FaBolt, FaGem } from "react-icons/fa";
+import {
+  FaHome,
+  FaStar,
+  FaHeart,
+  FaTrophy,
+  FaPalette,
+  FaLightbulb,
+  FaImage,
+  FaLeaf,
+  FaPlay,
+  FaBullseye,
+  FaBolt,
+  FaGem,
+} from "react-icons/fa";
 
 const InteriorDesignHero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -34,38 +47,35 @@ const InteriorDesignHero = () => {
   return (
     <div className="interiorDesignHero">
       {" "}
-      {/* Floating Elements */}
-      {/* <div className="interiorDesignHeroFloatingElements">
-        <div className="interiorDesignHeroFloatingElement element1"><FaGem /></div>
-        <div className="interiorDesignHeroFloatingElement element2"><FaPalette /></div>
-        <div className="interiorDesignHeroFloatingElement element3"><FaLightbulb /></div>
-        <div className="interiorDesignHeroFloatingElement element4"><FaImage /></div>
-        <div className="interiorDesignHeroFloatingElement element5"><FaLeaf /></div>
-      </div> */}
       <div className="interiorDesignHeroContainer">
         {/* Left Content */}
-        <div className="interiorDesignHeroLeft" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
+        <div
+          className="interiorDesignHeroLeft"
+          style={{ transform: `translateY(${scrollY * 0.1}px)` }}
+        >
           <div className="interiorDesignHeroLeftContent">
-            {" "}
-            {/* <div className="interiorDesignHeroLeftBadge">
-              <span className="interiorDesignHeroLeftBadgeIcon">
-                <FaPalette />
-              </span>
-              <span className="interiorDesignHeroLeftBadgeText">Premium Interior Design</span>
-            </div> */}
             <h1 className="interiorDesignHeroLeftTitle">
-              <span className="interiorDesignHeroLeftTitleLine1 cormorant-garamond-regular">Tworzymy</span>
-              <span className="interiorDesignHeroLeftTitleLine2 cormorant-garamond-regular">Przestrzenie</span>
-              <span className="interiorDesignHeroLeftTitleLine3 cormorant-garamond-regular">Marzeń</span>
+              <span className="interiorDesignHeroLeftTitleLine1 cormorant-garamond-regular">
+                Tworzymy
+              </span>
+              <span className="interiorDesignHeroLeftTitleLine2 cormorant-garamond-regular">
+                Przestrzenie
+              </span>
+              <span className="interiorDesignHeroLeftTitleLine3 cormorant-garamond-regular">
+                Marzeń
+              </span>
             </h1>
             <p className="interiorDesignHeroLeftDescription">
-              Odkryj niezwykłe możliwości swojego wnętrza. Nasze ekskluzywne projekty łączą funkcjonalność z estetyką, tworząc przestrzenie, które
-              inspirują i zachwycają każdego dnia.
+              Odkryj niezwykłe możliwości swojego wnętrza. Nasze ekskluzywne
+              projekty łączą funkcjonalność z estetyką, tworząc przestrzenie,
+              które inspirują i zachwycają każdego dnia.
             </p>
             <div className="interiorDesignHeroLeftButtons">
               <button className="interiorDesignHeroLeftButtonPrimary">
                 <span>Zobacz Portfolio</span>
-                <div className="interiorDesignHeroLeftButtonPrimaryArrow">→</div>
+                <div className="interiorDesignHeroLeftButtonPrimaryArrow">
+                  →
+                </div>
               </button>{" "}
               <button className="interiorDesignHeroLeftButtonSecondary">
                 <span>
@@ -77,10 +87,16 @@ const InteriorDesignHero = () => {
             <div className="interiorDesignHeroLeftStats">
               {stats.map((stat, index) => (
                 <div key={index} className="interiorDesignHeroLeftStatItem">
-                  <div className="interiorDesignHeroLeftStatIcon">{stat.icon}</div>
+                  <div className="interiorDesignHeroLeftStatIcon">
+                    {stat.icon}
+                  </div>
                   <div className="interiorDesignHeroLeftStatContent">
-                    <span className="interiorDesignHeroLeftStatNumber cormorant-garamond-regular">{stat.number}</span>
-                    <span className="interiorDesignHeroLeftStatLabel">{stat.label}</span>
+                    <span className="interiorDesignHeroLeftStatNumber cormorant-garamond-regular">
+                      {stat.number}
+                    </span>
+                    <span className="interiorDesignHeroLeftStatLabel">
+                      {stat.label}
+                    </span>
                   </div>
                 </div>
               ))}
@@ -94,7 +110,10 @@ const InteriorDesignHero = () => {
             {/* Main Image Slider */}
             <div className="interiorDesignHeroRightMainImage">
               {images.map((image, index) => (
-                <div key={index} className={`interiorDesignHeroRightMainImageSlide ${index === currentImage ? "active" : ""}`}>
+                <div
+                  key={index}
+                  className={`interiorDesignHeroRightMainImageSlide ${index === currentImage ? "active" : ""}`}
+                >
                   <img src={image} alt={`Interior Design ${index + 1}`} />
                   <div className="interiorDesignHeroRightMainImageOverlay">
                     <div className="interiorDesignHeroRightMainImageOverlayContent">
@@ -119,14 +138,7 @@ const InteriorDesignHero = () => {
                 ))}
               </div>
             </div>
-            {/* Decorative Elements */}
-            {/* <div className="interiorDesignHeroRightDecorative">
-              <div className="interiorDesignHeroRightDecorativeCircle circle1"></div>
-              <div className="interiorDesignHeroRightDecorativeCircle circle2"></div>
-              <div className="interiorDesignHeroRightDecorativeSquare square1"></div>
-              <div className="interiorDesignHeroRightDecorativeSquare square2"></div>
-            </div> */}{" "}
-            {/* Floating Cards */}
+
             <div className="interiorDesignHeroRightFloatingCards">
               <div className="interiorDesignHeroRightFloatingCard card1">
                 <div className="interiorDesignHeroRightFloatingCardIcon">

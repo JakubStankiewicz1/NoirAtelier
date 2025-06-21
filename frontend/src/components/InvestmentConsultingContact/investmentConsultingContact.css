@@ -1,334 +1,320 @@
 .investmentConsultingContact {
-    width: 100%;
-    background-color: #F5EDE7;
-    padding: 100px 0;
+  width: 100%;
+  background-color: #f5ede7;
+  padding: 100px 0;
 }
 
 .investmentConsultingContactContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .investmentConsultingContactHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .investmentConsultingContactHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .investmentConsultingContactHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingContactHeaderTitle {
-    color: #31361D;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 30px;
 }
 
 .investmentConsultingContactHeaderDescription {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
 }
 
 .investmentConsultingContactContent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
 }
 
-/* Contact Info */
 .investmentConsultingContactInfo {
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    padding: 50px 40px;
-    box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 50px 40px;
+  box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
 }
 
 .investmentConsultingContactInfoHeader {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .investmentConsultingContactInfoTitle {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 15px;
 }
 
 .investmentConsultingContactInfoDescription {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
 .investmentConsultingContactInfoGrid {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
 }
 
 .investmentConsultingContactInfoCard {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    background-color: #F5EDE7;
-    border-radius: 15px;
-    transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5ede7;
+  border-radius: 15px;
+  transition: all 0.3s ease;
 }
 
-/* .investmentConsultingContactInfoCard:hover {
-    transform: translateX(5px);
-    box-shadow: 0 5px 15px rgba(172, 102, 32, 0.1);
-} */
-
 .investmentConsultingContactInfoCardIcon {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 18px;
-    flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
 .investmentConsultingContactInfoCardContent {
-    flex: 1;
+  flex: 1;
 }
 
 .investmentConsultingContactInfoCardTitle {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-bottom: 8px;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 8px;
 }
 
 .investmentConsultingContactInfoCardValue {
-    color: #AC6620;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 5px;
+  color: #ac6620;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 5px;
 }
 
 .investmentConsultingContactInfoCardDescription {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    opacity: 0.7;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.7;
 }
 
 .investmentConsultingContactInfoBenefits {
-    border-top: 1px solid rgba(172, 102, 32, 0.2);
-    padding-top: 30px;
+  border-top: 1px solid rgba(172, 102, 32, 0.2);
+  padding-top: 30px;
 }
 
 .investmentConsultingContactInfoBenefitsTitle {
-    color: #31361D;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
-    margin-bottom: 20px;
+  color: #31361d;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingContactInfoBenefitsList {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .investmentConsultingContactInfoBenefitsList li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .investmentConsultingContactInfoBenefitsList li svg {
-    color: #AC6620;
-    font-size: 16px;
+  color: #ac6620;
+  font-size: 16px;
 }
 
-/* Contact Form */
 .investmentConsultingContactForm {
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    padding: 50px 40px;
-    box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 50px 40px;
+  box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
 }
 
 .investmentConsultingContactFormHeader {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .investmentConsultingContactFormTitle {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 15px;
 }
 
 .investmentConsultingContactFormDescription {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
 .investmentConsultingContactFormFields {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .investmentConsultingContactFormRow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .investmentConsultingContactFormField {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .investmentConsultingContactFormLabel {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18px;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .investmentConsultingContactFormInput,
 .investmentConsultingContactFormSelect,
 .investmentConsultingContactFormTextarea {
-    padding: 15px 20px;
-    border: 2px solid rgba(172, 102, 32, 0.2);
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #31361D;
-    background-color: #FFFFFF;
-    transition: all 0.3s ease;
+  padding: 15px 20px;
+  border: 2px solid rgba(172, 102, 32, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #31361d;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
 }
 
 .investmentConsultingContactFormInput:focus,
 .investmentConsultingContactFormSelect:focus,
 .investmentConsultingContactFormTextarea:focus {
-    outline: none;
-    border-color: #AC6620;
-    /* box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1); */
+  outline: none;
+  border-color: #ac6620;
 }
 
 .investmentConsultingContactFormButton {
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    color: #FFFFFF;
-    padding: 18px 40px;
-    border: none;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  color: #ffffff;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* .investmentConsultingContactFormButton:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(172, 102, 32, 0.3);
-} */
-
 .investmentConsultingContactFormSuccess {
-    text-align: center;
-    padding: 40px 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .investmentConsultingContactFormSuccessIcon {
-    color: #AC6620;
-    font-size: 64px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 64px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingContactFormSuccessTitle {
-    color: #31361D;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 32px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 15px;
 }
 
 .investmentConsultingContactFormSuccessText {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .investmentConsultingContactContainer {
-        width: 90%;
-        gap: 60px;
-    }
-    
-    .investmentConsultingContactHeaderTitle {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    
-    .investmentConsultingContactContent {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
-    .investmentConsultingContactInfo,
-    .investmentConsultingContactForm {
-        padding: 40px 30px;
-    }
-    
-    .investmentConsultingContactFormRow {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    
-    .investmentConsultingContactInfoTitle,
-    .investmentConsultingContactFormTitle {
-        font-size: 28px;
-        line-height: 34px;
-    }
+  .investmentConsultingContactContainer {
+    width: 90%;
+    gap: 60px;
+  }
+
+  .investmentConsultingContactHeaderTitle {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .investmentConsultingContactContent {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .investmentConsultingContactInfo,
+  .investmentConsultingContactForm {
+    padding: 40px 30px;
+  }
+
+  .investmentConsultingContactFormRow {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .investmentConsultingContactInfoTitle,
+  .investmentConsultingContactFormTitle {
+    font-size: 28px;
+    line-height: 34px;
+  }
 }

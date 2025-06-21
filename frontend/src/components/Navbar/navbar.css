@@ -1,86 +1,84 @@
 .navbar {
-    width: 100%;
-    height: 72px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background: transparent;
-    transition: all 0.4s ease;
-    box-sizing: border-box;
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: transparent;
+  transition: all 0.4s ease;
+  box-sizing: border-box;
 }
 
-/* Klasa gdy navbar jest przewinięty */
 .navbar.scrolled {
-    background-color: rgba(46, 47, 42, 0.95);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(46, 47, 42, 0.95);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.light {
-    background: rgba(239, 229, 222, 0.95);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+  background: rgba(239, 229, 222, 0.95);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .navbarContainer {
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .navbarContainerLeftContainer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .navbarContainerLeftContainerText {
-    color: #FFE5D4;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 40px;
-    letter-spacing: -1px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
+  color: #ffe5d4;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
-/* Styl dla tekstu gdy navbar jest przewinięty */
 .navbar.scrolled .navbarContainerLeftContainerText {
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .navbar.light .navbarContainerLeftContainerText {
-    color: #31361d;
-    text-shadow: none;
+  color: #31361d;
+  text-shadow: none;
 }
 
 .navbarContainerRight {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbarContainerRightContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
 }
 
 .navbarContainerRightContainerOne {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .navbarContainerRightContainerOneElementOneUnderline,
@@ -88,33 +86,47 @@
 .navbarContainerRightContainerOneElementThreeUnderline,
 .navbarContainerRightContainerOneElementFourUnderline,
 .navbarContainerRightContainerOneElementFiveUnderline {
-    height: 4px;
-    width: 100%;
-    background-color: #AC6620;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.35s ease-out;
-    margin-top: 2px; /* Fixed the missing value before px */
+  height: 4px;
+  width: 100%;
+  background-color: #ac6620;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.35s ease-out;
+  margin-top: 2px;
 }
 
-.navbarContainerRightContainerOneElementOne:hover .navbarContainerRightContainerOneElementOneUnderline,
-.navbarContainerRightContainerOneElementTwo:hover .navbarContainerRightContainerOneElementTwoUnderline,
-.navbarContainerRightContainerOneElementThree:hover .navbarContainerRightContainerOneElementThreeUnderline,
-.navbarContainerRightContainerOneElementFour:hover .navbarContainerRightContainerOneElementFourUnderline,
-.navbarContainerRightContainerOneElementFive:hover .navbarContainerRightContainerOneElementFiveUnderline {
-    transform: scaleX(1);
-    transform-origin: left;
-    transition: transform 0.3s ease-out;
+.navbarContainerRightContainerOneElementOne:hover
+  .navbarContainerRightContainerOneElementOneUnderline,
+.navbarContainerRightContainerOneElementTwo:hover
+  .navbarContainerRightContainerOneElementTwoUnderline,
+.navbarContainerRightContainerOneElementThree:hover
+  .navbarContainerRightContainerOneElementThreeUnderline,
+.navbarContainerRightContainerOneElementFour:hover
+  .navbarContainerRightContainerOneElementFourUnderline,
+.navbarContainerRightContainerOneElementFive:hover
+  .navbarContainerRightContainerOneElementFiveUnderline {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-out;
 }
 
-/* Active state styles for navigation links */
-.navbarContainerRightContainerOneElementOne .active ~ .navbarContainerRightContainerOneElementOneUnderline,
-.navbarContainerRightContainerOneElementTwo .active ~ .navbarContainerRightContainerOneElementTwoUnderline,
-.navbarContainerRightContainerOneElementThree .active ~ .navbarContainerRightContainerOneElementThreeUnderline,
-.navbarContainerRightContainerOneElementFour .active ~ .navbarContainerRightContainerOneElementFourUnderline,
-.navbarContainerRightContainerOneElementFive .active ~ .navbarContainerRightContainerOneElementFiveUnderline {
-    transform: scaleX(1);
-    transform-origin: left;
+.navbarContainerRightContainerOneElementOne
+  .active
+  ~ .navbarContainerRightContainerOneElementOneUnderline,
+.navbarContainerRightContainerOneElementTwo
+  .active
+  ~ .navbarContainerRightContainerOneElementTwoUnderline,
+.navbarContainerRightContainerOneElementThree
+  .active
+  ~ .navbarContainerRightContainerOneElementThreeUnderline,
+.navbarContainerRightContainerOneElementFour
+  .active
+  ~ .navbarContainerRightContainerOneElementFourUnderline,
+.navbarContainerRightContainerOneElementFive
+  .active
+  ~ .navbarContainerRightContainerOneElementFiveUnderline {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .navbarContainerRightContainerOneElementOne,
@@ -122,7 +134,7 @@
 .navbarContainerRightContainerOneElementThree,
 .navbarContainerRightContainerOneElementFour,
 .navbarContainerRightContainerOneElementFive {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .navbarContainerRightContainerOneElementOneContainerText,
@@ -130,22 +142,21 @@
 .navbarContainerRightContainerOneElementThreeContainerText,
 .navbarContainerRightContainerOneElementFourContainerText,
 .navbarContainerRightContainerOneElementFiveContainerText {
-    color: #FFE5D4;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0.1px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
+  color: #ffe5d4;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
-/* Styl dla tekstu gdy navbar jest przewinięty */
 .navbar.scrolled .navbarContainerRightContainerOneElementOneContainerText,
 .navbar.scrolled .navbarContainerRightContainerOneElementTwoContainerText,
 .navbar.scrolled .navbarContainerRightContainerOneElementThreeContainerText,
 .navbar.scrolled .navbarContainerRightContainerOneElementFourContainerText,
 .navbar.scrolled .navbarContainerRightContainerOneElementFiveContainerText {
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .navbar.light .navbarContainerRightContainerOneElementOneContainerText,
@@ -153,344 +164,336 @@
 .navbar.light .navbarContainerRightContainerOneElementThreeContainerText,
 .navbar.light .navbarContainerRightContainerOneElementFourContainerText,
 .navbar.light .navbarContainerRightContainerOneElementFiveContainerText {
-    color: #31361d;
-    text-shadow: none;
+  color: #31361d;
+  text-shadow: none;
 }
 
 .navbarContainerRightContainerTwoContainerButton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #FFE5D4;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    text-decoration: none;
-    color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffe5d4;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  text-decoration: none;
+  color: inherit;
 }
 
 .navbarContainerRightContainerTwoContainerButton:hover {
-    background-color: #AC6620;
+  background-color: #ac6620;
 }
 
-/* Dodatkowe style dla NavLink jako przycisku Contact */
 .navbarContainerRightContainerTwoContainerButton:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(255, 229, 212, 0.3);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 229, 212, 0.3);
 }
 
 .navbarContainerRightContainerTwoContainerButton:active {
-    transform: scale(0.98);
+  transform: scale(0.98);
 }
 
-/* Styl dla przycisku gdy navbar jest przewinięty */
 .navbar.scrolled .navbarContainerRightContainerTwoContainerButton {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 
 .navbar.scrolled .navbarContainerRightContainerTwoContainerButtonContainerText {
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .navbar.light .navbarContainerRightContainerTwoContainerButton {
-    border: 1px solid #31361d;
-    background: #efe5de;
+  border: 1px solid #31361d;
+  background: #efe5de;
 }
 
 .navbar.light .navbarContainerRightContainerTwoContainerButtonContainerText {
-    color: #31361d;
-    text-shadow: none;
+  color: #31361d;
+  text-shadow: none;
 }
 
 .navbarContainerRightContainerTwoContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbarContainerRightContainerTwoContainerButtonContainerText {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    pointer-events: none;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  pointer-events: none;
 }
 
-/* Styl dla podkreślenia w trybie jasnym */
 .navbar.light .navbarContainerRightContainerOneElementOneUnderline,
 .navbar.light .navbarContainerRightContainerOneElementTwoUnderline,
 .navbar.light .navbarContainerRightContainerOneElementThreeUnderline,
 .navbar.light .navbarContainerRightContainerOneElementFourUnderline,
 .navbar.light .navbarContainerRightContainerOneElementFiveUnderline {
-    background-color: #c9823b;
+  background-color: #c9823b;
 }
 
-/* Mobile Menu Styles */
 .mobileMenuButton {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 8px;
-    z-index: 20;
-    position: relative;
-    transition: all 0.3s ease;
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 20;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
 .mobileMenuButton span {
-    width: 25px;
-    height: 3px;
-    background-color: #FFE5D4;
-    margin: 3px 0;
-    transition: all 0.3s ease;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  width: 25px;
+  height: 3px;
+  background-color: #ffe5d4;
+  margin: 3px 0;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .navbar.scrolled .mobileMenuButton span {
-    background-color: #FFE5D4;
+  background-color: #ffe5d4;
 }
 
 .navbar.light .mobileMenuButton span {
-    background-color: #31361d;
+  background-color: #31361d;
 }
 
-/* Hamburger animation */
 .mobileMenuButton.active span:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-    background-color: #FFE5D4;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transform: rotate(-45deg) translate(-5px, 7px);
+  background-color: #ffe5d4;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .mobileMenuButton.active span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .mobileMenuButton.active span:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-    background-color: #FFE5D4;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transform: rotate(45deg) translate(-5px, -7px);
+  background-color: #ffe5d4;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
-/* Dodatkowe style dla lepszej widoczności X */
 .navbar.light .mobileMenuButton.active span:nth-child(1),
 .navbar.light .mobileMenuButton.active span:nth-child(3) {
-    background-color: #31361d;
-    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+  background-color: #31361d;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
 }
 
-/* Mobile Menu Overlay */
 .mobileMenuOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(46, 47, 42, 0.98);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    z-index: 99;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s ease;
-    box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(46, 47, 42, 0.98);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  box-sizing: border-box;
 }
 
 .mobileMenuOverlay.open {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .mobileMenuOverlay.light {
-    background-color: rgba(239, 229, 222, 0.98);
+  background-color: rgba(239, 229, 222, 0.98);
 }
 
 .mobileMenuLink {
-    color: #FFE5D4;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    padding: 15px 30px;
-    border-radius: 8px;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: slideInMobile 0.4s ease forwards;
+  color: #ffe5d4;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInMobile 0.4s ease forwards;
 }
 
 .mobileMenuOverlay.light .mobileMenuLink {
-    color: #31361d;
+  color: #31361d;
 }
 
 .mobileMenuLink:hover {
-    color: #AC6620;
-    background-color: rgba(255, 229, 212, 0.1);
+  color: #ac6620;
 }
 
 .mobileMenuOverlay.light .mobileMenuLink:hover {
-    color: #c9823b;
-    background-color: rgba(49, 54, 29, 0.1);
+  color: #c9823b;
 }
 
 .mobileMenuLink.active {
-    color: #AC6620;
-    background-color: rgba(255, 229, 212, 0.15);
+  color: #ac6620;
 }
 
 .mobileMenuOverlay.light .mobileMenuLink.active {
-    color: #c9823b;
-    background-color: rgba(49, 54, 29, 0.15);
+  color: #c9823b;
 }
 
-/* Animation delays for mobile menu items */
-.mobileMenuLink:nth-child(1) { animation-delay: 0.1s; }
-.mobileMenuLink:nth-child(2) { animation-delay: 0.2s; }
-.mobileMenuLink:nth-child(3) { animation-delay: 0.3s; }
-.mobileMenuLink:nth-child(4) { animation-delay: 0.4s; }
-.mobileMenuLink:nth-child(5) { animation-delay: 0.5s; }
-.mobileMenuLink:nth-child(6) { animation-delay: 0.6s; }
+.mobileMenuLink:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.mobileMenuLink:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.mobileMenuLink:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.mobileMenuLink:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.mobileMenuLink:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.mobileMenuLink:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 @keyframes slideInMobile {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Responsive Media Queries */
-
-/* Tablet Styles */
 @media screen and (max-width: 1024px) {
-    .navbarContainer {
-        /* max-width: calc(100vw - 40px); */
-        padding: 0 20px;
-    }
-    
-    .navbarContainerRightContainerOneElementOneContainerText,
-    .navbarContainerRightContainerOneElementTwoContainerText,
-    .navbarContainerRightContainerOneElementThreeContainerText,
-    .navbarContainerRightContainerOneElementFourContainerText,
-    .navbarContainerRightContainerOneElementFiveContainerText {
-        font-size: 14px;
-    }
-    
-    .navbarContainerRightContainerOne {
-        gap: 30px;
-    }
-    
-    .navbarContainerRightContainerTwoContainerButton {
-        padding: 8px 20px;
-    }
-    
-    .navbarContainerRightContainerTwoContainerButtonContainerText {
-        font-size: 14px;
-    }
+  .navbarContainer {
+    padding: 0 20px;
+  }
+
+  .navbarContainerRightContainerOneElementOneContainerText,
+  .navbarContainerRightContainerOneElementTwoContainerText,
+  .navbarContainerRightContainerOneElementThreeContainerText,
+  .navbarContainerRightContainerOneElementFourContainerText,
+  .navbarContainerRightContainerOneElementFiveContainerText {
+    font-size: 14px;
+  }
+
+  .navbarContainerRightContainerOne {
+    gap: 30px;
+  }
+
+  .navbarContainerRightContainerTwoContainerButton {
+    padding: 8px 20px;
+  }
+
+  .navbarContainerRightContainerTwoContainerButtonContainerText {
+    font-size: 14px;
+  }
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 768px) {
-    .navbar {
-        height: 60px;
-    }
-    
-    .navbarContainer {
-        padding: 0 15px;
-        max-width: 100%;
-    }
-    
-    .navbarContainerLeftContainerText {
-        font-size: 28px;
-        line-height: 32px;
-    }
-    
-    .navbarContainerRight {
-        position: relative;
-    }
-    
-    .navbarContainerRightContainerOne,
-    .navbarContainerRightContainerTwo {
-        display: none;
-    }
-    
-    .mobileMenuButton {
-        display: flex;
-        position: relative;
-        z-index: 101;
-    }
+  .navbar {
+    height: 60px;
+  }
+
+  .navbarContainer {
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  .navbarContainerLeftContainerText {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .navbarContainerRight {
+    position: relative;
+  }
+
+  .navbarContainerRightContainerOne,
+  .navbarContainerRightContainerTwo {
+    display: none;
+  }
+
+  .mobileMenuButton {
+    display: flex;
+    position: relative;
+    z-index: 101;
+  }
 }
 
-/* Small Mobile Styles */
 @media screen and (max-width: 480px) {
-    .navbar {
-        height: 55px;
-    }
-    
-    .navbarContainer {
-        padding: 0 10px;
-        max-width: 100%;
-    }
-    
-    .navbarContainerLeftContainerText {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    
-    .mobileMenuButton {
-        padding: 6px;
-    }
-    
-    .mobileMenuButton span {
-        width: 22px;
-        height: 2.5px;
-    }
-    
-    .mobileMenuLink {
-        font-size: 20px;
-        padding: 12px 25px;
-    }
-    
-    .mobileMenuOverlay {
-        gap: 30px;
-    }
+  .navbar {
+    height: 55px;
+  }
+
+  .navbarContainer {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+
+  .navbarContainerLeftContainerText {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .mobileMenuButton {
+    padding: 6px;
+  }
+
+  .mobileMenuButton span {
+    width: 22px;
+    height: 2.5px;
+  }
+
+  .mobileMenuLink {
+    font-size: 20px;
+    padding: 12px 25px;
+  }
+
+  .mobileMenuOverlay {
+    gap: 30px;
+  }
 }
 
-/* Large Desktop Styles */
 @media screen and (min-width: 1440px) {
-    .navbarContainer {
-        max-width: 1400px;
-        padding: 0 30px;
-    }
-    
-    .navbarContainerRightContainerOne {
-        gap: 45px;
-    }
-    
-    .navbarContainerRightContainer {
-        gap: 60px;
-    }
+  .navbarContainer {
+    max-width: 1400px;
+    padding: 0 30px;
+  }
+
+  .navbarContainerRightContainerOne {
+    gap: 45px;
+  }
+
+  .navbarContainerRightContainer {
+    gap: 60px;
+  }
 }
 
-/* Ultra Wide Desktop Styles */
 @media screen and (min-width: 1920px) {
-    .navbarContainer {
-        max-width: 1800px;
-    }
-    
-    .navbarContainerRightContainerOne {
-        gap: 50px;
-    }
+  .navbarContainer {
+    max-width: 1800px;
+  }
+
+  .navbarContainerRightContainerOne {
+    gap: 50px;
+  }
 }

@@ -10,17 +10,29 @@ const HomeVideo = () => {
       <div className="homeVideoContainer">
         <div className="homeVideoContainerTop">
           <div className="homeVideoContainerTopContainer">
-            <video src={HomeVideoMP4} autoPlay loop muted className="homeVideoContainerTopContainerVideo" />
+            <video
+              src={HomeVideoMP4}
+              autoPlay
+              loop
+              muted
+              className="homeVideoContainerTopContainerVideo"
+            />
 
             {/* Play button */}
-            <div className="homeVideoContainerTopContainerButton" onClick={() => setShowModal(true)} aria-label="Play video">
+            <div
+              className="homeVideoContainerTopContainerButton"
+              onClick={() => setShowModal(true)}
+              aria-label="Play video"
+            >
               <FaPlay className="homeVideoContainerTopContainerButtonIcon" />
             </div>
 
             {/* Scrolling marquee */}
             <div className="homeVideoMarquee">
               <div className="homeVideoMarqueeInner">
-                <p className="homeVideoMarqueeText">Explore our exclusive properties &nbsp;&nbsp;</p>
+                <p className="homeVideoMarqueeText">
+                  Explore our exclusive properties &nbsp;&nbsp;
+                </p>
               </div>
             </div>
           </div>

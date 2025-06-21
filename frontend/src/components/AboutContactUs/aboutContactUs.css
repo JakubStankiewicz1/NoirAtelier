@@ -1,492 +1,479 @@
 .aboutContactUs {
-    width: 100%;
-    height: 100%;
-
-    background-color: #2E2F2A;
-
-    padding-top: 100px;
-    margin-bottom: -350px;
+  width: 100%;
+  height: 100%;
+  background-color: #2e2f2a;
+  padding-top: 100px;
+  margin-bottom: -350px;
 }
 
 .aboutContactUsContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
 
-
 .aboutContactUsContainerTop {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .aboutContactUsContainerTopContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* gap: 50px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutContactUsContainerTopContainerElement {
-    border: 1px dashed #AC6620;
-    width: 200px;
-    height: 240px;
-    border-radius: 50px;
+  border: 1px dashed #ac6620;
+  width: 200px;
+  height: 240px;
+  border-radius: 50px;
 }
 
 .aboutContactUsContainerTopContainerElementContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .aboutContactUsContainerTopContainerElementContainerTopContainerText {
-    color: #FFE5D4;
-    font-size: 80px;
-    font-weight: 300;
-    line-height: 80px;
+  color: #ffe5d4;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
 }
 
 .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
-    color: #D08C43;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
+  color: #d08c43;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
 }
 
-
-
-
-
 .aboutContactUsContainerBottom {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .aboutContactUsContainerBottomContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutContactUsContainerBottomContainerOne {
-    width: 100%;
-    height: 770px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 770px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutContactUsContainerBottomContainerOneContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerOne {
-    width: 1000px;
-    height: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+  width: 1000px;
+  height: 100%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerOne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F5EDE7;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ede7;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerOneContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerOneContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerTwo {
-    width: 500px;
-    height: 100%;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+  width: 500px;
+  height: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerTwo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #F5EDE7;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ede7;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerTwoContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .aboutContactUsContainerBottomContainerBottom {
-    width: 700px;
-    height: 400px;
-    border-radius: 50px;
-    background-color: #F5EDE7;
-    transform: translateX(30%) translateY(-150%);
+  width: 700px;
+  height: 400px;
+  border-radius: 50px;
+  background-color: #f5ede7;
+  transform: translateX(30%) translateY(-150%);
 }
 
 .aboutContactUsContainerBottomContainerBottomContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    background-color: ;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
-    width: 270px;
-    height: 60px;
-    border-radius: 100px;
-    background-color: #AC6620;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  width: 270px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: #ac6620;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton:hover {
-    background-color: #C9823B;
+  background-color: #c9823b;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerTop {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerTopContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
-    color: #31361D;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 50px;
-    text-align: center;
+  color: #31361d;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
 }
 
 .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
-    color: #FFE5D4;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 19px;
-    text-align: center;
-    text-transform: uppercase;
-    text-align: center;
+  color: #ffe5d4;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-/* ===================== RESPONSIVE DESIGN ===================== */
-
 @media (max-width: 1200px) {
-    .aboutContactUsContainerTop {
-        width: 95%;
-    }
-    .aboutContactUsContainerTopContainer {
-        gap: 24px;
-    }
-    .aboutContactUsContainerBottomContainerOne {
-        gap: 40px;
-    }
-    .aboutContactUsContainerBottomContainerBottom {
-        width: 90vw;
-        max-width: 600px;
-        height: 340px;
-        transform: translateX(10%) translateY(-120%);
-    }
+  .aboutContactUsContainerTop {
+    width: 95%;
+  }
+  .aboutContactUsContainerTopContainer {
+    gap: 24px;
+  }
+  .aboutContactUsContainerBottomContainerOne {
+    gap: 40px;
+  }
+  .aboutContactUsContainerBottomContainerBottom {
+    width: 90vw;
+    max-width: 600px;
+    height: 340px;
+    transform: translateX(10%) translateY(-120%);
+  }
 }
 
 @media (max-width: 900px) {
-    .aboutContactUs {
-        padding-top: 60px;
-        margin-bottom: -150px;
-    }
-    .aboutContactUsContainer {
-        gap: 60px;
-    }
-    .aboutContactUsContainerTop {
-        width: 95%;
-    }
-    .aboutContactUsContainerTopContainer {
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-    .aboutContactUsContainerTopContainerElement {
-        width: 160px;
-        height: 200px;
-        border-radius: 35px;
-    }
-    .aboutContactUsContainerTopContainerElementContainer {
-        gap: 30px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
-        font-size: 60px;
-        line-height: 60px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
-        font-size: 14px;
-        line-height: 28px;
-    }
-    .aboutContactUsContainerBottomContainerOne {
-        height: auto;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .aboutContactUsContainerBottomContainerOneContainer {
-        flex-direction: column;
-        gap: 30px;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOne,
-    .aboutContactUsContainerBottomContainerOneContainerTwo {
-        width: 85vw;
-        max-width: 450px;
-        min-width: 280px;
-        height: 280px;
-        border-radius: 35px !important;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
-    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
-        border-radius: 35px !important;
-    }
-    .aboutContactUsContainerBottomContainerBottom {
-        width: 85vw;
-        max-width: 450px;
-        min-width: 280px;
-        height: 280px;
-        transform: translateX(0) translateY(-50%);
-        border-radius: 35px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
-        width: 200px;
-        height: 50px;
-        border-radius: 25px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
-        font-size: 16px;
-        line-height: 16px;
-    }
+  .aboutContactUs {
+    padding-top: 60px;
+    margin-bottom: -150px;
+  }
+  .aboutContactUsContainer {
+    gap: 60px;
+  }
+  .aboutContactUsContainerTop {
+    width: 95%;
+  }
+  .aboutContactUsContainerTopContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .aboutContactUsContainerTopContainerElement {
+    width: 160px;
+    height: 200px;
+    border-radius: 35px;
+  }
+  .aboutContactUsContainerTopContainerElementContainer {
+    gap: 30px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .aboutContactUsContainerBottomContainerOne {
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .aboutContactUsContainerBottomContainerOneContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOne,
+  .aboutContactUsContainerBottomContainerOneContainerTwo {
+    width: 85vw;
+    max-width: 450px;
+    min-width: 280px;
+    height: 280px;
+    border-radius: 35px !important;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+  .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+    border-radius: 35px !important;
+  }
+  .aboutContactUsContainerBottomContainerBottom {
+    width: 85vw;
+    max-width: 450px;
+    min-width: 280px;
+    height: 280px;
+    transform: translateX(0) translateY(-50%);
+    border-radius: 35px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 @media (max-width: 600px) {
-    .aboutContactUs {
-        padding-top: 40px;
-        margin-bottom: -80px;
-    }
-    .aboutContactUsContainer {
-        gap: 40px;
-    }
-    .aboutContactUsContainerTop {
-        width: 95%;
-        padding: 0 10px;
-    }
-    .aboutContactUsContainerTopContainer {
-        flex-direction: column;
-        gap: 16px;
-        align-items: center;
-    }
-    .aboutContactUsContainerTopContainerElement {
-        width: 140px;
-        height: 160px;
-        border-radius: 25px;
-    }
-    .aboutContactUsContainerTopContainerElementContainer {
-        gap: 25px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
-        font-size: 40px;
-        line-height: 40px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .aboutContactUsContainerBottomContainerOne {
-        padding: 0 10px;
-    }
-    .aboutContactUsContainerBottomContainerOneContainer {
-        gap: 20px;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOne,
-    .aboutContactUsContainerBottomContainerOneContainerTwo {
-        width: 90vw;
-        max-width: 320px;
-        min-width: 250px;
-        height: 180px;
-        border-radius: 25px !important;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
-    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
-        border-radius: 25px !important;
-    }
-    .aboutContactUsContainerBottomContainerBottom {
-        width: 90vw;
-        max-width: 320px;
-        min-width: 250px;
-        height: 200px;
-        transform: translateX(0) translateY(-25%);
-        border-radius: 25px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainer {
-        gap: 30px;
-        padding: 20px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerTop {
-        width: 90%;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
-        font-size: 18px;
-        line-height: 24px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
-        width: 140px;
-        height: 40px;
-        border-radius: 20px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
-        font-size: 12px;
-        line-height: 12px;
-    }
+  .aboutContactUs {
+    padding-top: 40px;
+    margin-bottom: -80px;
+  }
+  .aboutContactUsContainer {
+    gap: 40px;
+  }
+  .aboutContactUsContainerTop {
+    width: 95%;
+    padding: 0 10px;
+  }
+  .aboutContactUsContainerTopContainer {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .aboutContactUsContainerTopContainerElement {
+    width: 140px;
+    height: 160px;
+    border-radius: 25px;
+  }
+  .aboutContactUsContainerTopContainerElementContainer {
+    gap: 25px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .aboutContactUsContainerBottomContainerOne {
+    padding: 0 10px;
+  }
+  .aboutContactUsContainerBottomContainerOneContainer {
+    gap: 20px;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOne,
+  .aboutContactUsContainerBottomContainerOneContainerTwo {
+    width: 90vw;
+    max-width: 320px;
+    min-width: 250px;
+    height: 180px;
+    border-radius: 25px !important;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+  .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+    border-radius: 25px !important;
+  }
+  .aboutContactUsContainerBottomContainerBottom {
+    width: 90vw;
+    max-width: 320px;
+    min-width: 250px;
+    height: 200px;
+    transform: translateX(0) translateY(-25%);
+    border-radius: 25px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainer {
+    gap: 30px;
+    padding: 20px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerTop {
+    width: 90%;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+    font-size: 12px;
+    line-height: 12px;
+  }
 }
 
 @media (max-width: 400px) {
-    .aboutContactUs {
-        padding-top: 30px;
-        margin-bottom: -60px;
-    }
-    .aboutContactUsContainer {
-        gap: 30px;
-    }
-    .aboutContactUsContainerTopContainerElement {
-        width: 120px;
-        height: 140px;
-        border-radius: 20px;
-    }
-    .aboutContactUsContainerTopContainerElementContainer {
-        gap: 20px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
-        font-size: 11px;
-        line-height: 18px;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOne,
-    .aboutContactUsContainerBottomContainerOneContainerTwo {
-        width: 95vw;
-        max-width: 280px;
-        min-width: 220px;
-        height: 160px;
-        border-radius: 20px !important;
-    }
-    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
-    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
-        border-radius: 20px !important;
-    }
-    .aboutContactUsContainerBottomContainerBottom {
-        width: 95vw;
-        max-width: 280px;
-        min-width: 220px;
-        height: 180px;
-        border-radius: 20px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainer {
-        gap: 25px;
-        padding: 15px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
-        width: 120px;
-        height: 36px;
-        border-radius: 18px;
-    }
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
-        font-size: 11px;
-        line-height: 11px;
-    }
+  .aboutContactUs {
+    padding-top: 30px;
+    margin-bottom: -60px;
+  }
+  .aboutContactUsContainer {
+    gap: 30px;
+  }
+  .aboutContactUsContainerTopContainerElement {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px;
+  }
+  .aboutContactUsContainerTopContainerElementContainer {
+    gap: 20px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+    font-size: 11px;
+    line-height: 18px;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOne,
+  .aboutContactUsContainerBottomContainerOneContainerTwo {
+    width: 95vw;
+    max-width: 280px;
+    min-width: 220px;
+    height: 160px;
+    border-radius: 20px !important;
+  }
+  .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+  .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+    border-radius: 20px !important;
+  }
+  .aboutContactUsContainerBottomContainerBottom {
+    width: 95vw;
+    max-width: 280px;
+    min-width: 220px;
+    height: 180px;
+    border-radius: 20px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainer {
+    gap: 25px;
+    padding: 15px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+  }
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+    font-size: 11px;
+    line-height: 11px;
+  }
 }
-
-/* End Responsive Design */

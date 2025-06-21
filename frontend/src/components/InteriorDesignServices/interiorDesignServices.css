@@ -17,13 +17,13 @@
 .interiorDesignServicesHeaderTitle {
   font-size: 3.5rem;
   font-weight: 700;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 20px;
 }
 
 .interiorDesignServicesHeaderDescription {
   font-size: 18px;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.7;
 }
 
@@ -46,23 +46,22 @@
 }
 
 .interiorDesignServicesCard.gradient1 {
-  background: linear-gradient(135deg, #FFE5D4 0%, #F5EDE7 100%);
+  background: linear-gradient(135deg, #ffe5d4 0%, #f5ede7 100%);
 }
 
 .interiorDesignServicesCard.gradient2 {
-  background: linear-gradient(135deg, #E8F4F8 0%, #D1E9F0 100%);
+  background: linear-gradient(135deg, #e8f4f8 0%, #d1e9f0 100%);
 }
 
 .interiorDesignServicesCard.gradient3 {
-  background: linear-gradient(135deg, #F0F8E8 0%, #E1F0D1 100%);
+  background: linear-gradient(135deg, #f0f8e8 0%, #e1f0d1 100%);
 }
 
 .interiorDesignServicesCard.gradient4 {
-  background: linear-gradient(135deg, #F8E8F0 0%, #F0D1E1 100%);
+  background: linear-gradient(135deg, #f8e8f0 0%, #f0d1e1 100%);
 }
 
 .interiorDesignServicesCard:hover {
-  /* transform: translateY(-10px); */
   box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15);
 }
 
@@ -70,19 +69,18 @@
   font-size: 4rem;
   margin-bottom: 25px;
   display: inline-block;
-  /* animation: bounce 2s ease-in-out infinite; */
 }
 
 .interiorDesignServicesCardTitle {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 15px;
 }
 
 .interiorDesignServicesCardDescription {
   font-size: 16px;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.8;
   margin-bottom: 25px;
   line-height: 1.6;
@@ -95,7 +93,7 @@
 
 .interiorDesignServicesCardFeatures li {
   padding: 8px 0;
-  color: #AC6620;
+  color: #ac6620;
   font-weight: 500;
   position: relative;
 }
@@ -103,7 +101,7 @@
 .interiorDesignServicesCardFeatures li::before {
   content: "✓";
   margin-right: 10px;
-  color: #C9823B;
+  color: #c9823b;
   font-weight: bold;
 }
 
@@ -114,29 +112,24 @@
   }
 }
 
-/* @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-} */
-
 @media (max-width: 768px) {
   .interiorDesignServices {
     padding: 60px 0;
   }
-  
+
   .interiorDesignServicesContainer {
     width: 95%;
   }
-  
+
   .interiorDesignServicesHeaderTitle {
     font-size: 2.5rem;
   }
-  
+
   .interiorDesignServicesGrid {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-  
+
   .interiorDesignServicesCard {
     padding: 30px 20px;
   }

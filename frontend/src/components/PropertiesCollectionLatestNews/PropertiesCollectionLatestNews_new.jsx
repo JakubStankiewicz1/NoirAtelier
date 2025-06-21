@@ -8,7 +8,7 @@ import { getRecentBlogs } from "../../data/blogsData";
 
 const PropertiesCollectionLatestNews = () => {
   const navigate = useNavigate();
-  const recentBlogs = getRecentBlogs(3); // Pobierz 3 najnowsze blogi
+  const recentBlogs = getRecentBlogs(3);
 
   const handleBlogClick = (blogId) => {
     navigate(`/blog/${blogId}`);
@@ -20,24 +20,32 @@ const PropertiesCollectionLatestNews = () => {
         {/* First Part */}
         <div className="propertiesCollectionLatestNewsContainerFirst">
           <div className="propertiesCollectionLatestNewsContainerFirstContainer">
-            <p className="propertiesCollectionLatestNewsContainerFirstContainerText">OUR LATEST NEWS</p>
+            <p className="propertiesCollectionLatestNewsContainerFirstContainerText">
+              OUR LATEST NEWS
+            </p>
           </div>
         </div>
-        
+
         {/* Second Part */}
         <div className="propertiesCollectionLatestNewsContainerSecond">
           <div className="propertiesCollectionLatestNewsContainerSecondContainer">
             <p className="propertiesCollectionLatestNewsContainerSecondContainerText cormorant-garamond-regular">
-              Be on time with news that we provide <span className="propertiesCollectionLatestNewsContainerSecondContainerTextTextOne">for you</span>
+              Be on time with news that we provide{" "}
+              <span className="propertiesCollectionLatestNewsContainerSecondContainerTextTextOne">
+                for you
+              </span>
             </p>
           </div>
         </div>
-        
+
         {/* Third Part */}
         <div className="propertiesCollectionLatestNewsContainerThird">
           <div className="propertiesCollectionLatestNewsContainerThirdContainer">
             {recentBlogs.map((blog) => (
-              <div key={blog.id} className="propertiesCollectionLatestNewsContainerThirdContainerElement">
+              <div
+                key={blog.id}
+                className="propertiesCollectionLatestNewsContainerThirdContainerElement"
+              >
                 <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainer">
                   {/* Top Part */}
                   <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTop">
@@ -47,7 +55,7 @@ const PropertiesCollectionLatestNews = () => {
                         alt={blog.title}
                         className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerTopContainerImage"
                         onClick={() => handleBlogClick(blog.id)}
-                        style={{ cursor: 'pointer' }}
+                        style={{ cursor: "pointer" }}
                       />
                     </div>
                   </div>
@@ -56,10 +64,10 @@ const PropertiesCollectionLatestNews = () => {
                   <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerBottom">
                     <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerBottomContainer">
                       <div className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerBottomContainerOne">
-                        <p 
+                        <p
                           className="propertiesCollectionLatestNewsContainerThirdContainerElementContainerBottomContainerOneText"
                           onClick={() => handleBlogClick(blog.id)}
-                          style={{ cursor: 'pointer' }}
+                          style={{ cursor: "pointer" }}
                         >
                           {blog.title}
                         </p>
@@ -97,11 +105,14 @@ const PropertiesCollectionLatestNews = () => {
             ))}
           </div>
         </div>
-        
+
         {/* Fourth Part */}
         <div className="propertiesCollectionLatestNewsContainerFourth">
           <div className="propertiesCollectionLatestNewsContainerFourthContainer">
-            <NavLink to="/blog" className="propertiesCollectionLatestNewsContainerFourthContainerButton">
+            <NavLink
+              to="/blog"
+              className="propertiesCollectionLatestNewsContainerFourthContainerButton"
+            >
               {/* Left Part */}
               <div className="propertiesCollectionLatestNewsContainerFourthContainerLeft">
                 <PiSquaresFourFill className="propertiesCollectionLatestNewsContainerFourthContainerLeftImage" />
@@ -109,20 +120,24 @@ const PropertiesCollectionLatestNews = () => {
 
               {/* Right Part */}
               <div className="propertiesCollectionLatestNewsContainerFourthContainerRight">
-                <p className="propertiesCollectionLatestNewsContainerFourthContainerRightText">See More</p>
+                <p className="propertiesCollectionLatestNewsContainerFourthContainerRightText">
+                  See More
+                </p>
               </div>
             </NavLink>
           </div>
         </div>
-        
+
         {/* Fifth Part */}
         <div className="propertiesCollectionLatestNewsContainerFifth">
           <div className="propertiesCollectionLatestNewsContainerFifthContainer">
             <div className="propertiesCollectionLatestNewsMarquee">
               <div className="propertiesCollectionLatestNewsMarqueeInner">
                 <span className="propertiesCollectionLatestNewsContainerFifthContainerText">
-                  LUXURY ESTATES • PREMIUM VILLAS • EXCLUSIVE APARTMENTS • NOIR ATELIER • LUXURY ESTATES • PREMIUM VILLAS • EXCLUSIVE APARTMENTS •
-                  NOIR ATELIER • LUXURY ESTATES • PREMIUM VILLAS • EXCLUSIVE APARTMENTS • NOIR ATELIER •
+                  LUXURY ESTATES • PREMIUM VILLAS • EXCLUSIVE APARTMENTS • NOIR
+                  ATELIER • LUXURY ESTATES • PREMIUM VILLAS • EXCLUSIVE
+                  APARTMENTS • NOIR ATELIER • LUXURY ESTATES • PREMIUM VILLAS •
+                  EXCLUSIVE APARTMENTS • NOIR ATELIER •
                 </span>
               </div>
             </div>

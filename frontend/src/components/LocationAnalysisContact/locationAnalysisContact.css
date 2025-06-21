@@ -1,530 +1,526 @@
 .locationAnalysisContact {
-    width: 100%;
-    background-color: #F5EDE7;
-    padding: 100px 0;
+  width: 100%;
+  background-color: #f5ede7;
+  padding: 100px 0;
 }
 
 .locationAnalysisContactContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .locationAnalysisContactHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .locationAnalysisContactHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .locationAnalysisContactHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .locationAnalysisContactHeaderTitle {
-    color: #31361D;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 30px;
 }
 
 .locationAnalysisContactHeaderDescription {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
 }
 
-/* Packages Section */
 .locationAnalysisContactPackages {
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    padding: 60px 40px;
-    box-shadow: 0 20px 50px rgba(49, 54, 29, 0.1);
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 60px 40px;
+  box-shadow: 0 20px 50px rgba(49, 54, 29, 0.1);
 }
 
 .locationAnalysisContactPackagesTitle {
-    text-align: center;
-    color: #31361D;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-bottom: 50px;
+  text-align: center;
+  color: #31361d;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 50px;
 }
 
 .locationAnalysisContactPackagesGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .locationAnalysisContactPackagesCard {
-    background-color: #F5EDE7;
-    border-radius: 20px;
-    padding: 40px 30px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+  background-color: #f5ede7;
+  border-radius: 20px;
+  padding: 40px 30px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .locationAnalysisContactPackagesCard.recommended {
-    border-color: #AC6620;
-    transform: scale(1.05);
-    box-shadow: 0 20px 40px rgba(172, 102, 32, 0.2);
+  border-color: #ac6620;
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(172, 102, 32, 0.2);
 }
 
 .locationAnalysisContactPackagesCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(49, 54, 29, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(49, 54, 29, 0.15);
 }
 
 .locationAnalysisContactPackagesCard.recommended:hover {
-    transform: scale(1.05) translateY(-5px);
+  transform: scale(1.05) translateY(-5px);
 }
 
 .locationAnalysisContactPackagesCardBadge {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    color: #FFFFFF;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .locationAnalysisContactPackagesCardHeader {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .locationAnalysisContactPackagesCardName {
-    color: #31361D;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 32px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 15px;
 }
 
 .locationAnalysisContactPackagesCardPrice {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .locationAnalysisContactPackagesCardPriceAmount {
-    color: #AC6620;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 36px;
+  color: #ac6620;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
 }
 
 .locationAnalysisContactPackagesCardPriceUnit {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 400;
-    opacity: 0.7;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 .locationAnalysisContactPackagesCardFeatures {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 
 .locationAnalysisContactPackagesCardFeature {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .locationAnalysisContactPackagesCardFeatureIcon {
-    color: #AC6620;
-    font-size: 14px;
-    flex-shrink: 0;
+  color: #ac6620;
+  font-size: 14px;
+  flex-shrink: 0;
 }
 
 .locationAnalysisContactPackagesCardFeatureText {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .locationAnalysisContactPackagesCardButton {
-    width: 100%;
+  width: 100%;
 }
 
 .locationAnalysisContactPackagesCardButtonElement {
-    width: 100%;
-    background-color: #AC6620;
-    color: #FFFFFF;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  width: 100%;
+  background-color: #ac6620;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .locationAnalysisContactPackagesCardButtonElement:hover {
-    background-color: #C9823B;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(172, 102, 32, 0.3);
+  background-color: #c9823b;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(172, 102, 32, 0.3);
 }
 
-.locationAnalysisContactPackagesCard.recommended .locationAnalysisContactPackagesCardButtonElement {
-    background: linear-gradient(135deg, #AC6620, #C9823B);
+.locationAnalysisContactPackagesCard.recommended
+  .locationAnalysisContactPackagesCardButtonElement {
+  background: linear-gradient(135deg, #ac6620, #c9823b);
 }
 
-/* Main Content */
 .locationAnalysisContactMain {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
 }
 
-/* Contact Form */
 .locationAnalysisContactForm {
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    padding: 50px;
-    box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 50px;
+  box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
 }
 
 .locationAnalysisContactFormTitle {
-    color: #31361D;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 38px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-bottom: 15px;
 }
 
 .locationAnalysisContactFormDescription {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
-    margin-bottom: 40px;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-bottom: 40px;
 }
 
 .locationAnalysisContactFormElement {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .locationAnalysisContactFormRow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .locationAnalysisContactFormGroup {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .locationAnalysisContactFormLabel {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 500;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .locationAnalysisContactFormInput,
 .locationAnalysisContactFormSelect,
 .locationAnalysisContactFormTextarea {
-    width: 100%;
-    padding: 15px 20px;
-    border: 2px solid rgba(49, 54, 29, 0.1);
-    border-radius: 15px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #31361D;
-    background-color: #F5EDE7;
-    transition: all 0.3s ease;
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid rgba(49, 54, 29, 0.1);
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #31361d;
+  background-color: #f5ede7;
+  transition: all 0.3s ease;
 }
 
 .locationAnalysisContactFormInput:focus,
 .locationAnalysisContactFormSelect:focus,
 .locationAnalysisContactFormTextarea:focus {
-    outline: none;
-    border-color: #AC6620;
-    background-color: #FFFFFF;
-    box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
+  outline: none;
+  border-color: #ac6620;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
 }
 
 .locationAnalysisContactFormTextarea {
-    resize: vertical;
-    min-height: 120px;
-    font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+  font-family: inherit;
 }
 
 .locationAnalysisContactFormSubmit {
-    width: 100%;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    color: #FFFFFF;
-    border: none;
-    padding: 18px 40px;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 20px;
+  width: 100%;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  color: #ffffff;
+  border: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
 }
 
 .locationAnalysisContactFormSubmit:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(172, 102, 32, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(172, 102, 32, 0.3);
 }
 
-/* Form Success */
 .locationAnalysisContactFormSuccess {
-    text-align: center;
-    padding: 40px 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .locationAnalysisContactFormSuccessIcon {
-    color: #AC6620;
-    font-size: 48px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
 .locationAnalysisContactFormSuccessTitle {
-    color: #31361D;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
-    margin-bottom: 15px;
+  color: #31361d;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 
 .locationAnalysisContactFormSuccessMessage {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
-/* Contact Info */
 .locationAnalysisContactInfo {
-    background: linear-gradient(135deg, #31361D, #3a4021);
-    border-radius: 25px;
-    padding: 50px;
-    position: relative;
-    overflow: hidden;
+  background: linear-gradient(135deg, #31361d, #3a4021);
+  border-radius: 25px;
+  padding: 50px;
+  position: relative;
+  overflow: hidden;
 }
 
 .locationAnalysisContactInfo::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="75" cy="75" r="1" fill="%23FFE5D4" fill-opacity="0.03"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="75" cy="75" r="1" fill="%23FFE5D4" fill-opacity="0.03"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>')
+    repeat;
+  pointer-events: none;
 }
 
 .locationAnalysisContactInfoContainer {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .locationAnalysisContactInfoTitle {
-    color: #FFE5D4;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 38px;
-    margin-bottom: 40px;
+  color: #ffe5d4;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-bottom: 40px;
 }
 
 .locationAnalysisContactInfoItems {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 
 .locationAnalysisContactInfoItem {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .locationAnalysisContactInfoItemIcon {
-    width: 50px;
-    height: 50px;
-    background-color: #AC6620;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 18px;
-    flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #ac6620;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
 .locationAnalysisContactInfoItemContent {
-    flex: 1;
+  flex: 1;
 }
 
 .locationAnalysisContactInfoItemTitle {
-    color: #FFE5D4;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-bottom: 8px;
+  color: #ffe5d4;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 8px;
 }
 
 .locationAnalysisContactInfoItemValue {
-    color: #AC6620;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 5px;
+  color: #ac6620;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .locationAnalysisContactInfoItemDescription {
-    color: #FFE5D4;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    opacity: 0.8;
+  color: #ffe5d4;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.8;
 }
 
 .locationAnalysisContactInfoCTA {
-    border-top: 1px solid rgba(255, 229, 212, 0.2);
-    padding-top: 40px;
+  border-top: 1px solid rgba(255, 229, 212, 0.2);
+  padding-top: 40px;
 }
 
 .locationAnalysisContactInfoCTATitle {
-    color: #FFE5D4;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
-    margin-bottom: 15px;
+  color: #ffe5d4;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 15px;
 }
 
 .locationAnalysisContactInfoCTADescription {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
-    margin-bottom: 25px;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
+  margin-bottom: 25px;
 }
 
 .locationAnalysisContactInfoCTAButtons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .locationAnalysisContactInfoCTAButton {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 25px;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
 }
 
 .locationAnalysisContactInfoCTAButton.primary {
-    background-color: #AC6620;
-    color: #FFFFFF;
+  background-color: #ac6620;
+  color: #ffffff;
 }
 
 .locationAnalysisContactInfoCTAButton.primary:hover {
-    background-color: #C9823B;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(172, 102, 32, 0.3);
+  background-color: #c9823b;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(172, 102, 32, 0.3);
 }
 
 .locationAnalysisContactInfoCTAButton.secondary {
-    background-color: transparent;
-    color: #FFE5D4;
-    border: 2px solid #FFE5D4;
+  background-color: transparent;
+  color: #ffe5d4;
+  border: 2px solid #ffe5d4;
 }
 
 .locationAnalysisContactInfoCTAButton.secondary:hover {
-    background-color: #FFE5D4;
-    color: #31361D;
-    transform: translateY(-2px);
+  background-color: #ffe5d4;
+  color: #31361d;
+  transform: translateY(-2px);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .locationAnalysisContactContainer {
-        width: 90%;
-        gap: 60px;
-    }
-    
-    .locationAnalysisContactHeaderTitle {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    
-    .locationAnalysisContactPackages {
-        padding: 40px 30px;
-    }
-    
-    .locationAnalysisContactPackagesTitle {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    
-    .locationAnalysisContactPackagesGrid {
-        grid-template-columns: 1fr;
-    }
-    
-    .locationAnalysisContactPackagesCard.recommended {
-        transform: none;
-    }
-    
-    .locationAnalysisContactMain {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
-    .locationAnalysisContactForm,
-    .locationAnalysisContactInfo {
-        padding: 40px 30px;
-    }
-    
-    .locationAnalysisContactFormRow {
-        grid-template-columns: 1fr;
-    }
-    
-    .locationAnalysisContactInfoCTAButtons {
-        flex-direction: column;
-    }
-    
-    .locationAnalysisContactInfoCTAButton {
-        justify-content: center;
-    }
+  .locationAnalysisContactContainer {
+    width: 90%;
+    gap: 60px;
+  }
+
+  .locationAnalysisContactHeaderTitle {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .locationAnalysisContactPackages {
+    padding: 40px 30px;
+  }
+
+  .locationAnalysisContactPackagesTitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .locationAnalysisContactPackagesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .locationAnalysisContactPackagesCard.recommended {
+    transform: none;
+  }
+
+  .locationAnalysisContactMain {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .locationAnalysisContactForm,
+  .locationAnalysisContactInfo {
+    padding: 40px 30px;
+  }
+
+  .locationAnalysisContactFormRow {
+    grid-template-columns: 1fr;
+  }
+
+  .locationAnalysisContactInfoCTAButtons {
+    flex-direction: column;
+  }
+
+  .locationAnalysisContactInfoCTAButton {
+    justify-content: center;
+  }
 }

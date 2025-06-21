@@ -20,7 +20,6 @@ import LocationAnalysis from "./pages/LocationAnalysis/LocationAnalysis";
 const App = () => {
   const location = useLocation();
 
-  // Przewijanie na górę przy każdej zmianie strony
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
@@ -36,17 +35,18 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogElement />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} /> 
+          <Route path="/contact" element={<Contact />} />
           <Route path="/offert/:id" element={<Offert />} />
-          <Route path="/offert" element={<Offert />} /> 
+          <Route path="/offert" element={<Offert />} />
           <Route path="/property-management" element={<PropertyManagement />} />
-          <Route path="/interior-design" element={<InteriorDesign />} /> 
-          <Route path="/investment-consulting" element={<InvestmentConsulting />} />
+          <Route path="/interior-design" element={<InteriorDesign />} />
+          <Route
+            path="/investment-consulting"
+            element={<InvestmentConsulting />}
+          />
           <Route path="/buy-sell-support" element={<BuySellSupport />} />
           <Route path="/luxury-rentals" element={<LuxuryRentals />} />
           <Route path="/location-analysis" element={<LocationAnalysis />} />
-          {/* <Route path="/services" element={<Services />} /> */}
-          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
         </Routes>
       </div>
     </div>

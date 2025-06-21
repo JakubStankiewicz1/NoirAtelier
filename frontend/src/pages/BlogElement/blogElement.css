@@ -1,14 +1,9 @@
-/* ======================================
-   BLOG ELEMENT STYLES
-   ====================================== */
-
 .blogElement {
   width: 100%;
   min-height: 100vh;
   background-color: #efe5de;
 }
 
-/* Error Container */
 .blogElementErrorContainer {
   width: 100%;
   min-height: 60vh;
@@ -39,7 +34,6 @@
   margin-bottom: 30px;
 }
 
-/* Header Section */
 .blogElementHeader {
   width: 100%;
   padding: 120px 20px 60px 20px;
@@ -73,7 +67,6 @@
   background-color: #c9823b;
   border-color: #c9823b;
   color: #fff;
-  /* transform: translateY(-2px); */
 }
 
 .blogElementHeaderContent {
@@ -168,11 +161,9 @@
 }
 
 .blogElementShareButton:hover {
-  /* transform: translateY(-2px); */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Featured Image */
 .blogElementFeaturedImage {
   width: 100%;
   max-width: 1200px;
@@ -189,7 +180,6 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
 }
 
-/* Content Section */
 .blogElementContent {
   width: 100%;
   background-color: #f5ede7;
@@ -253,7 +243,6 @@
   color: #31361d;
 }
 
-/* Tags Section */
 .blogElementTags {
   width: 100%;
   background-color: #efe5de;
@@ -288,7 +277,6 @@
   border: 1px solid #c9823b;
 }
 
-/* Related Posts */
 .blogElementRelated {
   width: 100%;
   background-color: #f5ede7;
@@ -323,11 +311,6 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* .blogElementRelatedCard:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-} */
-
 .blogElementRelatedCardImage {
   width: 100%;
   height: 200px;
@@ -340,10 +323,6 @@
   object-fit: cover;
   transition: transform 0.3s ease;
 }
-
-/* .blogElementRelatedCard:hover .blogElementRelatedCardImage img {
-  transform: scale(1.05);
-} */
 
 .blogElementRelatedCardContent {
   padding: 30px;
@@ -384,46 +363,45 @@
   font-size: 12px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .blogElementHeader {
     padding: 100px 15px 40px 15px;
   }
-  
+
   .blogElementTitle {
     font-size: 32px;
   }
-  
+
   .blogElementMeta {
     flex-direction: column;
     gap: 15px;
   }
-  
+
   .blogElementFeaturedImage img {
     height: 300px;
   }
-  
+
   .blogElementContent {
     padding: 40px 15px;
   }
-  
+
   .blogElementContentBody {
     font-size: 15px;
   }
-  
+
   .blogElementContentBody h2 {
     font-size: 28px;
   }
-  
+
   .blogElementContentBody h3 {
     font-size: 22px;
   }
-  
+
   .blogElementRelatedGrid {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .blogElementRelatedCard {
     margin: 0 auto;
     max-width: 400px;

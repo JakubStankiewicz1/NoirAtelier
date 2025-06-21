@@ -9,18 +9,21 @@
 ## 🚀 Uruchomienie lokalnie
 
 ### 1. Klonowanie repozytorium
+
 ```bash
 git clone <url-repozytorium>
 cd NoirAtelier-1
 ```
 
 ### 2. Instalacja zależności
+
 ```bash
 cd frontend
 npm install
 ```
 
 ### 3. Uruchomienie w trybie deweloperskim
+
 ```bash
 npm run dev
 ```
@@ -28,6 +31,7 @@ npm run dev
 Aplikacja będzie dostępna pod adresem: `http://localhost:1111`
 
 ### 4. Budowanie produkcyjne
+
 ```bash
 npm run build
 npm run start
@@ -36,12 +40,14 @@ npm run start
 ## 🐳 Uruchomienie z Dockerem (lokalnie)
 
 ### 1. Budowanie obrazu Docker
+
 ```bash
 # W głównym katalogu projektu
 docker build -t noiratelier .
 ```
 
 ### 2. Uruchomienie kontera
+
 ```bash
 docker run -p 3000:3000 noiratelier
 ```
@@ -53,10 +59,12 @@ Aplikacja będzie dostępna pod adresem: `http://localhost:3000`
 ### Opcja 1: Automatyczny deploy (zalecane)
 
 1. **Przygotuj repozytorium GitHub:**
+
    - Zacommituj wszystkie zmiany
    - Wypchnij kod na GitHub
 
 2. **Utwórz nowy Web Service na Render:**
+
    - Zaloguj się na [render.com](https://render.com)
    - Kliknij "New" → "Web Service"
    - Połącz swoje repozytorium GitHub
@@ -70,6 +78,7 @@ Aplikacja będzie dostępna pod adresem: `http://localhost:3000`
 ### Opcja 2: Manualna konfiguracja
 
 1. **Utwórz nowy Web Service:**
+
    - Environment: `Docker`
    - Build Command: `docker build -t noiratelier .`
    - Start Command: `serve -s dist -l 3000`
@@ -113,18 +122,22 @@ W katalogu `frontend/`:
 ## 🆘 Rozwiązywanie problemów
 
 ### Problem z terser na Render
+
 Jeśli widzisz błąd: `terser not found`, to znaczy że Vite nie może znaleźć terser do minifikacji:
+
 ```bash
 # Rozwiązanie: terser jest już dodany do devDependencies
 # Upewnij się, że package.json zawiera terser w devDependencies
 ```
 
 ### Problem z portami
+
 - Lokalnie: aplikacja działa na porcie 1111
 - Docker: aplikacja działa na porcie 3000
 - Render: automatycznie przypisuje port
 
 ### Problemy z buildem
+
 ```bash
 # Wyczyść cache i reinstaluj
 rm -rf node_modules package-lock.json
@@ -133,6 +146,7 @@ npm run build
 ```
 
 ### Problemy z Dockerem
+
 ```bash
 # Sprawdź logi
 docker logs <container-id>
@@ -144,6 +158,7 @@ docker exec -it <container-id> /bin/sh
 ## 📞 Wsparcie
 
 W przypadku problemów z deployem:
+
 1. Sprawdź logi na Render Dashboard
 2. Upewnij się, że wszystkie pliki są zacommitowane
 3. Zweryfikuj konfigurację w `render.yaml`

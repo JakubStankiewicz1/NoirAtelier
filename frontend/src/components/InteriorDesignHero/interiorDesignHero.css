@@ -1,17 +1,15 @@
 .interiorDesignHero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #F8F6F3 0%, #E8E4E0 50%, #F0EDE8 100%);
+  background: linear-gradient(135deg, #f8f6f3 0%, #e8e4e0 50%, #f0ede8 100%);
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
-  /* padding: 100px 0 50px; */
   padding-top: 150px;
   padding-bottom: 100px;
 }
 
-/* Floating Elements Background */
 .interiorDesignHeroFloatingElements {
   position: absolute;
   top: 0;
@@ -26,46 +24,8 @@
   position: absolute;
   font-size: 2rem;
   opacity: 0.15;
-  color: #AC6620;
-  /* animation: float 15s ease-in-out infinite; */
+  color: #ac6620;
 }
-
-/* .interiorDesignHeroFloatingElement.element1 {
-  top: 20%;
-  left: 10%;
-  animation-delay: 0s;
-}
-
-.interiorDesignHeroFloatingElement.element2 {
-  top: 60%;
-  left: 5%;
-  animation-delay: 3s;
-}
-
-.interiorDesignHeroFloatingElement.element3 {
-  top: 30%;
-  right: 15%;
-  animation-delay: 6s;
-}
-
-.interiorDesignHeroFloatingElement.element4 {
-  top: 70%;
-  right: 10%;
-  animation-delay: 9s;
-}
-
-.interiorDesignHeroFloatingElement.element5 {
-  top: 10%;
-  right: 30%;
-  animation-delay: 12s;
-} */
-
-/* @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  25% { transform: translateY(-20px) rotate(5deg); }
-  50% { transform: translateY(-40px) rotate(-5deg); }
-  75% { transform: translateY(-20px) rotate(3deg); }
-} */
 
 .interiorDesignHeroContainer {
   width: 90%;
@@ -78,7 +38,6 @@
   z-index: 2;
 }
 
-/* Left Content */
 .interiorDesignHeroLeft {
   padding-right: 40px;
 }
@@ -91,7 +50,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
   padding: 12px 24px;
   border-radius: 50px;
@@ -99,13 +58,7 @@
   font-weight: 600;
   margin-bottom: 30px;
   box-shadow: 0 10px 30px rgba(172, 102, 32, 0.3);
-  /* animation: pulse 2s ease-in-out infinite; */
 }
-
-/* @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-} */
 
 .interiorDesignHeroLeftBadgeIcon {
   font-size: 16px;
@@ -122,7 +75,7 @@
 .interiorDesignHeroLeftTitleLine1 {
   font-size: 4rem;
   font-weight: 300;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.7;
   transform: translateX(-20px);
   animation: slideInLeft 0.8s ease-out forwards;
@@ -131,7 +84,8 @@
 .interiorDesignHeroLeftTitleLine2 {
   font-size: 5.5rem;
   font-weight: 700;
-  color: #AC6620;  background: linear-gradient(135deg, #AC6620, #C9823B, #D4913D);
+  color: #ac6620;
+  background: linear-gradient(135deg, #ac6620, #c9823b, #d4913d);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,20 +96,22 @@
 .interiorDesignHeroLeftTitleLine3 {
   font-size: 4rem;
   font-weight: 300;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.8;
   transform: translateX(-20px);
   animation: slideInLeft 0.8s ease-out 0.4s forwards;
 }
 
 @keyframes slideInLeft {
-  to { transform: translateX(0); }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .interiorDesignHeroLeftDescription {
   font-size: 18px;
   line-height: 1.8;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.8;
   margin-bottom: 40px;
   transform: translateY(20px);
@@ -164,7 +120,10 @@
 }
 
 @keyframes slideInUp {
-  to { transform: translateY(0); opacity: 0.8; }
+  to {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
 }
 
 .interiorDesignHeroLeftButtons {
@@ -177,7 +136,7 @@
 }
 
 .interiorDesignHeroLeftButtonPrimary {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
   border: none;
   padding: 18px 32px;
@@ -192,11 +151,6 @@
   box-shadow: 0 10px 30px rgba(172, 102, 32, 0.3);
 }
 
-/* .interiorDesignHeroLeftButtonPrimary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 15px 40px rgba(172, 102, 32, 0.4);
-} */
-
 .interiorDesignHeroLeftButtonPrimaryArrow {
   width: 24px;
   height: 24px;
@@ -208,14 +162,10 @@
   transition: all 0.3s ease;
 }
 
-/* .interiorDesignHeroLeftButtonPrimary:hover .interiorDesignHeroLeftButtonPrimaryArrow {
-  transform: translateX(3px);
-} */
-
 .interiorDesignHeroLeftButtonSecondary {
   background: transparent;
-  color: #31361D;
-  border: 2px solid #31361D;
+  color: #31361d;
+  border: 2px solid #31361d;
   padding: 16px 28px;
   border-radius: 50px;
   font-size: 16px;
@@ -228,13 +178,10 @@
 }
 
 .interiorDesignHeroLeftButtonSecondary:hover {
-  background: #31361D;
+  background: #31361d;
   color: white;
-  /* transform: translateY(-3px); */
-  /* box-shadow: 0 10px 25px rgba(49, 54, 29, 0.3); */
 }
 
-/* Stats */
 .interiorDesignHeroLeftStats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -251,22 +198,21 @@
   padding: 20px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
-  border: 1px solid rgba(172, 102, 32, 0.1);  transition: all 0.3s ease;
+  border: 1px solid rgba(172, 102, 32, 0.1);
+  transition: all 0.3s ease;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 .interiorDesignHeroLeftStatItem:hover {
-  /* transform: translateY(-5px); */
   background: rgba(255, 255, 255, 0.9);
-  /* box-shadow: 0 10px 30px rgba(172, 102, 32, 0.1); */
 }
 
 .interiorDesignHeroLeftStatIcon {
   font-size: 20px;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -282,19 +228,18 @@
 .interiorDesignHeroLeftStatNumber {
   font-size: 24px;
   font-weight: 700;
-  color: #AC6620;
+  color: #ac6620;
   line-height: 1;
 }
 
 .interiorDesignHeroLeftStatLabel {
   font-size: 14px;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.7;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* Right Side */
 .interiorDesignHeroRight {
   position: relative;
   height: 70vh;
@@ -307,7 +252,6 @@
   height: 100%;
 }
 
-/* Main Image Slider */
 .interiorDesignHeroRightMainImage {
   position: relative;
   width: 80%;
@@ -356,7 +300,6 @@
   font-family: "Cormorant Garamond", serif;
 }
 
-/* Image Dots */
 .interiorDesignHeroRightImageDots {
   position: absolute;
   bottom: 20px;
@@ -381,7 +324,6 @@
   transform: scale(1.3);
 }
 
-/* Decorative Elements */
 .interiorDesignHeroRightDecorative {
   position: absolute;
   top: 0;
@@ -394,7 +336,11 @@
 .interiorDesignHeroRightDecorativeCircle {
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1));
+  background: linear-gradient(
+    135deg,
+    rgba(172, 102, 32, 0.1),
+    rgba(201, 130, 59, 0.1)
+  );
   animation: rotate 20s linear infinite;
 }
 
@@ -415,7 +361,11 @@
 
 .interiorDesignHeroRightDecorativeSquare {
   position: absolute;
-  background: linear-gradient(45deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(172, 102, 32, 0.1),
+    rgba(201, 130, 59, 0.1)
+  );
   animation: float 10s ease-in-out infinite;
 }
 
@@ -433,15 +383,17 @@
   bottom: 40%;
   right: -5px;
   transform: rotate(15deg);
-  /* animation-delay: 5s; */
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-/* Floating Cards */
 .interiorDesignHeroRightFloatingCards {
   position: absolute;
   top: 0;
@@ -452,7 +404,8 @@
 }
 
 .interiorDesignHeroRightFloatingCard {
-  position: absolute;  background: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 20px;
@@ -473,19 +426,13 @@
 .interiorDesignHeroRightFloatingCard.card2 {
   bottom: 30%;
   left: -60px;
-  /* animation-delay: 3s; */
 }
-
-/* @keyframes floatCard {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-15px); }
-} */
 
 .interiorDesignHeroRightFloatingCardIcon {
   font-size: 20px;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -496,7 +443,7 @@
 .interiorDesignHeroRightFloatingCardText {
   display: flex;
   flex-direction: column;
-  color: #31361D;
+  color: #31361d;
 }
 
 .interiorDesignHeroRightFloatingCardText span:first-child {
@@ -509,27 +456,26 @@
   opacity: 0.7;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .interiorDesignHeroContainer {
     grid-template-columns: 1fr;
     gap: 50px;
     text-align: center;
   }
-  
+
   .interiorDesignHeroLeft {
     padding-right: 0;
   }
-  
+
   .interiorDesignHeroLeftTitleLine1,
   .interiorDesignHeroLeftTitleLine3 {
     font-size: 3rem;
   }
-  
+
   .interiorDesignHeroLeftTitleLine2 {
     font-size: 4.5rem;
   }
-  
+
   .interiorDesignHeroRightFloatingCard {
     display: none;
   }
@@ -539,30 +485,30 @@
   .interiorDesignHero {
     padding: 80px 0 30px;
   }
-  
+
   .interiorDesignHeroContainer {
     width: 95%;
   }
-  
+
   .interiorDesignHeroLeftTitleLine1,
   .interiorDesignHeroLeftTitleLine3 {
     font-size: 2.5rem;
   }
-  
+
   .interiorDesignHeroLeftTitleLine2 {
     font-size: 3.5rem;
   }
-  
+
   .interiorDesignHeroLeftButtons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .interiorDesignHeroLeftStats {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .interiorDesignHeroRight {
     height: 50vh;
     min-height: 400px;
@@ -574,19 +520,19 @@
   .interiorDesignHeroLeftTitleLine3 {
     font-size: 2rem;
   }
-  
+
   .interiorDesignHeroLeftTitleLine2 {
     font-size: 2.8rem;
   }
-  
+
   .interiorDesignHeroLeftDescription {
     font-size: 16px;
   }
-  
+
   .interiorDesignHeroLeftButtons {
     gap: 15px;
   }
-  
+
   .interiorDesignHeroLeftButtonPrimary,
   .interiorDesignHeroLeftButtonSecondary {
     padding: 14px 24px;

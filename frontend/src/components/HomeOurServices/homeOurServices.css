@@ -1,14 +1,14 @@
 .homeOurServices {
   width: 100%;
   position: relative;
-  background-color: #F5EDE7;
-  padding-top: 300px;
+  background-color: #f5ede7;
+  padding-top: 440px;
   padding-bottom: 100px;
   z-index: 1;
 }
 
 .homeOurServices::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -25,13 +25,12 @@
 .homeOurServicesHeader {
   text-align: center;
   margin-bottom: 80px;
-
 }
 
 .homeOurServicesHeaderSubtitle {
   font-size: 15px;
   font-weight: 700;
-  color: #AC6620;
+  color: #ac6620;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 15px;
@@ -40,14 +39,14 @@
 .homeOurServicesHeaderTitle {
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 700;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .homeOurServicesHeaderDescription {
   font-size: 16px;
-  color: #31361D;
+  color: #31361d;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -61,7 +60,7 @@
 }
 
 .homeOurServicesCard {
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
@@ -72,11 +71,8 @@
 }
 
 .homeOurServicesCard:hover {
-  /* transform: translateY(-10px); */
-  /* box-shadow: 0 20px 60px rgba(172, 102, 32, 0.15); */
   border-color: rgba(172, 102, 32, 0.3);
 }
-
 
 .homeOurServicesCard:hover .homeOurServicesCardImageOverlay {
   opacity: 0.9;
@@ -86,9 +82,6 @@
   transform: scale(1.1);
 }
 
-/* .homeOurServicesCard:hover .homeOurServicesCardButtonArrow {
-  transform: translateX(5px);
-} */
 
 .homeOurServicesCardImage {
   position: relative;
@@ -109,7 +102,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(172, 102, 32, 0.8) 0%, rgba(49, 54, 29, 0.6) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(172, 102, 32, 0.8) 0%,
+    rgba(49, 54, 29, 0.6) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,7 +116,7 @@
 
 .homeOurServicesCardIcon {
   font-size: 3rem;
-  color: #FFE5D4;
+  color: #ffe5d4;
   transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
@@ -131,14 +128,14 @@
 .homeOurServicesCardTitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 15px;
   line-height: 1.3;
 }
 
 .homeOurServicesCardDescription {
   font-size: 16px;
-  color: #31361D;
+  color: #31361d;
   line-height: 1.6;
   margin-bottom: 25px;
   font-weight: 300;
@@ -150,16 +147,16 @@
   gap: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: #AC6620;
+  color: #ac6620;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  text-decoration: none; /* Dodane dla Link */
+  text-decoration: none;
 }
 
 .homeOurServicesCardButton:hover {
-  color: #C9823B;
+  color: #c9823b;
 }
 
 .homeOurServicesCardButtonArrow {
@@ -167,11 +164,10 @@
   transition: transform 0.3s ease;
 }
 
-/* Call to Action */
 .homeOurServicesCTA {
   text-align: center;
   padding: 60px;
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   border-radius: 30px;
   position: relative;
   overflow: hidden;
@@ -179,20 +175,25 @@
 }
 
 .homeOurServicesCTA::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -50%;
   left: -50%;
   width: 200%;
   height: 200%;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
+    repeat;
   animation: float 20s linear infinite;
   pointer-events: none;
 }
 
 @keyframes float {
-  0% { transform: translateX(-100px) translateY(-100px); }
-  100% { transform: translateX(100px) translateY(100px); }
+  0% {
+    transform: translateX(-100px) translateY(-100px);
+  }
+  100% {
+    transform: translateX(100px) translateY(100px);
+  }
 }
 
 .homeOurServicesCTAContainer {
@@ -203,7 +204,7 @@
 .homeOurServicesCTATitle {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   font-weight: 700;
-  color: #FFE5D4;
+  color: #ffe5d4;
   margin-bottom: 15px;
   line-height: 1.3;
 }
@@ -217,8 +218,8 @@
 }
 
 .homeOurServicesCTAButton {
-  background: #FFE5D4;
-  color: #AC6620;
+  background: #ffe5d4;
+  color: #ac6620;
   border: none;
   padding: 15px 35px;
   font-size: 16px;
@@ -232,54 +233,52 @@
 }
 
 .homeOurServicesCTAButton:hover {
-  /* transform: translateY(-2px); */
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
-  background: #FFFFFF;
-  color: #C9823B;
+  background: #ffffff;
+  color: #c9823b;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .homeOurServices {
     padding: 60px 0;
   }
-  
+
   .homeOurServicesContainer {
     width: 95%;
   }
-  
+
   .homeOurServicesHeader {
     margin-bottom: 50px;
   }
-  
+
   .homeOurServicesGrid {
     grid-template-columns: 1fr;
     gap: 25px;
     margin-bottom: 50px;
   }
-  
+
   .homeOurServicesCard {
     border-radius: 20px;
   }
-  
+
   .homeOurServicesCardImage {
     height: 200px;
   }
-  
+
   .homeOurServicesCardContent {
     padding: 20px;
   }
-  
+
   .homeOurServicesCardTitle {
     font-size: 1.3rem;
   }
-  
+
   .homeOurServicesCTA {
     padding: 40px 20px;
     border-radius: 20px;
     margin-top: 40px;
   }
-  
+
   .homeOurServicesHeaderTitle {
     font-size: 2.2rem;
   }
@@ -289,41 +288,52 @@
   .homeOurServicesGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .homeOurServicesCard {
     border-radius: 15px;
   }
-  
+
   .homeOurServicesCardImage {
     height: 180px;
   }
-  
+
   .homeOurServicesCardContent {
     padding: 15px;
   }
-  
+
   .homeOurServicesCTA {
     padding: 30px 15px;
   }
-  
+
   .homeOurServicesHeaderTitle {
     font-size: 1.8rem;
   }
 }
 
-/* Animation for cards on load */
 .homeOurServicesCard {
   animation: fadeInUp 0.8s ease forwards;
   opacity: 0;
   transform: translateY(30px);
 }
 
-.homeOurServicesCard:nth-child(1) { animation-delay: 0.1s; }
-.homeOurServicesCard:nth-child(2) { animation-delay: 0.2s; }
-.homeOurServicesCard:nth-child(3) { animation-delay: 0.3s; }
-.homeOurServicesCard:nth-child(4) { animation-delay: 0.4s; }
-.homeOurServicesCard:nth-child(5) { animation-delay: 0.5s; }
-.homeOurServicesCard:nth-child(6) { animation-delay: 0.6s; }
+.homeOurServicesCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.homeOurServicesCard:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.homeOurServicesCard:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.homeOurServicesCard:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.homeOurServicesCard:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.homeOurServicesCard:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 @keyframes fadeInUp {
   to {

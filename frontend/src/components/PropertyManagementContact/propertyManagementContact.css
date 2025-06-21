@@ -1,6 +1,6 @@
 .propertyManagementContact {
   width: 100%;
-  background-color: #F5EDE7;
+  background-color: #f5ede7;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -11,14 +11,13 @@
   margin-right: auto;
 }
 
-/* Header */
 .propertyManagementContactHeader {
   text-align: center;
   margin-bottom: 80px;
 }
 
 .propertyManagementContactHeaderSubtitle {
-  color: #AC6620;
+  color: #ac6620;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -27,7 +26,7 @@
 }
 
 .propertyManagementContactHeaderTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 56px;
   font-weight: 700;
   line-height: 66px;
@@ -35,7 +34,7 @@
 }
 
 .propertyManagementContactHeaderDescription {
-  color: #31361D;
+  color: #31361d;
   font-size: 18px;
   line-height: 28px;
   opacity: 0.8;
@@ -43,7 +42,6 @@
   margin: 0 auto;
 }
 
-/* Main Content */
 .propertyManagementContactContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -51,7 +49,6 @@
   margin-bottom: 100px;
 }
 
-/* Contact Form */
 .propertyManagementContactForm {
   background: white;
   border-radius: 25px;
@@ -61,7 +58,7 @@
 }
 
 .propertyManagementContactFormTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
@@ -69,7 +66,7 @@
 }
 
 .propertyManagementContactFormSubtitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 16px;
   line-height: 24px;
   opacity: 0.7;
@@ -94,7 +91,7 @@
 }
 
 .propertyManagementContactFormField label {
-  color: #31361D;
+  color: #31361d;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -111,15 +108,14 @@
   font-size: 16px;
   transition: all 0.3s ease;
   background: white;
-  color: #31361D;
+  color: #31361d;
 }
 
 .propertyManagementContactFormField input:focus,
 .propertyManagementContactFormField select:focus,
 .propertyManagementContactFormField textarea:focus {
   outline: none;
-  border-color: #AC6620;
-  /* box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1); */
+  border-color: #ac6620;
 }
 
 .propertyManagementContactFormField textarea {
@@ -128,7 +124,7 @@
 }
 
 .propertyManagementContactFormSubmit {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
   border: none;
   padding: 18px 30px;
@@ -144,16 +140,9 @@
   margin-top: 20px;
 }
 
-.propertyManagementContactFormSubmit:hover {
-  /* background: linear-gradient(135deg, #C9823B, #AC6620); */
-  /* transform: translateY(-2px); */
-  /* box-shadow: 0 10px 25px rgba(172, 102, 32, 0.3); */
-}
-
 .propertyManagementContactFormSubmitArrow {
   width: 25px;
   height: 25px;
-  /* background: rgba(255, 255, 255, 0.2); */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -162,13 +151,8 @@
   transition: all 0.3s ease;
 }
 
-/* .propertyManagementContactFormSubmit:hover .propertyManagementContactFormSubmitArrow {
-  transform: translateX(3px);
-} */
-
-/* Contact Info */
 .propertyManagementContactInfo {
-  background: #31361D;
+  background: #31361d;
   border-radius: 25px;
   padding: 50px;
   color: white;
@@ -177,13 +161,17 @@
 }
 
 .propertyManagementContactInfo::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -50%;
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(172, 102, 32, 0.1) 0%, transparent 50%);
+  background: radial-gradient(
+    circle,
+    rgba(172, 102, 32, 0.1) 0%,
+    transparent 50%
+  );
   animation: pulse 6s ease-in-out infinite;
 }
 
@@ -193,7 +181,7 @@
 }
 
 .propertyManagementContactInfoTitle {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
@@ -214,19 +202,17 @@
   padding: 25px;
   background: rgba(255, 229, 212, 0.05);
   border-radius: 15px;
-  /* border-left: 4px solid #AC6620; */
   transition: all 0.3s ease;
 }
 
 .propertyManagementContactInfoItem:hover {
   background: rgba(255, 229, 212, 0.1);
-  /* transform: translateX(5px); */
 }
 
 .propertyManagementContactInfoItemIcon {
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -241,7 +227,7 @@
 }
 
 .propertyManagementContactInfoItemTitle {
-  color: #C9823B;
+  color: #c9823b;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -250,7 +236,7 @@
 }
 
 .propertyManagementContactInfoItemText {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -258,12 +244,11 @@
 }
 
 .propertyManagementContactInfoItemSubtitle {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 14px;
   opacity: 0.7;
 }
 
-/* CTA Section */
 .propertyManagementContactInfoCTA {
   padding: 30px;
   background: rgba(201, 130, 59, 0.1);
@@ -273,7 +258,7 @@
 }
 
 .propertyManagementContactInfoCTATitle {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -281,14 +266,14 @@
 }
 
 .propertyManagementContactInfoCTAText {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 16px;
   opacity: 0.8;
   margin-bottom: 25px;
 }
 
 .propertyManagementContactInfoCTAButton {
-  background: linear-gradient(135deg, #C9823B, #AC6620);
+  background: linear-gradient(135deg, #c9823b, #ac6620);
   color: white;
   border: none;
   padding: 15px 30px;
@@ -303,18 +288,15 @@
 }
 
 .propertyManagementContactInfoCTAButton:hover {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
-  /* transform: translateY(-2px); */
-  /* box-shadow: 0 8px 20px rgba(201, 130, 59, 0.4); */
+  background: linear-gradient(135deg, #ac6620, #c9823b);
 }
 
-/* Benefits Section */
 .propertyManagementContactBenefits {
   text-align: center;
 }
 
 .propertyManagementContactBenefitsTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 42px;
   font-weight: 700;
   line-height: 52px;
@@ -331,14 +313,7 @@
   background: white;
   padding: 40px 30px;
   border-radius: 20px;
-  /* box-shadow: 0 10px 30px rgba(49, 54, 29, 0.08); */
   transition: all 0.3s ease;
-  /* border-top: 4px solid #AC6620; */
-}
-
-.propertyManagementContactBenefitsItem:hover {
-  /* transform: translateY(-10px); */
-  /* box-shadow: 0 20px 50px rgba(49, 54, 29, 0.15); */
 }
 
 .propertyManagementContactBenefitsItemIcon {
@@ -347,31 +322,30 @@
 }
 
 .propertyManagementContactBenefitsItem h4 {
-  color: #31361D;
+  color: #31361d;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 .propertyManagementContactBenefitsItem p {
-  color: #31361D;
+  color: #31361d;
   font-size: 16px;
   line-height: 24px;
   opacity: 0.8;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .propertyManagementContactContent {
     grid-template-columns: 1fr;
     gap: 50px;
   }
-  
+
   .propertyManagementContactHeaderTitle {
     font-size: 48px;
     line-height: 58px;
   }
-  
+
   .propertyManagementContactBenefitsTitle {
     font-size: 36px;
     line-height: 46px;
@@ -383,26 +357,26 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .propertyManagementContactContainer {
     width: 95%;
   }
-  
+
   .propertyManagementContactForm,
   .propertyManagementContactInfo {
     padding: 40px 30px;
   }
-  
+
   .propertyManagementContactFormRow {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .propertyManagementContactBenefitsGrid {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-  
+
   .propertyManagementContactHeaderTitle {
     font-size: 36px;
     line-height: 46px;
@@ -414,13 +388,13 @@
   .propertyManagementContactInfo {
     padding: 30px 20px;
   }
-  
+
   .propertyManagementContactFormTitle,
   .propertyManagementContactInfoTitle {
     font-size: 24px;
     line-height: 30px;
   }
-  
+
   .propertyManagementContactBenefitsItem {
     padding: 30px 20px;
   }

@@ -1,49 +1,43 @@
-/* About Page Responsive Styles */
-
 .about {
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-    box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-/* Global responsive fix */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* Prevent horizontal scroll on all devices */
-html, body {
-    overflow-x: hidden;
-    max-width: 100vw;
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
-/* Ensure proper touch targets on mobile */
 @media (max-width: 768px) {
-    button, .aboutHeroContainerTopContainerFourContainerButton, 
-    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
-        min-height: 44px;
-        min-width: 44px;
-    }
+  button,
+  .aboutHeroContainerTopContainerFourContainerButton,
+  .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }
 
-/* Tablet Styles */
 @media screen and (max-width: 1024px) {
-    .about {
-        padding-top: 72px;
-    }
+  .about {
+    padding-top: 72px;
+  }
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 768px) {
-    .about {
-        padding-top: 60px;
-    }
+  .about {
+    padding-top: 60px;
+  }
 }
 
-/* Small Mobile Styles */
 @media screen and (max-width: 480px) {
-    .about {
-        padding-top: 55px;
-    }
+  .about {
+    padding-top: 55px;
+  }
 }

@@ -6,21 +6,19 @@
   position: relative;
 }
 
-/* Zapobieganie poziomemu scrollbarowi dla wszystkich elementów */
 .buySellSupport * {
   box-sizing: border-box;
   max-width: 100%;
 }
 
-/* Dodatkowe zabezpieczenie dla elementów, które mogą wyjść poza ekran */
-.buySellSupport img, 
-.buySellSupport video, 
+.buySellSupport img,
+.buySellSupport video,
 .buySellSupport iframe {
   max-width: 100%;
   height: auto;
 }
 
 .buySellSupport > * {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }

@@ -1,6 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./buySellSupportHero.css";
-import { FaHandshake, FaStar, FaHome, FaTrophy, FaKey, FaUsers, FaChartLine, FaShieldAlt } from "react-icons/fa";
+import {
+  FaHandshake,
+  FaStar,
+  FaHome,
+  FaTrophy,
+  FaKey,
+  FaUsers,
+  FaChartLine,
+  FaShieldAlt,
+} from "react-icons/fa";
 
 const BuySellSupportHero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -36,18 +45,24 @@ const BuySellSupportHero = () => {
     <div className="buySellSupportHero">
       <div className="buySellSupportHeroContainer">
         {/* Left Content */}
-        <div className="buySellSupportHeroLeft" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
+        <div
+          className="buySellSupportHeroLeft"
+          style={{ transform: `translateY(${scrollY * 0.1}px)` }}
+        >
           <div className="buySellSupportHeroLeftContent">
-            {/* <div className="buySellSupportHeroLeftBadge">
-              <FaHandshake className="buySellSupportHeroLeftBadgeIcon" />
-              <span>Premium Support</span>
-            </div> */}
+
+
             <h1 className="buySellSupportHeroLeftTitle cormorant-garamond-regular">
-              Kompleksowe Wsparcie w <span className="buySellSupportHeroLeftTitleHighlight">Kupnie i Sprzedaży</span>
+              Kompleksowe Wsparcie w{" "}
+              <span className="buySellSupportHeroLeftTitleHighlight">
+                Kupnie i Sprzedaży
+              </span>
             </h1>
             <p className="buySellSupportHeroLeftDescription">
-              Oferujemy pełne wsparcie w procesie kupna i sprzedaży nieruchomości premium. Nasz zespół ekspertów zapewnia profesjonalne doradztwo,
-              analizę rynku i kompleksową obsługę na każdym etapie transakcji.
+              Oferujemy pełne wsparcie w procesie kupna i sprzedaży
+              nieruchomości premium. Nasz zespół ekspertów zapewnia
+              profesjonalne doradztwo, analizę rynku i kompleksową obsługę na
+              każdym etapie transakcji.
             </p>
             <div className="buySellSupportHeroLeftFeatures">
               <div className="buySellSupportHeroLeftFeature">
@@ -76,7 +91,10 @@ const BuySellSupportHero = () => {
         </div>
 
         {/* Right Content */}
-        <div className="buySellSupportHeroRight" style={{ transform: `translateY(${scrollY * -0.1}px)` }}>
+        <div
+          className="buySellSupportHeroRight"
+          style={{ transform: `translateY(${scrollY * -0.1}px)` }}
+        >
           <div className="buySellSupportHeroRightImageContainer">
             <div className="buySellSupportHeroRightImageWrapper">
               {images.map((image, index) => (
@@ -114,7 +132,9 @@ const BuySellSupportHero = () => {
             <div key={index} className="buySellSupportHeroStatItem">
               <div className="buySellSupportHeroStatIcon">{stat.icon}</div>
               <div className="buySellSupportHeroStatContent">
-                <div className="buySellSupportHeroStatNumber cormorant-garamond-regular">{stat.number}</div>
+                <div className="buySellSupportHeroStatNumber cormorant-garamond-regular">
+                  {stat.number}
+                </div>
                 <div className="buySellSupportHeroStatLabel">{stat.label}</div>
               </div>
             </div>

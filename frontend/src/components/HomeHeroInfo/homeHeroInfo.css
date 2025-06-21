@@ -1,291 +1,252 @@
 .homeHeroInfo {
-    width: 100%;
-    /* height: 1000px; */
-    /* margin-top: -341px */
-    background-color: #2E2F2A;
+  width: 100%;
+  background-color: #2e2f2a;
 }
 
 .homeHeroInfoContainer {
-    width: 90%;
-    margin-top: -170px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-    height: 100%;
+  width: 90%;
+  margin-top: -170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
 }
 
-
 .homeHeroInfoContainerLeftContainer {
-    display: flex;
-    flex-direction: row;
-    /* gap: 50px; */
-    gap: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
 }
 
 .homeHeroInfoContainerLeftContainerElement {
-    width: 100px;
-    cursor: pointer;
+  width: 100px;
+  cursor: pointer;
 }
 
-.homeHeroInfoContainerLeftContainerElement:hover .homeHeroInfoContainerLeftContainerElementContainerTopText {
-    color: #FFFFFF !important;
+.homeHeroInfoContainerLeftContainerElement:hover
+  .homeHeroInfoContainerLeftContainerElementContainerTopText {
+  color: #ffffff !important;
 }
 
-.homeHeroInfoContainerLeftContainerElement:hover .homeHeroInfoContainerLeftContainerElementContainerBottomDiv {
-    background-color: #FFFFFF !important;
+.homeHeroInfoContainerLeftContainerElement:hover
+  .homeHeroInfoContainerLeftContainerElementContainerBottomDiv {
+  background-color: #ffffff !important;
 }
 
 .homeHeroInfoContainerLeftContainerElementContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
 }
-
-
 
 .homeHeroInfoContainerLeftContainerElementContainerTopText,
 .homeHeroInfoContainerLeftContainerElementContainerTopText,
 .homeHeroInfoContainerLeftContainerElementContainerTopText {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0.4px;
-    transition: all 0.3s ease-in-out;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease-in-out;
 }
 
 .homeHeroInfoContainerLeftContainerElementContainerBottom {
-    width: 100%;
+  width: 100%;
 }
 
 .homeHeroInfoContainerLeftContainerElementContainerBottomDiv {
-    width: 100%;
-    height: 1px;
-    background-color: #AC6620;
-    transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 1px;
+  background-color: #ac6620;
+  transition: all 0.3s ease-in-out;
 }
 
-
-
 .homeHeroInfoContainerMiddleContainerSvg {
-    width: 270px;
-    height: auto;
+  width: 270px;
+  height: auto;
 }
 
 .homeHeroInfoContainerRight {
-    margin-top: -20px;
+  margin-top: -20px;
 }
 
 .homeHeroInfoContainerRightContainerButton {
-    background-color: #FFE5D4;
-    border-radius: 23px;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
+  background-color: #ffe5d4;
+  border-radius: 23px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .homeHeroInfoContainerRightContainerButton:hover {
-    outline: 2px solid #AC6620;
+  outline: 2px solid #ac6620;
 }
 
 .homeHeroInfoContainerRightContainerButtonContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .homeHeroInfoContainerRightContainerButtonContainerText {
-    font-size: 19px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #BF6620;
-    line-height: 27px;
-    white-space: nowrap;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #bf6620;
+  line-height: 27px;
+  white-space: nowrap;
 }
 
-
-/* Responsivity for other devices screens */
 @media (max-width: 1200px) {
-    .homeHeroInfoContainer {
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* background-color: red; */
-        margin-top: -150px;
-    }
+  .homeHeroInfoContainer {
+    margin-top: -150px;
+  }
 
-    .homeHeroInfoContainerLeftContainer {
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* gap: 20px; */
-    }
+  .homeHeroInfoContainerMiddle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .homeHeroInfoContainerLeft {
-        /* background-color: blue; */
-    }
+  .homeHeroInfoContainerMiddleContainer {
+    width: 100%;
+  }
 
-    .homeHeroInfoContainerMiddle {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .homeHeroInfoContainer {
+    margin-top: -120px;
+  }
 
-    .homeHeroInfoContainerMiddleContainer {
-        /* margin-left: -20px; */
-        /* background-color: green; */
-        width: 100%;
-    }
+  .homeHeroInfoContainerMiddleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .homeHeroInfoContainer {
-        /* background-color: yellow; */
-        margin-top: -120px;
-    }
+  .homeHeroInfoContainerMiddleContainerSvg {
+    width: 36%;
+    min-width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .homeHeroInfoContainerMiddleContainer {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+  .homeHeroInfoContainerRight {
+    margin-top: -40px;
+  }
 
-    .homeHeroInfoContainerMiddleContainerSvg {
-        /* width: 200px; */
-        width: 36%;
-        min-width: 150px;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* margin-right: -30px; */
-        /* margin-left: 40px; */
-    }
+  .homeHeroInfoContainerRightContainerButton {
+    padding-left: 60px;
+    padding-right: 60px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .homeHeroInfoContainerRight {
-        margin-top: -40px;
-    }
-
-    .homeHeroInfoContainerRightContainerButton {
-        padding-left: 60px;
-        padding-right: 60px;
-        white-space: nowrap;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .homeHeroInfoContainerRightContainerButtonContainerText {
-        white-space: nowrap;
-    }
+  .homeHeroInfoContainerRightContainerButtonContainerText {
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 768px) {
-    .homeHeroInfoContainer {
-        width: 95%;
-    }
+  .homeHeroInfoContainer {
+    width: 95%;
+  }
 
-    .homeHeroInfoContainerLeft {
-        margin-top: -200px;
-        display: none;
-    }
+  .homeHeroInfoContainerLeft {
+    margin-top: -200px;
+    display: none;
+  }
 
-    .homeHeroInfoContainerLeftContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
+  .homeHeroInfoContainerLeftContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
 
-    .homeHeroInfoContainerMiddleContainerSvg {
-        width: 180px;
-    }
+  .homeHeroInfoContainerMiddleContainerSvg {
+    width: 180px;
+  }
 
-    .homeHeroInfoContainerRightContainerButton {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+  .homeHeroInfoContainerRightContainerButton {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
-    .homeHeroInfoContainer {
-        display: flex;
-        flex-direction: column;
-    }
+  .homeHeroInfoContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .homeHeroInfoContainerMiddle {
-        margin-top: 14vh;
-    }
+  .homeHeroInfoContainerMiddle {
+    margin-top: 14vh;
+  }
 
-    .homeHeroInfoContainerRight {
-        display: flex;
-        position: absolute;
-        /* margin-top: 60px; */
-        /* margin-left: 40px; */
-        top: 100px;
-        left: 40px;
-    }
+  .homeHeroInfoContainerRight {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+  }
 }
 
 @media (max-width: 480px) {
-    .homeHeroInfoContainer {
-        width: 100%;
-        padding: 0 20px;
-    }
+  .homeHeroInfoContainer {
+    width: 100%;
+    padding: 0 20px;
+  }
 
-    .homeHeroInfoContainerLeftContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+  .homeHeroInfoContainerLeftContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .homeHeroInfoContainerMiddleContainerSvg {
-        width: 150px;
-    }
+  .homeHeroInfoContainerMiddleContainerSvg {
+    width: 150px;
+  }
 
-    .homeHeroInfoContainerMiddle 
+  .homeHeroInfoContainerMiddle .homeHeroInfoContainerRight {
+    margin-top: -200px;
+  }
 
-    .homeHeroInfoContainerRight {
-        margin-top: -200px;
-    }
+  .homeHeroInfoContainerRightContainerButton {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-    .homeHeroInfoContainerRightContainerButton {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+  .homeHeroInfoContainerRightContainerButton {
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-    .homeHeroInfoContainerRightContainerButton {
-        /* padding-top: 5px; */
-        /* padding-bottom: 2px; */
-        /* padding-left: 15px; */
-        /* padding-right: 15px; */
-        height: 10px;
-        padding: 0;
-        margin: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+  .homeHeroInfoContainerRightContainerButtonContainerText {
+    font-size: 14px;
+  }
 
-        /* border-ra */
-    }
-
-    .homeHeroInfoContainerRightContainerButtonContainerText {
-        font-size: 14px;
-    }
-
-    .homeHeroInfoContainerMiddle{
-        display: flex;
-        position: absolute;
-        top: 320px;
-    }
+  .homeHeroInfoContainerMiddle {
+    display: flex;
+    position: absolute;
+    top: 320px;
+  }
 }

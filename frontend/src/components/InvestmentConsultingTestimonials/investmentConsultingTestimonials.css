@@ -1,296 +1,284 @@
 .investmentConsultingTestimonials {
-    width: 100%;
-    background-color: #FFFFFF;
-    padding: 100px 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 100px 0;
 }
 
 .investmentConsultingTestimonialsContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .investmentConsultingTestimonialsHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .investmentConsultingTestimonialsHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .investmentConsultingTestimonialsHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingTestimonialsHeaderTitle {
-    color: #31361D;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 30px;
 }
 
 .investmentConsultingTestimonialsHeaderDescription {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
 }
 
 .investmentConsultingTestimonialsStats {
-    background-color: #F5EDE7;
-    border-radius: 30px;
-    padding: 60px 40px;
+  background-color: #f5ede7;
+  border-radius: 30px;
+  padding: 60px 40px;
 }
 
 .investmentConsultingTestimonialsStatsContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  text-align: center;
 }
 
 .investmentConsultingTestimonialsStatsItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .investmentConsultingTestimonialsStatsNumber {
-    color: #AC6620;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 52px;
+  color: #ac6620;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .investmentConsultingTestimonialsStatsText {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .investmentConsultingTestimonialsStatsDescription {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    opacity: 0.7;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.7;
 }
 
 .investmentConsultingTestimonialsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 40px;
 }
 
 .investmentConsultingTestimonialsCard {
-    background-color: #F5EDE7;
-    border-radius: 25px;
-    padding: 40px;
-    box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(172, 102, 32, 0.1);
-    position: relative;
-    overflow: hidden;
+  background-color: #f5ede7;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(172, 102, 32, 0.1);
+  position: relative;
+  overflow: hidden;
 }
 
 .investmentConsultingTestimonialsCard::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #AC6620, #C9823B);
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ac6620, #c9823b);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
 }
 
-/* .investmentConsultingTestimonialsCard:hover::before {
-    transform: translateX(0);
-} */
-
-/* .investmentConsultingTestimonialsCard:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 25px 50px rgba(49, 54, 29, 0.15);
-    border-color: rgba(172, 102, 32, 0.3);
-} */
-
 .investmentConsultingTestimonialsCardHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
 .investmentConsultingTestimonialsCardQuote {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 18px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 .investmentConsultingTestimonialsCardRating {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .investmentConsultingTestimonialsCardStar {
-    color: #AC6620;
-    font-size: 16px;
+  color: #ac6620;
+  font-size: 16px;
 }
 
 .investmentConsultingTestimonialsCardContent {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .investmentConsultingTestimonialsCardText {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    font-style: italic;
-    margin-bottom: 20px;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingTestimonialsCardInvestment {
-    background-color: rgba(172, 102, 32, 0.1);
-    padding: 12px 20px;
-    border-radius: 5px;
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 500;
-    /* border-left: 4px solid #AC6620; */
+  background-color: rgba(172, 102, 32, 0.1);
+  padding: 12px 20px;
+  border-radius: 5px;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .investmentConsultingTestimonialsCardFooter {
-    border-top: 1px solid rgba(172, 102, 32, 0.2);
-    padding-top: 25px;
+  border-top: 1px solid rgba(172, 102, 32, 0.2);
+  padding-top: 25px;
 }
 
 .investmentConsultingTestimonialsCardProfile {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .investmentConsultingTestimonialsCardAvatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #AC6620;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ac6620;
 }
 
 .investmentConsultingTestimonialsCardInfo {
-    flex: 1;
+  flex: 1;
 }
 
 .investmentConsultingTestimonialsCardName {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    margin-bottom: 5px;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 5px;
 }
 
 .investmentConsultingTestimonialsCardPosition {
-    color: #AC6620;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    margin-bottom: 3px;
+  color: #ac6620;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 3px;
 }
 
 .investmentConsultingTestimonialsCardCompany {
-    color: #31361D;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    opacity: 0.7;
+  color: #31361d;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  opacity: 0.7;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .investmentConsultingTestimonialsContainer {
-        width: 90%;
-        gap: 60px;
-    }
-    
-    .investmentConsultingTestimonialsHeaderTitle {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    
-    .investmentConsultingTestimonialsStats {
-        padding: 40px 30px;
-    }
-    
-    .investmentConsultingTestimonialsStatsContainer {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    
-    .investmentConsultingTestimonialsStatsNumber {
-        font-size: 36px;
-        line-height: 40px;
-    }
-    
-    .investmentConsultingTestimonialsGrid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .investmentConsultingTestimonialsCard {
-        padding: 30px 25px;
-    }
-    
-    .investmentConsultingTestimonialsCardHeader {
-        margin-bottom: 20px;
-    }
-    
-    .investmentConsultingTestimonialsCardQuote {
-        width: 40px;
-        height: 40px;
-        font-size: 16px;
-    }
-    
-    .investmentConsultingTestimonialsCardContent {
-        margin-bottom: 25px;
-    }
-    
-    .investmentConsultingTestimonialsCardText {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    
-    .investmentConsultingTestimonialsCardFooter {
-        padding-top: 20px;
-    }
-    
-    .investmentConsultingTestimonialsCardProfile {
-        gap: 12px;
-    }
-    
-    .investmentConsultingTestimonialsCardAvatar {
-        width: 50px;
-        height: 50px;
-    }
+  .investmentConsultingTestimonialsContainer {
+    width: 90%;
+    gap: 60px;
+  }
+
+  .investmentConsultingTestimonialsHeaderTitle {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .investmentConsultingTestimonialsStats {
+    padding: 40px 30px;
+  }
+
+  .investmentConsultingTestimonialsStatsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .investmentConsultingTestimonialsStatsNumber {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .investmentConsultingTestimonialsGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .investmentConsultingTestimonialsCard {
+    padding: 30px 25px;
+  }
+
+  .investmentConsultingTestimonialsCardHeader {
+    margin-bottom: 20px;
+  }
+
+  .investmentConsultingTestimonialsCardQuote {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .investmentConsultingTestimonialsCardContent {
+    margin-bottom: 25px;
+  }
+
+  .investmentConsultingTestimonialsCardText {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .investmentConsultingTestimonialsCardFooter {
+    padding-top: 20px;
+  }
+
+  .investmentConsultingTestimonialsCardProfile {
+    gap: 12px;
+  }
+
+  .investmentConsultingTestimonialsCardAvatar {
+    width: 50px;
+    height: 50px;
+  }
 }

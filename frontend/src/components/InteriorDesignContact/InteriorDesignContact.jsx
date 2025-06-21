@@ -1,26 +1,26 @@
 import React, { useState } from "react";
 import "./interiorDesignContact.css";
-import { FiSend, FiBox, FiZap, FiHome } from 'react-icons/fi';
+import { FiSend, FiBox, FiZap, FiHome } from "react-icons/fi";
 
 const InteriorDesignContact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    projectType: '',
-    budget: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    projectType: "",
+    budget: "",
+    message: "",
   });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Dziękujemy za wiadomość! Skontaktujemy się z Tobą wkrótce.');
+    console.log("Form submitted:", formData);
+    alert("Dziękujemy za wiadomość! Skontaktujemy się z Tobą wkrótce.");
   };
 
   return (
@@ -31,9 +31,12 @@ const InteriorDesignContact = () => {
             <h2 className="interiorDesignContactTitle cormorant-garamond-regular">
               Stwórzmy Razem Twoje Wymarzone Wnętrze
             </h2>
-            <p className="interiorDesignContactDescription">              Skontaktuj się z nami, aby omówić Twój projekt. Oferujemy bezpłatną konsultację 
-              i wycenę dla wszystkich projektów.
-            </p>            <div className="interiorDesignContactFeatures">
+            <p className="interiorDesignContactDescription">
+              {" "}
+              Skontaktuj się z nami, aby omówić Twój projekt. Oferujemy
+              bezpłatną konsultację i wycenę dla wszystkich projektów.
+            </p>{" "}
+            <div className="interiorDesignContactFeatures">
               <div className="interiorDesignContactFeature">
                 <span className="interiorDesignContactFeatureIcon">
                   <FiHome />
@@ -54,7 +57,7 @@ const InteriorDesignContact = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="interiorDesignContactForm">
             <form onSubmit={handleSubmit}>
               <div className="interiorDesignContactFormRow">
@@ -112,7 +115,8 @@ const InteriorDesignContact = () => {
                 rows="4"
                 value={formData.message}
                 onChange={handleInputChange}
-              ></textarea>              <button type="submit" className="interiorDesignContactFormSubmit">
+              ></textarea>{" "}
+              <button type="submit" className="interiorDesignContactFormSubmit">
                 <span>Wyślij Zapytanie</span>
                 <FiSend className="interiorDesignContactFormSubmitIcon" />
               </button>

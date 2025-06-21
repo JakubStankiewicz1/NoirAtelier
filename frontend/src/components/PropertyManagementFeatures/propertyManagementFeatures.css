@@ -11,14 +11,13 @@
   margin-right: auto;
 }
 
-/* Header */
 .propertyManagementFeaturesHeader {
   text-align: center;
   margin-bottom: 80px;
 }
 
 .propertyManagementFeaturesHeaderSubtitle {
-  color: #AC6620;
+  color: #ac6620;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -27,14 +26,13 @@
 }
 
 .propertyManagementFeaturesHeaderTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 56px;
   font-weight: 700;
   line-height: 66px;
   margin-bottom: 30px;
 }
 
-/* Main Features */
 .propertyManagementFeaturesMain {
   margin-bottom: 120px;
 }
@@ -69,10 +67,6 @@
   transition: transform 0.3s ease;
 }
 
-/* .propertyManagementFeaturesMainItem:hover .propertyManagementFeaturesMainItemImage img {
-  transform: scale(1.05);
-} */
-
 .propertyManagementFeaturesMainItemImageOverlay {
   position: absolute;
   bottom: 0;
@@ -93,7 +87,7 @@
 
 .propertyManagementFeaturesMainItemImageStatNumber {
   display: block;
-  color: #C9823B;
+  color: #c9823b;
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
@@ -101,7 +95,7 @@
 }
 
 .propertyManagementFeaturesMainItemImageStatLabel {
-  color: #FFE5D4;
+  color: #ffe5d4;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -113,7 +107,7 @@
 }
 
 .propertyManagementFeaturesMainItemTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 42px;
   font-weight: 700;
   line-height: 52px;
@@ -121,7 +115,7 @@
 }
 
 .propertyManagementFeaturesMainItemDescription {
-  color: #31361D;
+  color: #31361d;
   font-size: 18px;
   line-height: 28px;
   opacity: 0.8;
@@ -132,7 +126,7 @@
   display: inline-flex;
   align-items: center;
   gap: 15px;
-  color: #AC6620;
+  color: #ac6620;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
@@ -142,14 +136,13 @@
 }
 
 .propertyManagementFeaturesMainItemButton:hover {
-  color: #C9823B;
-  /* border-bottom-color: #C9823B; */
+  color: #c9823b;
 }
 
 .propertyManagementFeaturesMainItemButtonArrow {
   width: 35px;
   height: 35px;
-  background: #AC6620;
+  background: #ac6620;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -159,20 +152,19 @@
   transition: all 0.3s ease;
 }
 
-.propertyManagementFeaturesMainItemButton:hover .propertyManagementFeaturesMainItemButtonArrow {
-  background: #C9823B;
-  /* transform: translateX(5px); */
+.propertyManagementFeaturesMainItemButton:hover
+  .propertyManagementFeaturesMainItemButtonArrow {
+  background: #c9823b;
 }
 
-/* Benefits Section */
 .propertyManagementFeaturesBenefits {
-  background: #F5EDE7;
+  background: #f5ede7;
   border-radius: 25px;
   padding: 80px 60px;
 }
 
 .propertyManagementFeaturesBenefitsTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 42px;
   font-weight: 700;
   line-height: 52px;
@@ -198,13 +190,13 @@
 }
 
 .propertyManagementFeaturesBenefitsItem::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #AC6620, #C9823B);
+  background: linear-gradient(90deg, #ac6620, #c9823b);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -228,13 +220,14 @@
   transition: all 0.3s ease;
 }
 
-.propertyManagementFeaturesBenefitsItem:hover .propertyManagementFeaturesBenefitsItemIcon {
+.propertyManagementFeaturesBenefitsItem:hover
+  .propertyManagementFeaturesBenefitsItemIcon {
   background: rgba(172, 102, 32, 0.2);
   transform: scale(1.1);
 }
 
 .propertyManagementFeaturesBenefitsItemTitle {
-  color: #31361D;
+  color: #31361d;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -242,34 +235,33 @@
 }
 
 .propertyManagementFeaturesBenefitsItemDescription {
-  color: #31361D;
+  color: #31361d;
   font-size: 16px;
   line-height: 24px;
   opacity: 0.8;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .propertyManagementFeaturesMainItem {
     flex-direction: column;
     gap: 50px;
     text-align: center;
   }
-  
+
   .propertyManagementFeaturesMainItem.reverse {
     flex-direction: column;
   }
-  
+
   .propertyManagementFeaturesMainItemImage,
   .propertyManagementFeaturesMainItemContent {
     width: 100%;
   }
-  
+
   .propertyManagementFeaturesHeaderTitle {
     font-size: 48px;
     line-height: 58px;
   }
-  
+
   .propertyManagementFeaturesMainItemTitle {
     font-size: 36px;
     line-height: 46px;
@@ -281,38 +273,38 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  
+
   .propertyManagementFeaturesContainer {
     width: 95%;
   }
-  
+
   .propertyManagementFeaturesMain {
     margin-bottom: 80px;
   }
-  
+
   .propertyManagementFeaturesMainItem {
     margin-bottom: 60px;
     gap: 30px;
   }
-  
+
   .propertyManagementFeaturesMainItemImage img {
     height: 300px;
   }
-  
+
   .propertyManagementFeaturesBenefits {
     padding: 60px 40px;
   }
-  
+
   .propertyManagementFeaturesBenefitsGrid {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-  
+
   .propertyManagementFeaturesHeaderTitle {
     font-size: 36px;
     line-height: 46px;
   }
-  
+
   .propertyManagementFeaturesBenefitsTitle {
     font-size: 32px;
     line-height: 42px;
@@ -324,16 +316,16 @@
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .propertyManagementFeaturesMainItemTitle {
     font-size: 28px;
     line-height: 36px;
   }
-  
+
   .propertyManagementFeaturesBenefits {
     padding: 40px 25px;
   }
-  
+
   .propertyManagementFeaturesBenefitsItem {
     padding: 30px 15px;
   }

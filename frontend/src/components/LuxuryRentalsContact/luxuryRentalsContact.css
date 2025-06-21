@@ -1,393 +1,387 @@
 .luxuryRentalsContact {
-    width: 100%;
-    padding: 100px 0;
-    background-color: #F5EDE7;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #f5ede7;
 }
 
 .luxuryRentalsContactContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
-/* Header */
 .luxuryRentalsContactHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .luxuryRentalsContactHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .luxuryRentalsContactHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .luxuryRentalsContactHeaderTitle {
-    color: #31361D;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 66px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  margin-bottom: 30px;
 }
 
 .luxuryRentalsContactHeaderDescription {
-    color: #31361D;
-    font-size: 20px;
-    line-height: 30px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.8;
 }
 
-/* Content */
 .luxuryRentalsContactContent {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 80px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: start;
 }
 
-/* Left Side - Contact Info */
 .luxuryRentalsContactLeft {
-    width: 100%;
+  width: 100%;
 }
 
 .luxuryRentalsContactInfoTitle {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    line-height: 46px;
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 46px;
 }
 
 .luxuryRentalsContactInfoDescription {
-    color: #31361D;
-    font-size: 18px;
-    line-height: 28px;
-    opacity: 0.8;
-    margin-bottom: 40px;
+  color: #31361d;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 40px;
 }
 
 .luxuryRentalsContactInfoCards {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
 }
 
 .luxuryRentalsContactInfoCard {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 25px;
-    background: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(49, 54, 29, 0.1);
-    transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(49, 54, 29, 0.1);
+  transition: all 0.3s ease;
 }
 
 .luxuryRentalsContactInfoCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(49, 54, 29, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(49, 54, 29, 0.15);
 }
 
 .luxuryRentalsContactInfoCardIcon {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 20px;
-    flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  flex-shrink: 0;
 }
 
 .luxuryRentalsContactInfoCardContent {
-    flex: 1;
+  flex: 1;
 }
 
 .luxuryRentalsContactInfoCardTitle {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 8px;
-    line-height: 26px;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 26px;
 }
 
 .luxuryRentalsContactInfoCardInfo {
-    color: #AC6620;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    line-height: 24px;
+  color: #ac6620;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 24px;
 }
 
 .luxuryRentalsContactInfoCardDescription {
-    color: #31361D;
-    font-size: 14px;
-    opacity: 0.7;
-    line-height: 22px;
+  color: #31361d;
+  font-size: 14px;
+  opacity: 0.7;
+  line-height: 22px;
 }
 
-/* Social Media */
 .luxuryRentalsContactSocial {
-    padding: 30px;
-    background: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(49, 54, 29, 0.1);
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(49, 54, 29, 0.1);
 }
 
 .luxuryRentalsContactSocialTitle {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    line-height: 26px;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 26px;
 }
 
 .luxuryRentalsContactSocialButtons {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .luxuryRentalsContactSocialButton {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 25px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .luxuryRentalsContactSocialButton.whatsapp {
-    background: #25D366;
-    color: #FFFFFF;
+  background: #25d366;
+  color: #ffffff;
 }
 
 .luxuryRentalsContactSocialButton.whatsapp:hover {
-    background: #128C7E;
-    transform: translateY(-2px);
+  background: #128c7e;
+  transform: translateY(-2px);
 }
 
 .luxuryRentalsContactSocialButton.telegram {
-    background: #0088CC;
-    color: #FFFFFF;
+  background: #0088cc;
+  color: #ffffff;
 }
 
 .luxuryRentalsContactSocialButton.telegram:hover {
-    background: #006699;
-    transform: translateY(-2px);
+  background: #006699;
+  transform: translateY(-2px);
 }
 
-/* Right Side - Contact Form */
 .luxuryRentalsContactRight {
-    width: 100%;
+  width: 100%;
 }
 
 .luxuryRentalsContactForm {
-    background: #FFFFFF;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(49, 54, 29, 0.1);
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(49, 54, 29, 0.1);
 }
 
 .luxuryRentalsContactFormTitle {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    line-height: 46px;
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 46px;
 }
 
 .luxuryRentalsContactFormDescription {
-    color: #31361D;
-    font-size: 16px;
-    line-height: 26px;
-    opacity: 0.8;
-    margin-bottom: 40px;
+  color: #31361d;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+  margin-bottom: 40px;
 }
 
 .luxuryRentalsContactFormContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .luxuryRentalsContactFormRow {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
 }
 
 .luxuryRentalsContactFormGroup {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .luxuryRentalsContactFormGroup.full {
-    grid-column: 1 / -1;
+  grid-column: 1 / -1;
 }
 
 .luxuryRentalsContactFormGroup label {
-    color: #31361D;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 22px;
+  color: #31361d;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .luxuryRentalsContactFormGroup input,
 .luxuryRentalsContactFormGroup select,
 .luxuryRentalsContactFormGroup textarea {
-    padding: 15px 20px;
-    border: 2px solid #F5EDE7;
-    border-radius: 10px;
-    font-size: 16px;
-    line-height: 24px;
-    transition: all 0.3s ease;
-    background: #FFFFFF;
-    color: #31361D;
+  padding: 15px 20px;
+  border: 2px solid #f5ede7;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  color: #31361d;
 }
 
 .luxuryRentalsContactFormGroup input:focus,
 .luxuryRentalsContactFormGroup select:focus,
 .luxuryRentalsContactFormGroup textarea:focus {
-    outline: none;
-    border-color: #AC6620;
-    box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
+  outline: none;
+  border-color: #ac6620;
+  box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
 }
 
 .luxuryRentalsContactFormGroup input::placeholder,
 .luxuryRentalsContactFormGroup textarea::placeholder {
-    color: rgba(49, 54, 29, 0.5);
+  color: rgba(49, 54, 29, 0.5);
 }
 
 .luxuryRentalsContactFormGroup textarea {
-    resize: vertical;
-    min-height: 120px;
+  resize: vertical;
+  min-height: 120px;
 }
 
 .luxuryRentalsContactFormButton {
-    width: 100%;
-    padding: 18px 30px;
-    background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
-    border: none;
-    border-radius: 50px;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
+  width: 100%;
+  padding: 18px 30px;
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .luxuryRentalsContactFormButton:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 30px rgba(172, 102, 32, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(172, 102, 32, 0.3);
 }
 
 .luxuryRentalsContactFormButtonArrow {
-    font-size: 20px;
-    transition: transform 0.3s ease;
+  font-size: 20px;
+  transition: transform 0.3s ease;
 }
 
 .luxuryRentalsContactFormButton:hover .luxuryRentalsContactFormButtonArrow {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 1200px) {
-    .luxuryRentalsContactContainer {
-        width: 90%;
-    }
-    
-    .luxuryRentalsContactHeaderTitle {
-        font-size: 48px;
-        line-height: 58px;
-    }
-    
-    .luxuryRentalsContactContent {
-        gap: 60px;
-    }
+  .luxuryRentalsContactContainer {
+    width: 90%;
+  }
+
+  .luxuryRentalsContactHeaderTitle {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .luxuryRentalsContactContent {
+    gap: 60px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .luxuryRentalsContact {
-        padding: 80px 0;
-    }
-    
-    .luxuryRentalsContactContainer {
-        width: 95%;
-        gap: 60px;
-    }
-    
-    .luxuryRentalsContactHeaderTitle {
-        font-size: 36px;
-        line-height: 46px;
-    }
-    
-    .luxuryRentalsContactHeaderDescription {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    
-    .luxuryRentalsContactContent {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-    
-    .luxuryRentalsContactForm {
-        padding: 40px 30px;
-    }
-    
-    .luxuryRentalsContactFormRow {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .luxuryRentalsContactInfoTitle,
-    .luxuryRentalsContactFormTitle {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    
-    .luxuryRentalsContactSocialButtons {
-        flex-direction: column;
-    }
+  .luxuryRentalsContact {
+    padding: 80px 0;
+  }
+
+  .luxuryRentalsContactContainer {
+    width: 95%;
+    gap: 60px;
+  }
+
+  .luxuryRentalsContactHeaderTitle {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .luxuryRentalsContactHeaderDescription {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .luxuryRentalsContactContent {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .luxuryRentalsContactForm {
+    padding: 40px 30px;
+  }
+
+  .luxuryRentalsContactFormRow {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .luxuryRentalsContactInfoTitle,
+  .luxuryRentalsContactFormTitle {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .luxuryRentalsContactSocialButtons {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .luxuryRentalsContactForm {
-        padding: 30px 20px;
-    }
-    
-    .luxuryRentalsContactInfoCard {
-        padding: 20px;
-    }
-    
-    .luxuryRentalsContactSocial {
-        padding: 25px;
-    }
-    
-    .luxuryRentalsContactFormButton {
-        padding: 16px 25px;
-        font-size: 16px;
-    }
+  .luxuryRentalsContactForm {
+    padding: 30px 20px;
+  }
+
+  .luxuryRentalsContactInfoCard {
+    padding: 20px;
+  }
+
+  .luxuryRentalsContactSocial {
+    padding: 25px;
+  }
+
+  .luxuryRentalsContactFormButton {
+    padding: 16px 25px;
+    font-size: 16px;
+  }
 }

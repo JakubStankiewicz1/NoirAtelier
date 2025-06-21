@@ -1,262 +1,249 @@
 .luxuryRentalsServices {
-    width: 100%;
-    padding: 100px 0;
-    background-color: #F5EDE7;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #f5ede7;
 }
 
 .luxuryRentalsServicesContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
-/* Header */
 .luxuryRentalsServicesHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .luxuryRentalsServicesHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .luxuryRentalsServicesHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .luxuryRentalsServicesHeaderTitle {
-    color: #31361D;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 66px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  margin-bottom: 30px;
 }
 
 .luxuryRentalsServicesHeaderDescription {
-    color: #31361D;
-    font-size: 20px;
-    line-height: 30px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.8;
 }
 
-/* Services Grid */
 .luxuryRentalsServicesGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 .luxuryRentalsServicesCard {
-    background: #FFFFFF;
-    padding: 40px 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(49, 54, 29, 0.1);
-    transition: all 0.3s ease;
-    text-align: center;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(49, 54, 29, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
-/* .luxuryRentalsServicesCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(49, 54, 29, 0.15);
-} */
-
 .luxuryRentalsServicesCardIcon {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 30px;
-    color: #FFFFFF;
-    font-size: 32px;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px;
+  color: #ffffff;
+  font-size: 32px;
 }
 
 .luxuryRentalsServicesCardTitle {
-    color: #31361D;
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    line-height: 32px;
+  color: #31361d;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 32px;
 }
 
 .luxuryRentalsServicesCardDescription {
-    color: #31361D;
-    font-size: 16px;
-    line-height: 26px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
 }
 
-/* Features Section */
 .luxuryRentalsServicesFeatures {
-    background: #FFFFFF;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 20px 60px rgba(49, 54, 29, 0.1);
+  background: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(49, 54, 29, 0.1);
 }
 
 .luxuryRentalsServicesFeaturesContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
 }
 
 .luxuryRentalsServicesFeaturesLeft {
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .luxuryRentalsServicesFeaturesTitle {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 40px;
-    line-height: 46px;
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  line-height: 46px;
 }
 
 .luxuryRentalsServicesFeaturesList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .luxuryRentalsServicesFeaturesList li {
-    display: flex;
-    align-items: center;
-    color: #31361D;
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 20px;
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(49, 54, 29, 0.1);
+  display: flex;
+  align-items: center;
+  color: #31361d;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(49, 54, 29, 0.1);
 }
 
 .luxuryRentalsServicesFeaturesList li:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .luxuryRentalsServicesFeaturesList li svg {
-    color: #AC6620;
-    font-size: 20px;
-    margin-right: 15px;
-    flex-shrink: 0;
+  color: #ac6620;
+  font-size: 20px;
+  margin-right: 15px;
+  flex-shrink: 0;
 }
 
 .luxuryRentalsServicesFeaturesRight {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .luxuryRentalsServicesFeaturesImage {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .luxuryRentalsServicesFeaturesImage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
-/* .luxuryRentalsServicesFeaturesImage:hover img {
-    transform: scale(1.05);
-} */
-
-/* Responsive Design */
 @media screen and (max-width: 1200px) {
-    .luxuryRentalsServicesContainer {
-        width: 90%;
-    }
-    
-    .luxuryRentalsServicesHeaderTitle {
-        font-size: 48px;
-        line-height: 58px;
-    }
+  .luxuryRentalsServicesContainer {
+    width: 90%;
+  }
+
+  .luxuryRentalsServicesHeaderTitle {
+    font-size: 48px;
+    line-height: 58px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .luxuryRentalsServices {
-        padding: 80px 0;
-    }
-    
-    .luxuryRentalsServicesContainer {
-        width: 95%;
-        gap: 60px;
-    }
-    
-    .luxuryRentalsServicesHeaderTitle {
-        font-size: 36px;
-        line-height: 46px;
-    }
-    
-    .luxuryRentalsServicesHeaderDescription {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    
-    .luxuryRentalsServicesGrid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    
-    .luxuryRentalsServicesCard {
-        padding: 30px 20px;
-    }
-    
-    .luxuryRentalsServicesFeaturesContainer {
-        grid-template-columns: 1fr;
-    }
-    
-    .luxuryRentalsServicesFeaturesLeft {
-        padding: 40px;
-    }
-    
-    .luxuryRentalsServicesFeaturesTitle {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    
-    .luxuryRentalsServicesFeaturesList li {
-        font-size: 16px;
-        line-height: 26px;
-    }
+  .luxuryRentalsServices {
+    padding: 80px 0;
+  }
+
+  .luxuryRentalsServicesContainer {
+    width: 95%;
+    gap: 60px;
+  }
+
+  .luxuryRentalsServicesHeaderTitle {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .luxuryRentalsServicesHeaderDescription {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .luxuryRentalsServicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .luxuryRentalsServicesCard {
+    padding: 30px 20px;
+  }
+
+  .luxuryRentalsServicesFeaturesContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .luxuryRentalsServicesFeaturesLeft {
+    padding: 40px;
+  }
+
+  .luxuryRentalsServicesFeaturesTitle {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .luxuryRentalsServicesFeaturesList li {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .luxuryRentalsServicesGrid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .luxuryRentalsServicesCard {
-        padding: 25px 15px;
-    }
-    
-    .luxuryRentalsServicesCardIcon {
-        width: 60px;
-        height: 60px;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .luxuryRentalsServicesCardTitle {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    
-    .luxuryRentalsServicesFeaturesLeft {
-        padding: 30px;
-    }
+  .luxuryRentalsServicesGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .luxuryRentalsServicesCard {
+    padding: 25px 15px;
+  }
+
+  .luxuryRentalsServicesCardIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .luxuryRentalsServicesCardTitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .luxuryRentalsServicesFeaturesLeft {
+    padding: 30px;
+  }
 }

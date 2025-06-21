@@ -1,54 +1,63 @@
 import React, { useState } from "react";
 import "./propertyManagementContact.css";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaArrowRight, FaChartBar, FaLightbulb, FaSearch } from "react-icons/fa";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaClock,
+  FaArrowRight,
+  FaChartBar,
+  FaLightbulb,
+  FaSearch,
+} from "react-icons/fa";
 
 const PropertyManagementContact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    propertyType: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    propertyType: "",
+    message: "",
   });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Tu będzie logika wysyłania formularza
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will contact you within 24 hours.');
+
+    console.log("Form submitted:", formData);
+    alert("Thank you for your message! We will contact you within 24 hours.");
   };
   const contactInfo = [
     {
       icon: <FaPhone />,
       title: "Phone",
       content: "+48 123 456 789",
-      subtitle: "Monday - Friday 8:00-18:00"
+      subtitle: "Monday - Friday 8:00-18:00",
     },
     {
       icon: <FaEnvelope />,
       title: "Email",
       content: "propertymanagement@noiratelier.pl",
-      subtitle: "We respond within 2 hours"
+      subtitle: "We respond within 2 hours",
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Address",
       content: "ul. Złota 44, 00-120 Warsaw",
-      subtitle: "Business center"
+      subtitle: "Business center",
     },
     {
       icon: <FaClock />,
       title: "Working hours",
       content: "Mon-Fri: 8:00-18:00",
-      subtitle: "Sat: 9:00-14:00"
-    }
+      subtitle: "Sat: 9:00-14:00",
+    },
   ];
   const propertyTypes = [
     "Apartment",
@@ -57,33 +66,44 @@ const PropertyManagementContact = () => {
     "Office building",
     "Commercial space",
     "Warehouse",
-    "Other"
+    "Other",
   ];
 
   return (
     <div className="propertyManagementContact">
       <div className="propertyManagementContactContainer">
-        {/* Header */}        <div className="propertyManagementContactHeader">
-          <p className="propertyManagementContactHeaderSubtitle cormorant-garamond-regular">Get in Touch</p>
-          <h2 className="propertyManagementContactHeaderTitle cormorant-garamond-regular">Start Cooperation Today</h2>
+        {/* Header */}{" "}
+        <div className="propertyManagementContactHeader">
+          <p className="propertyManagementContactHeaderSubtitle cormorant-garamond-regular">
+            Get in Touch
+          </p>
+          <h2 className="propertyManagementContactHeaderTitle cormorant-garamond-regular">
+            Start Cooperation Today
+          </h2>
           <p className="propertyManagementContactHeaderDescription">
-            Contact us to learn more about our property management services. 
-            We offer free consultation and valuation for all new clients.
+            Contact us to learn more about our property management services. We
+            offer free consultation and valuation for all new clients.
           </p>
         </div>
-
         <div className="propertyManagementContactContent">
           {/* Contact Form */}
           <div className="propertyManagementContactForm">
-            <div className="propertyManagementContactFormContainer">              <h3 className="propertyManagementContactFormTitle cormorant-garamond-regular">
+            <div className="propertyManagementContactFormContainer">
+              {" "}
+              <h3 className="propertyManagementContactFormTitle cormorant-garamond-regular">
                 Free Consultation
               </h3>
               <p className="propertyManagementContactFormSubtitle">
-                Fill out the form and our expert will contact you within 24 hours
+                Fill out the form and our expert will contact you within 24
+                hours
               </p>
-              
-              <form onSubmit={handleSubmit} className="propertyManagementContactFormFields">
-                <div className="propertyManagementContactFormRow">                  <div className="propertyManagementContactFormField">
+              <form
+                onSubmit={handleSubmit}
+                className="propertyManagementContactFormFields"
+              >
+                <div className="propertyManagementContactFormRow">
+                  {" "}
+                  <div className="propertyManagementContactFormField">
                     <label>Full name *</label>
                     <input
                       type="text"
@@ -106,8 +126,9 @@ const PropertyManagementContact = () => {
                     />
                   </div>
                 </div>
-
-                <div className="propertyManagementContactFormRow">                  <div className="propertyManagementContactFormField">
+                <div className="propertyManagementContactFormRow">
+                  {" "}
+                  <div className="propertyManagementContactFormField">
                     <label>Phone</label>
                     <input
                       type="tel"
@@ -126,11 +147,14 @@ const PropertyManagementContact = () => {
                     >
                       <option value="">Select property type</option>
                       {propertyTypes.map((type, index) => (
-                        <option key={index} value={type}>{type}</option>
+                        <option key={index} value={type}>
+                          {type}
+                        </option>
                       ))}
                     </select>
                   </div>
-                </div>                <div className="propertyManagementContactFormField">
+                </div>{" "}
+                <div className="propertyManagementContactFormField">
                   <label>Message</label>
                   <textarea
                     name="message"
@@ -140,10 +164,14 @@ const PropertyManagementContact = () => {
                     placeholder="Tell us about your property and expectations..."
                   ></textarea>
                 </div>
-
-                <button type="submit" className="propertyManagementContactFormSubmit">
+                <button
+                  type="submit"
+                  className="propertyManagementContactFormSubmit"
+                >
                   <span>Send Inquiry</span>
-                  <div className="propertyManagementContactFormSubmitArrow"><FaArrowRight /></div>
+                  <div className="propertyManagementContactFormSubmitArrow">
+                    <FaArrowRight />
+                  </div>
                 </button>
               </form>
             </div>
@@ -151,13 +179,17 @@ const PropertyManagementContact = () => {
 
           {/* Contact Info */}
           <div className="propertyManagementContactInfo">
-            <div className="propertyManagementContactInfoContainer">              <h3 className="propertyManagementContactInfoTitle cormorant-garamond-regular">
+            <div className="propertyManagementContactInfoContainer">
+              {" "}
+              <h3 className="propertyManagementContactInfoTitle cormorant-garamond-regular">
                 Contact Information
               </h3>
-              
               <div className="propertyManagementContactInfoItems">
                 {contactInfo.map((item, index) => (
-                  <div key={index} className="propertyManagementContactInfoItem">
+                  <div
+                    key={index}
+                    className="propertyManagementContactInfoItem"
+                  >
                     <div className="propertyManagementContactInfoItemIcon">
                       {item.icon}
                     </div>
@@ -174,7 +206,8 @@ const PropertyManagementContact = () => {
                     </div>
                   </div>
                 ))}
-              </div>              <div className="propertyManagementContactInfoCTA">
+              </div>{" "}
+              <div className="propertyManagementContactInfoCTA">
                 <h4 className="propertyManagementContactInfoCTATitle cormorant-garamond-regular">
                   Need immediate help?
                 </h4>
@@ -189,26 +222,34 @@ const PropertyManagementContact = () => {
             </div>
           </div>
         </div>
-
-        {/* Additional Benefits */}        <div className="propertyManagementContactBenefits">
+        {/* Additional Benefits */}{" "}
+        <div className="propertyManagementContactBenefits">
           <h3 className="propertyManagementContactBenefitsTitle cormorant-garamond-regular">
             What Will You Get During Consultation?
           </h3>
           <div className="propertyManagementContactBenefitsGrid">
             <div className="propertyManagementContactBenefitsItem">
-              <div className="propertyManagementContactBenefitsItemIcon"><FaChartBar /></div>
+              <div className="propertyManagementContactBenefitsItemIcon">
+                <FaChartBar />
+              </div>
               <h4>Profitability Analysis</h4>
               <p>Detailed analysis of potential profits from your property</p>
             </div>
             <div className="propertyManagementContactBenefitsItem">
-              <div className="propertyManagementContactBenefitsItemIcon"><FaLightbulb /></div>
+              <div className="propertyManagementContactBenefitsItemIcon">
+                <FaLightbulb />
+              </div>
               <h4>Investment Strategy</h4>
               <p>Personal consulting and development plan for your portfolio</p>
             </div>
             <div className="propertyManagementContactBenefitsItem">
-              <div className="propertyManagementContactBenefitsItemIcon"><FaSearch /></div>
+              <div className="propertyManagementContactBenefitsItemIcon">
+                <FaSearch />
+              </div>
               <h4>Service Valuation</h4>
-              <p>Transparent presentation of costs and benefits of cooperation</p>
+              <p>
+                Transparent presentation of costs and benefits of cooperation
+              </p>
             </div>
           </div>
         </div>

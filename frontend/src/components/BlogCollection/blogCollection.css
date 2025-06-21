@@ -1,405 +1,381 @@
 .blogCollection {
-    width: 100%;
-    height: 100%;
-
-    background-color: #F5EDE7;
-
-    padding-top: 100px;
-    padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: #f5ede7;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .blogCollectionContainer {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
 }
 
 .blogCollectionContainerBlog {
-    width: 100%;
-    height: 100%;
-
-    /* background-color: red; */
-    border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
 }
 
 .blogCollectionContainerBlogContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-    gap: 40px;
-
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  cursor: pointer;
 }
 
 .blogCollectionContainerBlogContainerLeft {
-    width: 500px;
-    height: 340px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    /* border-radius: 30px; */
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    flex-shrink: 0;
+  width: 500px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  flex-shrink: 0;
 }
 
-/* .blogCollectionContainerBlogContainerLeft:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-} */
-
-/* .blogCollectionContainerBlogContainerLeft:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
-} */
-
 .blogCollectionContainerBlogContainerLeftContainer {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .blogCollectionContainerBlogContainerLeftImageWrapper {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    /* border-radius: 30px; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .blogCollectionContainerBlogContainerLeftContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: transform 0.6s ease;
-    transform-origin: center;
-    /* border-radius: 30px; */
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s ease;
+  transform-origin: center;
+  display: block;
 }
 
-/* .blogCollectionContainerBlogContainerLeft:hover .blogCollectionContainerBlogContainerLeftContainerImage {
-    transform: scale(1.05);
-} */
-
-/* .blogCollectionContainerBlogContainerLeft:hover .blogCollectionContainerBlogContainerLeftContainerImage {
-    transform: scale(1.05);
-} */
-
 .blogCollectionContainerBlogContainerLeftOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(0deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
-    /* border-radius: 30px; */
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 1;
 }
 
 .blogCollectionContainerBlogContainerRight {
-    margin-top: 20px;
-    /* background-color: red; */
-    width: 100%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .blogCollectionContainerBlogContainerRightContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
 }
 
 .blogCollectionContainerBlogContainerRightContainerTopContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
 }
 
 .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
 .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
 .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
-    color: #A8A8A8;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
+  color: #a8a8a8;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
 }
 
 .blogCollectionContainerBlogContainerRightContainerTopContainerIconOne,
 .blogCollectionContainerBlogContainerRightContainerTopContainerIconTwo {
-    color: #A8A8A8;
+  color: #a8a8a8;
 }
 
 .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-    color: #31361D;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 44px;
-    /* max-width: 450px; */
+  color: #31361d;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
 }
 
 .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.8px;
-    /* max-width: 450px; */
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.8px;
 }
 
 .blogCollectionPagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
 }
 
 .blogCollectionPaginationButton {
-    background: #fff;
-    border: 1px solid #A8A8A8;
-    color: #31361D;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s, border 0.2s;
+  background: #fff;
+  border: 1px solid #a8a8a8;
+  color: #31361d;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border 0.2s;
 }
 
 .blogCollectionPaginationButton.active,
 .blogCollectionPaginationButton:hover {
-    background: #31361D;
-    color: #fff;
-    border: 1px solid #31361D;
+  background: #31361d;
+  color: #fff;
+  border: 1px solid #31361d;
 }
 
-/* Responsive Design */
 @media (max-width: 1400px) {
-    .blogCollectionContainerBlogContainerLeft {
-        width: 450px;
-        height: 320px;
-    }
-    
-    .blogCollectionContainer {
-        width: 85%;
-    }
+  .blogCollectionContainerBlogContainerLeft {
+    width: 450px;
+    height: 320px;
+  }
+
+  .blogCollectionContainer {
+    width: 85%;
+  }
 }
 
 @media (max-width: 1200px) {
-    .blogCollectionContainerBlogContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeft {
-        width: 100%;
-        max-width: 600px;
-        height: 300px;
-        border-radius: 30px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeftOverlay {
-        border-radius: 30px;
-    }
-    
-    .blogCollectionContainerBlogContainerRight {
-        margin-top: 0;
-        width: 100%;
-        max-width: 600px;
-        text-align: center;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText,
-    .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-        max-width: 100%;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerTopContainer {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px;
-    }
+  .blogCollectionContainerBlogContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .blogCollectionContainerBlogContainerLeft {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 30px;
+  }
+
+  .blogCollectionContainerBlogContainerLeftOverlay {
+    border-radius: 30px;
+  }
+
+  .blogCollectionContainerBlogContainerRight {
+    margin-top: 0;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText,
+  .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
+    max-width: 100%;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerTopContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .blogCollection {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    
-    .blogCollectionContainer {
-        width: 90%;
-        gap: 45px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeft {
-        height: 280px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-        font-size: 32px;
-        line-height: 40px;
-    }
+  .blogCollection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .blogCollectionContainer {
+    width: 90%;
+    gap: 45px;
+  }
+
+  .blogCollectionContainerBlogContainerLeft {
+    height: 280px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 
 @media (max-width: 768px) {
-    .blogCollection {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    
-    .blogCollectionContainer {
-        width: 90%;
-        gap: 40px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeft {
-        height: 250px;
-        max-width: 100%;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
-        font-size: 14px;
-        line-height: 28px;
-    }
-    
-    .blogCollectionPaginationButton {
-        padding: 6px 12px;
-        font-size: 16px;
-    }
+  .blogCollection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .blogCollectionContainer {
+    width: 90%;
+    gap: 40px;
+  }
+
+  .blogCollectionContainerBlogContainerLeft {
+    height: 250px;
+    max-width: 100%;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .blogCollectionPaginationButton {
+    padding: 6px 12px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
-    .blogCollection {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    .blogCollectionContainer {
-        width: 95%;
-        gap: 35px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeft {
-        height: 220px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-        font-size: 14px;
-        line-height: 22px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainer {
-        gap: 12px;
-    }
+  .blogCollection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .blogCollectionContainer {
+    width: 95%;
+    gap: 35px;
+  }
+
+  .blogCollectionContainerBlogContainerLeft {
+    height: 220px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainer {
+    gap: 12px;
+  }
 }
 
 @media (max-width: 480px) {
-    .blogCollection {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    
-    .blogCollectionContainer {
-        width: 95%;
-        gap: 30px;
-    }
-    
-    .blogCollectionContainerBlogContainerLeft {
-        height: 200px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-        font-size: 22px;
-        line-height: 28px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-        font-size: 13px;
-        line-height: 20px;
-        letter-spacing: 0.5px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
-        font-size: 12px;
-        line-height: 24px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainer {
-        gap: 10px;
-    }
-    
-    .blogCollectionPaginationButton {
-        padding: 5px 10px;
-        font-size: 14px;
-    }
-    
-    .blogCollectionPagination {
-        gap: 8px;
-        margin-top: 30px;
-    }
+  .blogCollection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .blogCollectionContainer {
+    width: 95%;
+    gap: 30px;
+  }
+
+  .blogCollectionContainerBlogContainerLeft {
+    height: 200px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainer {
+    gap: 10px;
+  }
+
+  .blogCollectionPaginationButton {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .blogCollectionPagination {
+    gap: 8px;
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 320px) {
-    .blogCollectionContainerBlogContainerLeft {
-        height: 180px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
-        font-size: 12px;
-        line-height: 18px;
-    }
-    
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
-    .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
-        font-size: 11px;
-        line-height: 20px;
-    }
+  .blogCollectionContainerBlogContainerLeft {
+    height: 180px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerMiddleContainerText {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerBottomContainerText {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextOne,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextTow,
+  .blogCollectionContainerBlogContainerRightContainerTopContainerTextThree {
+    font-size: 11px;
+    line-height: 20px;
+  }
 }

@@ -1,136 +1,135 @@
 .blogHeader {
-    width: 100%;
-    height: 650px;
+  width: 100%;
+  height: 650px;
 
-    background-color: #2E2F2A;
+  background-color: #2e2f2a;
 }
 
 .blogHeaderContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    gap: 35px;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 35px;
+  padding: 0 20px;
 }
 
 .blogHeaderContainerTopContainerText {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .blogHeaderContainerBottomContainerText {
-    color: #FFE5D4;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 80px;
-    text-align: center;
+  color: #ffe5d4;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: center;
 }
 
-/* Responsive Styles for BlogHeader */
 @media (max-width: 1200px) {
-    .blogHeaderContainerBottomContainerText {
-        font-size: 70px;
-        line-height: 70px;
-    }
+  .blogHeaderContainerBottomContainerText {
+    font-size: 70px;
+    line-height: 70px;
+  }
 }
 
 @media (max-width: 1024px) {
-    .blogHeader {
-        height: 500px;
-    }
-    
-    .blogHeaderContainerBottomContainerText {
-        font-size: 60px;
-        line-height: 60px;
-    }
-    
-    .blogHeaderContainer {
-        gap: 25px;
-        padding: 0 30px;
-    }
+  .blogHeader {
+    height: 500px;
+  }
+
+  .blogHeaderContainerBottomContainerText {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .blogHeaderContainer {
+    gap: 25px;
+    padding: 0 30px;
+  }
 }
 
 @media (max-width: 768px) {
-    .blogHeader {
-        height: 400px;
-    }
-    
-    .blogHeaderContainerBottomContainerText {
-        font-size: 48px;
-        line-height: 48px;
-        max-width: 90%;
-    }
-    
-    .blogHeaderContainer {
-        gap: 20px;
-        padding: 0 25px;
-    }
-    
-    .blogHeaderContainerTopContainerText {
-        font-size: 14px;
-        letter-spacing: 1.5px;
-    }
+  .blogHeader {
+    height: 400px;
+  }
+
+  .blogHeaderContainerBottomContainerText {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 90%;
+  }
+
+  .blogHeaderContainer {
+    gap: 20px;
+    padding: 0 25px;
+  }
+
+  .blogHeaderContainerTopContainerText {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
 }
 
 @media (max-width: 600px) {
-    .blogHeader {
-        height: 350px;
-    }
-    
-    .blogHeaderContainerBottomContainerText {
-        font-size: 40px;
-        line-height: 40px;
-        max-width: 95%;
-    }
-    
-    .blogHeaderContainer {
-        gap: 15px;
-        padding: 0 20px;
-    }
+  .blogHeader {
+    height: 350px;
+  }
+
+  .blogHeaderContainerBottomContainerText {
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 95%;
+  }
+
+  .blogHeaderContainer {
+    gap: 15px;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    .blogHeader {
-        height: 300px;
-    }
-    
-    .blogHeaderContainerBottomContainerText {
-        font-size: 32px;
-        line-height: 32px;
-        max-width: 100%;
-        word-wrap: break-word;
-    }
-    
-    .blogHeaderContainer {
-        gap: 12px;
-        padding: 0 15px;
-    }
-    
-    .blogHeaderContainerTopContainerText {
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
+  .blogHeader {
+    height: 300px;
+  }
+
+  .blogHeaderContainerBottomContainerText {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .blogHeaderContainer {
+    gap: 12px;
+    padding: 0 15px;
+  }
+
+  .blogHeaderContainerTopContainerText {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
 }
 
 @media (max-width: 320px) {
-    .blogHeader {
-        height: 250px;
-    }
-    
-    .blogHeaderContainerBottomContainerText {
-        font-size: 28px;
-        line-height: 28px;
-    }
-    
-    .blogHeaderContainerTopContainerText {
-        font-size: 12px;
-    }
+  .blogHeader {
+    height: 250px;
+  }
+
+  .blogHeaderContainerBottomContainerText {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .blogHeaderContainerTopContainerText {
+    font-size: 12px;
+  }
 }

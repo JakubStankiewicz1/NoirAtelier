@@ -1,124 +1,112 @@
 .faqHeader {
-    height: 100%;
-    width: 100%;
-    background-color: #2E2F2A;
-    /* top: 0; */
-    /* left: 0; */
+  height: 100%;
+  width: 100%;
+  background-color: #2e2f2a;
 }
 
 .faqHeaderContainer {
-    width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 72px;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72px;
 }
-
-
 
 .faqHeaderContainerDiv {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .faqHeaderContainerTopContainerText {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
-
 
 .faqHeaderContainerBottom {
-    margin-top: 40px;
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 40px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 .faqHeaderContainerBottomContainerText {
-    color: #FFE5D4;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 80px;
-    text-align: center;
+  color: #ffe5d4;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: center;
 }
 
-/* Responsive Media Queries */
-
-/* Tablet Styles */
 @media screen and (max-width: 1024px) {
-    .faqHeaderContainer {
-        padding-top: 60px;
-    }
-    
-    .faqHeaderContainerBottom {
-        width: 60%;
-    }
-    
-    .faqHeaderContainerBottomContainerText {
-        font-size: 60px;
-        line-height: 60px;
-    }
-    
-    .faqHeaderContainerTopContainerText {
-        font-size: 14px;
-        letter-spacing: 2px;
-    }
+  .faqHeaderContainer {
+    padding-top: 60px;
+  }
+
+  .faqHeaderContainerBottom {
+    width: 60%;
+  }
+
+  .faqHeaderContainerBottomContainerText {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .faqHeaderContainerTopContainerText {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 768px) {
-    .faqHeaderContainer {
-        height: 450px;
-        padding: 60px 15px 0 15px;
-    }
-    
-    .faqHeaderContainerBottom {
-        width: 90%;
-        margin-top: 25px;
-    }
-    
-    .faqHeaderContainerBottomContainerText {
-        font-size: 42px;
-        line-height: 45px;
-    }
-    
-    .faqHeaderContainerTopContainerText {
-        font-size: 13px;
-        letter-spacing: 2px;
-    }
+  .faqHeaderContainer {
+    height: 450px;
+    padding: 60px 15px 0 15px;
+  }
+
+  .faqHeaderContainerBottom {
+    width: 90%;
+    margin-top: 25px;
+  }
+
+  .faqHeaderContainerBottomContainerText {
+    font-size: 42px;
+    line-height: 45px;
+  }
+
+  .faqHeaderContainerTopContainerText {
+    font-size: 13px;
+    letter-spacing: 2px;
+  }
 }
 
-/* Small Mobile Styles */
 @media screen and (max-width: 480px) {
-    .faqHeaderContainer {
-        height: 400px;
-        padding: 55px 10px 0 10px;
-    }
-    
-    .faqHeaderContainerBottom {
-        width: 95%;
-        margin-top: 20px;
-    }
-    
-    .faqHeaderContainerBottomContainerText {
-        font-size: 32px;
-        line-height: 36px;
-    }
-    
-    .faqHeaderContainerTopContainerText {
-        font-size: 12px;
-        letter-spacing: 1.5px;
-    }
+  .faqHeaderContainer {
+    height: 400px;
+    padding: 55px 10px 0 10px;
+  }
+
+  .faqHeaderContainerBottom {
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .faqHeaderContainerBottomContainerText {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .faqHeaderContainerTopContainerText {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
 }

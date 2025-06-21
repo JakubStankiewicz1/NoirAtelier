@@ -1,6 +1,6 @@
 .interiorDesignPortfolio {
   width: 100%;
-  background: linear-gradient(180deg, #FAFAFA 0%, #F0EDE8 100%);
+  background: linear-gradient(180deg, #fafafa 0%, #f0ede8 100%);
   padding: 120px 0;
   position: relative;
 }
@@ -10,7 +10,6 @@
   margin: 0 auto;
 }
 
-/* Header */
 .interiorDesignPortfolioHeader {
   text-align: center;
   margin-bottom: 80px;
@@ -25,8 +24,12 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: linear-gradient(135deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1));
-  color: #AC6620;
+  background: linear-gradient(
+    135deg,
+    rgba(172, 102, 32, 0.1),
+    rgba(201, 130, 59, 0.1)
+  );
+  color: #ac6620;
   border: 1px solid rgba(172, 102, 32, 0.3);
   padding: 10px 20px;
   border-radius: 25px;
@@ -44,7 +47,7 @@
 .interiorDesignPortfolioHeaderTitle {
   font-size: 4rem;
   font-weight: 700;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 25px;
   line-height: 1.2;
 }
@@ -52,11 +55,10 @@
 .interiorDesignPortfolioHeaderDescription {
   font-size: 18px;
   line-height: 1.7;
-  color: #31361D;
+  color: #31361d;
   opacity: 0.7;
 }
 
-/* Filters */
 .interiorDesignPortfolioFilters {
   display: flex;
   justify-content: center;
@@ -75,21 +77,20 @@
   border-radius: 25px;
   font-size: 14px;
   font-weight: 600;
-  color: #31361D;
+  color: #31361d;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(49, 54, 29, 0.1);
 }
 
 .interiorDesignPortfolioFilter:hover {
-  /* transform: translateY(-2px); */
   box-shadow: 0 8px 25px rgba(49, 54, 29, 0.15);
 }
 
 .interiorDesignPortfolioFilter.active {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
-  border-color: #AC6620;
+  border-color: #ac6620;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(172, 102, 32, 0.3);
 }
@@ -101,7 +102,6 @@
   justify-content: center;
 }
 
-/* Portfolio Grid - Masonry Layout */
 .interiorDesignPortfolioGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -142,11 +142,6 @@
   grid-row: span 1;
 }
 
-/* .interiorDesignPortfolioItem:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 25px 50px rgba(49, 54, 29, 0.2);
-} */
-
 .interiorDesignPortfolioItemImage {
   position: relative;
   width: 100%;
@@ -161,11 +156,6 @@
   transition: all 0.4s ease;
 }
 
-/* .interiorDesignPortfolioItem:hover .interiorDesignPortfolioItemImage img {
-  transform: scale(1.1);
-} */
-
-/* Overlay */
 .interiorDesignPortfolioItemImageOverlay {
   position: absolute;
   bottom: 0;
@@ -230,7 +220,6 @@
   opacity: 0.8;
 }
 
-/* Hover Button */
 .interiorDesignPortfolioItemImageHover {
   position: absolute;
   top: 50%;
@@ -245,7 +234,7 @@
 }
 
 .interiorDesignPortfolioItemImageHoverButton {
-  background: linear-gradient(135deg, #AC6620, #C9823B);
+  background: linear-gradient(135deg, #ac6620, #c9823b);
   color: white;
   border: none;
   padding: 15px 25px;
@@ -260,11 +249,6 @@
   box-shadow: 0 10px 30px rgba(172, 102, 32, 0.4);
 }
 
-/* .interiorDesignPortfolioItemImageHoverButton:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(172, 102, 32, 0.5);
-} */
-
 .interiorDesignPortfolioItemImageHoverButtonArrow {
   font-size: 16px;
   transition: all 0.3s ease;
@@ -273,14 +257,9 @@
   justify-content: center;
 }
 
-/* .interiorDesignPortfolioItemImageHoverButton:hover .interiorDesignPortfolioItemImageHoverButtonArrow {
-  transform: translateX(3px);
-} */
-
-/* Call to Action */
 .interiorDesignPortfolioCTA {
   margin-top: 100px;
-  background: linear-gradient(135deg, #31361D, #4a5228);
+  background: linear-gradient(135deg, #31361d, #4a5228);
   border-radius: 30px;
   padding: 80px 60px;
   position: relative;
@@ -298,7 +277,7 @@
 .interiorDesignPortfolioCTATitle {
   font-size: 3rem;
   font-weight: 700;
-  color: #FFE5D4;
+  color: #ffe5d4;
   margin-bottom: 20px;
   line-height: 1.2;
 }
@@ -306,13 +285,13 @@
 .interiorDesignPortfolioCTADescription {
   font-size: 18px;
   line-height: 1.7;
-  color: #FFE5D4;
+  color: #ffe5d4;
   opacity: 0.9;
   margin-bottom: 40px;
 }
 
 .interiorDesignPortfolioCTAButton {
-  background: linear-gradient(135deg, #C9823B, #AC6620);
+  background: linear-gradient(135deg, #c9823b, #ac6620);
   color: white;
   border: none;
   padding: 20px 40px;
@@ -341,11 +320,15 @@
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
-/* Decorative Elements */
 .interiorDesignPortfolioCTADecorative {
   position: absolute;
   top: 0;
@@ -385,31 +368,31 @@
 }
 
 @keyframes float {
-  0%, 100% { 
-    transform: translateY(0px) rotate(0deg); 
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
     opacity: 0.1;
   }
-  33% { 
-    transform: translateY(-10px) rotate(120deg); 
+  33% {
+    transform: translateY(-10px) rotate(120deg);
     opacity: 0.15;
   }
-  66% { 
-    transform: translateY(5px) rotate(240deg); 
+  66% {
+    transform: translateY(5px) rotate(240deg);
     opacity: 0.08;
   }
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .interiorDesignPortfolioGrid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
   }
-  
+
   .interiorDesignPortfolioHeaderTitle {
     font-size: 3rem;
   }
-  
+
   .interiorDesignPortfolioCTATitle {
     font-size: 2.5rem;
   }
@@ -419,40 +402,40 @@
   .interiorDesignPortfolio {
     padding: 80px 0;
   }
-  
+
   .interiorDesignPortfolioContainer {
     width: 95%;
   }
-  
+
   .interiorDesignPortfolioGrid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .interiorDesignPortfolioItem.large,
   .interiorDesignPortfolioItem.medium,
   .interiorDesignPortfolioItem.small {
     grid-row: span 1;
   }
-  
+
   .interiorDesignPortfolioFilters {
     justify-content: flex-start;
     overflow-x: auto;
     padding-bottom: 10px;
   }
-  
+
   .interiorDesignPortfolioFilter {
     flex-shrink: 0;
   }
-  
+
   .interiorDesignPortfolioHeaderTitle {
     font-size: 2.5rem;
   }
-  
+
   .interiorDesignPortfolioCTA {
     padding: 60px 40px;
   }
-  
+
   .interiorDesignPortfolioCTATitle {
     font-size: 2rem;
   }
@@ -462,15 +445,15 @@
   .interiorDesignPortfolioHeaderTitle {
     font-size: 2rem;
   }
-  
+
   .interiorDesignPortfolioCTA {
     padding: 40px 25px;
   }
-  
+
   .interiorDesignPortfolioCTATitle {
     font-size: 1.8rem;
   }
-  
+
   .interiorDesignPortfolioItemImageOverlay {
     padding: 20px 15px 15px;
   }

@@ -1,418 +1,416 @@
 .propertiesCollectionSubscribe {
-    width: 100%;
-    height: 100%;
-    background-color: #EFE5DE;
+  width: 100%;
+  height: 100%;
+  background-color: #efe5de;
 
-
-    padding-top: 200px;
-    padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .propertiesCollectionSubscribeContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0 20px;
 }
 
 .propertiesCollectionSubscribeContainerFirstContainerText {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 2px;
-    text-align: center;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .propertiesCollectionSubscribeContainerSecond {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 300px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerSecondContainerText {
-    color: #31361D;
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 50px;
-    text-align: center;
+  color: #31361d;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
 }
 
 .propertiesCollectionSubscribeContainerThird {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 300px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainer {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOne {
-    width: 100%;
+  width: 100%;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOneContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwo {
-    width: 100%;
+  width: 100%;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
-    width: 100%;
-    height: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 100px;
-    border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+  border: none;
 
-    border: 1px solid #AC6620;
-    color: #AC6620;
-    background-color: transparent;
-    box-sizing: border-box;
+  border: 1px solid #ac6620;
+  color: #ac6620;
+  background-color: transparent;
+  box-sizing: border-box;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
-    color: #AC6620;
-    opacity: 1;
-    font-size: 16px; 
+  color: #ac6620;
+  opacity: 1;
+  font-size: 16px;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput:focus {
-    outline: none;
-    border: 1px solid #AC6620;
+  outline: none;
+  border: 1px solid #ac6620;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainer {
-    width: 100%;
+  width: 100%;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #AC6620;
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ac6620;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton:hover {
-    background-color: #C9823B;
+  background-color: #c9823b;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
-    color: #FFE5D4;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 19px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: #ffe5d4;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .propertiesCollectionSubscribeContainerFourth {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 300px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerFourthContainerText {
-    color: #908D7E;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
-    letter-spacing: 0.7px;
-    text-align: center;
+  color: #908d7e;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0.7px;
+  text-align: center;
 }
 
-/* Responsive Styles for PropertiesCollectionSubscribe */
 @media (max-width: 1200px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 50%;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 50%;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 55%;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 50%;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 50%;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 55%;
+  }
 }
 
 @media (max-width: 1024px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-    
-    .propertiesCollectionSubscribeContainer {
-        gap: 40px;
-        padding: 0 30px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 60%;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 60%;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 65%;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecondContainerText {
-        font-size: 38px;
-        line-height: 46px;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .propertiesCollectionSubscribeContainer {
+    gap: 40px;
+    padding: 0 30px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 60%;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 60%;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 65%;
+  }
+
+  .propertiesCollectionSubscribeContainerSecondContainerText {
+    font-size: 38px;
+    line-height: 46px;
+  }
 }
 
 @media (max-width: 768px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    
-    .propertiesCollectionSubscribeContainer {
-        gap: 35px;
-        padding: 0 25px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 80%;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 80%;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 85%;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecondContainerText {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainer {
-        gap: 30px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
-        height: 45px;
-        font-size: 15px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
-        font-size: 15px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
-        font-size: 17px;
-        letter-spacing: 1.5px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFirstContainerText {
-        font-size: 14px;
-        letter-spacing: 1.5px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourthContainerText {
-        font-size: 15px;
-        line-height: 32px;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .propertiesCollectionSubscribeContainer {
+    gap: 35px;
+    padding: 0 25px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 80%;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 80%;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 85%;
+  }
+
+  .propertiesCollectionSubscribeContainerSecondContainerText {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainer {
+    gap: 30px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+    font-size: 15px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+  }
+
+  .propertiesCollectionSubscribeContainerFirstContainerText {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+
+  .propertiesCollectionSubscribeContainerFourthContainerText {
+    font-size: 15px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 600px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    
-    .propertiesCollectionSubscribeContainer {
-        gap: 30px;
-        padding: 0 20px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 90%;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 90%;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 95%;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecondContainerText {
-        font-size: 28px;
-        line-height: 36px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainer {
-        gap: 25px;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .propertiesCollectionSubscribeContainer {
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 90%;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 90%;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 95%;
+  }
+
+  .propertiesCollectionSubscribeContainerSecondContainerText {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainer {
+    gap: 25px;
+  }
 }
 
 @media (max-width: 480px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    
-    .propertiesCollectionSubscribeContainer {
-        gap: 25px;
-        padding: 0 15px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 95%;
-        min-width: 280px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 95%;
-        min-width: 280px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 100%;
-        min-width: 280px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecondContainerText {
-        font-size: 24px;
-        line-height: 32px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainer {
-        gap: 20px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
-        height: 40px;
-        font-size: 14px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
-        font-size: 14px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
-        padding-top: 12px;
-        padding-bottom: 12px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFirstContainerText {
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourthContainerText {
-        font-size: 14px;
-        line-height: 28px;
-        letter-spacing: 0.5px;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .propertiesCollectionSubscribeContainer {
+    gap: 25px;
+    padding: 0 15px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 95%;
+    min-width: 280px;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 95%;
+    min-width: 280px;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 100%;
+    min-width: 280px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecondContainerText {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainer {
+    gap: 20px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+    height: 40px;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+    font-size: 14px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .propertiesCollectionSubscribeContainerFirstContainerText {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .propertiesCollectionSubscribeContainerFourthContainerText {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
 }
 
 @media (max-width: 320px) {
-    .propertiesCollectionSubscribe {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    
-    .propertiesCollectionSubscribeContainer {
-        gap: 20px;
-        padding: 0 10px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecond {
-        width: 100%;
-        min-width: 250px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThird {
-        width: 100%;
-        min-width: 250px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourth {
-        width: 100%;
-        min-width: 250px;
-    }
-    
-    .propertiesCollectionSubscribeContainerSecondContainerText {
-        font-size: 22px;
-        line-height: 28px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
-        height: 38px;
-        font-size: 13px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
-        font-size: 13px;
-    }
-    
-    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
-        font-size: 14px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFirstContainerText {
-        font-size: 12px;
-    }
-    
-    .propertiesCollectionSubscribeContainerFourthContainerText {
-        font-size: 13px;
-        line-height: 24px;
-    }
+  .propertiesCollectionSubscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .propertiesCollectionSubscribeContainer {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecond {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .propertiesCollectionSubscribeContainerThird {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .propertiesCollectionSubscribeContainerFourth {
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .propertiesCollectionSubscribeContainerSecondContainerText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+    height: 38px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+    font-size: 13px;
+  }
+
+  .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+    font-size: 14px;
+  }
+
+  .propertiesCollectionSubscribeContainerFirstContainerText {
+    font-size: 12px;
+  }
+
+  .propertiesCollectionSubscribeContainerFourthContainerText {
+    font-size: 13px;
+    line-height: 24px;
+  }
 }

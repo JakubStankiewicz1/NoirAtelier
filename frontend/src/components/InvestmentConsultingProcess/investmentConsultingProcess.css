@@ -1,341 +1,340 @@
 .investmentConsultingProcess {
-    width: 100%;
-    background-color: #FFFFFF;
-    padding: 100px 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 100px 0;
 }
 
 .investmentConsultingProcessContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .investmentConsultingProcessHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .investmentConsultingProcessHeaderContainer {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .investmentConsultingProcessHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingProcessHeaderTitle {
-    color: #31361D;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 30px;
 }
 
 .investmentConsultingProcessHeaderDescription {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
 }
 
 .investmentConsultingProcessSteps {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
 }
 
 .investmentConsultingProcessStep {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
 }
 
 .investmentConsultingProcessStepNumber {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 700;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 2;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .investmentConsultingProcessStepContent {
-    flex: 1;
-    background-color: #F5EDE7;
-    border-radius: 20px;
-    padding: 40px;
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    box-shadow: 0 5px 20px rgba(49, 54, 29, 0.1);
-    transition: all 0.3s ease;
+  flex: 1;
+  background-color: #f5ede7;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  box-shadow: 0 5px 20px rgba(49, 54, 29, 0.1);
+  transition: all 0.3s ease;
 }
 
 .investmentConsultingProcessStepContent:hover {
-    /* transform: translateY(-3px); */
-    box-shadow: 0 10px 30px rgba(49, 54, 29, 0.15);
+  box-shadow: 0 10px 30px rgba(49, 54, 29, 0.15);
 }
 
 .investmentConsultingProcessStepIcon {
-    width: 50px;
-    height: 50px;
-    background-color: #AC6620;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 20px;
-    flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #ac6620;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  flex-shrink: 0;
 }
 
 .investmentConsultingProcessStepDetails {
-    flex: 1;
+  flex: 1;
 }
 
 .investmentConsultingProcessStepHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 15px;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 20px;
 }
 
 .investmentConsultingProcessStepTitle {
-    color: #31361D;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 32px;
-    flex: 1;
+  color: #31361d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  flex: 1;
 }
 
 .investmentConsultingProcessStepDuration {
-    background-color: #AC6620;
-    color: #FFFFFF;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    flex-shrink: 0;
+  background-color: #ac6620;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  flex-shrink: 0;
 }
 
 .investmentConsultingProcessStepDescription {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
 .investmentConsultingProcessStepConnector {
-    position: absolute;
-    left: 30px;
-    top: 60px;
-    width: 2px;
-    height: 40px;
-    background: linear-gradient(180deg, #AC6620, #C9823B);
-    z-index: 1;
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(180deg, #ac6620, #c9823b);
+  z-index: 1;
 }
 
 .investmentConsultingProcessStepConnectorLine {
-    width: 100%;
-    height: 100%;
-    background: inherit;
+  width: 100%;
+  height: 100%;
+  background: inherit;
 }
 
 .investmentConsultingProcessStepConnectorArrow {
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #AC6620;
-    font-size: 16px;
-    font-weight: 700;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ac6620;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .investmentConsultingProcessTimeline {
-    background: linear-gradient(135deg, #31361D, #3a4021);
-    border-radius: 30px;
-    padding: 60px 40px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+  background: linear-gradient(135deg, #31361d, #3a4021);
+  border-radius: 30px;
+  padding: 60px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .investmentConsultingProcessTimeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="%23FFE5D4" fill-opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="%23FFE5D4" fill-opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>')
+    repeat;
+  pointer-events: none;
 }
 
 .investmentConsultingProcessTimelineContainer {
-    position: relative;
-    z-index: 1;
-    max-width: 600px;
-    margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .investmentConsultingProcessTimelineHeader {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .investmentConsultingProcessTimelineTitle {
-    color: #FFE5D4;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    margin-bottom: 20px;
+  color: #ffe5d4;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 20px;
 }
 
 .investmentConsultingProcessTimelineDuration {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 8px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
 }
 
 .investmentConsultingProcessTimelineNumber {
-    color: #AC6620;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
+  color: #ac6620;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
 }
 
 .investmentConsultingProcessTimelineUnit {
-    color: #FFE5D4;
-    font-size: 18px;
-    font-weight: 400;
-    opacity: 0.8;
+  color: #ffe5d4;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 .investmentConsultingProcessTimelineFeatures {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .investmentConsultingProcessTimelineFeature {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .investmentConsultingProcessTimelineFeatureIcon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .investmentConsultingProcessTimelineFeatureText {
-    color: #FFE5D4;
-    font-size: 14px;
-    font-weight: 400;
-    opacity: 0.9;
+  color: #ffe5d4;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .investmentConsultingProcessContainer {
-        width: 90%;
-        gap: 60px;
-    }
-    
-    .investmentConsultingProcessHeaderTitle {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    
-    .investmentConsultingProcessSteps {
-        gap: 25px;
-    }
-    
-    .investmentConsultingProcessStepCard {
-        padding: 30px 25px;
-    }
-    
-    .investmentConsultingProcessStepCardHeader {
-        gap: 15px;
-        margin-bottom: 20px;
-    }
-    
-    .investmentConsultingProcessStepCardNumber {
-        width: 45px;
-        height: 45px;
-        font-size: 20px;
-    }
-    
-    .investmentConsultingProcessStepCardIcon {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
-    }
-    
-    .investmentConsultingProcessStepCardTitleContainer {
-        flex-direction: column;
-        gap: 10px;
-        align-items: flex-start;
-    }
-    
-    .investmentConsultingProcessStepCardTitle {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    
-    .investmentConsultingProcessStepCardDescription {
-        font-size: 15px;
-        line-height: 24px;
-    }
-    
-    .investmentConsultingProcessStepCardArrow {
-        margin: 10px 0;
-    }
-    
-    .investmentConsultingProcessStepCardArrowIcon {
-        width: 35px;
-        height: 35px;
-        font-size: 18px;
-    }
-    
-    .investmentConsultingProcessTimeline {
-        padding: 40px 30px;
-    }
-    
-    .investmentConsultingProcessTimelineTitle {
-        font-size: 28px;
-        line-height: 34px;
-    }
-    
-    .investmentConsultingProcessTimelineNumber {
-        font-size: 48px;
-        line-height: 54px;
-    }
-    
-    .investmentConsultingProcessTimelineFeatures {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .investmentConsultingProcessContainer {
+    width: 90%;
+    gap: 60px;
+  }
+
+  .investmentConsultingProcessHeaderTitle {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .investmentConsultingProcessSteps {
+    gap: 25px;
+  }
+
+  .investmentConsultingProcessStepCard {
+    padding: 30px 25px;
+  }
+
+  .investmentConsultingProcessStepCardHeader {
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .investmentConsultingProcessStepCardNumber {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .investmentConsultingProcessStepCardIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .investmentConsultingProcessStepCardTitleContainer {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .investmentConsultingProcessStepCardTitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .investmentConsultingProcessStepCardDescription {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .investmentConsultingProcessStepCardArrow {
+    margin: 10px 0;
+  }
+
+  .investmentConsultingProcessStepCardArrowIcon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .investmentConsultingProcessTimeline {
+    padding: 40px 30px;
+  }
+
+  .investmentConsultingProcessTimelineTitle {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .investmentConsultingProcessTimelineNumber {
+    font-size: 48px;
+    line-height: 54px;
+  }
+
+  .investmentConsultingProcessTimelineFeatures {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

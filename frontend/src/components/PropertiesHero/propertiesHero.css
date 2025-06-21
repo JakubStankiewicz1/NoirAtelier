@@ -1,44 +1,40 @@
 .propertiesHero {
-    width: 100%;
-    height: 100%;
-    background-color: #2E2F2A;
+  width: 100%;
+  height: 100%;
+  background-color: #2e2f2a;
 }
 
 .propertiesHeroContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 650px;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  gap: 30px;
 }
 
-
 .propertiesHeroContainerTopContainerText {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 6px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6px;
 }
 
 .propertiesHeroContainerBottom {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .propertiesHeroContainerBottomContainerText {
-    color: #FFE5D4;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 80px;
-    text-align: center;
+  color: #ffe5d4;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: center;
 }
 
-/* Responsive Styles for PropertiesHero */
-
-/* Mobile First - Base styles */
 @media (max-width: 480px) {
   .propertiesHeroContainer {
     height: 400px;
@@ -62,7 +58,6 @@
   }
 }
 
-/* Large Mobile / Small Tablet */
 @media (min-width: 481px) and (max-width: 768px) {
   .propertiesHeroContainer {
     height: 500px;
@@ -86,7 +81,6 @@
   }
 }
 
-/* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
   .propertiesHeroContainer {
     height: 550px;
@@ -109,7 +103,6 @@
   }
 }
 
-/* Small Desktop */
 @media (min-width: 1025px) and (max-width: 1440px) {
   .propertiesHeroContainer {
     height: 600px;
@@ -132,7 +125,6 @@
   }
 }
 
-/* Large Desktop */
 @media (min-width: 1441px) {
   .propertiesHeroContainer {
     height: 650px;
@@ -145,7 +137,6 @@
   }
 }
 
-/* Landscape orientation for mobile */
 @media (orientation: landscape) and (max-height: 500px) {
   .propertiesHeroContainer {
     height: 350px;
@@ -158,7 +149,6 @@
   }
 }
 
-/* Ultra-wide screens */
 @media (min-width: 1920px) {
   .propertiesHeroContainer {
     height: 700px;

@@ -1,607 +1,564 @@
 .faqBenefits {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-
-    background-color: #F5EDE7;
-
-    padding-top: 100px;
-    padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f5ede7;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-
 
 .faqBenefitsContainer {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-
-    gap: 50px;
-    box-sizing: border-box;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  box-sizing: border-box;
 }
 
-
 .faqBenefitsContainerLeftContainer {
-    width: 80%
+  width: 80%;
 }
 
 .faqBenefitsContainerLeftContainerOneContainerText {
-    color: #B36620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  color: #b36620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .faqBenefitsContainerLeftContainerTwo {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .faqBenefitsContainerLeftContainerTwoContainerText {
-    color: #31361D;
-    font-size: 62px;
-    font-weight: 700;
-    line-height: 72px;
+  color: #31361d;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 72px;
 }
 
 .faqBenefitsContainerLeftContainerTwoContainerTextSpan {
-    text-decoration: underline;
-    text-decoration-color: #B36620;
+  text-decoration: underline;
+  text-decoration-color: #b36620;
 }
 
 .faqBenefitsContainerLeftContainerThree {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .faqBenefitsContainerLeftContainerThreeContainerText {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 36px;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
 }
 
 .faqBenefitsContainerLeftContainerFour {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .faqBenefitsContainerLeftContainerFourContainerButton {
-    width: 240px;
-    height: 60px;
-    background-color: #AC6620;
-    border-radius: 100px;
+  width: 240px;
+  height: 60px;
+  background-color: #ac6620;
+  border-radius: 100px;
 
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .faqBenefitsContainerLeftContainerFourContainerButton:hover {
-    background-color: #C9823B;
+  background-color: #c9823b;
 }
 
 .faqBenefitsContainerLeftContainerFourContainerButtonContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 19px;
-    color: #FCDFCE;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fcdfce;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-
-
 .faqBenefitsContainerRight {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .faqBenefitsContainerRightContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .faqBenefitsContainerRightContainerTop {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .faqBenefitsContainerRightContainerTopContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: flex-end;
-    align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .faqBenefitsContainerRightContainerRight {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .faqBenefitsContainerRightContainerRightContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-.faqBenefitsContainerRightContainerTopContainerOne {
-    width: 300px;
-    height: 250px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .faqBenefitsContainerRightContainerTopContainerOne {
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 250px;
+}
 
-    background-color: #F7EFE8;
-    border-radius: 20px;
-
-    /* padding: 20px; */
+.faqBenefitsContainerRightContainerTopContainerOne {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7efe8;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerTopContainerOneContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqBenefitsContainerRightContainerTopContainerOneContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerRightContainerOne {
-    width: 320px;
-    height: 250px;
+  width: 320px;
+  height: 250px;
 }
 
 .faqBenefitsContainerRightContainerTopContainerTwo {
-    width: 280px;
-    height: 400px;
+  width: 280px;
+  height: 400px;
 }
 
 .faqBenefitsContainerRightContainerTopContainerTwo {
-    width: 280px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #F7EFE8;
-    border-radius: 20px;
-
-    /* padding: 20px; */
+  width: 280px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7efe8;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerTopContainerTwoContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqBenefitsContainerRightContainerTopContainerTwoContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerRightContainerTwo {
-    width: 340px;
-    height: 400px;
+  width: 340px;
+  height: 400px;
 }
 
 .faqBenefitsContainerRightContainerRightContainerOne {
-    width: 320px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #F7EFE8;
-    border-radius: 20px;
-
-    /* padding: 20px; */
+  width: 320px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7efe8;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerRightContainerOneContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqBenefitsContainerRightContainerRightContainerOneContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .faqBenefitsContainerRightContainerRightContainerTwoContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqBenefitsContainerRightContainerRightContainerTwoContainerImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
-
-
-
-
-
-
-
-
 
 .faqBenefitsContainerRightContainerRightText {
-    /* background-color: red; */
-    width: 100%;
-    height: 100%;
-
-    margin-top: 200px;
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
 }
 
-/* Responsive Media Queries */
-
-/* Tablet Styles */
 @media screen and (max-width: 1024px) {
-    .faqBenefits {
-        padding-top: 80px;
-    }
-    
-    .faqBenefitsContainer {
-        width: 95%;
-        gap: 40px;
-        flex-direction: column;
-    }
-    
-    .faqBenefitsContainerLeft {
-        flex: none;
-        width: 100%;
-    }
-    
-    .faqBenefitsContainerLeftContainer {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .faqBenefitsContainerLeftContainerTwoContainerText {
-        font-size: 48px;
-        line-height: 56px;
-    }
-    
-    .faqBenefitsContainerLeftContainerThreeContainerText {
-        font-size: 15px;
-        line-height: 32px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButton {
-        width: 200px;
-        height: 55px;
-        margin: 0 auto;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
-        font-size: 16px;
-    }
-    
-    .faqBenefitsContainerRight {
-        flex: none;
-        width: 100%;
-    }
-    
-    .faqBenefitsContainerRightContainer {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-        gap: 20px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainer {
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerOne {
-        width: 250px;
-        height: 200px;
-        flex-shrink: 0;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerTwo {
-        width: 220px;
-        height: 300px;
-        flex-shrink: 0;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainer {
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainerOne {
-        width: 250px;
-        height: 200px;
-        flex-shrink: 0;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainerTwo {
-        width: 270px;
-        height: 320px;
-        flex-shrink: 0;
-    }
+  .faqBenefits {
+    padding-top: 80px;
+  }
+
+  .faqBenefitsContainer {
+    width: 95%;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .faqBenefitsContainerLeft {
+    flex: none;
+    width: 100%;
+  }
+
+  .faqBenefitsContainerLeftContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .faqBenefitsContainerLeftContainerTwoContainerText {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .faqBenefitsContainerLeftContainerThreeContainerText {
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButton {
+    width: 200px;
+    height: 55px;
+    margin: 0 auto;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
+    font-size: 16px;
+  }
+
+  .faqBenefitsContainerRight {
+    flex: none;
+    width: 100%;
+  }
+
+  .faqBenefitsContainerRightContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainer {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerOne {
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerTwo {
+    width: 220px;
+    height: 300px;
+    flex-shrink: 0;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainer {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainerOne {
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainerTwo {
+    width: 270px;
+    height: 320px;
+    flex-shrink: 0;
+  }
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 768px) {
-    .faqBenefits {
-        padding-top: 60px;
-    }
-    
-    .faqBenefitsContainer {
-        flex-direction: column;
-        gap: 40px;
-        width: 95%;
-    }
-    
-    .faqBenefitsContainerLeft {
-        flex: none;
-        width: 100%;
-        order: 1;
-    }
-    
-    .faqBenefitsContainerLeftContainer {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .faqBenefitsContainerLeftContainerTwoContainerText {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    
-    .faqBenefitsContainerLeftContainerThreeContainerText {
-        font-size: 14px;
-        line-height: 26px;
-    }
-    
-    .faqBenefitsContainerLeftContainerOneContainerText {
-        text-align: center;
-    }
-    
-    .faqBenefitsContainerLeftContainerFour {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButton {
-        width: 180px;
-        height: 50px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
-        font-size: 15px;
-    }
-    
-    .faqBenefitsContainerRight {
-        flex: none;
-        width: 100%;
-        order: 2;
-    }
-    
-    .faqBenefitsContainerRightContainer {
-        width: 100%;
-        gap: 25px;
-        align-items: center;
-    }
-    
-    .faqBenefitsContainerRightContainerTop {
-        width: 100%;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainer {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerOne {
-        width: 45%;
-        min-width: 140px;
-        height: 140px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerTwo {
-        width: 45%;
-        min-width: 140px;
-        height: 180px;
-    }
-    
-    .faqBenefitsContainerRightContainerRight {
-        width: 100%;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainer {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainerOne {
-        width: 45%;
-        min-width: 140px;
-        height: 140px;
-    }
-    
-    .faqBenefitsContainerRightContainerRightContainerTwo {
-        width: 45%;
-        min-width: 140px;
-        height: 180px;
-    }
-    
-    .faqBenefitsContainerRightContainerRightText {
-        margin-top: 0;
-        text-align: center;
-    }
+  .faqBenefits {
+    padding-top: 60px;
+  }
+
+  .faqBenefitsContainer {
+    flex-direction: column;
+    gap: 40px;
+    width: 95%;
+  }
+
+  .faqBenefitsContainerLeft {
+    flex: none;
+    width: 100%;
+    order: 1;
+  }
+
+  .faqBenefitsContainerLeftContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .faqBenefitsContainerLeftContainerTwoContainerText {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .faqBenefitsContainerLeftContainerThreeContainerText {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .faqBenefitsContainerLeftContainerOneContainerText {
+    text-align: center;
+  }
+
+  .faqBenefitsContainerLeftContainerFour {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButton {
+    width: 180px;
+    height: 50px;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
+    font-size: 15px;
+  }
+
+  .faqBenefitsContainerRight {
+    flex: none;
+    width: 100%;
+    order: 2;
+  }
+
+  .faqBenefitsContainerRightContainer {
+    width: 100%;
+    gap: 25px;
+    align-items: center;
+  }
+
+  .faqBenefitsContainerRightContainerTop {
+    width: 100%;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerOne {
+    width: 45%;
+    min-width: 140px;
+    height: 140px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerTwo {
+    width: 45%;
+    min-width: 140px;
+    height: 180px;
+  }
+
+  .faqBenefitsContainerRightContainerRight {
+    width: 100%;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainerOne {
+    width: 45%;
+    min-width: 140px;
+    height: 140px;
+  }
+
+  .faqBenefitsContainerRightContainerRightContainerTwo {
+    width: 45%;
+    min-width: 140px;
+    height: 180px;
+  }
+
+  .faqBenefitsContainerRightContainerRightText {
+    margin-top: 0;
+    text-align: center;
+  }
 }
 
-/* Small Mobile Styles */
 @media screen and (max-width: 480px) {
-    .faqBenefits {
-        padding-top: 40px;
-    }
-    
-    .faqBenefitsContainer {
-        width: 95%;
-        gap: 30px;
-    }
-    
-    .faqBenefitsContainerLeftContainerTwo {
-        margin-top: 25px;
-    }
-    
-    .faqBenefitsContainerLeftContainerTwoContainerText {
-        font-size: 26px;
-        line-height: 32px;
-    }
-    
-    .faqBenefitsContainerLeftContainerThree {
-        margin-top: 25px;
-    }
-    
-    .faqBenefitsContainerLeftContainerThreeContainerText {
-        font-size: 13px;
-        line-height: 22px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFour {
-        margin-top: 25px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButton {
-        width: 160px;
-        height: 45px;
-    }
-    
-    .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
-        font-size: 14px;
-    }
-    
-    .faqBenefitsContainerRightContainer {
-        gap: 20px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainer,
-    .faqBenefitsContainerRightContainerRightContainer {
-        gap: 12px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerOne,
-    .faqBenefitsContainerRightContainerRightContainerOne {
-        width: 48%;
-        min-width: 120px;
-        height: 120px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerTwo,
-    .faqBenefitsContainerRightContainerRightContainerTwo {
-        width: 48%;
-        min-width: 120px;
-        height: 160px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerOneContainerImage,
-    .faqBenefitsContainerRightContainerTopContainerTwoContainerImage,
-    .faqBenefitsContainerRightContainerRightContainerOneContainerImage,
-    .faqBenefitsContainerRightContainerRightContainerTwoContainerImage {
-        border-radius: 15px;
-    }
-      .faqBenefitsContainerRightContainerTopContainerOne,
-    .faqBenefitsContainerRightContainerTopContainerTwo,
-    .faqBenefitsContainerRightContainerRightContainerOne,
-    .faqBenefitsContainerRightContainerRightContainerTwo {
-        border-radius: 15px;
-    }
+  .faqBenefits {
+    padding-top: 40px;
+  }
+
+  .faqBenefitsContainer {
+    width: 95%;
+    gap: 30px;
+  }
+
+  .faqBenefitsContainerLeftContainerTwo {
+    margin-top: 25px;
+  }
+
+  .faqBenefitsContainerLeftContainerTwoContainerText {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .faqBenefitsContainerLeftContainerThree {
+    margin-top: 25px;
+  }
+
+  .faqBenefitsContainerLeftContainerThreeContainerText {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .faqBenefitsContainerLeftContainerFour {
+    margin-top: 25px;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButton {
+    width: 160px;
+    height: 45px;
+  }
+
+  .faqBenefitsContainerLeftContainerFourContainerButtonContainerText {
+    font-size: 14px;
+  }
+
+  .faqBenefitsContainerRightContainer {
+    gap: 20px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainer,
+  .faqBenefitsContainerRightContainerRightContainer {
+    gap: 12px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerOne,
+  .faqBenefitsContainerRightContainerRightContainerOne {
+    width: 48%;
+    min-width: 120px;
+    height: 120px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerTwo,
+  .faqBenefitsContainerRightContainerRightContainerTwo {
+    width: 48%;
+    min-width: 120px;
+    height: 160px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerOneContainerImage,
+  .faqBenefitsContainerRightContainerTopContainerTwoContainerImage,
+  .faqBenefitsContainerRightContainerRightContainerOneContainerImage,
+  .faqBenefitsContainerRightContainerRightContainerTwoContainerImage {
+    border-radius: 15px;
+  }
+  .faqBenefitsContainerRightContainerTopContainerOne,
+  .faqBenefitsContainerRightContainerTopContainerTwo,
+  .faqBenefitsContainerRightContainerRightContainerOne,
+  .faqBenefitsContainerRightContainerRightContainerTwo {
+    border-radius: 15px;
+  }
 }
 
-/* Extra Small Mobile Styles */
 @media screen and (max-width: 360px) {
-    .faqBenefitsContainerLeftContainerTwoContainerText {
-        font-size: 22px;
-        line-height: 28px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerOne,
-    .faqBenefitsContainerRightContainerRightContainerOne {
-        height: 100px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainerTwo,
-    .faqBenefitsContainerRightContainerRightContainerTwo {
-        height: 140px;
-    }
-    
-    .faqBenefitsContainerRightContainerTopContainer,
-    .faqBenefitsContainerRightContainerRightContainer {
-        gap: 8px;
-    }
-    
-    .faqBenefitsContainerRightContainer {
-        gap: 15px;
-    }
+  .faqBenefitsContainerLeftContainerTwoContainerText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerOne,
+  .faqBenefitsContainerRightContainerRightContainerOne {
+    height: 100px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainerTwo,
+  .faqBenefitsContainerRightContainerRightContainerTwo {
+    height: 140px;
+  }
+
+  .faqBenefitsContainerRightContainerTopContainer,
+  .faqBenefitsContainerRightContainerRightContainer {
+    gap: 8px;
+  }
+
+  .faqBenefitsContainerRightContainer {
+    gap: 15px;
+  }
 }

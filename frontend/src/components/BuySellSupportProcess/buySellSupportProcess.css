@@ -1,24 +1,17 @@
 .buySellSupportProcess {
   width: 100%;
   height: 100%;
-  background: #F8F6F3;
-  /* padding: 100px 0; */
-  /* padding-top: 50px; */
-  /* padding-bottom: 70px; */
+  background: #f8f6f3;
   position: relative;
 }
 
 .buySellSupportProcessContainer {
   max-width: 1400px;
   margin: 0 auto;
-  /* padding: 0 2rem; */
-
   padding-bottom: 60px;
-
   padding-top: 40px;
 }
 
-/* Header */
 .buySellSupportProcessHeader {
   text-align: center;
   margin-bottom: 80px;
@@ -29,21 +22,21 @@
 
 .buySellSupportProcessHeaderSubtitle {
   font-size: 1.1rem;
-  color: #AC6620;
+  color: #ac6620;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 
 .buySellSupportProcessHeaderTitle {
   font-size: clamp(2.5rem, 4vw, 3.5rem);
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 1.5rem;
   line-height: 1.2;
   font-weight: 400;
 }
 
 .buySellSupportProcessHeaderTitle .highlight {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,11 +48,6 @@
   line-height: 1.8;
   margin-bottom: 0;
 }
-
-/* Process Section */
-/* .buySellSupportProcessSection {
-  margin-bottom: 140px;
-} */
 
 .buySellSupportProcessSectionHeader {
   display: flex;
@@ -83,21 +71,20 @@
 }
 
 .buySellSupportProcessSectionIcon.buy {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
 }
 
 .buySellSupportProcessSectionIcon.sell {
-  background: linear-gradient(135deg, #C9823B 0%, #D4913D 100%);
+  background: linear-gradient(135deg, #c9823b 0%, #d4913d 100%);
 }
 
 .buySellSupportProcessSectionTitle {
   font-size: 2.2rem;
-  color: #31361D;
+  color: #31361d;
   margin: 0;
   font-weight: 400;
 }
 
-/* Process Steps */
 .buySellSupportProcessSteps {
   max-width: 1000px;
   margin: 0 auto;
@@ -107,7 +94,6 @@
 .buySellSupportProcessStep {
   display: flex;
   gap: 2rem;
-  /* margin-bottom: 3rem; */
   position: relative;
   background: white;
   border-radius: 20px;
@@ -118,7 +104,6 @@
 }
 
 .buySellSupportProcessStep:hover {
-  /* transform: translateY(-5px); */
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
@@ -133,7 +118,7 @@
 .buySellSupportProcessStepNumber {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #AC6620;
+  color: #ac6620;
   background: rgba(172, 102, 32, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 50px;
@@ -143,7 +128,7 @@
 
 .buySellSupportProcessStepIcon {
   font-size: 2rem;
-  color: #AC6620;
+  color: #ac6620;
   background: rgba(172, 102, 32, 0.1);
   padding: 1rem;
   border-radius: 50%;
@@ -155,19 +140,13 @@
   transition: all 0.3s ease;
 }
 
-/* .buySellSupportProcessStep:hover .buySellSupportProcessStepIcon {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
-  color: white;
-  transform: scale(1.1);
-} */
-
 .buySellSupportProcessStepContent {
   flex: 1;
 }
 
 .buySellSupportProcessStepTitle {
   font-size: 1.6rem;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 1rem;
   font-weight: 500;
 }
@@ -193,70 +172,54 @@
   align-items: center;
   gap: 0.75rem;
   font-size: 0.95rem;
-  color: #31361D;
+  color: #31361d;
   padding: 0.5rem 0;
 }
 
 .buySellSupportProcessStepDetailDot {
   width: 8px;
   height: 8px;
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   border-radius: 50%;
   min-width: 8px;
   min-height: 8px;
 }
 
-/* .buySellSupportProcessStepConnector {
-  position: absolute;
-  left: 50%;
-  bottom: -1.5rem;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 30px;
-  background: linear-gradient(180deg, #AC6620 0%, #C9823B 100%);
-  opacity: 0.3;
-} */
-
-/* .buySellSupportProcessStep:last-child .buySellSupportProcessStepConnector {
-  display: none;
-} */
-
-/* Decorative Elements */
 .buySellSupportProcess::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.05"><circle cx="30" cy="30" r="1.5"/></g></svg>') repeat;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.05"><circle cx="30" cy="30" r="1.5"/></g></svg>')
+    repeat;
   opacity: 0.5;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .buySellSupportProcessSectionHeader {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
   }
-  
+
   .buySellSupportProcessStep {
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
   }
-  
+
   .buySellSupportProcessStepLeft {
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .buySellSupportProcessStepDetails {
     grid-template-columns: 1fr;
     gap: 0.5rem;
   }
-  
+
   .buySellSupportProcessStepDetail {
     justify-content: center;
   }
@@ -266,24 +229,24 @@
   .buySellSupportProcess {
     padding: 50px 0;
   }
-  
+
   .buySellSupportProcessContainer {
     padding: 0 1rem;
   }
-  
+
   .buySellSupportProcessHeader {
     margin-bottom: 60px;
   }
-  
+
   .buySellSupportProcessSection {
     margin-bottom: 60px;
   }
-  
+
   .buySellSupportProcessStep {
     padding: 2rem 1.5rem;
     margin-bottom: 2rem;
   }
-  
+
   .buySellSupportProcessSectionIcon {
     min-width: 60px;
     min-height: 60px;
@@ -296,18 +259,18 @@
   .buySellSupportProcessStep {
     padding: 1.5rem;
   }
-  
+
   .buySellSupportProcessStepLeft {
     gap: 0.5rem;
   }
-  
+
   .buySellSupportProcessStepIcon {
     min-width: 50px;
     min-height: 50px;
     font-size: 1.5rem;
     padding: 0.75rem;
   }
-  
+
   .buySellSupportProcessStepNumber {
     font-size: 1.2rem;
     min-width: 40px;

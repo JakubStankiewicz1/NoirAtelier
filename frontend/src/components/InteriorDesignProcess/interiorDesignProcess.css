@@ -1,5 +1,5 @@
 .interiorDesignProcess {
-  background: linear-gradient(135deg, #F8F6F3 0%, #E8E4E0 100%);
+  background: linear-gradient(135deg, #f8f6f3 0%, #e8e4e0 100%);
   padding: 100px 0;
 }
 
@@ -11,7 +11,7 @@
 
 .interiorDesignProcessTitle {
   font-size: 3.5rem;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 60px;
 }
 
@@ -45,40 +45,30 @@
 }
 
 .interiorDesignProcessStep:hover {
-  /* transform: translateY(-10px); */
   box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15);
 }
-
-/* .interiorDesignProcessStep:hover .interiorDesignProcessStepIcon {
-  transform: scale(1.1);
-  background: linear-gradient(135deg, rgba(172, 102, 32, 0.2), rgba(201, 130, 59, 0.2));
-  border-color: rgba(172, 102, 32, 0.4);
-} */
 
 .interiorDesignProcessStepIcon {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #AC6620;
+  color: #ac6620;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 80px;
   height: 80px;
-  /* background: linear-gradient(135deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1)); */
-  /* border-radius: 50%; */
-  /* border: 2px solid rgba(172, 102, 32, 0.2); */
 }
 
 .interiorDesignProcessStepTitle {
   font-size: 1.5rem;
-  color: #31361D;
+  color: #31361d;
   margin-bottom: 15px;
   font-weight: 600;
   flex-shrink: 0;
 }
 
 .interiorDesignProcessStepDescription {
-  color: #31361D;
+  color: #31361d;
   opacity: 0.7;
   line-height: 1.6;
   flex-grow: 1;
@@ -87,7 +77,7 @@
 }
 
 .interiorDesignProcessStepArrow {
-  display: none; /* Ukrywamy strzałki w układzie grid */
+  display: none;
 }
 
 .interiorDesignProcessStep:nth-child(1) {
@@ -111,7 +101,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
   }
-  
+
   .interiorDesignProcessStep {
     min-height: 260px;
   }
@@ -121,27 +111,27 @@
   .interiorDesignProcess {
     padding: 60px 0;
   }
-  
+
   .interiorDesignProcessContainer {
     width: 95%;
   }
-  
+
   .interiorDesignProcessSteps {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-  
+
   .interiorDesignProcessStep {
     min-height: 250px;
     padding: 35px 25px;
   }
-  
+
   .interiorDesignProcessStepIcon {
     width: 70px;
     height: 70px;
     font-size: 2.5rem;
   }
-  
+
   .interiorDesignProcessTitle {
     font-size: 2.5rem;
   }
@@ -151,18 +141,18 @@
   .interiorDesignProcessTitle {
     font-size: 2rem;
   }
-  
+
   .interiorDesignProcessStep {
     min-height: 220px;
     padding: 30px 20px;
   }
-  
+
   .interiorDesignProcessStepIcon {
     width: 60px;
     height: 60px;
     font-size: 2rem;
   }
-  
+
   .interiorDesignProcessStepTitle {
     font-size: 1.3rem;
   }

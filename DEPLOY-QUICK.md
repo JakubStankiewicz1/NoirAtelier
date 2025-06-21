@@ -1,6 +1,7 @@
 # 🚀 QUICK START - Deploy na Render
 
 ## 1. Push do GitHub
+
 ```bash
 git add .
 git commit -m "Ready for Render deploy"
@@ -8,6 +9,7 @@ git push origin main
 ```
 
 ## 2. Render Setup (5 minut)
+
 1. Idź na [render.com](https://render.com)
 2. Zarejestruj się przez GitHub
 3. "New +" → "Web Service"
@@ -22,6 +24,7 @@ git push origin main
 ## 3. Kliknij "Create Web Service"
 
 ## 4. Gotowe! 🎉
+
 Twoja strona będzie dostępna pod:
 `https://noiratelier-frontend.onrender.com`
 

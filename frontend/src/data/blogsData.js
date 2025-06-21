@@ -1,12 +1,9 @@
-// ======================================
-// BLOG POSTS DATA
-// ======================================
-
 const blogsData = [
   {
     id: 1,
     title: "How to Choose the Perfect Investment Property?",
-    excerpt: "Choosing the right investment property requires careful analysis of location, growth potential, and building condition. We present key factors that will help you make a smart investment decision.",
+    excerpt:
+      "Choosing the right investment property requires careful analysis of location, growth potential, and building condition. We present key factors that will help you make a smart investment decision.",
     content: `
       <h2>Introduction</h2>
       <p>Investing in real estate is one of the most stable ways to build wealth over time. However, choosing the right investment property requires careful consideration of many factors that will determine your success.</p>
@@ -53,17 +50,19 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>A successful investment property purchase requires thorough research and careful financial planning. Take your time to analyze all aspects before making your decision.</p>
     `,
-    mainImage: "https://thecolumbusteam.com/wp-content/uploads/2019/09/How-to-Buy-First-Investment-Property.jpg",
+    mainImage:
+      "https://thecolumbusteam.com/wp-content/uploads/2019/09/How-to-Buy-First-Investment-Property.jpg",
     author: "Sarah Johnson",
     publishDate: "December 15, 2024",
     readTime: "8 min",
     category: "Investment",
-    tags: ["investment", "property", "real estate", "finance"]
+    tags: ["investment", "property", "real estate", "finance"],
   },
   {
     id: 2,
     title: "Modern Barn Style Architecture: Trends 2025",
-    excerpt: "Modern barn style homes combine rustic charm with contemporary functionality. Discover the latest trends in this popular architectural style that's taking the design world by storm.",
+    excerpt:
+      "Modern barn style homes combine rustic charm with contemporary functionality. Discover the latest trends in this popular architectural style that's taking the design world by storm.",
     content: `
       <h2>The Rise of Modern Barn Architecture</h2>
       <p>Modern barn style architecture has become increasingly popular among homeowners seeking a perfect blend of rustic charm and contemporary functionality. This architectural style takes inspiration from traditional agricultural buildings while incorporating modern design elements.</p>
@@ -119,17 +118,19 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Modern barn style architecture continues to evolve, offering homeowners a unique way to combine traditional charm with contemporary living. As we move through 2025, expect to see even more innovative interpretations of this beloved architectural style.</p>
     `,
-    mainImage: "https://modernhouse-projekty.pl/wp-content/uploads/2023/06/01_Gotowy_projekt_domu_w_stylu_nowoczesnej_stodoly_New_House_759_Modern_house-scaled.webp",
+    mainImage:
+      "https://modernhouse-projekty.pl/wp-content/uploads/2023/06/01_Gotowy_projekt_domu_w_stylu_nowoczesnej_stodoly_New_House_759_Modern_house-scaled.webp",
     author: "Michael Thompson",
     publishDate: "January 8, 2025",
     readTime: "6 min",
     category: "Architecture",
-    tags: ["architecture", "design", "modern", "barn style", "trends"]
+    tags: ["architecture", "design", "modern", "barn style", "trends"],
   },
   {
     id: 3,
     title: "Sustainable Building Materials: The Future of Construction",
-    excerpt: "Explore the latest innovations in eco-friendly building materials that are revolutionizing the construction industry. Learn about sustainable options that reduce environmental impact.",
+    excerpt:
+      "Explore the latest innovations in eco-friendly building materials that are revolutionizing the construction industry. Learn about sustainable options that reduce environmental impact.",
     content: `
       <h2>The Green Building Revolution</h2>
       <p>The construction industry is undergoing a significant transformation as sustainability becomes a primary concern. Modern builders and architects are increasingly turning to eco-friendly materials that reduce environmental impact while maintaining quality and durability.</p>
@@ -193,17 +194,25 @@ const blogsData = [
       <h2>Future Outlook</h2>
       <p>As technology advances and environmental awareness grows, we can expect to see even more innovative sustainable building materials entering the market. The future of construction is green, and the benefits extend far beyond environmental impact.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     author: "Emma Green",
-    publishDate: "January 12, 2025", 
+    publishDate: "January 12, 2025",
     readTime: "7 min",
     category: "Sustainability",
-    tags: ["sustainability", "materials", "construction", "environment", "innovation"]
+    tags: [
+      "sustainability",
+      "materials",
+      "construction",
+      "environment",
+      "innovation",
+    ],
   },
   {
     id: 4,
     title: "Interior Design Trends 2025: What's Hot This Year",
-    excerpt: "Discover the hottest interior design trends for 2025. From color palettes to furniture styles, learn what's shaping the world of interior design this year.",
+    excerpt:
+      "Discover the hottest interior design trends for 2025. From color palettes to furniture styles, learn what's shaping the world of interior design this year.",
     content: `
       <h2>Welcome to 2025's Design Revolution</h2>
       <p>As we settle into 2025, interior design is embracing a perfect balance of comfort, sustainability, and technological integration. This year's trends reflect our evolving lifestyle needs and environmental consciousness.</p>
@@ -275,17 +284,19 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>2025's interior design trends focus on creating spaces that are both beautiful and functional, while being mindful of our environmental impact. The key is to choose elements that reflect your personal style while embracing these forward-thinking approaches.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     author: "David Martinez",
     publishDate: "January 20, 2025",
     readTime: "9 min",
     category: "Interior Design",
-    tags: ["interior design", "trends", "2025", "home decor", "style"]
+    tags: ["interior design", "trends", "2025", "home decor", "style"],
   },
   {
     id: 5,
     title: "Smart Home Technology: Making Your House More Intelligent",
-    excerpt: "Transform your home into a smart, efficient, and secure space with the latest home automation technologies. Learn about the best smart home devices and systems available today.",
+    excerpt:
+      "Transform your home into a smart, efficient, and secure space with the latest home automation technologies. Learn about the best smart home devices and systems available today.",
     content: `
       <h2>The Smart Home Revolution</h2>
       <p>Smart home technology has evolved from a luxury to a necessity, offering unprecedented convenience, security, and energy efficiency. Today's smart homes can learn your habits, anticipate your needs, and adapt to your lifestyle.</p>
@@ -368,16 +379,19 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Smart home technology continues to evolve, making our lives more convenient, secure, and efficient. Start small, plan ahead, and enjoy the benefits of a truly intelligent home.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     author: "Tech Insider Team",
     publishDate: "February 2, 2025",
     readTime: "10 min",
     category: "Technology",
-    tags: ["smart home", "technology", "automation", "security", "innovation"]
-  },  {
+    tags: ["smart home", "technology", "automation", "security", "innovation"],
+  },
+  {
     id: 6,
     title: "Urban Living: Maximizing Small Spaces",
-    excerpt: "Discover smart solutions for making the most of compact urban apartments. Learn how to transform limited square footage into functional, stylish living spaces that feel spacious and welcoming.",
+    excerpt:
+      "Discover smart solutions for making the most of compact urban apartments. Learn how to transform limited square footage into functional, stylish living spaces that feel spacious and welcoming.",
     content: `
       <h2>The Urban Space Challenge</h2>
       <p>Urban living presents unique challenges, with rising property costs and shrinking apartment sizes becoming the norm in major cities. However, small spaces don't have to mean compromised living. With thoughtful design strategies and creative solutions, even the tiniest apartment can become a functional, beautiful home that maximizes every square inch.</p>
@@ -478,16 +492,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Small urban spaces can be transformed into efficient, stylish homes with the right approach. Focus on functionality, embrace vertical storage, and use design tricks to create the illusion of space. Remember, it's not about the size of your home, but how thoughtfully you use every inch of it. With creativity and planning, your compact apartment can become a beautiful, functional sanctuary in the heart of the city.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80",
     author: "Anna Urban",
     publishDate: "February 10, 2025",
     readTime: "8 min",
     category: "Urban Living",
-    tags: ["urban", "small spaces", "apartment", "design", "storage", "organization"]
-  },  {
+    tags: [
+      "urban",
+      "small spaces",
+      "apartment",
+      "design",
+      "storage",
+      "organization",
+    ],
+  },
+  {
     id: 7,
     title: "The Power of Biophilic Design",
-    excerpt: "Integrate nature into your home or office with biophilic design principles. Discover how connecting with nature indoors can boost well-being, productivity, and create healthier living spaces.",
+    excerpt:
+      "Integrate nature into your home or office with biophilic design principles. Discover how connecting with nature indoors can boost well-being, productivity, and create healthier living spaces.",
     content: `
       <h2>Understanding Biophilic Design</h2>
       <p>Biophilic design is more than just adding plants to your space—it's a comprehensive approach that seeks to connect building occupants with nature. This design philosophy recognizes our innate affinity for the natural world and incorporates natural elements, processes, and patterns into built environments to improve human well-being, productivity, and quality of life.</p>
@@ -622,16 +646,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Biophilic design is a powerful tool for creating healthier, more productive, and more enjoyable living and working spaces. By incorporating natural elements, materials, and patterns, we can satisfy our innate connection to nature while improving our physical and mental well-being. Start small with a few plants or natural materials, and gradually build your biophilic environment to create a space that truly nurtures both body and soul.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     author: "Liam Woods",
     publishDate: "February 15, 2025",
     readTime: "9 min",
     category: "Design",
-    tags: ["biophilic", "nature", "well-being", "office", "plants", "natural materials"]
-  },  {
+    tags: [
+      "biophilic",
+      "nature",
+      "well-being",
+      "office",
+      "plants",
+      "natural materials",
+    ],
+  },
+  {
     id: 8,
     title: "Renovation Mistakes to Avoid in 2025",
-    excerpt: "Planning a renovation? Learn the most common mistakes homeowners make and how to avoid them for a smooth, successful project that stays on budget and timeline.",
+    excerpt:
+      "Planning a renovation? Learn the most common mistakes homeowners make and how to avoid them for a smooth, successful project that stays on budget and timeline.",
     content: `
       <h2>The Reality of Home Renovation</h2>
       <p>Home renovation can be one of the most rewarding experiences—or one of the most stressful. While renovation shows make it look easy, real-world projects come with challenges that can quickly turn dreams into nightmares. Understanding common pitfalls and planning accordingly can save you thousands of dollars, months of delays, and significant stress.</p>
@@ -797,16 +831,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Successful renovations require careful planning, realistic budgeting, and thorough preparation. By avoiding these common mistakes, you can navigate your renovation project with confidence and achieve the results you envision. Remember, good planning prevents poor performance—invest time upfront to save time, money, and stress throughout your renovation journey. The key is to expect the unexpected while maintaining focus on your ultimate goals for the space.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
     author: "Renata Builder",
     publishDate: "February 20, 2025",
     readTime: "12 min",
     category: "Renovation",
-    tags: ["renovation", "mistakes", "planning", "home", "contractors", "budget"]
-  },  {
+    tags: [
+      "renovation",
+      "mistakes",
+      "planning",
+      "home",
+      "contractors",
+      "budget",
+    ],
+  },
+  {
     id: 9,
     title: "Minimalism: Less is More in Modern Homes",
-    excerpt: "Explore the minimalist movement in home design and discover how to create a clutter-free, peaceful environment that enhances your quality of life through intentional living.",
+    excerpt:
+      "Explore the minimalist movement in home design and discover how to create a clutter-free, peaceful environment that enhances your quality of life through intentional living.",
     content: `
       <h2>The Philosophy of Minimalist Living</h2>
       <p>Minimalism is more than just a design trend—it's a lifestyle philosophy that emphasizes intentional living through the conscious decision to live with less. In our increasingly cluttered world, minimalist design offers a refuge of calm, focusing on quality over quantity and function over excess. This approach creates spaces that are not only visually appealing but also promote mental clarity and well-being.</p>
@@ -998,16 +1042,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Minimalism in home design is about creating spaces that support your best life rather than burden it with excess. By focusing on quality, function, and intentional choices, you can create a home that is both beautiful and deeply satisfying. The minimalist approach isn't about deprivation—it's about abundance through careful curation. Start small, be patient with the process, and remember that minimalism is a journey, not a destination. The goal is to create a space that truly serves your needs and reflects your values, free from the distractions of unnecessary clutter.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80",
     author: "Marta Simple",
     publishDate: "February 25, 2025",
     readTime: "11 min",
     category: "Minimalism",
-    tags: ["minimalism", "design", "home", "lifestyle", "decluttering", "intentional living"]
-  },  {
+    tags: [
+      "minimalism",
+      "design",
+      "home",
+      "lifestyle",
+      "decluttering",
+      "intentional living",
+    ],
+  },
+  {
     id: 10,
     title: "Outdoor Living Spaces: 2025 Inspirations",
-    excerpt: "Transform your garden, patio, or balcony into a stunning outdoor oasis. Discover the latest trends, innovative ideas, and practical solutions for creating beautiful outdoor living spaces.",
+    excerpt:
+      "Transform your garden, patio, or balcony into a stunning outdoor oasis. Discover the latest trends, innovative ideas, and practical solutions for creating beautiful outdoor living spaces.",
     content: `
       <h2>The Outdoor Living Revolution</h2>
       <p>As we spend more time appreciating our homes, outdoor spaces have become crucial extensions of our living areas. The pandemic fundamentally changed how we view outdoor spaces—they're no longer just decorative but functional areas for relaxation, entertainment, and connection with nature. 2025 brings exciting innovations in outdoor design that blur the lines between indoor and outdoor living.</p>
@@ -1236,16 +1290,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Outdoor living spaces have evolved from simple patios to sophisticated extensions of our homes. The key to creating a successful outdoor space is balancing functionality, comfort, and aesthetics while considering your specific climate, space limitations, and lifestyle needs. Whether you have a sprawling backyard or a small balcony, there are endless possibilities for creating an outdoor oasis that enhances your quality of life and provides a perfect retreat from the demands of daily life. Start with the basics—seating, lighting, and plants—then gradually build your outdoor paradise one element at a time.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=1200&q=80",
     author: "Olivia Garden",
     publishDate: "March 1, 2025",
     readTime: "13 min",
     category: "Outdoor",
-    tags: ["outdoor", "garden", "patio", "trends", "landscaping", "entertainment"]
-  },  {
+    tags: [
+      "outdoor",
+      "garden",
+      "patio",
+      "trends",
+      "landscaping",
+      "entertainment",
+    ],
+  },
+  {
     id: 11,
     title: "Home Office Design for Productivity",
-    excerpt: "Create a workspace that boosts focus and creativity. Discover essential tips for layout, lighting, ergonomics, and organization that will transform your work-from-home experience.",
+    excerpt:
+      "Create a workspace that boosts focus and creativity. Discover essential tips for layout, lighting, ergonomics, and organization that will transform your work-from-home experience.",
     content: `
       <h2>The Home Office Revolution</h2>
       <p>The shift to remote and hybrid work has made home offices essential rather than optional. A well-designed home office can significantly impact your productivity, creativity, and overall work satisfaction. Unlike traditional office spaces, home offices offer the unique opportunity to create a personalized environment that reflects your work style and supports your professional goals while maintaining comfort and inspiration.</p>
@@ -1480,16 +1544,26 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>A well-designed home office is an investment in your professional success and personal well-being. By focusing on ergonomics, lighting, organization, and personal inspiration, you can create a workspace that not only supports your current needs but adapts to your evolving career. Remember that the best home office is one that reflects your personal work style while providing the functionality and comfort needed for long-term productivity. Start with the essentials—a good chair, proper lighting, and organized storage—then gradually refine your space to create the perfect work environment that inspires you to do your best work every day.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80",
     author: "Peter Desk",
     publishDate: "March 5, 2025",
     readTime: "10 min",
     category: "Home Office",
-    tags: ["office", "productivity", "workspace", "design", "ergonomics", "technology"]
-  },  {
+    tags: [
+      "office",
+      "productivity",
+      "workspace",
+      "design",
+      "ergonomics",
+      "technology",
+    ],
+  },
+  {
     id: 12,
     title: "Eco-Friendly Paints: Healthier Homes",
-    excerpt: "Switch to eco-friendly paints for better indoor air quality and a greener planet. Discover natural alternatives, low-VOC options, and sustainable painting practices.",
+    excerpt:
+      "Switch to eco-friendly paints for better indoor air quality and a greener planet. Discover natural alternatives, low-VOC options, and sustainable painting practices.",
     content: `
       <h2>The Hidden Dangers of Conventional Paints</h2>
       <p>Traditional paints contain volatile organic compounds (VOCs) and other harmful chemicals that can negatively impact indoor air quality and human health. These substances continue to off-gas for months or even years after application, contributing to headaches, respiratory issues, and long-term health problems. As awareness of these risks grows, eco-friendly paints have emerged as a safer, more sustainable alternative for conscious homeowners.</p>
@@ -1734,16 +1808,27 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Eco-friendly paints represent a significant step toward healthier homes and a more sustainable future. By choosing low-VOC, zero-VOC, or natural paint options, you're investing in your family's health while reducing your environmental impact. While the initial cost may be higher, the long-term benefits—improved air quality, reduced health risks, and environmental protection—make eco-friendly paints a smart choice for conscious homeowners. Start with the rooms where you spend the most time, and gradually transition your entire home to safer, more sustainable paint options. Your lungs, your family, and the planet will thank you.</p>
     `,
-    mainImage: "https://www.prioritycoatings.com.au/wp-content/uploads/2024/04/eco-friendly-paints-blog-banner.jpg",
+    mainImage:
+      "https://www.prioritycoatings.com.au/wp-content/uploads/2024/04/eco-friendly-paints-blog-banner.jpg",
     author: "Greta Color",
     publishDate: "March 10, 2025",
     readTime: "9 min",
     category: "Sustainability",
-    tags: ["eco", "paint", "health", "home", "VOC", "natural materials", "indoor air quality"]
-  },  {
+    tags: [
+      "eco",
+      "paint",
+      "health",
+      "home",
+      "VOC",
+      "natural materials",
+      "indoor air quality",
+    ],
+  },
+  {
     id: 13,
     title: "Lighting Design: Setting the Mood",
-    excerpt: "Learn how to use lighting to transform your home's atmosphere. Master the art of layered lighting with expert tips for creating ambiance, functionality, and beauty in every room.",
+    excerpt:
+      "Learn how to use lighting to transform your home's atmosphere. Master the art of layered lighting with expert tips for creating ambiance, functionality, and beauty in every room.",
     content: `
       <h2>The Power of Light in Interior Design</h2>
       <p>Lighting is one of the most transformative elements in interior design, yet it's often overlooked until the end of a project. Good lighting design can make a small room feel spacious, a cold room feel warm, and a mundane space feel magical. Understanding how to layer different types of lighting and choose the right fixtures can dramatically improve both the functionality and ambiance of your home.</p>
@@ -1981,16 +2066,27 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Masterful lighting design is about understanding how light affects mood, functionality, and the overall feel of your space. By layering ambient, task, and accent lighting thoughtfully, you can create environments that adapt to your daily needs and enhance your quality of life. Remember that lighting is not just about visibility—it's about creating atmosphere, supporting activities, and expressing your personal style. Start with the basics of good general lighting, then add layers of task and accent lighting to create truly transformative spaces. With careful planning and attention to both function and beauty, your lighting design can turn your house into a warm, welcoming, and perfectly illuminated home.</p>
     `,
-    mainImage: "https://hampshirelight.imgix.net/storage/uploads/case-studies/lighting%20design%20portfolio%202_ssmno.png?fm=pjpg&auto=format",
+    mainImage:
+      "https://hampshirelight.imgix.net/storage/uploads/case-studies/lighting%20design%20portfolio%202_ssmno.png?fm=pjpg&auto=format",
     author: "Lucy Light",
     publishDate: "March 15, 2025",
     readTime: "11 min",
     category: "Lighting",
-    tags: ["lighting", "design", "mood", "home", "LED", "smart home", "ambiance"]
-  },  {
+    tags: [
+      "lighting",
+      "design",
+      "mood",
+      "home",
+      "LED",
+      "smart home",
+      "ambiance",
+    ],
+  },
+  {
     id: 14,
     title: "Pet-Friendly Home Design Ideas",
-    excerpt: "Make your home comfortable for both you and your pets. Discover practical design tips, safe materials, and creative solutions for creating a beautiful space that accommodates your furry family members.",
+    excerpt:
+      "Make your home comfortable for both you and your pets. Discover practical design tips, safe materials, and creative solutions for creating a beautiful space that accommodates your furry family members.",
     content: `
       <h2>Designing for the Whole Family</h2>
       <p>Pet ownership has reached new heights, with over 70% of households including furry, feathered, or scaled family members. Creating a home that is both stylish and pet-friendly requires thoughtful planning, smart material choices, and creative solutions that address the unique needs of different animals while maintaining the aesthetic you desire. The best pet-friendly homes don't compromise on style—they integrate pet needs seamlessly into beautiful design.</p>
@@ -2243,16 +2339,27 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Creating a pet-friendly home doesn't mean sacrificing style or functionality—it means making thoughtful choices that enhance life for all family members. By selecting durable materials, incorporating clever storage solutions, and planning for your pets' specific needs, you can create a beautiful space that works for everyone. Remember that the best pet-friendly design is proactive rather than reactive, addressing potential issues before they become problems. Start with the areas where your pets spend the most time, and gradually implement changes throughout your home. With careful planning and smart design choices, you can create a space that is both stylish and perfectly suited to life with your beloved animal companions.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80",
     author: "Sophie Paw",
     publishDate: "March 20, 2025",
     readTime: "12 min",
     category: "Pets",
-    tags: ["pets", "home", "design", "animals", "safety", "materials", "pet-friendly"]
-  },  {
+    tags: [
+      "pets",
+      "home",
+      "design",
+      "animals",
+      "safety",
+      "materials",
+      "pet-friendly",
+    ],
+  },
+  {
     id: 15,
     title: "Budget-Friendly Decor Hacks",
-    excerpt: "Refresh your space without breaking the bank. Discover creative, affordable decor ideas, DIY projects, and smart shopping strategies for transforming every room on any budget.",
+    excerpt:
+      "Refresh your space without breaking the bank. Discover creative, affordable decor ideas, DIY projects, and smart shopping strategies for transforming every room on any budget.",
     content: `
       <h2>The Art of Decorating on a Dime</h2>
       <p>Creating a beautiful, stylish home doesn't require a massive budget or expensive designer pieces. With creativity, resourcefulness, and strategic planning, you can transform any space into a stunning environment that reflects your personal style. The key is knowing where to splurge, where to save, and how to maximize every dollar through smart shopping, DIY projects, and clever decorating tricks that deliver maximum impact for minimum cost.</p>
@@ -2508,61 +2615,65 @@ const blogsData = [
       <h2>Conclusion</h2>
       <p>Beautiful, stylish homes are created through thoughtful choices, creativity, and patience—not expensive price tags. By combining smart shopping strategies, DIY projects, and creative repurposing, you can transform any space into a reflection of your personal style without breaking the bank. Remember that the most important element in any room is not how much money you spent, but how the space makes you feel. Start small, be patient with the process, and don't be afraid to experiment. With time and creativity, you can create a home that looks like a million dollars while staying true to your budget. The key is to focus on one project at a time, celebrate small victories, and enjoy the journey of creating a space that truly feels like home.</p>
     `,
-    mainImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    mainImage:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
     author: "Max Saver",
     publishDate: "March 25, 2025",
     readTime: "14 min",
     category: "Budget",
-    tags: ["budget", "decor", "diy", "home", "thrift", "makeover", "decorating"]
-  }
+    tags: [
+      "budget",
+      "decor",
+      "diy",
+      "home",
+      "thrift",
+      "makeover",
+      "decorating",
+    ],
+  },
 ];
-// ======================================
-// HELPER FUNCTIONS
-// ======================================
 
-// Pobierz wszystkie blogi
 export const getAllBlogs = () => {
   return blogsData;
 };
 
-// Pobierz blog po ID
 export const getBlogById = (id) => {
-  return blogsData.find(blog => blog.id === parseInt(id));
+  return blogsData.find((blog) => blog.id === parseInt(id));
 };
 
-// Pobierz blogi według kategorii
 export const getBlogsByCategory = (category) => {
-  return blogsData.filter(blog => blog.category.toLowerCase() === category.toLowerCase());
+  return blogsData.filter(
+    (blog) => blog.category.toLowerCase() === category.toLowerCase(),
+  );
 };
 
-// Pobierz najnowsze blogi
 export const getRecentBlogs = (limit = 3) => {
   return blogsData
     .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate))
     .slice(0, limit);
 };
 
-// Pobierz powiązane blogi
 export const getRelatedBlogs = (currentBlogId, limit = 3) => {
   const currentBlog = getBlogById(currentBlogId);
   if (!currentBlog) return [];
-  
+
   return blogsData
-    .filter(blog => 
-      blog.id !== currentBlogId && 
-      (blog.category === currentBlog.category || 
-       blog.tags.some(tag => currentBlog.tags.includes(tag)))
+    .filter(
+      (blog) =>
+        blog.id !== currentBlogId &&
+        (blog.category === currentBlog.category ||
+          blog.tags.some((tag) => currentBlog.tags.includes(tag))),
     )
     .slice(0, limit);
 };
 
-// Wyszukaj blogi
 export const searchBlogs = (query) => {
   const searchTerm = query.toLowerCase();
-  return blogsData.filter(blog =>
-    blog.title.toLowerCase().includes(searchTerm) ||
-    blog.excerpt.toLowerCase().includes(searchTerm) ||
-    blog.tags.some(tag => tag.toLowerCase().includes(searchTerm))
+  return blogsData.filter(
+    (blog) =>
+      blog.title.toLowerCase().includes(searchTerm) ||
+      blog.excerpt.toLowerCase().includes(searchTerm) ||
+      blog.tags.some((tag) => tag.toLowerCase().includes(searchTerm)),
   );
 };
 

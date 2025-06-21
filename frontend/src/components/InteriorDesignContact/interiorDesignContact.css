@@ -1,5 +1,5 @@
 .interiorDesignContact {
-  background: linear-gradient(135deg, #31361D, #4a5228);
+  background: linear-gradient(135deg, #31361d, #4a5228);
   padding: 100px 0;
 }
 
@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #C9823B;
+  color: #c9823b;
   transition: all 0.3s ease;
 }
 
@@ -88,7 +88,6 @@
   transition: all 0.3s ease;
 }
 
-/* Specjalne style dla select */
 .interiorDesignContactForm select {
   background: rgba(255, 255, 255, 0.15);
   cursor: pointer;
@@ -110,7 +109,7 @@
 }
 
 .interiorDesignContactForm select option {
-  background: #31361D;
+  background: #31361d;
   color: white;
   padding: 10px;
   border: none;
@@ -140,7 +139,7 @@
 .interiorDesignContactForm select:focus,
 .interiorDesignContactForm textarea:focus {
   outline: none;
-  border-color: #AC6620;
+  border-color: #ac6620;
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -151,7 +150,7 @@
 }
 
 .interiorDesignContactFormSubmit {
-  background: linear-gradient(135deg, #C9823B, #AC6620);
+  background: linear-gradient(135deg, #c9823b, #ac6620);
   color: white;
   border: none;
   padding: 18px 30px;
@@ -167,26 +166,9 @@
   transition: all 0.3s ease;
 }
 
-/* Dodatkowe efekty hover */
 .interiorDesignContactForm select:hover {
-  /* background: rgba(255, 255, 255, 0.2); */
   border-color: rgba(255, 255, 255, 0.5);
 }
-
-/* .interiorDesignContactFormSubmit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 15px 35px rgba(201, 130, 59, 0.4);
-} */
-
-/* .interiorDesignContactFeature:hover .interiorDesignContactFeatureIcon {
-  background: rgba(172, 102, 32, 0.3);
-  transform: scale(1.1);
-  color: #AC6620;
-} */
-
-/* .interiorDesignContactFeature:hover {
-  transform: translateX(5px);
-} */
 
 .interiorDesignContactFormSubmitIcon {
   font-size: 20px;
@@ -207,15 +189,15 @@
   .interiorDesignContactContainer {
     width: 95%;
   }
-  
+
   .interiorDesignContactTitle {
     font-size: 2.5rem;
   }
-  
+
   .interiorDesignContactFormRow {
     grid-template-columns: 1fr;
   }
-  
+
   .interiorDesignContactForm {
     padding: 30px 25px;
   }

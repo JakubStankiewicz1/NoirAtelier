@@ -1,9 +1,17 @@
-import React from 'react';
-import './blogElement.css';
-import { useParams, useNavigate } from 'react-router-dom';
-import { getBlogById, getRelatedBlogs } from '../../data/blogsData';
-import { FaUser, FaClock, FaArrowLeft, FaShare, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import Fotter from '../../components/Fotter/Fotter';
+import React from "react";
+import "./blogElement.css";
+import { useParams, useNavigate } from "react-router-dom";
+import { getBlogById, getRelatedBlogs } from "../../data/blogsData";
+import {
+  FaUser,
+  FaClock,
+  FaArrowLeft,
+  FaShare,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
+import Fotter from "../../components/Fotter/Fotter";
 
 const BlogElement = () => {
   const { id } = useParams();
@@ -11,17 +19,16 @@ const BlogElement = () => {
   const blogData = getBlogById(id);
   const relatedBlogs = getRelatedBlogs(parseInt(id), 3);
 
-  // Jeśli nie znaleziono bloga, pokaż błąd
   if (!blogData) {
     return (
-      <div className='blogElement'>
+      <div className="blogElement">
         <div className="blogElementErrorContainer">
           <div className="blogElementError">
             <h2>Blog nie został znaleziony</h2>
             <p>Przepraszamy, nie znaleźliśmy artykułu o ID: {id}</p>
-            <button 
+            <button
               className="blogElementBackButton"
-              onClick={() => navigate('/blog')}
+              onClick={() => navigate("/blog")}
             >
               <FaArrowLeft /> Powrót do bloga
             </button>
@@ -38,82 +45,83 @@ const BlogElement = () => {
   };
 
   const handleBackClick = () => {
-    navigate('/blog');
+    navigate("/blog");
   };
 
   const handleShareClick = (platform) => {
     const url = window.location.href;
     const title = blogData.title;
-    
-    let shareUrl = '';
-    switch(platform) {
-      case 'facebook':
+
+    let shareUrl = "";
+    switch (platform) {
+      case "facebook":
         shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
         break;
-      case 'twitter':
+      case "twitter":
         shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`;
         break;
-      case 'linkedin':
+      case "linkedin":
         shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
         break;
       default:
         return;
     }
-    
-    window.open(shareUrl, '_blank', 'width=600,height=400');
+
+    window.open(shareUrl, "_blank", "width=600,height=400");
   };
 
   return (
-    <div className='blogElement'>
+    <div className="blogElement">
       {/* Header Section */}
       <div className="blogElementHeader">
         <div className="blogElementHeaderContainer">
-          <button 
-            className="blogElementBackButton"
-            onClick={handleBackClick}
-          >
+          <button className="blogElementBackButton" onClick={handleBackClick}>
             <FaArrowLeft /> Back to Blog
           </button>
-          
+
           <div className="blogElementHeaderContent">
             <div className="blogElementCategory">
-              <span className="blogElementCategoryTag">{blogData.category}</span>
+              <span className="blogElementCategoryTag">
+                {blogData.category}
+              </span>
             </div>
-            
+
             <h1 className="blogElementTitle cormorant-garamond-regular">
               {blogData.title}
             </h1>
-            
+
             <div className="blogElementMeta">
               <div className="blogElementMetaItem">
                 <FaUser className="blogElementMetaIcon" />
                 <span>By {blogData.author}</span>
               </div>
-              
+
               <div className="blogElementMetaItem">
                 <FaClock className="blogElementMetaIcon" />
-                <span>{blogData.publishDate} • {blogData.readTime} read</span>
+                <span>
+                  {blogData.publishDate} • {blogData.readTime} read
+                </span>
               </div>
             </div>
-            
+
             <div className="blogElementShare">
               <span className="blogElementShareLabel">Share:</span>
               <div className="blogElementShareButtons">
-                <button 
+                <button
                   className="blogElementShareButton facebook"
-                  onClick={() => handleShareClick('facebook')}
+                  onClick={() => handleShareClick("facebook")}
                 >
                   <FaFacebook />
                 </button>
-                <button 
+                <button
                   className="blogElementShareButton twitter"
-                  onClick={() => handleShareClick('twitter')}
+                  onClick={() => handleShareClick("twitter")}
                 >
                   <FaTwitter />
                 </button>
-                <button 
+                <button
                   className="blogElementShareButton linkedin"
-                  onClick={() => handleShareClick('linkedin')}
+                  onClick={() => handleShareClick("linkedin")}
                 >
                   <FaLinkedin />
                 </button>
@@ -132,7 +140,7 @@ const BlogElement = () => {
       <div className="blogElementContent">
         <div className="blogElementContentContainer">
           <div className="blogElementContentText">
-            <div 
+            <div
               className="blogElementContentBody"
               dangerouslySetInnerHTML={{ __html: blogData.content }}
             />
@@ -161,34 +169,33 @@ const BlogElement = () => {
             <h2 className="blogElementRelatedTitle cormorant-garamond-regular">
               Related Articles
             </h2>
-            
+
             <div className="blogElementRelatedGrid">
               {relatedBlogs.map((relatedBlog) => (
-                <div 
-                  key={relatedBlog.id} 
+                <div
+                  key={relatedBlog.id}
                   className="blogElementRelatedCard"
                   onClick={() => handleRelatedBlogClick(relatedBlog.id)}
                 >
                   <div className="blogElementRelatedCardImage">
                     <img src={relatedBlog.mainImage} alt={relatedBlog.title} />
                   </div>
-                  
+
                   <div className="blogElementRelatedCardContent">
                     <span className="blogElementRelatedCardCategory">
                       {relatedBlog.category}
                     </span>
-                    
+
                     <h3 className="blogElementRelatedCardTitle">
                       {relatedBlog.title}
                     </h3>
-                    
+
                     <p className="blogElementRelatedCardExcerpt">
-                      {relatedBlog.excerpt.length > 100 
-                        ? relatedBlog.excerpt.substring(0, 100) + '...'
-                        : relatedBlog.excerpt
-                      }
+                      {relatedBlog.excerpt.length > 100
+                        ? relatedBlog.excerpt.substring(0, 100) + "..."
+                        : relatedBlog.excerpt}
                     </p>
-                    
+
                     <div className="blogElementRelatedCardMeta">
                       <span>{relatedBlog.publishDate}</span>
                       <span>•</span>

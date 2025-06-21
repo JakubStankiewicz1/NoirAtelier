@@ -1,323 +1,296 @@
 .locationAnalysisProcess {
-    width: 100%;
-    background-color: #FFFFFF;
-    padding: 100px 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 100px 0;
 }
 
 .locationAnalysisProcessContainer {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .locationAnalysisProcessHeader {
-    text-align: center;
+  text-align: center;
 }
 
 .locationAnalysisProcessHeaderContainer {
-    /* max-width: 800px; */
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .locationAnalysisProcessHeaderSubtitle {
-    color: #AC6620;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+  color: #ac6620;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
 .locationAnalysisProcessHeaderTitle {
-    color: #31361D;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 70px;
-    margin-bottom: 30px;
+  color: #31361d;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 30px;
 }
 
 .locationAnalysisProcessHeaderDescription {
-    color: #31361D;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
 }
 
 .locationAnalysisProcessSteps {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
 }
 
 .locationAnalysisProcessStep {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
 }
 
 .locationAnalysisProcessStepNumber {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(135deg, #AC6620, #C9823B);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: 700;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 2;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #ac6620, #c9823b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .locationAnalysisProcessStepContent {
-    flex: 1;
-    background-color: #F5EDE7;
-    border-radius: 20px;
-    padding: 40px;
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    box-shadow: 0 5px 20px rgba(49, 54, 29, 0.1);
-    transition: all 0.3s ease;
+  flex: 1;
+  background-color: #f5ede7;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  box-shadow: 0 5px 20px rgba(49, 54, 29, 0.1);
+  transition: all 0.3s ease;
 }
 
 .locationAnalysisProcessStepContent:hover {
-    /* transform: translateY(-3px); */
-    box-shadow: 0 10px 30px rgba(49, 54, 29, 0.15);
+  box-shadow: 0 10px 30px rgba(49, 54, 29, 0.15);
 }
 
 .locationAnalysisProcessStepIcon {
-    width: 50px;
-    height: 50px;
-    background-color: #AC6620;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 20px;
-    flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #ac6620;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 20px;
+  flex-shrink: 0;
 }
 
 .locationAnalysisProcessStepDetails {
-    flex: 1;
+  flex: 1;
 }
 
 .locationAnalysisProcessStepHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 15px;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 20px;
 }
 
 .locationAnalysisProcessStepTitle {
-    color: #31361D;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 32px;
-    flex: 1;
+  color: #31361d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  flex: 1;
 }
 
 .locationAnalysisProcessStepDuration {
-    background-color: #AC6620;
-    color: #FFFFFF;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    flex-shrink: 0;
+  background-color: #ac6620;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  flex-shrink: 0;
 }
 
 .locationAnalysisProcessStepDescription {
-    color: #31361D;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    opacity: 0.8;
+  color: #31361d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.8;
 }
 
-/* .locationAnalysisProcessStepConnector {
-    position: absolute;
-    left: 30px;
-    top: 60px;
-    bottom: -40px;
-    width: 2px;
-    background: linear-gradient(to bottom, #AC6620, rgba(172, 102, 32, 0.3));
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .locationAnalysisProcessStepConnectorArrow {
-    background-color: #AC6620;
-    color: #FFFFFF;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
+  background-color: #ac6620;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .locationAnalysisProcessTimeline {
-    background: linear-gradient(135deg, #31361D, #3a4021);
-    border-radius: 30px;
-    padding: 50px 40px;
-    position: relative;
-    overflow: hidden;
+  background: linear-gradient(135deg, #31361d, #3a4021);
+  border-radius: 30px;
+  padding: 50px 40px;
+  position: relative;
+  overflow: hidden;
 }
 
-/* .locationAnalysisProcessTimeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23FFE5D4" fill-opacity="0.05"/><circle cx="75" cy="75" r="1" fill="%23FFE5D4" fill-opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
-    pointer-events: none;
-} */
-
 .locationAnalysisProcessTimelineContainer {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .locationAnalysisProcessTimelineHeader {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .locationAnalysisProcessTimelineTitle {
-    color: #FFE5D4;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 42px;
+  color: #ffe5d4;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
 }
 
 .locationAnalysisProcessTimelineDuration {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
 }
 
 .locationAnalysisProcessTimelineNumber {
-    color: #AC6620;
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 72px;
+  color: #ac6620;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
 }
 
 .locationAnalysisProcessTimelineUnit {
-    color: #FFE5D4;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.9;
+  color: #ffe5d4;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
 .locationAnalysisProcessTimelineFeatures {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .locationAnalysisProcessTimelineFeature {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .locationAnalysisProcessTimelineFeatureIcon {
-    font-size: 20px;
-    color: #AC6620;
+  font-size: 20px;
+  color: #ac6620;
 }
 
 .locationAnalysisProcessTimelineFeatureText {
-    color: #FFE5D4;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.9;
+  color: #ffe5d4;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.9;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .locationAnalysisProcessContainer {
-        width: 90%;
-        gap: 60px;
-    }
-    
-    .locationAnalysisProcessHeaderTitle {
-        font-size: 42px;
-        line-height: 48px;
-    }
-    
-    .locationAnalysisProcessStep {
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .locationAnalysisProcessStepNumber {
-        align-self: flex-start;
-    }
-    
-    .locationAnalysisProcessStepContent {
-        padding: 30px 25px;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .locationAnalysisProcessStepHeader {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .locationAnalysisProcessStepTitle {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    
-    .locationAnalysisProcessStepConnector {
-        display: none;
-    }
-    
-    .locationAnalysisProcessTimeline {
-        padding: 40px 30px;
-    }
-    
-    .locationAnalysisProcessTimelineTitle {
-        font-size: 28px;
-        line-height: 34px;
-    }
-    
-    .locationAnalysisProcessTimelineNumber {
-        font-size: 56px;
-        line-height: 56px;
-    }
-    
-    .locationAnalysisProcessTimelineFeatures {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
+  .locationAnalysisProcessContainer {
+    width: 90%;
+    gap: 60px;
+  }
+
+  .locationAnalysisProcessHeaderTitle {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .locationAnalysisProcessStep {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .locationAnalysisProcessStepNumber {
+    align-self: flex-start;
+  }
+
+  .locationAnalysisProcessStepContent {
+    padding: 30px 25px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .locationAnalysisProcessStepHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .locationAnalysisProcessStepTitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .locationAnalysisProcessStepConnector {
+    display: none;
+  }
+
+  .locationAnalysisProcessTimeline {
+    padding: 40px 30px;
+  }
+
+  .locationAnalysisProcessTimelineTitle {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .locationAnalysisProcessTimelineNumber {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .locationAnalysisProcessTimelineFeatures {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
 }

@@ -1,18 +1,34 @@
 import React from "react";
 import "./interiorDesignProcess.css";
-import { 
-  FiMessageCircle, 
-  FiEdit3, 
-  FiTool,
-  FiArrowRight 
-} from 'react-icons/fi';
-import { HiLightBulb } from 'react-icons/hi';
+import { FiMessageCircle, FiEdit3, FiTool, FiArrowRight } from "react-icons/fi";
+import { HiLightBulb } from "react-icons/hi";
 
-const InteriorDesignProcess = () => {  const steps = [
-    { id: 1, title: "Konsultacja", icon: <FiMessageCircle />, description: "Poznajemy Twoje potrzeby i marzenia" },
-    { id: 2, title: "Koncepcja", icon: <HiLightBulb />, description: "Tworzymy unikalną koncepcję projektu" },
-    { id: 3, title: "Projekt", icon: <FiEdit3 />, description: "Przygotowujemy szczegółowe wizualizacje" },
-    { id: 4, title: "Realizacja", icon: <FiTool />, description: "Wcielamy projekt w życie" }
+const InteriorDesignProcess = () => {
+  const steps = [
+    {
+      id: 1,
+      title: "Konsultacja",
+      icon: <FiMessageCircle />,
+      description: "Poznajemy Twoje potrzeby i marzenia",
+    },
+    {
+      id: 2,
+      title: "Koncepcja",
+      icon: <HiLightBulb />,
+      description: "Tworzymy unikalną koncepcję projektu",
+    },
+    {
+      id: 3,
+      title: "Projekt",
+      icon: <FiEdit3 />,
+      description: "Przygotowujemy szczegółowe wizualizacje",
+    },
+    {
+      id: 4,
+      title: "Realizacja",
+      icon: <FiTool />,
+      description: "Wcielamy projekt w życie",
+    },
   ];
 
   return (
@@ -26,7 +42,9 @@ const InteriorDesignProcess = () => {  const steps = [
             <div key={step.id} className="interiorDesignProcessStep">
               <div className="interiorDesignProcessStepIcon">{step.icon}</div>
               <h3 className="interiorDesignProcessStepTitle">{step.title}</h3>
-              <p className="interiorDesignProcessStepDescription">{step.description}</p>
+              <p className="interiorDesignProcessStepDescription">
+                {step.description}
+              </p>
               {index < steps.length - 1 && (
                 <div className="interiorDesignProcessStepArrow">
                   <FiArrowRight />

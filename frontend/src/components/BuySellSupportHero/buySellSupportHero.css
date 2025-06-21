@@ -1,7 +1,6 @@
 .buySellSupportHero {
   width: 100%;
-  /* min-height: 100vh; */
-  background: linear-gradient(135deg, #F8F6F3 0%, #E8E4E0 50%, #F0EDE8 100%);
+  background: linear-gradient(135deg, #f8f6f3 0%, #e8e4e0 50%, #f0ede8 100%);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -39,7 +38,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 50px;
@@ -50,11 +49,6 @@
   transition: all 0.3s ease;
 }
 
-/* .buySellSupportHeroLeftBadge:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 25px rgba(172, 102, 32, 0.4);
-} */
-
 .buySellSupportHeroLeftBadgeIcon {
   font-size: 1.1rem;
 }
@@ -62,13 +56,13 @@
 .buySellSupportHeroLeftTitle {
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 1.2;
-  color: #31361D;
+  color: #31361d;
   margin: 0;
   font-weight: 400;
 }
 
 .buySellSupportHeroLeftTitleHighlight {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -76,13 +70,13 @@
 }
 
 .buySellSupportHeroLeftTitleHighlight::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(90deg, #ac6620 0%, #c9823b 100%);
   border-radius: 2px;
   opacity: 0.6;
 }
@@ -106,13 +100,13 @@
   align-items: center;
   gap: 1rem;
   font-size: 1.1rem;
-  color: #31361D;
+  color: #31361d;
   font-weight: 500;
 }
 
 .buySellSupportHeroLeftFeatureIcon {
   font-size: 1.3rem;
-  color: #AC6620;
+  color: #ac6620;
   background: rgba(172, 102, 32, 0.1);
   padding: 0.6rem;
   border-radius: 50%;
@@ -130,7 +124,7 @@
 }
 
 .buySellSupportHeroLeftButtonPrimary {
-  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  background: linear-gradient(135deg, #ac6620 0%, #c9823b 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -147,15 +141,11 @@
   justify-content: center;
 }
 
-/* .buySellSupportHeroLeftButtonPrimary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(172, 102, 32, 0.4);
-} */
 
 .buySellSupportHeroLeftButtonSecondary {
   background: transparent;
-  color: #31361D;
-  border: 2px solid #AC6620;
+  color: #31361d;
+  border: 2px solid #ac6620;
   padding: 1rem 2rem;
   border-radius: 50px;
   font-size: 1.1rem;
@@ -166,9 +156,8 @@
 }
 
 .buySellSupportHeroLeftButtonSecondary:hover {
-  background: #AC6620;
+  background: #ac6620;
   color: white;
-  /* transform: translateY(-2px); */
 }
 
 .buySellSupportHeroLeftButtonArrow {
@@ -176,11 +165,6 @@
   transition: transform 0.3s ease;
 }
 
-/* .buySellSupportHeroLeftButtonPrimary:hover .buySellSupportHeroLeftButtonArrow {
-  transform: translateX(5px);
-} */
-
-/* Right Content */
 .buySellSupportHeroRight {
   display: flex;
   justify-content: center;
@@ -237,7 +221,7 @@
 
 .buySellSupportHeroRightImageOverlayIcon {
   font-size: 1.5rem;
-  color: #C9823B;
+  color: #c9823b;
 }
 
 .buySellSupportHeroRightImageDots {
@@ -259,18 +243,16 @@
 }
 
 .buySellSupportHeroRightImageDot.active {
-  background: #AC6620;
+  background: #ac6620;
   transform: scale(1.2);
 }
 
-/* Stats Section */
 .buySellSupportHeroStats {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(255, 255, 255, 0.95);
-  /* backdrop-filter: blur(10px); */
   border-top: 1px solid rgba(172, 102, 32, 0.1);
   padding: 2rem 0;
 }
@@ -293,7 +275,7 @@
 
 .buySellSupportHeroStatIcon {
   font-size: 2rem;
-  color: #AC6620;
+  color: #ac6620;
   background: rgba(172, 102, 32, 0.1);
   padding: 1rem;
   border-radius: 50%;
@@ -312,7 +294,7 @@
 .buySellSupportHeroStatNumber {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #31361D;
+  color: #31361d;
   line-height: 1;
 }
 
@@ -322,18 +304,17 @@
   margin-top: 0.25rem;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .buySellSupportHeroContainer {
     grid-template-columns: 1fr;
     gap: 3rem;
     text-align: center;
   }
-  
+
   .buySellSupportHeroStatsContainer {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .buySellSupportHeroRightImageWrapper {
     height: 400px;
   }
@@ -344,27 +325,27 @@
     padding-top: 120px;
     padding-bottom: 80px;
   }
-  
+
   .buySellSupportHeroContainer {
     padding: 0 1rem;
     gap: 2rem;
   }
-  
+
   .buySellSupportHeroLeftFeatures {
     align-items: center;
   }
-  
+
   .buySellSupportHeroLeftButtons {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
-  
+
   .buySellSupportHeroStatsContainer {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .buySellSupportHeroStatItem {
     justify-content: center;
     text-align: center;
@@ -375,11 +356,11 @@
   .buySellSupportHeroLeftDescription {
     max-width: 100%;
   }
-  
+
   .buySellSupportHeroRightImageWrapper {
     height: 300px;
   }
-  
+
   .buySellSupportHeroStats {
     padding: 1.5rem 0;
   }
