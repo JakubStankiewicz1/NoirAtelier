@@ -20,8 +20,8 @@ RUN npm run build
 # Stage 2: Production
 FROM node:20-alpine AS production
 
-# Instalujemy serve globalnie
-RUN npm install -g serve
+# Instalujemy serve globalnie i wget dla healthcheck
+RUN npm install -g serve && apk add --no-cache wget
 
 # Tworzymy użytkownika non-root
 RUN addgroup -g 1001 -S nodejs
