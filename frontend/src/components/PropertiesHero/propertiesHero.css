@@ -35,3 +35,137 @@
     line-height: 80px;
     text-align: center;
 }
+
+/* Responsive Styles for PropertiesHero */
+
+/* Mobile First - Base styles */
+@media (max-width: 480px) {
+  .propertiesHeroContainer {
+    height: 400px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .propertiesHeroContainerTopContainerText {
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 24px;
+  }
+
+  .propertiesHeroContainerBottom {
+    width: 95%;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+/* Large Mobile / Small Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  .propertiesHeroContainer {
+    height: 500px;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .propertiesHeroContainerTopContainerText {
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 26px;
+  }
+
+  .propertiesHeroContainerBottom {
+    width: 90%;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .propertiesHeroContainer {
+    height: 550px;
+    gap: 30px;
+  }
+
+  .propertiesHeroContainerTopContainerText {
+    font-size: 14px;
+    letter-spacing: 5px;
+    line-height: 28px;
+  }
+
+  .propertiesHeroContainerBottom {
+    width: 85%;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .propertiesHeroContainer {
+    height: 600px;
+    gap: 30px;
+  }
+
+  .propertiesHeroContainerTopContainerText {
+    font-size: 15px;
+    letter-spacing: 6px;
+    line-height: 30px;
+  }
+
+  .propertiesHeroContainerBottom {
+    width: 80%;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 70px;
+    line-height: 74px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1441px) {
+  .propertiesHeroContainer {
+    height: 650px;
+    gap: 30px;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+/* Landscape orientation for mobile */
+@media (orientation: landscape) and (max-height: 500px) {
+  .propertiesHeroContainer {
+    height: 350px;
+    gap: 15px;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+/* Ultra-wide screens */
+@media (min-width: 1920px) {
+  .propertiesHeroContainer {
+    height: 700px;
+  }
+
+  .propertiesHeroContainerBottomContainerText {
+    font-size: 90px;
+    line-height: 90px;
+  }
+}

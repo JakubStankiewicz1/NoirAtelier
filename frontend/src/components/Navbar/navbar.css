@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 100;
     background: transparent;
     transition: all 0.4s ease;
     box-sizing: border-box;
@@ -18,17 +18,24 @@
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
+.navbar.light {
+    background: rgba(239, 229, 222, 0.95);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
 .navbarContainer {
     width: 100%;
-    max-width: calc(100vw - 20px);
+    max-width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 10px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .navbarContainerLeftContainer {
@@ -47,6 +54,11 @@
 
 /* Styl dla tekstu gdy navbar jest przewinięty */
 .navbar.scrolled .navbarContainerLeftContainerText {
+    text-shadow: none;
+}
+
+.navbar.light .navbarContainerLeftContainerText {
+    color: #31361d;
     text-shadow: none;
 }
 
@@ -136,6 +148,15 @@
     text-shadow: none;
 }
 
+.navbar.light .navbarContainerRightContainerOneElementOneContainerText,
+.navbar.light .navbarContainerRightContainerOneElementTwoContainerText,
+.navbar.light .navbarContainerRightContainerOneElementThreeContainerText,
+.navbar.light .navbarContainerRightContainerOneElementFourContainerText,
+.navbar.light .navbarContainerRightContainerOneElementFiveContainerText {
+    color: #31361d;
+    text-shadow: none;
+}
+
 .navbarContainerRightContainerTwoContainerButton {
     display: flex;
     align-items: center;
@@ -178,6 +199,16 @@
     text-shadow: none;
 }
 
+.navbar.light .navbarContainerRightContainerTwoContainerButton {
+    border: 1px solid #31361d;
+    background: #efe5de;
+}
+
+.navbar.light .navbarContainerRightContainerTwoContainerButtonContainerText {
+    color: #31361d;
+    text-shadow: none;
+}
+
 .navbarContainerRightContainerTwoContainerButtonContainer {
     width: 100%;
     height: 100%;
@@ -192,4 +223,274 @@
     font-weight: 500;
     text-decoration: none;
     pointer-events: none;
+}
+
+/* Styl dla podkreślenia w trybie jasnym */
+.navbar.light .navbarContainerRightContainerOneElementOneUnderline,
+.navbar.light .navbarContainerRightContainerOneElementTwoUnderline,
+.navbar.light .navbarContainerRightContainerOneElementThreeUnderline,
+.navbar.light .navbarContainerRightContainerOneElementFourUnderline,
+.navbar.light .navbarContainerRightContainerOneElementFiveUnderline {
+    background-color: #c9823b;
+}
+
+/* Mobile Menu Styles */
+.mobileMenuButton {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 20;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.mobileMenuButton span {
+    width: 25px;
+    height: 3px;
+    background-color: #FFE5D4;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar.scrolled .mobileMenuButton span {
+    background-color: #FFE5D4;
+}
+
+.navbar.light .mobileMenuButton span {
+    background-color: #31361d;
+}
+
+/* Hamburger animation */
+.mobileMenuButton.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: #FFE5D4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.mobileMenuButton.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobileMenuButton.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+    background-color: #FFE5D4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Dodatkowe style dla lepszej widoczności X */
+.navbar.light .mobileMenuButton.active span:nth-child(1),
+.navbar.light .mobileMenuButton.active span:nth-child(3) {
+    background-color: #31361d;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+/* Mobile Menu Overlay */
+.mobileMenuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(46, 47, 42, 0.98);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    box-sizing: border-box;
+}
+
+.mobileMenuOverlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobileMenuOverlay.light {
+    background-color: rgba(239, 229, 222, 0.98);
+}
+
+.mobileMenuLink {
+    color: #FFE5D4;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideInMobile 0.4s ease forwards;
+}
+
+.mobileMenuOverlay.light .mobileMenuLink {
+    color: #31361d;
+}
+
+.mobileMenuLink:hover {
+    color: #AC6620;
+    background-color: rgba(255, 229, 212, 0.1);
+}
+
+.mobileMenuOverlay.light .mobileMenuLink:hover {
+    color: #c9823b;
+    background-color: rgba(49, 54, 29, 0.1);
+}
+
+.mobileMenuLink.active {
+    color: #AC6620;
+    background-color: rgba(255, 229, 212, 0.15);
+}
+
+.mobileMenuOverlay.light .mobileMenuLink.active {
+    color: #c9823b;
+    background-color: rgba(49, 54, 29, 0.15);
+}
+
+/* Animation delays for mobile menu items */
+.mobileMenuLink:nth-child(1) { animation-delay: 0.1s; }
+.mobileMenuLink:nth-child(2) { animation-delay: 0.2s; }
+.mobileMenuLink:nth-child(3) { animation-delay: 0.3s; }
+.mobileMenuLink:nth-child(4) { animation-delay: 0.4s; }
+.mobileMenuLink:nth-child(5) { animation-delay: 0.5s; }
+.mobileMenuLink:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes slideInMobile {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Media Queries */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .navbarContainer {
+        /* max-width: calc(100vw - 40px); */
+        padding: 0 20px;
+    }
+    
+    .navbarContainerRightContainerOneElementOneContainerText,
+    .navbarContainerRightContainerOneElementTwoContainerText,
+    .navbarContainerRightContainerOneElementThreeContainerText,
+    .navbarContainerRightContainerOneElementFourContainerText,
+    .navbarContainerRightContainerOneElementFiveContainerText {
+        font-size: 14px;
+    }
+    
+    .navbarContainerRightContainerOne {
+        gap: 30px;
+    }
+    
+    .navbarContainerRightContainerTwoContainerButton {
+        padding: 8px 20px;
+    }
+    
+    .navbarContainerRightContainerTwoContainerButtonContainerText {
+        font-size: 14px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
+    
+    .navbarContainer {
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    
+    .navbarContainerLeftContainerText {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    
+    .navbarContainerRight {
+        position: relative;
+    }
+    
+    .navbarContainerRightContainerOne,
+    .navbarContainerRightContainerTwo {
+        display: none;
+    }
+    
+    .mobileMenuButton {
+        display: flex;
+        position: relative;
+        z-index: 101;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .navbar {
+        height: 55px;
+    }
+    
+    .navbarContainer {
+        padding: 0 10px;
+        max-width: 100%;
+    }
+    
+    .navbarContainerLeftContainerText {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .mobileMenuButton {
+        padding: 6px;
+    }
+    
+    .mobileMenuButton span {
+        width: 22px;
+        height: 2.5px;
+    }
+    
+    .mobileMenuLink {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
+    
+    .mobileMenuOverlay {
+        gap: 30px;
+    }
+}
+
+/* Large Desktop Styles */
+@media screen and (min-width: 1440px) {
+    .navbarContainer {
+        max-width: 1400px;
+        padding: 0 30px;
+    }
+    
+    .navbarContainerRightContainerOne {
+        gap: 45px;
+    }
+    
+    .navbarContainerRightContainer {
+        gap: 60px;
+    }
+}
+
+/* Ultra Wide Desktop Styles */
+@media screen and (min-width: 1920px) {
+    .navbarContainer {
+        max-width: 1800px;
+    }
+    
+    .navbarContainerRightContainerOne {
+        gap: 50px;
+    }
 }

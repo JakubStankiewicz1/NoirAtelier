@@ -1,0 +1,595 @@
+.interiorDesignHero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F8F6F3 0%, #E8E4E0 50%, #F0EDE8 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  /* padding: 100px 0 50px; */
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/* Floating Elements Background */
+.interiorDesignHeroFloatingElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.interiorDesignHeroFloatingElement {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.15;
+  color: #AC6620;
+  /* animation: float 15s ease-in-out infinite; */
+}
+
+/* .interiorDesignHeroFloatingElement.element1 {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.interiorDesignHeroFloatingElement.element2 {
+  top: 60%;
+  left: 5%;
+  animation-delay: 3s;
+}
+
+.interiorDesignHeroFloatingElement.element3 {
+  top: 30%;
+  right: 15%;
+  animation-delay: 6s;
+}
+
+.interiorDesignHeroFloatingElement.element4 {
+  top: 70%;
+  right: 10%;
+  animation-delay: 9s;
+}
+
+.interiorDesignHeroFloatingElement.element5 {
+  top: 10%;
+  right: 30%;
+  animation-delay: 12s;
+} */
+
+/* @keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-20px) rotate(5deg); }
+  50% { transform: translateY(-40px) rotate(-5deg); }
+  75% { transform: translateY(-20px) rotate(3deg); }
+} */
+
+.interiorDesignHeroContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Left Content */
+.interiorDesignHeroLeft {
+  padding-right: 40px;
+}
+
+.interiorDesignHeroLeftContent {
+  max-width: 600px;
+}
+
+.interiorDesignHeroLeftBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #AC6620, #C9823B);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 30px rgba(172, 102, 32, 0.3);
+  /* animation: pulse 2s ease-in-out infinite; */
+}
+
+/* @keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+} */
+
+.interiorDesignHeroLeftBadgeIcon {
+  font-size: 16px;
+  color: white;
+}
+
+.interiorDesignHeroLeftTitle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.interiorDesignHeroLeftTitleLine1 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #31361D;
+  opacity: 0.7;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.interiorDesignHeroLeftTitleLine2 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: #AC6620;  background: linear-gradient(135deg, #AC6620, #C9823B, #D4913D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.8s ease-out 0.2s forwards;
+}
+
+.interiorDesignHeroLeftTitleLine3 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #31361D;
+  opacity: 0.8;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.8s ease-out 0.4s forwards;
+}
+
+@keyframes slideInLeft {
+  to { transform: translateX(0); }
+}
+
+.interiorDesignHeroLeftDescription {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #31361D;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slideInUp 0.8s ease-out 0.6s forwards;
+}
+
+@keyframes slideInUp {
+  to { transform: translateY(0); opacity: 0.8; }
+}
+
+.interiorDesignHeroLeftButtons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 60px;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slideInUp 0.8s ease-out 0.8s forwards;
+}
+
+.interiorDesignHeroLeftButtonPrimary {
+  background: linear-gradient(135deg, #AC6620, #C9823B);
+  color: white;
+  border: none;
+  padding: 18px 32px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.4s ease;
+  box-shadow: 0 10px 30px rgba(172, 102, 32, 0.3);
+}
+
+/* .interiorDesignHeroLeftButtonPrimary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(172, 102, 32, 0.4);
+} */
+
+.interiorDesignHeroLeftButtonPrimaryArrow {
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* .interiorDesignHeroLeftButtonPrimary:hover .interiorDesignHeroLeftButtonPrimaryArrow {
+  transform: translateX(3px);
+} */
+
+.interiorDesignHeroLeftButtonSecondary {
+  background: transparent;
+  color: #31361D;
+  border: 2px solid #31361D;
+  padding: 16px 28px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.4s ease;
+}
+
+.interiorDesignHeroLeftButtonSecondary:hover {
+  background: #31361D;
+  color: white;
+  /* transform: translateY(-3px); */
+  /* box-shadow: 0 10px 25px rgba(49, 54, 29, 0.3); */
+}
+
+/* Stats */
+.interiorDesignHeroLeftStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: slideInUp 0.8s ease-out 1s forwards;
+}
+
+.interiorDesignHeroLeftStatItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  border: 1px solid rgba(172, 102, 32, 0.1);  transition: all 0.3s ease;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.interiorDesignHeroLeftStatItem:hover {
+  /* transform: translateY(-5px); */
+  background: rgba(255, 255, 255, 0.9);
+  /* box-shadow: 0 10px 30px rgba(172, 102, 32, 0.1); */
+}
+
+.interiorDesignHeroLeftStatIcon {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #AC6620, #C9823B);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.interiorDesignHeroLeftStatContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.interiorDesignHeroLeftStatNumber {
+  font-size: 24px;
+  font-weight: 700;
+  color: #AC6620;
+  line-height: 1;
+}
+
+.interiorDesignHeroLeftStatLabel {
+  font-size: 14px;
+  color: #31361D;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Right Side */
+.interiorDesignHeroRight {
+  position: relative;
+  height: 70vh;
+  min-height: 500px;
+}
+
+.interiorDesignHeroRightContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Main Image Slider */
+.interiorDesignHeroRightMainImage {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  margin: 10% auto;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(49, 54, 29, 0.2);
+}
+
+.interiorDesignHeroRightMainImageSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.8s ease;
+  transform: scale(1.1);
+}
+
+.interiorDesignHeroRightMainImageSlide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.interiorDesignHeroRightMainImageSlide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interiorDesignHeroRightMainImageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(49, 54, 29, 0.8));
+  padding: 30px;
+}
+
+.interiorDesignHeroRightMainImageOverlayText {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Image Dots */
+.interiorDesignHeroRightImageDots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+}
+
+.interiorDesignHeroRightImageDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.interiorDesignHeroRightImageDot.active {
+  background: white;
+  transform: scale(1.3);
+}
+
+/* Decorative Elements */
+.interiorDesignHeroRightDecorative {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.interiorDesignHeroRightDecorativeCircle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1));
+  animation: rotate 20s linear infinite;
+}
+
+.interiorDesignHeroRightDecorativeCircle.circle1 {
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  left: -20px;
+}
+
+.interiorDesignHeroRightDecorativeCircle.circle2 {
+  width: 60px;
+  height: 60px;
+  bottom: 20%;
+  right: -10px;
+  animation-direction: reverse;
+}
+
+.interiorDesignHeroRightDecorativeSquare {
+  position: absolute;
+  background: linear-gradient(45deg, rgba(172, 102, 32, 0.1), rgba(201, 130, 59, 0.1));
+  animation: float 10s ease-in-out infinite;
+}
+
+.interiorDesignHeroRightDecorativeSquare.square1 {
+  width: 40px;
+  height: 40px;
+  top: 30%;
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+.interiorDesignHeroRightDecorativeSquare.square2 {
+  width: 25px;
+  height: 25px;
+  bottom: 40%;
+  right: -5px;
+  transform: rotate(15deg);
+  /* animation-delay: 5s; */
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Floating Cards */
+.interiorDesignHeroRightFloatingCards {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.interiorDesignHeroRightFloatingCard {
+  position: absolute;  background: rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+  border: 1px solid rgba(172, 102, 32, 0.2);
+  animation: floatCard 6s ease-in-out infinite;
+}
+
+.interiorDesignHeroRightFloatingCard.card1 {
+  top: 20%;
+  right: -50px;
+}
+
+.interiorDesignHeroRightFloatingCard.card2 {
+  bottom: 30%;
+  left: -60px;
+  /* animation-delay: 3s; */
+}
+
+/* @keyframes floatCard {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+} */
+
+.interiorDesignHeroRightFloatingCardIcon {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #AC6620, #C9823B);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.interiorDesignHeroRightFloatingCardText {
+  display: flex;
+  flex-direction: column;
+  color: #31361D;
+}
+
+.interiorDesignHeroRightFloatingCardText span:first-child {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.interiorDesignHeroRightFloatingCardText span:last-child {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .interiorDesignHeroContainer {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+  
+  .interiorDesignHeroLeft {
+    padding-right: 0;
+  }
+  
+  .interiorDesignHeroLeftTitleLine1,
+  .interiorDesignHeroLeftTitleLine3 {
+    font-size: 3rem;
+  }
+  
+  .interiorDesignHeroLeftTitleLine2 {
+    font-size: 4.5rem;
+  }
+  
+  .interiorDesignHeroRightFloatingCard {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .interiorDesignHero {
+    padding: 80px 0 30px;
+  }
+  
+  .interiorDesignHeroContainer {
+    width: 95%;
+  }
+  
+  .interiorDesignHeroLeftTitleLine1,
+  .interiorDesignHeroLeftTitleLine3 {
+    font-size: 2.5rem;
+  }
+  
+  .interiorDesignHeroLeftTitleLine2 {
+    font-size: 3.5rem;
+  }
+  
+  .interiorDesignHeroLeftButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .interiorDesignHeroLeftStats {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .interiorDesignHeroRight {
+    height: 50vh;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .interiorDesignHeroLeftTitleLine1,
+  .interiorDesignHeroLeftTitleLine3 {
+    font-size: 2rem;
+  }
+  
+  .interiorDesignHeroLeftTitleLine2 {
+    font-size: 2.8rem;
+  }
+  
+  .interiorDesignHeroLeftDescription {
+    font-size: 16px;
+  }
+  
+  .interiorDesignHeroLeftButtons {
+    gap: 15px;
+  }
+  
+  .interiorDesignHeroLeftButtonPrimary,
+  .interiorDesignHeroLeftButtonSecondary {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+}

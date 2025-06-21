@@ -1,12 +1,10 @@
 .homeOurServices {
   width: 100%;
-  /* padding: 100px 0; */
-  /* background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); */
   position: relative;
-  background-color: #f6f0e3;
-  padding-top: 100px;
-
-  padding-bottom: 50px;
+  background-color: #F5EDE7;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  z-index: 1;
 }
 
 .homeOurServices::before {
@@ -16,18 +14,14 @@
   left: 0;
   right: 0;
   height: 1px;
-  /* background: linear-gradient(90deg, transparent 0%, #e0e0e0 50%, transparent 100%); */
 }
 
 .homeOurServicesContainer {
-  /* max-width: 1400px; */
-  /* margin: 0 auto; */
-  /* padding: 0 20px; */
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Header Section */
 .homeOurServicesHeader {
   text-align: center;
   margin-bottom: 80px;
@@ -35,9 +29,9 @@
 }
 
 .homeOurServicesHeaderSubtitle {
-  font-size: 14px;
-  font-weight: 500;
-  color: #8b7355;
+  font-size: 15px;
+  font-weight: 700;
+  color: #AC6620;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 15px;
@@ -45,62 +39,57 @@
 
 .homeOurServicesHeaderTitle {
   font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 400;
-  color: #2c2c2c;
+  font-weight: 700;
+  color: #31361D;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .homeOurServicesHeaderDescription {
-  font-size: 18px;
-  color: #666;
+  font-size: 16px;
+  color: #31361D;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
+  font-weight: 300;
 }
 
-/* Services Grid */
 .homeOurServicesGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 40px;
-  /* margin-bottom: 80px; */
 }
 
 .homeOurServicesCard {
-  background: #d3d3c0;
-  /* background: #f6f0e3; */
-  border-radius: 20px;
+  background: #FFFFFF;
+  border-radius: 30px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
   cursor: pointer;
+  border: 1px solid rgba(172, 102, 32, 0.1);
 }
 
 .homeOurServicesCard:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  /* transform: translateY(-10px); */
+  /* box-shadow: 0 20px 60px rgba(172, 102, 32, 0.15); */
+  border-color: rgba(172, 102, 32, 0.3);
 }
 
-/* .homeOurServicesCard:hover .homeOurServicesCardImage img {
-  transform: scale(1.1);
-} */
 
 .homeOurServicesCard:hover .homeOurServicesCardImageOverlay {
   opacity: 0.9;
 }
 
 .homeOurServicesCard:hover .homeOurServicesCardIcon {
-  /* transform: scale(1.2) rotate(5deg); */
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-.homeOurServicesCard:hover .homeOurServicesCardButtonArrow {
+/* .homeOurServicesCard:hover .homeOurServicesCardButtonArrow {
   transform: translateX(5px);
-}
+} */
 
-/* Card Image */
 .homeOurServicesCardImage {
   position: relative;
   height: 250px;
@@ -120,7 +109,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(139, 115, 85, 0.8) 0%, rgba(44, 44, 44, 0.6) 100%);
+  background: linear-gradient(135deg, rgba(172, 102, 32, 0.8) 0%, rgba(49, 54, 29, 0.6) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,29 +119,29 @@
 
 .homeOurServicesCardIcon {
   font-size: 3rem;
-  color: #ffffff;
+  color: #FFE5D4;
   transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
 }
 
-/* Card Content */
 .homeOurServicesCardContent {
   padding: 30px;
 }
 
 .homeOurServicesCardTitle {
   font-size: 1.5rem;
-  font-weight: 400;
-  color: #2c2c2c;
+  font-weight: 700;
+  color: #31361D;
   margin-bottom: 15px;
   line-height: 1.3;
 }
 
 .homeOurServicesCardDescription {
-  font-size: 15px;
-  color: #666;
+  font-size: 16px;
+  color: #31361D;
   line-height: 1.6;
   margin-bottom: 25px;
+  font-weight: 300;
 }
 
 .homeOurServicesCardButton {
@@ -161,10 +150,16 @@
   gap: 10px;
   font-size: 14px;
   font-weight: 600;
-  color: #8b7355;
+  color: #AC6620;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none; /* Dodane dla Link */
+}
+
+.homeOurServicesCardButton:hover {
+  color: #C9823B;
 }
 
 .homeOurServicesCardButtonArrow {
@@ -176,10 +171,11 @@
 .homeOurServicesCTA {
   text-align: center;
   padding: 60px;
-  background: linear-gradient(135deg, #8b7355 0%, #a08660 100%);
-  border-radius: 25px;
+  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  border-radius: 30px;
   position: relative;
   overflow: hidden;
+  margin-top: 60px;
 }
 
 .homeOurServicesCTA::before {
@@ -206,22 +202,23 @@
 
 .homeOurServicesCTATitle {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 400;
-  color: #ffffff;
+  font-weight: 700;
+  color: #FFE5D4;
   margin-bottom: 15px;
   line-height: 1.3;
 }
 
 .homeOurServicesCTADescription {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  color: rgba(255, 229, 212, 0.9);
   margin-bottom: 30px;
   line-height: 1.6;
+  font-weight: 300;
 }
 
 .homeOurServicesCTAButton {
-  background: #ffffff;
-  color: #8b7355;
+  background: #FFE5D4;
+  color: #AC6620;
   border: none;
   padding: 15px 35px;
   font-size: 16px;
@@ -235,9 +232,10 @@
 }
 
 .homeOurServicesCTAButton:hover {
-  transform: translateY(-2px);
+  /* transform: translateY(-2px); */
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
-  background: #f8f9fa;
+  background: #FFFFFF;
+  color: #C9823B;
 }
 
 /* Responsive Design */
@@ -247,7 +245,7 @@
   }
   
   .homeOurServicesContainer {
-    padding: 0 15px;
+    width: 95%;
   }
   
   .homeOurServicesHeader {
@@ -261,7 +259,7 @@
   }
   
   .homeOurServicesCard {
-    border-radius: 15px;
+    border-radius: 20px;
   }
   
   .homeOurServicesCardImage {
@@ -279,6 +277,7 @@
   .homeOurServicesCTA {
     padding: 40px 20px;
     border-radius: 20px;
+    margin-top: 40px;
   }
   
   .homeOurServicesHeaderTitle {
@@ -292,7 +291,7 @@
   }
   
   .homeOurServicesCard {
-    border-radius: 12px;
+    border-radius: 15px;
   }
   
   .homeOurServicesCardImage {
@@ -305,6 +304,10 @@
   
   .homeOurServicesCTA {
     padding: 30px 15px;
+  }
+  
+  .homeOurServicesHeaderTitle {
+    font-size: 1.8rem;
   }
 }
 

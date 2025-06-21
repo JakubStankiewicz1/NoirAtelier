@@ -1,6 +1,7 @@
 .faqPayments {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 
     background-color: #F5EDE7;
 
@@ -135,4 +136,195 @@
     color: #AC6620;
     width: 60px;
     height: auto;
+}
+
+/* Responsive Media Queries */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .faqPayments {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .faqPaymentsContainer {
+        width: 95%;
+        gap: 40px;
+    }
+    
+    .faqPaymentsContainerLeftContainerTopContainerText,
+    .faqPaymentsContainerRightContainerTopContainerText {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .faqPaymentsContainerLeftContainerMiddle,
+    .faqPaymentsContainerRightContainerMiddle {
+        width: 85%;
+        margin-top: 30px;
+    }
+    
+    .faqPaymentsContainerLeftContainerMiddleContainerText,
+    .faqPaymentsContainerRightContainerMiddleContainerText {
+        font-size: 15px;
+        line-height: 32px;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottom {
+        width: 85%;
+        margin-top: 40px;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottomContainerIcon {
+        width: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerBottom {
+        margin-top: 40px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText {
+        font-size: 15px;
+        line-height: 26px;
+        width: 100%;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneOneIcon {
+        width: 50px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .faqPayments {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .faqPaymentsContainer {
+        flex-direction: column;
+        gap: 50px;
+        width: 90%;
+    }
+    
+    .faqPaymentsContainerLeft,
+    .faqPaymentsContainerRight {
+        flex: none;
+        width: 100%;
+    }
+    
+    .faqPaymentsContainerLeftContainerTopContainerText,
+    .faqPaymentsContainerRightContainerTopContainerText {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+    
+    .faqPaymentsContainerLeftContainerMiddle,
+    .faqPaymentsContainerRightContainerMiddle {
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    .faqPaymentsContainerLeftContainerMiddleContainerText,
+    .faqPaymentsContainerRightContainerMiddleContainerText {
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottom {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottomContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottomContainerIcon {
+        width: 50px;
+        margin: 10px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainer {
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOne {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneOneIcon {
+        width: 45px;
+        margin: 0 auto;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .faqPayments {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .faqPaymentsContainer {
+        width: 95%;
+        gap: 40px;
+    }
+    
+    .faqPaymentsContainerLeftContainerTopContainerText,
+    .faqPaymentsContainerRightContainerTopContainerText {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .faqPaymentsContainerLeftContainerMiddleContainerText,
+    .faqPaymentsContainerRightContainerMiddleContainerText {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    
+    .faqPaymentsContainerLeftContainerBottomContainerIcon {
+        width: 40px;
+        margin: 8px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneTwoContainerText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneThreeContainerText {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    
+    .faqPaymentsContainerRightContainerBottomContainerOneOneIcon {
+        width: 40px;
+    }
 }

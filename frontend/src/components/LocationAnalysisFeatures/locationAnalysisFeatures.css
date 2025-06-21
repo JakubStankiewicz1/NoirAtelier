@@ -1,0 +1,375 @@
+.locationAnalysisFeatures {
+    width: 100%;
+    background-color: #F5EDE7;
+    padding: 100px 0;
+}
+
+.locationAnalysisFeaturesContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.locationAnalysisFeaturesHeader {
+    text-align: center;
+}
+
+.locationAnalysisFeaturesHeaderContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.locationAnalysisFeaturesHeaderSubtitle {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.locationAnalysisFeaturesHeaderTitle {
+    color: #31361D;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.locationAnalysisFeaturesHeaderDescription {
+    color: #31361D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.locationAnalysisFeaturesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.locationAnalysisFeaturesCard {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(49, 54, 29, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(172, 102, 32, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.locationAnalysisFeaturesCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #AC6620, #C9823B);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+/* .locationAnalysisFeaturesCard:hover::before {
+    transform: translateX(0);
+} */
+
+.locationAnalysisFeaturesCard:hover {
+    /* transform: translateY(-5px); */
+    /* box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15); */
+    border-color: rgba(172, 102, 32, 0.3);
+}
+
+.locationAnalysisFeaturesCardHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.locationAnalysisFeaturesCardIcon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    background: linear-gradient(135deg, #AC6620, #C9823B);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.locationAnalysisFeaturesCardStats {
+    background-color: rgba(172, 102, 32, 0.1);
+    color: #AC6620;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-self: flex-start;
+    flex-shrink: 0;
+    max-width: 200px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.locationAnalysisFeaturesCardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.locationAnalysisFeaturesCardTitle {
+    color: #31361D;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.locationAnalysisFeaturesCardDescription {
+    color: #31361D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
+.locationAnalysisFeaturesHighlights {
+    background: linear-gradient(135deg, #31361D, #3a4021);
+    border-radius: 30px;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.locationAnalysisFeaturesHighlights::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="80" cy="80" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="50" cy="50" r="0.5" fill="%23AC6620" fill-opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
+    pointer-events: none;
+}
+
+.locationAnalysisFeaturesHighlightsContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.locationAnalysisFeaturesHighlightsHeader {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.locationAnalysisFeaturesHighlightsTitle {
+    color: #FFE5D4;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.locationAnalysisFeaturesHighlightsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.locationAnalysisFeaturesHighlightsItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.locationAnalysisFeaturesHighlightsItemIcon {
+    font-size: 32px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(172, 102, 32, 0.2);
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #AC6620;
+}
+
+.locationAnalysisFeaturesHighlightsItemContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.locationAnalysisFeaturesHighlightsItemNumber {
+    color: #AC6620;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.locationAnalysisFeaturesHighlightsItemText {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.locationAnalysisFeaturesTechnology {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 60px;
+    box-shadow: 0 20px 50px rgba(49, 54, 29, 0.1);
+}
+
+.locationAnalysisFeaturesTechnologyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.locationAnalysisFeaturesTechnologyLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.locationAnalysisFeaturesTechnologyTitle {
+    color: #31361D;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.locationAnalysisFeaturesTechnologyDescription {
+    color: #31361D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.locationAnalysisFeaturesTechnologyFeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.locationAnalysisFeaturesTechnologyFeature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background-color: #F5EDE7;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+/* .locationAnalysisFeaturesTechnologyFeature:hover {
+    background-color: rgba(172, 102, 32, 0.1);
+    transform: translateX(5px);
+} */
+
+.locationAnalysisFeaturesTechnologyFeatureIcon {
+    font-size: 20px;
+    color: #AC6620;
+}
+
+.locationAnalysisFeaturesTechnologyFeatureText {
+    color: #31361D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.locationAnalysisFeaturesTechnologyRight {
+    display: flex;
+    justify-content: center;
+}
+
+.locationAnalysisFeaturesTechnologyImage {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15);
+}
+
+.locationAnalysisFeaturesTechnologyImage img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* .locationAnalysisFeaturesTechnologyImage:hover img {
+    transform: scale(1.05);
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .locationAnalysisFeaturesContainer {
+        width: 90%;
+        gap: 60px;
+    }
+    
+    .locationAnalysisFeaturesHeaderTitle {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    
+    .locationAnalysisFeaturesGrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .locationAnalysisFeaturesCard {
+        padding: 30px 25px;
+    }
+    
+    .locationAnalysisFeaturesHighlights {
+        padding: 40px 30px;
+    }
+    
+    .locationAnalysisFeaturesHighlightsTitle {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .locationAnalysisFeaturesHighlightsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .locationAnalysisFeaturesTechnology {
+        padding: 40px 30px;
+    }
+    
+    .locationAnalysisFeaturesTechnologyContainer {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .locationAnalysisFeaturesTechnologyTitle {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .locationAnalysisFeaturesTechnologyFeatures {
+        grid-template-columns: 1fr;
+    }
+}

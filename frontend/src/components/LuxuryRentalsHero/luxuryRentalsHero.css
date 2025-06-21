@@ -1,0 +1,236 @@
+.luxuryRentalsHero {
+    width: 100%;
+    height: 100%;
+    background-color: #2E2F2A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.luxuryRentalsHeroContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+
+.luxuryRentalsHeroContainerTop {
+    width: 100%;
+    height: 100%;
+}
+
+.luxuryRentalsHeroContainerTopContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.luxuryRentalsHeroContainerTopContainerOneContainerIcon {
+    width: 250px;
+    height: auto;
+}
+
+.luxuryRentalsHeroContainerTopContainerTwo {
+    margin-top: 50px;
+}
+
+.luxuryRentalsHeroContainerTopContainerTwoContainerText {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.luxuryRentalsHeroContainerTopContainerThree {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.luxuryRentalsHeroContainerTopContainerThreeContainerTitle {
+    color: #FFE5D4;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.luxuryRentalsHeroContainerTopContainerThreeContainerText {
+    color: #FFE5D4;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.luxuryRentalsHeroContainerTopContainerFour {
+    margin-top: 50px;
+}
+
+.luxuryRentalsHeroContainerTopContainerFourContainerButton {
+    width: 250px;
+    height: 60px;
+    background-color: #AC6620;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.luxuryRentalsHeroContainerTopContainerFourContainerButton:hover {
+    background-color: #C9823B;
+    /* transform: translateY(-2px); */
+    /* box-shadow: 0 10px 20px rgba(172, 102, 32, 0.3); */
+}
+
+.luxuryRentalsHeroContainerTopContainerFourContainerButtonContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.luxuryRentalsHeroContainerTopContainerFourContainerButtonContainerText {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.luxuryRentalsHeroContainerBottom {
+    width: 100%;
+    height: 100%;
+}
+
+.luxuryRentalsHeroContainerBottomContainer {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.luxuryRentalsHeroContainerBottomContainerOne,
+.luxuryRentalsHeroContainerBottomContainerTwo,
+.luxuryRentalsHeroContainerBottomContainerThree,
+.luxuryRentalsHeroContainerBottomContainerFour {
+    width: 100%;
+    height: 100%;
+}
+
+.luxuryRentalsHeroContainerBottomContainerOneContainer,
+.luxuryRentalsHeroContainerBottomContainerTwoContainer,
+.luxuryRentalsHeroContainerBottomContainerThreeContainer,
+.luxuryRentalsHeroContainerBottomContainerFourContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.luxuryRentalsHeroContainerBottomContainerOneContainerTitle,
+.luxuryRentalsHeroContainerBottomContainerTwoContainerTitle,
+.luxuryRentalsHeroContainerBottomContainerThreeContainerTitle,
+.luxuryRentalsHeroContainerBottomContainerFourContainerTitle {
+    color: #AC6620;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+
+.luxuryRentalsHeroContainerBottomContainerOneContainerText,
+.luxuryRentalsHeroContainerBottomContainerTwoContainerText,
+.luxuryRentalsHeroContainerBottomContainerThreeContainerText,
+.luxuryRentalsHeroContainerBottomContainerFourContainerText {
+    color: #FFE5D4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .luxuryRentalsHeroContainer {
+        width: 90%;
+    }
+    
+    .luxuryRentalsHeroContainerTopContainerThreeContainerTitle {
+        font-size: 64px;
+        line-height: 74px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .luxuryRentalsHero {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .luxuryRentalsHeroContainer {
+        width: 95%;
+        gap: 30px;
+    }
+    
+    .luxuryRentalsHeroContainerTopContainerOneContainerIcon {
+        width: 200px;
+    }
+    
+    .luxuryRentalsHeroContainerTopContainerThreeContainerTitle {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    .luxuryRentalsHeroContainerTopContainerThreeContainerText {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .luxuryRentalsHeroContainerBottomContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .luxuryRentalsHeroContainerBottomContainerOneContainerTitle,
+    .luxuryRentalsHeroContainerBottomContainerTwoContainerTitle,
+    .luxuryRentalsHeroContainerBottomContainerThreeContainerTitle,
+    .luxuryRentalsHeroContainerBottomContainerFourContainerTitle {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .luxuryRentalsHeroContainerTopContainerThreeContainerTitle {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    .luxuryRentalsHeroContainerTopContainerThreeContainerText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .luxuryRentalsHeroContainerBottomContainer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

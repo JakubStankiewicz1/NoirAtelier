@@ -1,0 +1,372 @@
+.buySellSupportServices {
+  width: 100%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8F6F3 100%);
+  /* padding: 100px 0; */
+
+  padding-top: 100px;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+.buySellSupportServicesContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header */
+.buySellSupportServicesHeader {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.buySellSupportServicesHeaderContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.buySellSupportServicesHeaderSubtitle {
+  font-size: 1.1rem;
+  color: #AC6620;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.buySellSupportServicesHeaderTitle {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  color: #31361D;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.buySellSupportServicesHeaderTitle .highlight {
+  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.buySellSupportServicesHeaderDescription {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* Services Section */
+.buySellSupportServicesSection {
+  margin-bottom: 80px;
+}
+
+.buySellSupportServicesSectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.buySellSupportServicesSectionIcon {
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  padding: 1.5rem;
+  border-radius: 50%;
+  min-width: 80px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(172, 102, 32, 0.3);
+}
+
+.buySellSupportServicesSectionIcon.sell {
+  background: linear-gradient(135deg, #C9823B 0%, #D4913D 100%);
+}
+
+.buySellSupportServicesSectionTitleContainer {
+  flex: 1;
+}
+
+.buySellSupportServicesSectionTitle {
+  font-size: 2.2rem;
+  color: #31361D;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.buySellSupportServicesSectionDescription {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Services Grid */
+.buySellSupportServicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.buySellSupportServicesCard {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(172, 102, 32, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.buySellSupportServicesCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #AC6620 0%, #C9823B 100%);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+/* .buySellSupportServicesCard:hover::before {
+  transform: scaleX(1);
+} */
+
+.buySellSupportServicesCard:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.buySellSupportServicesCardIcon {
+  font-size: 2.5rem;
+  color: #AC6620;
+  margin-bottom: 1.5rem;
+  background: rgba(172, 102, 32, 0.1);
+  padding: 1rem;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buySellSupportServicesCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buySellSupportServicesCardTitle {
+  font-size: 1.5rem;
+  color: #31361D;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.buySellSupportServicesCardDescription {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.buySellSupportServicesCardFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.buySellSupportServicesCardFeature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #31361D;
+}
+
+.buySellSupportServicesCardFeatureIcon {
+  font-size: 0.9rem;
+  color: #AC6620;
+  background: rgba(172, 102, 32, 0.1);
+  padding: 0.4rem;
+  border-radius: 50%;
+  min-width: 24px;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CTA Section */
+.buySellSupportServicesCTA {
+  background: linear-gradient(135deg, #31361D 0%, #2A2F1A 100%);
+  border-radius: 30px;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.buySellSupportServicesCTA::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/></g></svg>') repeat;
+  opacity: 0.3;
+}
+
+.buySellSupportServicesCTAContent {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.buySellSupportServicesCTAIcon {
+  font-size: 3rem;
+  color: #C9823B;
+  background: rgba(201, 130, 59, 0.2);
+  padding: 1.5rem;
+  border-radius: 50%;
+  min-width: 80px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buySellSupportServicesCTAText {
+  flex: 1;
+}
+
+.buySellSupportServicesCTATitle {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.buySellSupportServicesCTADescription {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.buySellSupportServicesCTAButton {
+  background: linear-gradient(135deg, #C9823B 0%, #AC6620 100%);
+  color: white;
+  border: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(201, 130, 59, 0.4);
+  min-width: 220px;
+  justify-content: center;
+}
+
+.buySellSupportServicesCTAButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(201, 130, 59, 0.5);
+}
+
+.buySellSupportServicesCTAButtonArrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.buySellSupportServicesCTAButton:hover .buySellSupportServicesCTAButtonArrow {
+  transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .buySellSupportServicesGrid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .buySellSupportServicesSectionHeader {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .buySellSupportServicesCTAContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .buySellSupportServices {
+    padding: 60px 0;
+  }
+  
+  .buySellSupportServicesContainer {
+    padding: 0 1rem;
+  }
+  
+  .buySellSupportServicesHeader {
+    margin-bottom: 60px;
+  }
+  
+  .buySellSupportServicesSection {
+    margin-bottom: 60px;
+  }
+  
+  .buySellSupportServicesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .buySellSupportServicesCard {
+    padding: 2rem;
+  }
+  
+  .buySellSupportServicesSectionHeader {
+    padding: 1.5rem;
+  }
+  
+  .buySellSupportServicesCTA {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .buySellSupportServicesCard {
+    padding: 1.5rem;
+  }
+  
+  .buySellSupportServicesSectionIcon {
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .buySellSupportServicesCTAIcon {
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}

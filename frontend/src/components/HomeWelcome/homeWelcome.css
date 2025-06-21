@@ -25,7 +25,7 @@
 }
 
 .homeWelcomeContainerBottom {
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .homeWelcomeContainerBottomContainer {
@@ -35,17 +35,23 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin-left: auto;
     margin-right: auto;
-    gap: 32px;
+    /* gap: 22px; */
     /* background-color: lightcyan; */
+    gap: -40px;
 }
 
 .homeWelcomeContainerBottomContainerDiv {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    /* gap: 24px; */
+    margin-bottom: -25px;
+}
+
+.homeWelcomeContainerBottomContainerThree {
+    margin-bottom: -25px;
 }
 
 .homeWelcomeContainerBottomContainerOne {
@@ -73,14 +79,6 @@
     align-items: center;
 }
 
-.homeWelcomeContainerBottomContainerThree {
-    margin-top: -25px;
-}
-
-.homeWelcomeContainerBottomContainerFour {
-    margin-top: -25px;
-}
-
 .homeWelcomeContainerBottomContainerOneFirstOneText,
 .homeWelcomeContainerBottomContainerOneSecondOneText,
 .homeWelcomeContainerBottomContainerOneThirdOneText,
@@ -90,39 +88,27 @@
     color: #FFE5D4;
     font-size: 62px;
     font-weight: 700;
-    line-height: 72px;
+    line-height: 62px;
 }
 
-.homeWelcomeContainerBottomContainerOneFirstDiv {
-    width: 95px;
-    background-color: #AC6620;
-    height: 8px;
-    margin-top: -10px;
-    margin-left: 0;
+.homeWelcomeContainerBottomContainerOneFirstOneText,
+.homeWelcomeContainerBottomContainerOneSecondOneText,
+.homeWelcomeContainerBottomContainerOneThirdOneText {
+    text-decoration: underline;
+    text-decoration-color: #AC6620;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 10px;
+    transition: all 0.3s ease;
 }
 
-.homeWelcomeContainerBottomContainerOneSecondDiv {
-    margin-left: 22px;
-    width: 136px;
-    background-color: #AC6620;
-    height: 8px;
-    margin-top: -10px;
-    margin-left: -10px;
-}
+/* .homeWelcomeContainerBottomContainerOneFirstOneText:hover,
+.homeWelcomeContainerBottomContainerOneSecondOneText:hover,
+.homeWelcomeContainerBottomContainerOneThirdOneText:hover {
+    text-decoration-color: #FFE5D4;
+    color: #AC6620;
+} */
 
-.homeWelcomeContainerBottomContainerOneThird {
-    margin-left: 20px;
-}
-
-.homeWelcomeContainerBottomContainerOneThirdOneDiv {
-    width: 100px;
-    background-color: #AC6620;
-    height: 8px;
-    margin-top: -10px;
-    margin-left: -14px;
-}
-
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     .homeWelcomeContainerBottomContainer {
         flex-direction: column;
         align-items: center;
@@ -143,5 +129,395 @@
     .homeWelcomeContainerBottomContainerTwoContainerText {
         font-size: 24px;
         line-height: 32px;
+    }
+} */
+
+/* ===================== ENHANCED RESPONSIVE STYLES FOR HOME WELCOME ===================== */
+
+/* Large Desktop (1200px+) */
+@media (min-width: 1200px) {
+    .homeWelcome {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .homeWelcomeContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 16px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        max-width: 1000px;
+        gap: 40px;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        gap: 30px;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 62px;
+        line-height: 72px;
+        transition: all 0.3s ease;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 8px;
+        text-underline-offset: 12px;
+    }
+}
+
+/* Medium Desktop (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .homeWelcome {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        /* max-width: 900px; */
+        /* gap: 35px; */
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        gap: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .homeWelcomeContainerBottomContainerTwo {
+        white-space: nowrap;
+        margin-left: 0;
+    }
+
+    .homeWelcomeContainerBottomContainerTwoContainerText {
+        white-space: nowrap;
+    }
+
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 54px;
+        line-height: 64px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 7px;
+        text-underline-offset: 10px;
+    }
+}
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .homeWelcome {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        /* max-width: 700px; */
+        /* gap: 30px; */
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne {
+        justify-content: center;
+        /* gap: 15px; */
+    }
+    
+    .homeWelcomeContainerBottomContainerTwo {
+        margin-left: 0;
+        align-items: center;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 46px;
+        line-height: 56px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 6px;
+        text-underline-offset: 8px;
+    }
+    
+    .homeWelcomeContainerBottomContainerThree,
+    .homeWelcomeContainerBottomContainerFour {
+        margin-top: 0;
+    }
+}
+
+/* Large Mobile (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .homeWelcome {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        max-width: 100%;
+        width: 95%;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne,
+    .homeWelcomeContainerBottomContainerTwo {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne {
+        flex-direction: row;
+        /* gap: 20px; */
+        /* flex-wrap: wrap; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0;
+    }
+    
+    .homeWelcomeContainerBottomContainerTwo {
+        margin-left: 0;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirst,
+    .homeWelcomeContainerBottomContainerOneSecond,
+    .homeWelcomeContainerBottomContainerOneThird {
+        align-items: center;
+        flex: 1;
+        min-width: 120px;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 5px;
+        text-underline-offset: 6px;
+    }
+}
+
+/* Small Mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .homeWelcome {
+        margin-top: -320px;
+        padding-bottom: 60px;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 95%;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerTwo {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirst,
+    .homeWelcomeContainerBottomContainerOneSecond,
+    .homeWelcomeContainerBottomContainerOneThird {
+        align-items: center;
+        width: 100%;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 4px;
+        text-underline-offset: 5px;
+    }
+    
+    .homeWelcomeContainerBottomContainerThree,
+    .homeWelcomeContainerBottomContainerFour {
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Very Small Mobile (below 320px) */
+@media (max-width: 319px) {
+    .homeWelcome {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 12px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        gap: 15px;
+        width: 98%;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        gap: 12px;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne {
+        gap: 12px;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 3px;
+        text-underline-offset: 4px;
+    }
+}
+
+/* Landscape orientation for mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+    .homeWelcome {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne {
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirst,
+    .homeWelcomeContainerBottomContainerOneSecond,
+    .homeWelcomeContainerBottomContainerOneThird {
+        min-width: 80px;
+        flex: none;
+    }
+      .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText {
+        text-decoration-thickness: 3px;
+        text-underline-offset: 4px;
     }
 }

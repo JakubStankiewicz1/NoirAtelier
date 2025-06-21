@@ -53,3 +53,141 @@
     text-decoration: underline;
     text-decoration-color: #AC6620;
 }
+
+
+/* Responsivity for all smaller devices */
+
+/* Extra Large Screens */
+@media (max-width: 1440px) {
+    .contactHeaderContainerBottomContainerText {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    
+    .contactHeaderContainerBottomContainer {
+        width: 75%;
+    }
+}
+
+/* Large Screens */
+@media (max-width: 1200px) {
+    .contactHeader {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    
+    .contactHeaderContainerBottomContainerText {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .contactHeaderContainerTopContainerText {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    
+    .contactHeaderContainerBottomContainer {
+        width: 80%;
+    }
+}
+
+/* Medium Screens */
+@media (max-width: 992px) {
+    .contactHeaderContainerBottomContainerText {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    .contactHeaderContainerBottomContainer {
+        width: 85%;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .contactHeader {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    
+    .contactHeaderContainerBottomContainerText {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .contactHeaderContainerTopContainerText {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .contactHeaderContainerBottomContainer {
+        width: 90%;
+    }
+    
+    .contactHeaderContainer {
+        gap: 25px;
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 576px) {
+    .contactHeader {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    
+    .contactHeaderContainerBottomContainerText {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .contactHeaderContainerTopContainerText {
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 1.5px;
+    }
+    
+    .contactHeaderContainerBottomContainer {
+        width: 95%;
+    }
+    
+    .contactHeaderContainer {
+        gap: 20px;
+    }
+}
+
+/* Extra Small Mobile Screens */
+@media (max-width: 480px) {
+    .contactHeaderContainerBottomContainerText {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .contactHeaderContainerTopContainerText {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+/* Very Small Screens */
+@media (max-width: 360px) {
+    .contactHeader {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+    
+    .contactHeaderContainerBottomContainerText {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .contactHeaderContainerTopContainerText {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    
+    .contactHeaderContainer {
+        gap: 15px;
+    }
+}

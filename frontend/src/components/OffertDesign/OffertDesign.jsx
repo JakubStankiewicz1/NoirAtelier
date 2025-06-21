@@ -1,7 +1,11 @@
 import React from 'react';
 import './offertDesign.css';
 
-const OffertDesign = () => {
+const OffertDesign = ({ offerData }) => {
+  const planImages = offerData?.planImages || {
+    floor: "https://modernhouse-projekty.pl/wp-content/uploads/2024/06/Modern_House_Brick_House_118_KONCEPCJA-PARTER-scaled.webp",
+    section: "https://modernhouse-projekty.pl/wp-content/uploads/2024/06/Modern_House_Brick_House_118_KONCEPCJA-PRZEKROJ-scaled.webp"
+  };
   return (
     <div className='offertDesign'>
         <div className="offertDesignContainer">
@@ -20,15 +24,14 @@ const OffertDesign = () => {
 
             {/* Bottom Part */}
             <div className="offertDesignContainerBottom">
-                <div className="offertDesignContainerBottomContainer">
-                    {/* Left Part */}
+                <div className="offertDesignContainerBottomContainer">                    {/* Left Part */}
                     <div className="offertDesignContainerBottomContainerLeft">
-                        <img src="https://modernhouse-projekty.pl/wp-content/uploads/2024/06/Modern_House_Brick_House_118_KONCEPCJA-PARTER-scaled.webp" alt="" className='offertDesignContainerBottomContainerLeftImage' />
+                        <img src={planImages.floor} alt="Floor plan" className='offertDesignContainerBottomContainerLeftImage' />
                     </div>
 
                     {/* Right Part */}
                     <div className="offertDesignContainerBottomContainerRight">
-                        <img src="https://modernhouse-projekty.pl/wp-content/uploads/2024/06/Modern_House_Brick_House_118_KONCEPCJA-PRZEKROJ-scaled.webp" alt="" className='offertDesignContainerBottomContainerRightImage' />
+                        <img src={planImages.section} alt="Section plan" className='offertDesignContainerBottomContainerRightImage' />
                     </div>
                 </div>
             </div>

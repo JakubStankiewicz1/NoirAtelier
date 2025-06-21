@@ -249,3 +249,244 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+/* ===================== RESPONSIVE DESIGN ===================== */
+
+@media (max-width: 1200px) {
+    .aboutContactUsContainerTop {
+        width: 95%;
+    }
+    .aboutContactUsContainerTopContainer {
+        gap: 24px;
+    }
+    .aboutContactUsContainerBottomContainerOne {
+        gap: 40px;
+    }
+    .aboutContactUsContainerBottomContainerBottom {
+        width: 90vw;
+        max-width: 600px;
+        height: 340px;
+        transform: translateX(10%) translateY(-120%);
+    }
+}
+
+@media (max-width: 900px) {
+    .aboutContactUs {
+        padding-top: 60px;
+        margin-bottom: -150px;
+    }
+    .aboutContactUsContainer {
+        gap: 60px;
+    }
+    .aboutContactUsContainerTop {
+        width: 95%;
+    }
+    .aboutContactUsContainerTopContainer {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .aboutContactUsContainerTopContainerElement {
+        width: 160px;
+        height: 200px;
+        border-radius: 35px;
+    }
+    .aboutContactUsContainerTopContainerElementContainer {
+        gap: 30px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .aboutContactUsContainerBottomContainerOne {
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .aboutContactUsContainerBottomContainerOneContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOne,
+    .aboutContactUsContainerBottomContainerOneContainerTwo {
+        width: 85vw;
+        max-width: 450px;
+        min-width: 280px;
+        height: 280px;
+        border-radius: 35px !important;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+        border-radius: 35px !important;
+    }
+    .aboutContactUsContainerBottomContainerBottom {
+        width: 85vw;
+        max-width: 450px;
+        min-width: 280px;
+        height: 280px;
+        transform: translateX(0) translateY(-50%);
+        border-radius: 35px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutContactUs {
+        padding-top: 40px;
+        margin-bottom: -80px;
+    }
+    .aboutContactUsContainer {
+        gap: 40px;
+    }
+    .aboutContactUsContainerTop {
+        width: 95%;
+        padding: 0 10px;
+    }
+    .aboutContactUsContainerTopContainer {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    .aboutContactUsContainerTopContainerElement {
+        width: 140px;
+        height: 160px;
+        border-radius: 25px;
+    }
+    .aboutContactUsContainerTopContainerElementContainer {
+        gap: 25px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .aboutContactUsContainerBottomContainerOne {
+        padding: 0 10px;
+    }
+    .aboutContactUsContainerBottomContainerOneContainer {
+        gap: 20px;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOne,
+    .aboutContactUsContainerBottomContainerOneContainerTwo {
+        width: 90vw;
+        max-width: 320px;
+        min-width: 250px;
+        height: 180px;
+        border-radius: 25px !important;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+        border-radius: 25px !important;
+    }
+    .aboutContactUsContainerBottomContainerBottom {
+        width: 90vw;
+        max-width: 320px;
+        min-width: 250px;
+        height: 200px;
+        transform: translateX(0) translateY(-25%);
+        border-radius: 25px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainer {
+        gap: 30px;
+        padding: 20px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerTop {
+        width: 90%;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutContactUs {
+        padding-top: 30px;
+        margin-bottom: -60px;
+    }
+    .aboutContactUsContainer {
+        gap: 30px;
+    }
+    .aboutContactUsContainerTopContainerElement {
+        width: 120px;
+        height: 140px;
+        border-radius: 20px;
+    }
+    .aboutContactUsContainerTopContainerElementContainer {
+        gap: 20px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerTopContainerText {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .aboutContactUsContainerTopContainerElementContainerBottomContainerText {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOne,
+    .aboutContactUsContainerBottomContainerOneContainerTwo {
+        width: 95vw;
+        max-width: 280px;
+        min-width: 220px;
+        height: 160px;
+        border-radius: 20px !important;
+    }
+    .aboutContactUsContainerBottomContainerOneContainerOneContainerImage,
+    .aboutContactUsContainerBottomContainerOneContainerTwoContainerImage {
+        border-radius: 20px !important;
+    }
+    .aboutContactUsContainerBottomContainerBottom {
+        width: 95vw;
+        max-width: 280px;
+        min-width: 220px;
+        height: 180px;
+        border-radius: 20px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainer {
+        gap: 25px;
+        padding: 15px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerTopContainerText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButton {
+        width: 120px;
+        height: 36px;
+        border-radius: 18px;
+    }
+    .aboutContactUsContainerBottomContainerBottomContainerBottomContainerButtonContainerText {
+        font-size: 11px;
+        line-height: 11px;
+    }
+}
+
+/* End Responsive Design */

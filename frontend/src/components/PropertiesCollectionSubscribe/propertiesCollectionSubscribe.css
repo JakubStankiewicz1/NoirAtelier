@@ -16,12 +16,8 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    /* background-color: red; */
+    padding: 0 20px;
 }
-
-
-
-
 
 .propertiesCollectionSubscribeContainerFirstContainerText {
     color: #AC6620;
@@ -29,12 +25,14 @@
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .propertiesCollectionSubscribeContainerSecond {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerSecondContainerText {
@@ -53,10 +51,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainer {
-    /* width: 50%; */
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -65,7 +63,6 @@
     justify-content: center;
     align-items: center;
     gap: 35px;
-    /* background-color: lightcyan; */
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOne {
@@ -84,12 +81,14 @@
     width: 100%;
     height: 50px;
     padding-left: 15px;
+    padding-right: 15px;
     border-radius: 100px;
     border: none;
 
     border: 1px solid #AC6620;
     color: #AC6620;
     background-color: transparent;
+    box-sizing: border-box;
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
@@ -105,7 +104,6 @@
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainer {
     width: 100%;
-    /* background-color: red; */
 }
 
 .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
@@ -144,6 +142,7 @@
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
 }
 
 .propertiesCollectionSubscribeContainerFourthContainerText {
@@ -153,4 +152,267 @@
     line-height: 36px;
     letter-spacing: 0.7px;
     text-align: center;
+}
+
+/* Responsive Styles for PropertiesCollectionSubscribe */
+@media (max-width: 1200px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 50%;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 50%;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .propertiesCollectionSubscribeContainer {
+        gap: 40px;
+        padding: 0 30px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 60%;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 60%;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 65%;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecondContainerText {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 768px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .propertiesCollectionSubscribeContainer {
+        gap: 35px;
+        padding: 0 25px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 80%;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 80%;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 85%;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecondContainerText {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainer {
+        gap: 30px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+        height: 45px;
+        font-size: 15px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+        font-size: 15px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+        font-size: 17px;
+        letter-spacing: 1.5px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFirstContainerText {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourthContainerText {
+        font-size: 15px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .propertiesCollectionSubscribeContainer {
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 90%;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 90%;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 95%;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecondContainerText {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainer {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .propertiesCollectionSubscribeContainer {
+        gap: 25px;
+        padding: 0 15px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 95%;
+        min-width: 280px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 95%;
+        min-width: 280px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 100%;
+        min-width: 280px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecondContainerText {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainer {
+        gap: 20px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+        height: 40px;
+        font-size: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+        font-size: 14px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButton {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFirstContainerText {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourthContainerText {
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .propertiesCollectionSubscribe {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .propertiesCollectionSubscribeContainer {
+        gap: 20px;
+        padding: 0 10px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecond {
+        width: 100%;
+        min-width: 250px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThird {
+        width: 100%;
+        min-width: 250px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourth {
+        width: 100%;
+        min-width: 250px;
+    }
+    
+    .propertiesCollectionSubscribeContainerSecondContainerText {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput {
+        height: 38px;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerOneContainerInput::placeholder {
+        font-size: 13px;
+    }
+    
+    .propertiesCollectionSubscribeContainerThirdContainerTwoContainerButtonContainerText {
+        font-size: 14px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFirstContainerText {
+        font-size: 12px;
+    }
+    
+    .propertiesCollectionSubscribeContainerFourthContainerText {
+        font-size: 13px;
+        line-height: 24px;
+    }
 }

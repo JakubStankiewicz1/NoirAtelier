@@ -1,6 +1,7 @@
 .aboutHero {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 
     background-color: darkslategrey;
 
@@ -143,9 +144,11 @@
 
 
 .aboutHeroContainerBottomContainerTopContainerOne {
-    width: 680px;
-    height: 450px;
-    border-radius: 30px;
+    width: 380px;
+    height: 260px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
 }
 
 .aboutHeroContainerBottomContainerTopContainerOne {
@@ -168,13 +171,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 
 .aboutHeroContainerBottomContainerTopContainerTwo {
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 .aboutHeroContainerBottomContainerTopContainerTwo {
@@ -197,12 +203,15 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .aboutHeroContainerBottomContainerBottomContainerOne {
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 .aboutHeroContainerBottomContainerBottomContainerOne {
@@ -225,13 +234,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 
 .aboutHeroContainerBottomContainerBottomContainerTwo {
-    width: 680px;
-    height: 450px;
+    width: 380px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
 
 .aboutHeroContainerBottomContainerBottomContainerTwo {
@@ -255,4 +267,219 @@
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
+}
+
+/* Responsive Media Queries */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .aboutHero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .aboutHeroContainer {
+        width: 90%;
+        gap: 40px;
+    }
+    
+    .aboutHeroContainerTopContainerOneContainerIcon {
+        width: 180px;
+    }
+    
+    .aboutHeroContainerTopContainerTwo {
+        margin-top: 40px;
+    }
+    
+    .aboutHeroContainerTopContainerThree {
+        width: 90%;
+    }
+    
+    .aboutHeroContainerTopContainerThreeContainerText {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    
+    .aboutHeroContainerTopContainerFour {
+        margin-top: 40px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButton {
+        width: 180px;
+        height: 55px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButtonContainerText {
+        font-size: 16px;
+    }
+      .aboutHeroContainerBottomContainerTop {
+        gap: 20px;
+    }
+    
+    .aboutHeroContainerBottomContainerTopContainerOne,
+    .aboutHeroContainerBottomContainerTopContainerTwo {
+        height: 240px;
+    }
+    
+    .aboutHeroContainerBottomContainerTopContainerOne {
+        width: 320px;
+    }
+    
+    .aboutHeroContainerBottomContainerTopContainerTwo {
+        width: 260px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottom {
+        margin-top: 20px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottomContainerOne,
+    .aboutHeroContainerBottomContainerBottomContainerTwo {
+        height: 240px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottomContainerOne {
+        width: 260px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottomContainerTwo {
+        width: 320px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .aboutHero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .aboutHeroContainer {
+        width: 95%;
+        gap: 40px;
+    }
+    
+    .aboutHeroContainerTopContainerOneContainerIcon {
+        width: 150px;
+    }
+    
+    .aboutHeroContainerTopContainerTwo {
+        margin-top: 30px;
+    }
+    
+    .aboutHeroContainerTopContainerThree {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .aboutHeroContainerTopContainerThreeContainerText {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+    .aboutHeroContainerTopContainerFour {
+        margin-top: 30px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButton {
+        width: 160px;
+        height: 50px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButtonContainerText {
+        font-size: 15px;
+    }
+      /* COLUMN LAYOUT for images on mobile */
+    .aboutHeroContainerBottomContainerTopContainer,
+    .aboutHeroContainerBottomContainerBottomContainer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .aboutHeroContainerBottomContainerTop {
+        gap: 20px;
+    }
+    
+    .aboutHeroContainerBottomContainerTopContainerOne,
+    .aboutHeroContainerBottomContainerTopContainerTwo,
+    .aboutHeroContainerBottomContainerBottomContainerOne,
+    .aboutHeroContainerBottomContainerBottomContainerTwo {
+        width: 90%;
+        max-width: 320px;
+        height: 220px;
+    }
+    
+    .aboutHeroContainerBottomContainerTopContainerOneContainerImage,
+    .aboutHeroContainerBottomContainerTopContainerTwoContainerImage,
+    .aboutHeroContainerBottomContainerBottomContainerOneContainerImage,
+    .aboutHeroContainerBottomContainerBottomContainerTwoContainerImage {
+        border-radius: 20px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottom {
+        margin-top: 20px;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .aboutHero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .aboutHeroContainer {
+        gap: 30px;
+    }
+    
+    .aboutHeroContainerTopContainerOneContainerIcon {
+        width: 120px;
+    }
+    
+    .aboutHeroContainerTopContainerTwo {
+        margin-top: 25px;
+    }
+    
+    .aboutHeroContainerTopContainerThree {
+        margin-top: 25px;
+    }
+    
+    .aboutHeroContainerTopContainerThreeContainerText {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    
+    .aboutHeroContainerTopContainerFour {
+        margin-top: 25px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButton {
+        width: 140px;
+        height: 45px;
+    }
+    
+    .aboutHeroContainerTopContainerFourContainerButtonContainerText {
+        font-size: 14px;
+    }
+      .aboutHeroContainerBottomContainerTopContainerOne,
+    .aboutHeroContainerBottomContainerTopContainerTwo,
+    .aboutHeroContainerBottomContainerBottomContainerOne,
+    .aboutHeroContainerBottomContainerBottomContainerTwo {
+        width: 95%;
+        max-width: 280px;
+        height: 180px;
+    }
+    
+    .aboutHeroContainerBottomContainerBottomContainerOneContainerImage,
+    .aboutHeroContainerBottomContainerBottomContainerTwoContainerImage {
+        border-radius: 15px;
+    }
+      /* COLUMN LAYOUT for small mobile */
+    .aboutHeroContainerBottomContainerTopContainer,
+    .aboutHeroContainerBottomContainerBottomContainer {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
 }

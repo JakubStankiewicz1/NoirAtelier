@@ -1,0 +1,396 @@
+.buySellSupportContact {
+  width: 100%;
+  background: linear-gradient(180deg, #F8F6F3 0%, #FFFFFF 100%);
+  padding: 100px 0;
+  position: relative;
+}
+
+.buySellSupportContactContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header */
+.buySellSupportContactHeader {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buySellSupportContactHeaderSubtitle {
+  font-size: 1.1rem;
+  color: #AC6620;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.buySellSupportContactHeaderTitle {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  color: #31361D;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.buySellSupportContactHeaderTitle .highlight {
+  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.buySellSupportContactHeaderDescription {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+/* Content */
+.buySellSupportContactContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+/* Contact Form */
+.buySellSupportContactForm {
+  background: white;
+  border-radius: 30px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(172, 102, 32, 0.1);
+}
+
+.buySellSupportContactFormHeader {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.buySellSupportContactFormIcon {
+  font-size: 3rem;
+  color: #AC6620;
+  background: rgba(172, 102, 32, 0.1);
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.buySellSupportContactFormTitle {
+  font-size: 2rem;
+  color: #31361D;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.buySellSupportContactFormDescription {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.buySellSupportContactFormContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.buySellSupportContactFormRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.buySellSupportContactFormGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buySellSupportContactFormLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #31361D;
+}
+
+.buySellSupportContactFormLabelIcon {
+  font-size: 1rem;
+  color: #AC6620;
+}
+
+.buySellSupportContactFormInput,
+.buySellSupportContactFormSelect {
+  padding: 1rem 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 15px;
+  font-size: 1rem;
+  background: white;
+  transition: all 0.3s ease;
+  color: #31361D;
+}
+
+.buySellSupportContactFormInput:focus,
+.buySellSupportContactFormSelect:focus {
+  outline: none;
+  border-color: #AC6620;
+  box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
+}
+
+.buySellSupportContactFormTextarea {
+  padding: 1rem 1.5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 15px;
+  font-size: 1rem;
+  background: white;
+  transition: all 0.3s ease;
+  color: #31361D;
+  resize: vertical;
+  min-height: 120px;
+  font-family: inherit;
+}
+
+.buySellSupportContactFormTextarea:focus {
+  outline: none;
+  border-color: #AC6620;
+  box-shadow: 0 0 0 3px rgba(172, 102, 32, 0.1);
+}
+
+.buySellSupportContactFormButton {
+  background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+  color: white;
+  border: none;
+  padding: 1.2rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(172, 102, 32, 0.3);
+  margin-top: 1rem;
+}
+
+.buySellSupportContactFormButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(172, 102, 32, 0.4);
+}
+
+.buySellSupportContactFormButton:disabled {
+  background: #4CAF50;
+  cursor: not-allowed;
+}
+
+/* Contact Info */
+.buySellSupportContactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.buySellSupportContactInfoHeader {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.buySellSupportContactInfoTitle {
+  font-size: 1.8rem;
+  color: #31361D;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.buySellSupportContactInfoDescription {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.buySellSupportContactInfoList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.buySellSupportContactInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(172, 102, 32, 0.1);
+  transition: all 0.3s ease;
+}
+
+.buySellSupportContactInfoItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.buySellSupportContactInfoItemIcon {
+  font-size: 1.5rem;
+  color: #AC6620;
+  background: rgba(172, 102, 32, 0.1);
+  padding: 1rem;
+  border-radius: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buySellSupportContactInfoItemContent {
+  flex: 1;
+}
+
+.buySellSupportContactInfoItemTitle {
+  font-size: 1.1rem;
+  color: #31361D;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.buySellSupportContactInfoItemInfo {
+  font-size: 1rem;
+  color: #AC6620;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.buySellSupportContactInfoItemSubtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* CTA */
+.buySellSupportContactInfoCTA {
+  background: linear-gradient(135deg, #31361D 0%, #2A2F1A 100%);
+  border-radius: 25px;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buySellSupportContactInfoCTA::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23AC6620" fill-opacity="0.1"><circle cx="30" cy="30" r="2"/></g></svg>') repeat;
+  opacity: 0.3;
+}
+
+.buySellSupportContactInfoCTAContent {
+  position: relative;
+  z-index: 2;
+}
+
+.buySellSupportContactInfoCTATitle {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.buySellSupportContactInfoCTADescription {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.buySellSupportContactInfoCTAButton {
+  background: linear-gradient(135deg, #C9823B 0%, #AC6620 100%);
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px rgba(201, 130, 59, 0.4);
+}
+
+.buySellSupportContactInfoCTAButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(201, 130, 59, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .buySellSupportContactContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .buySellSupportContactFormRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .buySellSupportContact {
+    padding: 60px 0;
+  }
+  
+  .buySellSupportContactContainer {
+    padding: 0 1rem;
+  }
+  
+  .buySellSupportContactHeader {
+    margin-bottom: 60px;
+  }
+  
+  .buySellSupportContactForm {
+    padding: 2rem;
+  }
+  
+  .buySellSupportContactContent {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .buySellSupportContactForm {
+    padding: 1.5rem;
+  }
+  
+  .buySellSupportContactFormIcon {
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  
+  .buySellSupportContactInfoItem {
+    padding: 1rem;
+  }
+  
+  .buySellSupportContactInfoItemIcon {
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+  }
+  
+  .buySellSupportContactInfoCTA {
+    padding: 1.5rem;
+  }
+}

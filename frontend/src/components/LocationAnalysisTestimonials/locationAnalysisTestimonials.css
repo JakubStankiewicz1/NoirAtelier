@@ -1,0 +1,325 @@
+.locationAnalysisTestimonials {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 100px 0;
+}
+
+.locationAnalysisTestimonialsContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.locationAnalysisTestimonialsHeader {
+    text-align: center;
+}
+
+.locationAnalysisTestimonialsHeaderContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.locationAnalysisTestimonialsHeaderSubtitle {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.locationAnalysisTestimonialsHeaderTitle {
+    color: #31361D;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.locationAnalysisTestimonialsHeaderDescription {
+    color: #31361D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.8;
+}
+
+.locationAnalysisTestimonialsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px;
+}
+
+.locationAnalysisTestimonialsCard {
+    background-color: #F5EDE7;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(49, 54, 29, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(172, 102, 32, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.locationAnalysisTestimonialsCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #AC6620, #C9823B);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+/* .locationAnalysisTestimonialsCard:hover::before {
+    transform: translateX(0);
+} */
+
+.locationAnalysisTestimonialsCard:hover {
+    /* transform: translateY(-8px); */
+    /* box-shadow: 0 25px 50px rgba(49, 54, 29, 0.15); */
+    border-color: rgba(172, 102, 32, 0.3);
+}
+
+.locationAnalysisTestimonialsCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.locationAnalysisTestimonialsCardQuote {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #AC6620, #C9823B);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.locationAnalysisTestimonialsCardRating {
+    display: flex;
+    gap: 5px;
+    color: #AC6620;
+    font-size: 16px;
+}
+
+.locationAnalysisTestimonialsCardContent {
+    margin-bottom: 30px;
+}
+
+.locationAnalysisTestimonialsCardText {
+    color: #31361D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.locationAnalysisTestimonialsCardInvestment {
+    background-color: rgba(172, 102, 32, 0.1);
+    padding: 12px 18px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.locationAnalysisTestimonialsCardInvestmentLabel {
+    color: #AC6620;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.locationAnalysisTestimonialsCardInvestmentValue {
+    color: #31361D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.locationAnalysisTestimonialsCardFooter {
+    border-top: 1px solid rgba(49, 54, 29, 0.1);
+    padding-top: 25px;
+}
+
+.locationAnalysisTestimonialsCardProfile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.locationAnalysisTestimonialsCardAvatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #AC6620;
+    flex-shrink: 0;
+}
+
+.locationAnalysisTestimonialsCardAvatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.locationAnalysisTestimonialsCardInfo {
+    flex: 1;
+}
+
+.locationAnalysisTestimonialsCardName {
+    color: #31361D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.locationAnalysisTestimonialsCardPosition {
+    color: #AC6620;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.locationAnalysisTestimonialsCardCompany {
+    color: #31361D;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.locationAnalysisTestimonialsStats {
+    background: linear-gradient(135deg, #31361D, #3a4021);
+    border-radius: 30px;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .locationAnalysisTestimonialsStats::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="75" cy="75" r="1" fill="%23FFE5D4" fill-opacity="0.03"/><circle cx="50" cy="10" r="0.5" fill="%23AC6620" fill-opacity="0.05"/><circle cx="10" cy="50" r="0.5" fill="%23AC6620" fill-opacity="0.05"/><circle cx="90" cy="30" r="0.5" fill="%23AC6620" fill-opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>') repeat;
+    pointer-events: none;
+} */
+
+.locationAnalysisTestimonialsStatsContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.locationAnalysisTestimonialsStatsHeader {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.locationAnalysisTestimonialsStatsTitle {
+    color: #FFE5D4;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.locationAnalysisTestimonialsStatsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.locationAnalysisTestimonialsStatsItem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.locationAnalysisTestimonialsStatsNumber {
+    color: #AC6620;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 5px;
+}
+
+.locationAnalysisTestimonialsStatsText {
+    color: #FFE5D4;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.locationAnalysisTestimonialsStatsDescription {
+    color: #FFE5D4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .locationAnalysisTestimonialsContainer {
+        width: 90%;
+        gap: 60px;
+    }
+    
+    .locationAnalysisTestimonialsHeaderTitle {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    
+    .locationAnalysisTestimonialsGrid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .locationAnalysisTestimonialsCard {
+        padding: 30px 25px;
+    }
+    
+    .locationAnalysisTestimonialsCardProfile {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .locationAnalysisTestimonialsStats {
+        padding: 40px 30px;
+    }
+    
+    .locationAnalysisTestimonialsStatsTitle {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    .locationAnalysisTestimonialsStatsGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .locationAnalysisTestimonialsStatsNumber {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .locationAnalysisTestimonialsStatsText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,1062 @@
+/* ===================== HOME PAGE RESPONSIVE STYLES ===================== */
+
+/* Base Styles */
+.home {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.homeContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Global responsive fix - prevent horizontal scroll */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+/* ===================== HOME HERO RESPONSIVE STYLES ===================== */
+
+/* Desktop Styles (1200px+) */
+@media (min-width: 1200px) {
+    .homeHero {
+        padding-top: 0;
+        height: 100vh;
+        min-height: 800px;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainer {
+        width: 50%;
+        max-width: 50vw;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainerTopContainerTwoContainerDiv {
+        width: min(850px, calc(50vw - 20px));
+        height: 880px;
+        max-width: 50vw;
+    }
+    
+    .homeHeroContainerTopText {
+        top: 23vh;
+        left: min(42vw, calc(100vw - 400px));
+        max-width: calc(58vw - 40px);
+    }
+    
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText {
+        font-size: min(200px, 15vw);
+        line-height: min(160px, 12vw);
+    }
+    
+    .homeHeroSliderNavigation {
+        top: 200px;
+        left: max(50px, 3vw);
+    }
+}
+
+/* Large Tablet & Small Desktop (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .homeHero {
+        height: 100vh;
+        min-height: 600px;
+        padding-top: 0;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainer {
+        width: 90%;
+        max-width: 90vw;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainerTopContainerOne {
+        padding-left: min(50px, 5vw);
+        padding-top: 120px;
+    }
+    
+    .homeHeroContainerTopContainerTwoContainerDiv {
+        width: min(600px, calc(45vw - 20px));
+        height: 650px;
+        max-width: 45vw;
+    }
+    
+    .homeHeroContainerTopText {
+        top: 20vh;
+        left: min(35vw, calc(100vw - 300px));
+        max-width: calc(65vw - 40px);
+    }
+    
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText {
+        font-size: min(120px, 12vw);
+        line-height: min(100px, 10vw);
+    }
+    
+    .homeHeroContainerTopTextContainerOneContainerTextOne,
+    .homeHeroContainerTopTextContainerOneContainerTextTwo,
+    .homeHeroContainerTopTextContainerThreeContainerTwoText,
+    .homeHeroContainerTopTextContainerFourContainerText {
+        font-size: min(32px, 4vw);
+        line-height: min(38px, 4.5vw);
+    }
+    
+    .homeHeroSliderNavigation {
+        top: 150px;
+        left: max(30px, 3vw);
+    }
+    
+    .homeHeroSliderNavigationContainer {
+        gap: 20px;
+    }
+    
+    .homeHeroSliderNavigationNumber {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Styles (below 768px) */
+@media (max-width: 767px) {
+    .homeHero {
+        height: 100vh;
+        min-height: 500px;
+        padding-top: 80px;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainer {
+        width: 95%;
+        max-width: 95vw;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainerTopContainerOne {
+        padding-left: min(20px, 2vw);
+        padding-top: 60px;
+        justify-content: flex-start;
+    }
+    
+    .homeHeroContainerTopContainerOneDiv {
+        width: 70%;
+        height: 35vh;
+        border-radius: 40px;
+    }
+    
+    .homeHeroContainerTopContainerTwoContainerDiv {
+        width: min(400px, calc(95vw - 20px));
+        height: 450px;
+        max-width: 95vw;
+    }
+    
+    .homeHeroContainerTopText {
+        position: static;
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    
+    .homeHeroContainerTopTextContainer {
+        align-items: flex-start;
+    }
+    
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText {
+        font-size: min(60px, 12vw);
+        line-height: min(50px, 10vw);
+    }
+    
+    .homeHeroContainerTopTextContainerOneContainerTextOne,
+    .homeHeroContainerTopTextContainerOneContainerTextTwo,
+    .homeHeroContainerTopTextContainerThreeContainerTwoText,
+    .homeHeroContainerTopTextContainerFourContainerText {
+        font-size: min(24px, 5vw);
+        line-height: min(28px, 6vw);
+    }
+    
+    .homeHeroContainerTopTextContainerTwo {
+        transform: translateX(0);
+    }
+    
+    .homeHeroContainerTopTextContainerThreeContainer {
+        transform: translateX(0);
+        flex-direction: column;
+    }
+    
+    .homeHeroContainerTopTextContainerFour {
+        transform: translateX(0);
+    }
+    
+    .homeHeroSliderNavigation {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    
+    .homeHeroSliderNavigationContainer {
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .homeHeroSliderNavigationNumber {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile (below 480px) */
+@media (max-width: 479px) {
+    .homeHero {
+        min-height: 400px;
+        padding-top: 60px;
+        overflow-x: hidden;
+    }
+    
+    .homeHeroContainerTopContainerTwoContainerDiv {
+        width: min(320px, calc(100vw - 20px));
+        height: 350px;
+        max-width: calc(100vw - 20px);
+    }
+    
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText {
+        font-size: min(40px, 10vw);
+        line-height: min(36px, 9vw);
+    }
+    
+    .homeHeroContainerTopTextContainerOneContainerTextOne,
+    .homeHeroContainerTopTextContainerOneContainerTextTwo,
+    .homeHeroContainerTopTextContainerThreeContainerTwoText,
+    .homeHeroContainerTopTextContainerFourContainerText {
+        font-size: min(20px, 5vw);
+        line-height: min(24px, 6vw);
+    }
+}
+
+/* ===================== OVERFLOW FIX FOR HOME HERO ===================== */
+
+/* Ensure no horizontal scrollbar in HomeHero */
+.homeHero,
+.homeHero *,
+.homeHeroContainer,
+.homeHeroContainer *,
+.homeHeroContainerTop,
+.homeHeroContainerTop *,
+.homeHeroContainerTopContainer,
+.homeHeroContainerTopContainer * {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* Fix for text positioning to prevent overflow */
+.homeHeroContainerTopText {
+    max-width: calc(100vw - 40px);
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+/* Fix for image container to prevent overflow */
+.homeHeroContainerTopContainerTwoContainerDiv {
+    max-width: calc(50vw - 10px);
+    box-sizing: border-box;
+}
+
+/* Fix for large text elements */
+.homeHeroContainerTopTextContainerTwoContainerText,
+.homeHeroContainerTopTextContainerThreeContainerOneText {
+    max-width: 100%;
+    overflow: visible;
+    word-wrap: break-word;
+}
+
+/* Mobile-specific overflow fixes */
+@media (max-width: 767px) {
+    .homeHeroContainerTopText {
+        max-width: 100%;
+        left: auto;
+        right: auto;
+        position: static;
+    }
+    
+    .homeHeroContainerTopContainerTwoContainerDiv {
+        max-width: calc(100vw - 40px);
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText {
+        max-width: 100%;
+        font-size: min(60px, 15vw);
+        line-height: min(50px, 12vw);
+    }
+}
+
+@media (max-width: 479px) {
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    }
+    
+    .homeHeroInfoContainerLeftContainer {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .homeHeroInfoContainerLeftContainerElement {
+        width: 80px;
+    }
+    
+    .homeHeroInfoContainerMiddleContainerSvg {
+        width: 150px;
+    }
+    
+    .homeHeroInfoContainerRightContainerButton {
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 20px;
+    }
+    
+    .homeHeroInfoContainerRightContainerButtonContainerText {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 479px) {
+    .homeHeroInfoContainerLeftContainer {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .homeHeroInfoContainerLeftContainerElement {
+        width: 60px;
+    }
+    
+    .homeHeroInfoContainerMiddleContainerSvg {
+        width: 120px;
+    }
+    
+    .homeHeroInfoContainerRightContainerButton {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* ===================== HOME WELCOME RESPONSIVE STYLES ===================== */
+
+/* Desktop Styles */
+@media (min-width: 1200px) {
+    .homeWelcome {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 62px;
+        line-height: 72px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .homeWelcome {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        max-width: 800px;
+        gap: 24px;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .homeWelcome {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .homeWelcomeContainerTopContainerText {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 100%;
+    }
+    
+    .homeWelcomeContainerBottomContainerOne,
+    .homeWelcomeContainerBottomContainerTwo {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 38px;
+        line-height: 48px;
+        text-align: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirst,
+    .homeWelcomeContainerBottomContainerOneSecond,
+    .homeWelcomeContainerBottomContainerOneThird {
+        align-items: center;
+    }
+    
+    .homeWelcomeContainerBottomContainerOneFirstDiv,
+    .homeWelcomeContainerBottomContainerOneSecondDiv,
+    .homeWelcomeContainerBottomContainerOneThirdOneDiv {
+        margin-left: 0;
+        width: 80px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 479px) {
+    .homeWelcomeContainerBottomContainerOneFirstOneText,
+    .homeWelcomeContainerBottomContainerOneSecondOneText,
+    .homeWelcomeContainerBottomContainerOneThirdOneText,
+    .homeWelcomeContainerBottomContainerTwoContainerText,
+    .homeWelcomeContainerBottomContainerThreeText,
+    .homeWelcomeContainerBottomContainerFourContainerText {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .homeWelcomeContainerBottomContainerDiv {
+        gap: 10px;
+    }
+}
+
+/* ===================== HOME DATES INFO RESPONSIVE STYLES ===================== */
+
+/* Desktop Styles */
+@media (min-width: 1200px) {
+    .homeDatesInfo {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .homeDatesInfoContainer {
+        width: 84%;
+    }
+    
+    .homeDatesInfoContainerElementContainer {
+        width: 180px;
+        height: 220px;
+        border-radius: 40px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivTopContainerText {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .homeDatesInfo {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    
+    .homeDatesInfoContainer {
+        width: 90%;
+        gap: 20px;
+    }
+    
+    .homeDatesInfoContainerElementContainer {
+        width: 150px;
+        height: 180px;
+        border-radius: 30px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivTopContainerText {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivBottomContainerText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .homeDatesInfo {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    
+    .homeDatesInfoContainer {
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .homeDatesInfoContainerElement {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .homeDatesInfoContainerElementContainer {
+        width: 100%;
+        height: 150px;
+        border-radius: 25px;
+        margin: 0 auto;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivTopContainerText {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivBottomContainerText {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* Small Mobile - 2x2 Grid */
+@media (max-width: 479px) {
+    .homeDatesInfoContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .homeDatesInfoContainerElement {
+        width: calc(50% - 7.5px);
+        max-width: none;
+    }
+    
+    .homeDatesInfoContainerElementContainer {
+        height: 120px;
+        border-radius: 20px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivTopContainerText {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .homeDatesInfoContainerElementContainerDivBottomContainerText {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* ===================== HOME VIDEO RESPONSIVE STYLES ===================== */
+
+/* Desktop Styles */
+@media (min-width: 1200px) {
+    .homeVideo {
+        height: 100vh;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 78%;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 165px;
+        height: 165px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 34px;
+    }
+    
+    .homeVideoMarquee {
+        width: 78%;
+        bottom: -40px;
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 170px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .homeVideo {
+        height: 80vh;
+        min-height: 500px;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 85%;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 28px;
+    }
+    
+    .homeVideoMarquee {
+        width: 85%;
+        bottom: -30px;
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 120px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .homeVideo {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(40%);
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 90%;
+        border-radius: 30px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 24px;
+    }
+    
+    .homeVideoMarquee {
+        width: 90%;
+        bottom: -20px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 80px;
+        -webkit-text-stroke: 0.5px #C9823B;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 479px) {
+    .homeVideo {
+        height: 50vh;
+        min-height: 300px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(30%);
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        border-radius: 20px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 20px;
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 60px;
+    }
+}
+
+/* ===================== HOME OUR SERVICES RESPONSIVE STYLES ===================== */
+
+/* Desktop Styles */
+@media (min-width: 1200px) {
+    .homeOurServices {
+        padding-top: 300px;
+        padding-bottom: 100px;
+    }
+    
+    .homeOurServicesContainer {
+        width: 90%;
+    }
+    
+    .homeOurServicesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        gap: 40px;
+    }
+    
+    .homeOurServicesCard {
+        border-radius: 30px;
+    }
+    
+    .homeOurServicesCardImage {
+        height: 250px;
+    }
+    
+    .homeOurServicesCardContent {
+        padding: 30px;
+    }
+    
+    .homeOurServicesCTA {
+        padding: 60px;
+        border-radius: 30px;
+        margin-top: 60px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .homeOurServices {
+        padding-top: 200px;
+        padding-bottom: 80px;
+    }
+    
+    .homeOurServicesContainer {
+        width: 95%;
+    }
+    
+    .homeOurServicesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+    
+    .homeOurServicesCard {
+        border-radius: 25px;
+    }
+    
+    .homeOurServicesCardImage {
+        height: 220px;
+    }
+    
+    .homeOurServicesCardContent {
+        padding: 25px;
+    }
+    
+    .homeOurServicesCardTitle {
+        font-size: 1.4rem;
+    }
+    
+    .homeOurServicesCTA {
+        padding: 50px 40px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+    
+    .homeOurServicesCTATitle {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .homeOurServices {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .homeOurServicesContainer {
+        width: 95%;
+    }
+    
+    .homeOurServicesHeader {
+        margin-bottom: 50px;
+    }
+    
+    .homeOurServicesHeaderTitle {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .homeOurServicesHeaderDescription {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    .homeOurServicesGrid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    
+    .homeOurServicesCard {
+        border-radius: 20px;
+    }
+    
+    .homeOurServicesCardImage {
+        height: 200px;
+    }
+    
+    .homeOurServicesCardContent {
+        padding: 20px;
+    }
+    
+    .homeOurServicesCardTitle {
+        font-size: 1.3rem;
+    }
+    
+    .homeOurServicesCardDescription {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .homeOurServicesCTA {
+        padding: 40px 20px;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+    
+    .homeOurServicesCTATitle {
+        font-size: 1.8rem;
+    }
+    
+    .homeOurServicesCTADescription {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .homeOurServicesCTAButton {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 479px) {
+    .homeOurServicesHeaderTitle {
+        font-size: 1.8rem;
+    }
+    
+    .homeOurServicesCard {
+        border-radius: 15px;
+    }
+    
+    .homeOurServicesCardImage {
+        height: 180px;
+    }
+    
+    .homeOurServicesCardContent {
+        padding: 15px;
+    }
+    
+    .homeOurServicesCardTitle {
+        font-size: 1.2rem;
+    }
+    
+    .homeOurServicesCardDescription {
+        font-size: 14px;
+    }
+    
+    .homeOurServicesCTA {
+        padding: 30px 15px;
+        border-radius: 15px;
+    }
+    
+    .homeOurServicesCTATitle {
+        font-size: 1.5rem;
+    }
+    
+    .homeOurServicesCTADescription {
+        font-size: 14px;
+    }
+    
+    .homeOurServicesCTAButton {
+        padding: 10px 25px;
+        font-size: 13px;
+    }
+}
+
+/* ===================== FOOTER RESPONSIVE STYLES ===================== */
+
+/* These styles will be applied to the Fotter component when it's rendered in Home */
+@media (max-width: 767px) {
+    .home .fotter {
+        padding: 40px 0;
+    }
+    
+    .home .fotterContainer {
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 479px) {
+    .home .fotter {
+        padding: 30px 0;
+    }
+    
+    .home .fotterContainer {
+        gap: 20px;
+    }
+}
+
+/* ===================== GLOBAL RESPONSIVE IMPROVEMENTS FOR HOME ===================== */
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Improved touch targets for mobile */
+@media (max-width: 767px) {
+    button, 
+    .homeHeroSliderNavigationItem,
+    .homeHeroInfoContainerRightContainerButton,
+    .homeOurServicesCard,
+    .homeOurServicesCTAButton {
+        min-height: 44px;
+        touch-action: manipulation;
+    }
+}
+
+/* Performance optimizations for mobile */
+@media (max-width: 767px) {
+    .homeHeroContainerTopContainerTwoContainerImage,
+    .homeVideoContainerTopContainerVideo,
+    .homeOurServicesCardImage img {
+        will-change: transform;
+        backface-visibility: hidden;
+    }
+    
+    /* Reduce motion for users who prefer it */
+    @media (prefers-reduced-motion: reduce) {
+        .homeHeroContainerTopContainerTwoContainerImage,
+        .homeVideoMarqueeInner,
+        .homeOurServicesCard {
+            animation: none;
+            transition: none;
+        }
+    }
+}
+
+/* High contrast improvements */
+@media (prefers-contrast: high) {
+    .homeHeroContainerTopContainerOneDiv,
+    .homeDatesInfoContainerElementContainer {
+        border-width: 3px;
+    }
+    
+    .homeHeroContainerTopTextContainerOneContainerTextOne,
+    .homeHeroContainerTopTextContainerOneContainerTextTwo,
+    .homeHeroContainerTopTextContainerTwoContainerText,
+    .homeHeroContainerTopTextContainerThreeContainerOneText,
+    .homeHeroContainerTopTextContainerFourContainerText {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+}
+
+/* Dark mode support (if needed in the future) */
+@media (prefers-color-scheme: dark) {
+    /* Styles can be added here if dark mode is implemented */
+}
+
+/* Print styles */
+@media print {
+    .homeVideo,
+    .homeVideoMarquee {
+        display: none;
+    }
+    
+    .homeOurServicesCard {
+        break-inside: avoid;
+    }
+}
+
+/* Landscape orientation optimizations for mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+    .homeHero {
+        height: 100vh;
+        min-height: 400px;
+    }
+    
+    .homeVideo {
+        height: 100vh;
+        min-height: 300px;
+    }
+    
+    .homeWelcome,
+    .homeDatesInfo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Very large screens (4K+) */
+@media (min-width: 1920px) {
+    .homeHeroContainer {
+        width: 40%;
+    }
+    
+    .homeOurServicesContainer {
+        width: 80%;
+    }
+    
+    .homeOurServicesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 50px;
+    }
+}
+
+/* Tablet landscape specific adjustments */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .homeHero {
+        height: 100vh;
+    }
+    
+    .homeVideo {
+        height: 90vh;
+    }
+}

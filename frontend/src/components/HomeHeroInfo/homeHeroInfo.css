@@ -1,11 +1,13 @@
 .homeHeroInfo {
     width: 100%;
     /* height: 1000px; */
-    margin-top: -341px
+    /* margin-top: -341px */
+    background-color: #2E2F2A;
 }
 
 .homeHeroInfoContainer {
     width: 90%;
+    margin-top: -170px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -20,6 +22,7 @@
     display: flex;
     flex-direction: row;
     /* gap: 50px; */
+    gap: 0;
 }
 
 .homeHeroInfoContainerLeftContainerElement {
@@ -75,7 +78,9 @@
     height: auto;
 }
 
-
+.homeHeroInfoContainerRight {
+    margin-top: -20px;
+}
 
 .homeHeroInfoContainerRightContainerButton {
     background-color: #FFE5D4;
@@ -86,6 +91,10 @@
     padding-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 .homeHeroInfoContainerRightContainerButton:hover {
@@ -106,4 +115,177 @@
     text-transform: uppercase;
     color: #BF6620;
     line-height: 27px;
+    white-space: nowrap;
+}
+
+
+/* Responsivity for other devices screens */
+@media (max-width: 1200px) {
+    .homeHeroInfoContainer {
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* background-color: red; */
+        margin-top: -150px;
+    }
+
+    .homeHeroInfoContainerLeftContainer {
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* gap: 20px; */
+    }
+
+    .homeHeroInfoContainerLeft {
+        /* background-color: blue; */
+    }
+
+    .homeHeroInfoContainerMiddle {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .homeHeroInfoContainerMiddleContainer {
+        /* margin-left: -20px; */
+        /* background-color: green; */
+        width: 100%;
+    }
+
+    .homeHeroInfoContainer {
+        /* background-color: yellow; */
+        margin-top: -120px;
+    }
+
+    .homeHeroInfoContainerMiddleContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeHeroInfoContainerMiddleContainerSvg {
+        /* width: 200px; */
+        width: 36%;
+        min-width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: -30px; */
+        /* margin-left: 40px; */
+    }
+
+    .homeHeroInfoContainerRight {
+        margin-top: -40px;
+    }
+
+    .homeHeroInfoContainerRightContainerButton {
+        padding-left: 60px;
+        padding-right: 60px;
+        white-space: nowrap;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeHeroInfoContainerRightContainerButtonContainerText {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeHeroInfoContainer {
+        width: 95%;
+    }
+
+    .homeHeroInfoContainerLeft {
+        margin-top: -200px;
+        display: none;
+    }
+
+    .homeHeroInfoContainerLeftContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .homeHeroInfoContainerMiddleContainerSvg {
+        width: 180px;
+    }
+
+    .homeHeroInfoContainerRightContainerButton {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .homeHeroInfoContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeHeroInfoContainerMiddle {
+        margin-top: 14vh;
+    }
+
+    .homeHeroInfoContainerRight {
+        display: flex;
+        position: absolute;
+        /* margin-top: 60px; */
+        /* margin-left: 40px; */
+        top: 100px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeHeroInfoContainer {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .homeHeroInfoContainerLeftContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .homeHeroInfoContainerMiddleContainerSvg {
+        width: 150px;
+    }
+
+    .homeHeroInfoContainerMiddle 
+
+    .homeHeroInfoContainerRight {
+        margin-top: -200px;
+    }
+
+    .homeHeroInfoContainerRightContainerButton {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .homeHeroInfoContainerRightContainerButton {
+        /* padding-top: 5px; */
+        /* padding-bottom: 2px; */
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        height: 10px;
+        padding: 0;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        /* border-ra */
+    }
+
+    .homeHeroInfoContainerRightContainerButtonContainerText {
+        font-size: 14px;
+    }
+
+    .homeHeroInfoContainerMiddle{
+        display: flex;
+        position: absolute;
+        top: 320px;
+    }
 }

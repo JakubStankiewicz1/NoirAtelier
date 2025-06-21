@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import './offertVisualization.css';
 import assets from '../../assets/assets';
 
-const OffertVisualization = () => {
+const OffertVisualization = ({ offerData }) => {
     const [selectedImage, setSelectedImage] = useState(0);
 
-    const images = [
-        // assets.homeHeroImageOne,
+    const images = offerData?.visualizations || [
         assets.HomeHeroImageTwo,
         assets.HomeHeroImageThree,
         assets.PropertiesCollectionOne,

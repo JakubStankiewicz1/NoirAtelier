@@ -1,0 +1,340 @@
+.propertyManagementFeatures {
+  width: 100%;
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.propertyManagementFeaturesContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.propertyManagementFeaturesHeader {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.propertyManagementFeaturesHeaderSubtitle {
+  color: #AC6620;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.propertyManagementFeaturesHeaderTitle {
+  color: #31361D;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  margin-bottom: 30px;
+}
+
+/* Main Features */
+.propertyManagementFeaturesMain {
+  margin-bottom: 120px;
+}
+
+.propertyManagementFeaturesMainItem {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.propertyManagementFeaturesMainItem.reverse {
+  flex-direction: row-reverse;
+}
+
+.propertyManagementFeaturesMainItem:last-child {
+  margin-bottom: 0;
+}
+
+.propertyManagementFeaturesMainItemImage {
+  width: 50%;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15);
+}
+
+.propertyManagementFeaturesMainItemImage img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* .propertyManagementFeaturesMainItem:hover .propertyManagementFeaturesMainItemImage img {
+  transform: scale(1.05);
+} */
+
+.propertyManagementFeaturesMainItemImageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(49, 54, 29, 0.9));
+  padding: 40px 30px 30px;
+}
+
+.propertyManagementFeaturesMainItemImageStats {
+  display: flex;
+  gap: 40px;
+}
+
+.propertyManagementFeaturesMainItemImageStat {
+  text-align: center;
+}
+
+.propertyManagementFeaturesMainItemImageStatNumber {
+  display: block;
+  color: #C9823B;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.propertyManagementFeaturesMainItemImageStatLabel {
+  color: #FFE5D4;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.propertyManagementFeaturesMainItemContent {
+  width: 50%;
+}
+
+.propertyManagementFeaturesMainItemTitle {
+  color: #31361D;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 25px;
+}
+
+.propertyManagementFeaturesMainItemDescription {
+  color: #31361D;
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 35px;
+}
+
+.propertyManagementFeaturesMainItemButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: #AC6620;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 15px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.propertyManagementFeaturesMainItemButton:hover {
+  color: #C9823B;
+  /* border-bottom-color: #C9823B; */
+}
+
+.propertyManagementFeaturesMainItemButtonArrow {
+  width: 35px;
+  height: 35px;
+  background: #AC6620;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.propertyManagementFeaturesMainItemButton:hover .propertyManagementFeaturesMainItemButtonArrow {
+  background: #C9823B;
+  /* transform: translateX(5px); */
+}
+
+/* Benefits Section */
+.propertyManagementFeaturesBenefits {
+  background: #F5EDE7;
+  border-radius: 25px;
+  padding: 80px 60px;
+}
+
+.propertyManagementFeaturesBenefitsTitle {
+  color: #31361D;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.propertyManagementFeaturesBenefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.propertyManagementFeaturesBenefitsItem {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(49, 54, 29, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.propertyManagementFeaturesBenefitsItem::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #AC6620, #C9823B);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.propertyManagementFeaturesBenefitsItem:hover::before {
+  transform: scaleX(1);
+}
+
+.propertyManagementFeaturesBenefitsItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(49, 54, 29, 0.15);
+}
+
+.propertyManagementFeaturesBenefitsItemIcon {
+  font-size: 48px;
+  margin-bottom: 25px;
+  display: inline-block;
+  padding: 20px;
+  background: rgba(172, 102, 32, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.propertyManagementFeaturesBenefitsItem:hover .propertyManagementFeaturesBenefitsItemIcon {
+  background: rgba(172, 102, 32, 0.2);
+  transform: scale(1.1);
+}
+
+.propertyManagementFeaturesBenefitsItemTitle {
+  color: #31361D;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.propertyManagementFeaturesBenefitsItemDescription {
+  color: #31361D;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .propertyManagementFeaturesMainItem {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  
+  .propertyManagementFeaturesMainItem.reverse {
+    flex-direction: column;
+  }
+  
+  .propertyManagementFeaturesMainItemImage,
+  .propertyManagementFeaturesMainItemContent {
+    width: 100%;
+  }
+  
+  .propertyManagementFeaturesHeaderTitle {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  
+  .propertyManagementFeaturesMainItemTitle {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .propertyManagementFeatures {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .propertyManagementFeaturesContainer {
+    width: 95%;
+  }
+  
+  .propertyManagementFeaturesMain {
+    margin-bottom: 80px;
+  }
+  
+  .propertyManagementFeaturesMainItem {
+    margin-bottom: 60px;
+    gap: 30px;
+  }
+  
+  .propertyManagementFeaturesMainItemImage img {
+    height: 300px;
+  }
+  
+  .propertyManagementFeaturesBenefits {
+    padding: 60px 40px;
+  }
+  
+  .propertyManagementFeaturesBenefitsGrid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .propertyManagementFeaturesHeaderTitle {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  
+  .propertyManagementFeaturesBenefitsTitle {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .propertyManagementFeaturesMainItemImageStats {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .propertyManagementFeaturesMainItemTitle {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .propertyManagementFeaturesBenefits {
+    padding: 40px 25px;
+  }
+  
+  .propertyManagementFeaturesBenefitsItem {
+    padding: 30px 15px;
+  }
+}

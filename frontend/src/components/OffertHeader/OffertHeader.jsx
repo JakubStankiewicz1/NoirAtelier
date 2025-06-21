@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./offertHeader.css";
 import assets from "../../assets/assets";
 
-const OffertHeader = () => {
+const OffertHeader = ({ offerData }) => {
   const [selectedImage, setSelectedImage] = useState(0);
 
-  // Przykładowe zdjęcia - używamy dostępnych z assets
-  const images = [
+  // Używamy danych z props lub domyślne dane fallback
+  const allImages = offerData?.gallery || [
     assets.HomeHeroImageOne,
     assets.HomeHeroImageTwo,
     assets.HomeHeroImageThree,
@@ -14,12 +14,12 @@ const OffertHeader = () => {
     assets.PropertiesCollectionLatestNewsOne,
   ];
 
-  const allImages = [
-    ...images,
-    ...images.slice(0, 7), // Dodajemy kolejne 7 zdjęć (powtarzając pierwsze)
-  ];
+  // const allImages = [
+  //   ...images,
+  //   ...images.slice(0, Math.min(7, images.length)), // Dodajemy kolejne zdjęcia (powtarzając pierwsze)
+  // ];
 
-  const propertyData = [
+  const propertyData = offerData?.propertyData || [
     { label: "Powierzchnia użytkowa", value: "326,23 m²" },
     { label: "Powierzchnia garażu", value: "44,62 m²" },
     { label: "Powierzchnia zabudowy", value: "448,79 m²" },
@@ -38,14 +38,15 @@ const OffertHeader = () => {
       <div className="offertHeaderContainer">
         {/* Top Part */}
         <div className="offertHeaderContainerTop">
-          <div className="offertHeaderContainerTopContainer">
-            <div className="offertHeaderContainerTopContainerOne">
-              <p className="offertHeaderContainerTopContainerOneText cormorant-garamond-regular">BrickHouse 118</p>
+          <div className="offertHeaderContainerTopContainer">            <div className="offertHeaderContainerTopContainerOne">
+              <p className="offertHeaderContainerTopContainerOneText cormorant-garamond-regular">
+                {offerData?.name || "BrickHouse 118"}
+              </p>
             </div>
 
             <div className="offertHeaderContainerTopContainerTwo">
               <p className="offertHeaderContainerTopContainerTwoText">
-                Projekt domu parterowego w kształcie litery U, duża strefa dzienna, 4 sypialnie, garderoby, pokój rekreacyjny, garaż na 2 auta
+                {offerData?.description || "Projekt domu parterowego w kształcie litery U, duża strefa dzienna, 4 sypialnie, garderoby, pokój rekreacyjny, garaż na 2 auta"}
               </p>
             </div>
           </div>

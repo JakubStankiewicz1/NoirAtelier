@@ -1,14 +1,16 @@
 .homeVideo {
     position: relative;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    /* transform: translateY(-50%); */
+    height: 100vh;
+    /* padding-top: - */
+    /* overflow: hidden; */
 
     /* background-color: #2E2F2A;
     padding-bottom: 60px; */
 
-    background-color: #f6f0e3;
+    /* background-color: #f6f0e3; */
+    background-color: #2E2F2A;
+    /* z-index: 10000; */
 }
 
 .homeVideoContainer {
@@ -16,6 +18,20 @@
     height: 100%;
     /* transform: translateY(-50%); */
     z-index: 9999;
+}
+
+.homeVideoContainerTopContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 60px; */
+    /* margin-top: -150px; */
+    transform: translateY(50%);
+    z-index: 2;
 }
 
 .homeVideoContainerTopContainerVideo {
@@ -28,6 +44,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+
+    /* transform: translateY(-50px); */
 
     filter: brightness(0.6) contrast(1.15);
 }
@@ -51,6 +69,7 @@
 
 .homeVideoContainerTopContainerButton:hover {
     background-color: #FFE5D4;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 
@@ -103,5 +122,406 @@
     }
     100% {
         transform: translateX(-50%);
+    }
+}
+
+/* ===================== RESPONSIVE STYLES FOR HOME VIDEO ===================== */
+
+/* Large Desktop (1200px+) */
+@media (min-width: 1200px) {
+    .homeVideo {
+        height: 100vh;
+        min-height: 700px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(50%);
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 78%;
+        border-radius: 50px;
+        filter: brightness(0.6) contrast(1.15);
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 165px;
+        height: 165px;
+        background-color: #8A541F;
+    }
+    
+    .homeVideoContainerTopContainerButton:hover {
+        background-color: #FFE5D4;
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 34px;
+        height: auto;
+        color: #FFE5D4;
+    }
+    
+    .homeVideoContainerTopContainerButton:hover .homeVideoContainerTopContainerButtonIcon {
+        color: #8A541F;
+    }
+    
+    .homeVideoMarquee {
+        width: 78%;
+        bottom: -40px;
+        transform: translateX(-50%) translateY(-85%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 170px;
+        -webkit-text-stroke: 1px #C9823B;
+        letter-spacing: 2px;
+    }
+}
+
+/* Medium Desktop (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .homeVideo {
+        height: 90vh;
+        min-height: 600px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(45%);
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 82%;
+        border-radius: 45px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 30px;
+    }
+    
+    .homeVideoMarquee {
+        width: 82%;
+        bottom: -35px;
+        transform: translateX(-50%) translateY(-80%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 140px;
+        letter-spacing: 1.5px;
+    }
+}
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .homeVideo {
+        height: 80vh;
+        min-height: 500px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(40%);
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 85%;
+        border-radius: 40px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 26px;
+    }
+    
+    .homeVideoMarquee {
+        width: 85%;
+        bottom: -30px;
+        transform: translateX(-50%) translateY(-75%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 110px;
+        letter-spacing: 1px;
+    }
+    
+    .homeVideoMarqueeInner {
+        animation: marquee-scroll 20s linear infinite;
+    }
+}
+
+/* Large Mobile (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .homeVideo {
+        height: 70vh;
+        min-height: 400px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(35%);
+        padding: 0 20px;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 90%;
+        border-radius: 35px;
+        filter: brightness(0.7) contrast(1.1);
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 22px;
+    }
+    
+    .homeVideoMarquee {
+        width: 90%;
+        bottom: -25px;
+        transform: translateX(-50%) translateY(-60%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 80px;
+        -webkit-text-stroke: 0.8px #C9823B;
+        letter-spacing: 0.5px;
+    }
+    
+    .homeVideoMarqueeInner {
+        animation: marquee-scroll 22s linear infinite;
+    }
+}
+
+/* Small Mobile (320px - 480px) */
+@media (max-width: 480px) {
+    .homeVideo {
+        height: 60vh;
+        min-height: 350px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(30%);
+        padding: 0 15px;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 95%;
+        border-radius: 25px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 18px;
+    }
+    
+    .homeVideoMarquee {
+        width: 95%;
+        bottom: -20px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 60px;
+        -webkit-text-stroke: 0.6px #C9823B;
+        letter-spacing: 0px;
+    }
+    
+    .homeVideoMarqueeInner {
+        animation: marquee-scroll 25s linear infinite;
+    }
+}
+
+/* Very Small Mobile (below 320px) */
+@media (max-width: 319px) {
+    .homeVideo {
+        height: 50vh;
+        min-height: 300px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(25%);
+        padding: 0 10px;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        width: 98%;
+        border-radius: 20px;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 16px;
+    }
+    
+    .homeVideoMarquee {
+        width: 98%;
+        bottom: -15px;
+        transform: translateX(-50%) translateY(-40%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 45px;
+        -webkit-text-stroke: 0.5px #C9823B;
+    }
+}
+
+/* Landscape orientation for mobile devices */
+@media (max-width: 767px) and (orientation: landscape) {
+    .homeVideo {
+        height: 100vh;
+        min-height: 400px;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: translateY(40%);
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .homeVideoContainerTopContainerButtonIcon {
+        width: 20px;
+    }
+    
+    .homeVideoMarquee {
+        bottom: -20px;
+        transform: translateX(-50%) translateY(-70%);
+    }
+    
+    .homeVideoMarqueeText {
+        font-size: 70px;
+    }
+}
+
+/* Hover effects for desktop */
+@media (hover: hover) and (pointer: fine) {
+    .homeVideoContainerTopContainerButton:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+        box-shadow: 0 15px 40px rgba(138, 84, 31, 0.4);
+    }
+    
+    .homeVideoContainerTopContainerVideo:hover {
+        filter: brightness(0.8) contrast(1.2);
+        transform: scale(1.02);
+    }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    .homeVideoMarqueeInner {
+        animation: none;
+    }
+    
+    .homeVideoMarqueeText {
+        animation: none;
+    }
+    
+    .homeVideoContainerTopContainerButton:hover {
+        transform: translate(-50%, -50%);
+    }
+    
+    .homeVideoContainerTopContainerVideo:hover {
+        transform: none;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    .homeVideoContainerTopContainerVideo {
+        filter: brightness(0.9) contrast(1.5);
+        border: 2px solid #FFFFFF;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        border: 3px solid #FFFFFF;
+    }
+    
+    .homeVideoMarqueeText {
+        -webkit-text-stroke: 2px #FFFFFF;
+        color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Performance optimizations for mobile */
+@media (max-width: 767px) {
+    .homeVideoContainerTopContainerVideo {
+        will-change: transform;
+        backface-visibility: hidden;
+    }
+    
+    .homeVideoMarqueeInner {
+        will-change: transform;
+        backface-visibility: hidden;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        will-change: transform;
+    }
+}
+
+/* Print styles */
+@media print {
+    .homeVideo {
+        height: auto;
+        background-color: transparent;
+        padding: 20px 0;
+    }
+    
+    .homeVideoContainerTopContainer {
+        transform: none;
+        position: static;
+    }
+    
+    .homeVideoContainerTopContainerVideo {
+        display: none;
+    }
+    
+    .homeVideoContainerTopContainerButton {
+        display: none;
+    }
+    
+    .homeVideoMarquee {
+        position: static;
+        transform: none;
+        background-color: transparent;
+    }
+    
+    .homeVideoMarqueeText {
+        color: #000;
+        -webkit-text-stroke: none;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .homeVideoMarqueeInner {
+        animation: none;
+        justify-content: center;
+    }
+}
+
+/* Touch device optimizations */
+@media (pointer: coarse) {
+    .homeVideoContainerTopContainerButton {
+        min-width: 44px;
+        min-height: 44px;
+        touch-action: manipulation;
     }
 }

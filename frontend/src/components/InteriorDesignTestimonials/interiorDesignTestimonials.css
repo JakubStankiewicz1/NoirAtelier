@@ -1,0 +1,82 @@
+.interiorDesignTestimonials {
+  background: white;
+  padding: 100px 0;
+}
+
+.interiorDesignTestimonialsContainer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.interiorDesignTestimonialsTitle {
+  font-size: 3.5rem;
+  color: #31361D;
+  margin-bottom: 60px;
+}
+
+.interiorDesignTestimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+}
+
+.interiorDesignTestimonialsCard {
+  background: linear-gradient(135deg, #F8F6F3 0%, #E8E4E0 100%);
+  padding: 40px 30px;
+  border-radius: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* .interiorDesignTestimonialsCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(49, 54, 29, 0.15);
+} */
+
+.interiorDesignTestimonialsCardRating {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.interiorDesignTestimonialsCardText {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #31361D;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.interiorDesignTestimonialsCardAuthor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.interiorDesignTestimonialsCardAuthor img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.interiorDesignTestimonialsCardAuthor h4 {
+  color: #31361D;
+  margin-bottom: 5px;
+}
+
+.interiorDesignTestimonialsCardAuthor p {
+  color: #AC6620;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .interiorDesignTestimonialsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .interiorDesignTestimonialsTitle {
+    font-size: 2.5rem;
+  }
+}

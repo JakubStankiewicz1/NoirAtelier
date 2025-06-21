@@ -1,0 +1,296 @@
+.luxuryRentalsTestimonials {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #31361D;
+}
+
+.luxuryRentalsTestimonialsContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+/* Header */
+.luxuryRentalsTestimonialsHeader {
+    text-align: center;
+}
+
+.luxuryRentalsTestimonialsHeaderContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.luxuryRentalsTestimonialsHeaderSubtitle {
+    color: #AC6620;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.luxuryRentalsTestimonialsHeaderTitle {
+    color: #FFE5D4;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    margin-bottom: 30px;
+}
+
+.luxuryRentalsTestimonialsHeaderDescription {
+    color: #FFE5D4;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+/* Content */
+.luxuryRentalsTestimonialsContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.luxuryRentalsTestimonialsCard {
+    background: #FFFFFF;
+    padding: 60px;
+    border-radius: 30px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.luxuryRentalsTestimonialsQuote {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #AC6620 0%, #C9823B 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.luxuryRentalsTestimonialsRating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 30px;
+    color: #FFD700;
+    font-size: 20px;
+}
+
+.luxuryRentalsTestimonialsComment {
+    color: #31361D;
+    font-size: 22px;
+    line-height: 36px;
+    font-style: italic;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.luxuryRentalsTestimonialsProperty {
+    margin-bottom: 40px;
+}
+
+.luxuryRentalsTestimonialsProperty span {
+    color: #AC6620;
+    font-size: 16px;
+    font-weight: 600;
+    background: #F5EDE7;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.luxuryRentalsTestimonialsClient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.luxuryRentalsTestimonialsClientImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #F5EDE7;
+}
+
+.luxuryRentalsTestimonialsClientImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.luxuryRentalsTestimonialsClientInfo {
+    text-align: left;
+}
+
+.luxuryRentalsTestimonialsClientName {
+    color: #31361D;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.luxuryRentalsTestimonialsClientPosition {
+    color: #AC6620;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 24px;
+}
+
+.luxuryRentalsTestimonialsClientLocation {
+    color: #31361D;
+    font-size: 14px;
+    opacity: 0.7;
+    line-height: 22px;
+}
+
+/* Navigation */
+.luxuryRentalsTestimonialsNavigation {
+    display: flex;
+    gap: 20px;
+}
+
+.luxuryRentalsTestimonialsNavButton {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #AC6620;
+    background: transparent;
+    border-radius: 50%;
+    color: #AC6620;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luxuryRentalsTestimonialsNavButton:hover {
+    background: #AC6620;
+    color: #FFFFFF;
+    /* transform: translateY(-2px); */
+}
+
+/* Dots */
+.luxuryRentalsTestimonialsDots {
+    display: flex;
+    gap: 10px;
+}
+
+.luxuryRentalsTestimonialsDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(172, 102, 32, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.luxuryRentalsTestimonialsDot.active {
+    background: #AC6620;
+    transform: scale(1.2);
+}
+
+.luxuryRentalsTestimonialsDot:hover {
+    background: #AC6620;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .luxuryRentalsTestimonialsContainer {
+        width: 90%;
+    }
+    
+    .luxuryRentalsTestimonialsHeaderTitle {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    .luxuryRentalsTestimonialsCard {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .luxuryRentalsTestimonials {
+        padding: 80px 0;
+    }
+    
+    .luxuryRentalsTestimonialsContainer {
+        width: 95%;
+        gap: 60px;
+    }
+    
+    .luxuryRentalsTestimonialsHeaderTitle {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    .luxuryRentalsTestimonialsHeaderDescription {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .luxuryRentalsTestimonialsCard {
+        padding: 40px 30px;
+    }
+    
+    .luxuryRentalsTestimonialsComment {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .luxuryRentalsTestimonialsClient {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .luxuryRentalsTestimonialsClientInfo {
+        text-align: center;
+    }
+    
+    .luxuryRentalsTestimonialsClientImage {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .luxuryRentalsTestimonialsCard {
+        padding: 30px 20px;
+    }
+    
+    .luxuryRentalsTestimonialsComment {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .luxuryRentalsTestimonialsClientName {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .luxuryRentalsTestimonialsNavButton {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
