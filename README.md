@@ -26,7 +26,7 @@ NoirAtelier represents the pinnacle of real estate digital platforms - where lux
 - **📍 Location Analysis** - Strategic market positioning insights
 - **📱 Fully Responsive** - Perfect performance across all devices
 - **⚡ Lightning Fast** - Optimized for maximum performance
-- **🎭 Smooth Animations** - Fluid transitions with Framer Motion
+<!-- - **🎭 Smooth Animations** - Fluid transitions with Framer Motion -->
 
 ---
 
@@ -84,8 +84,8 @@ NoirAtelier represents the pinnacle of real estate digital platforms - where lux
 
 ```bash
 # Clone the repository
-git clone <your-repository-url>
-cd NoirAtelier-1
+git clone https://github.com/JakubStankiewicz1/NoirAtelier
+cd NoirAtelier
 
 # Navigate to frontend directory
 cd frontend
@@ -216,7 +216,7 @@ NoirAtelier-1/
 
 ---
 
-## 🏢 Services & Features
+<!-- ## 🏢 Services & Features
 
 ### 🏠 **Property Management**
 - **Portfolio Optimization** - Maximize investment returns
@@ -252,11 +252,11 @@ NoirAtelier-1/
 - **Market Research** - Comprehensive area analysis
 - **Growth Projections** - Future development insights
 - **Investment Potential** - Location-based ROI analysis
-- **Strategic Positioning** - Optimal location selection
+- **Strategic Positioning** - Optimal location selection -->
 
 ---
 
-## 🚀 Deployment
+<!-- ## 🚀 Deployment
 
 ### 🌐 Render (Recommended)
 ```bash
@@ -294,8 +294,8 @@ npm run build
 # - Vercel, Netlify, GitHub Pages
 # - AWS S3, Azure Static Web Apps
 # - Railway, Heroku, etc.
-```
-
+``` -->
+<!-- 
 ---
 
 ## ⚡ Performance Optimizations
@@ -399,22 +399,22 @@ docker build --no-cache -t noiratelier .
 - Verify `render.yaml` configuration
 - Ensure all dependencies are in `package.json`
 
----
+--- -->
 
 ## 📞 Support & Contact
 
 ### 💬 Communication Channels
 - **🐛 Issues**: GitHub Issues for bug reports
 - **💡 Features**: GitHub Discussions for suggestions
-- **📧 Business**: contact@noiratelier.com
+<!-- - **📧 Business**: contact@noiratelier.com -->
 - **💼 Partnerships**: partnerships@noiratelier.com
 
-### 📚 Resources
+<!-- ### 📚 Resources
 - **📖 Documentation**: Comprehensive guides (planned)
 - **🎥 Tutorials**: Video walkthroughs (planned)
 - **🔧 API Docs**: Technical documentation (v2.0)
-- **🎨 Design System**: Style guide (planned)
-
+- **🎨 Design System**: Style guide (planned) -->
+<!-- 
 ---
 
 ## 📄 License
@@ -425,9 +425,9 @@ This project is available under the **MIT License**.
 MIT License - Open source with attribution required
 ```
 
----
+--- -->
 
-<div align="center">
+<!-- <div align="center"> -->
 
 ## 🏢 NoirAtelier - Where Luxury Meets Excellence
 
